@@ -1,1 +1,1 @@
-# Dregora
+# Dregora - https://www.dregora.com
