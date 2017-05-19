@@ -1,8 +1,8 @@
 # Dregora - https://www.dregora.com<br>
 <br>
 <strong>Download:</strong> https://www.dregora.com/nlblackeagles-realm-map-download/ <br>
-Credits: https://www.dregora.com/terraincontrol-credits/ <br>
-Terms & Agreement: https://www.dregora.com/terms-conditions/ <br>
+<strong>Credits:</strong> https://www.dregora.com/terraincontrol-credits/ <br>
+<strong>Terms & Agreement:</strong> https://www.dregora.com/terms-conditions/ <br>
 <br>
 <strong>Denizen Package</strong> <br>
 Instructions: https://www.dregora.com/instructions/ <br>
