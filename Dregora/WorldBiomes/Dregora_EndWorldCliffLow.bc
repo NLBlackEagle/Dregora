@@ -45,12 +45,12 @@ BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
-BiomeColor: #FADE55
+BiomeColor: #E16E46
 
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Beach
+ReplaceToBiomeName: Desert
 
 ####################
 # Isle biomes only #
@@ -82,11 +82,11 @@ BiomeRarityWhenIsle: 97
 # List of biomes this biome can be a border of.
 # For example, the Beach biome is a border on the Ocean biome, so
 # it can spawn anywhere on the border of an ocean.
-BiomeIsBorder: 
+BiomeIsBorder: Mesa
 
 # List of biomes that cancel spawning of this biome.
 # For example, the Beach biome will never spawn next to an Extreme Hills biome.
-NotBorderNear: 
+NotBorderNear: Ocean, Mesa Plateau, Mesa Plateau F, Mesa Plateau M, Mesa Plateau F M, Mesa (Bryce)
 
 # Size of this biome when spawned as a border biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
@@ -104,16 +104,16 @@ BiomeSizeWhenBorder: 8
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 0.1
+BiomeHeight: -3.1
 
 # Biome volatility.
-BiomeVolatility: 0.3
+BiomeVolatility: 0.05
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 2
+SmoothRadius: 3
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -191,13 +191,13 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 #######################################################################
 
 # Change this to generate something else than stone in the biome.
-StoneBlock: STONE
+StoneBlock: minecraft:concrete:15
 
 # Surface block, usually GRASS.
-SurfaceBlock: GRASS
+SurfaceBlock: SAND
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: DIRT
+GroundBlock: minecraft:concrete_powder:15
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -212,7 +212,7 @@ GroundBlock: DIRT
 
 # Alternatively, you can use Mesa, MesaForest or MesaBryce to get blocks
 # like the blocks found in the Mesa biomes.
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl: minecraft:concrete_powder:15, minecraft:concrete:15, -0.7, minecraft:concrete_powder:15, MAGMA, -0.35, minecraft:concrete_powder:15, MAGMA, 0.35, minecraft:concrete_powder:15, MAGMA, 0.7, minecraft:concrete_powder:15, minecraft:concrete:15, 1.5 
 
 # Replace Variable: (blockFrom,blockTo[:blockDataTo][,minHeight,maxHeight])
 # Example :
@@ -225,10 +225,10 @@ ReplacedBlocks: None
 ################################
 
 # Set this to false to use the "Water / Lava & Frozen States" settings of this biome.
-UseWorldWaterLevel: true
+UseWorldWaterLevel: false
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 63
+WaterLevelMax: 0
 
 WaterLevelMin: 0
 
@@ -254,12 +254,12 @@ CooledLavaBlock: OBSIDIAN
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
 # However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 0.5
+BiomeTemperature: 1.8
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # If this biome is a custom biome, and this value is set to 0, no rain will fall.
 # On default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeWetness: 0.5
+BiomeWetness: 0.0
 
 # Biome sky color.
 SkyColor: #7BA5FF
@@ -345,31 +345,17 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Ore(DIRT,33,10,100.0,0,255,STONE)
-Ore(GRAVEL,33,8,100.0,0,255,STONE)
-Ore(STONE:1,33,10,100.0,0,79,STONE)
-Ore(STONE:3,33,10,100.0,0,79,STONE)
-Ore(STONE:5,33,10,100.0,0,79,STONE)
-Ore(COAL_ORE,17,20,100.0,0,127,STONE)
-Ore(IRON_ORE,9,20,100.0,0,63,STONE)
-Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
-Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
-Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
-Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
-UnderGroundLake(25,60,2,5.0,0,49)
-Liquid(WATER,20,100.0,8,256,STONE)
-Liquid(LAVA,10,100.0,8,256,STONE)
-SmallLake(WATER,4,7.0,8,119)
-SmallLake(LAVA,2,1.0,8,119)
-SmallLake(LAVA,2,8.0,6,50)
-UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
-UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Dungeon(8,100.0,0,256)
-Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(Dandelion,2,100.0,0,256,GRASS,DIRT)
-Plant(PUMPKIN,1,3.0,0,256,GRASS)
-CustomObject(UseWorld)
+Tree(5,CharTree05,1)
+Tree(5,CharTree04,1)
+Tree(5,CharTree03,1)
+Tree(5,CharTree02,1)
+Tree(5,CharTree01,1)
+Ore(REDSTONE_ORE,8,8,100.0,0,16,STONE,minecraft:concrete_powder:15)
+Ore(DIAMOND_ORE,8,1,100.0,0,16,STONE,minecraft:concrete_powder:15)
+Ore(LAPIS_ORE,7,1,100.0,0,16,STONE,minecraft:concrete_powder:15)
+Grass(DeadBush,NotGrouped,4,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
+Reed(SUGAR_CANE_BLOCK,10,100.0,0,128,GRASS,DIRT,SAND)
+Cactus(CACTUS,10,100.0,0,128,SAND)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -410,7 +396,7 @@ BiomeObjects:
 # regardless of these settings.
 # Disables strongholds for this biome. If there is no suitable biome nearby,
 # Minecraft will ignore this setting.
-StrongholdsEnabled: true
+StrongholdsEnabled: false
 
 # Whether a Woodland Mansion can be placed in this biome.
 WoodLandMansionsEnabled: false
@@ -419,13 +405,13 @@ WoodLandMansionsEnabled: false
 OceanMonumentsEnabled: false
 
 # Whether a Nether Fortress can start in this biome. Might extend to neighbor biomes.
-NetherFortressesEnabled: true
+NetherFortressesEnabled: false
 
 # The village type in this biome. Can be wood, sandstone, taiga, savanna or disabled.
 VillageType: disabled
 
 # The mineshaft type in this biome. Can be normal, mesa or disabled.
-MineshaftType: normal
+MineshaftType: disabled
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 # Note that mineshafts will never spawn, regardless of this setting, if 
@@ -475,7 +461,7 @@ SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "z
 # For instance [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "rabbit", "weight": 4, "min": 2, "max": 3}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 # For instance [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]

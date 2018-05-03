@@ -45,12 +45,12 @@ BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
-BiomeColor: #FADE55
+BiomeColor: #753E43
 
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Beach
+ReplaceToBiomeName: Extreme Hills
 
 ####################
 # Isle biomes only #
@@ -67,10 +67,10 @@ IsleInBiome:
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenIsle: 6
+BiomeSizeWhenIsle: 8
 
 # Rarity of this biome when spawned as an isle biome in BiomeMode: Normal.
-BiomeRarityWhenIsle: 97
+BiomeRarityWhenIsle: 100
 
 ######################
 # Border biomes only #
@@ -104,16 +104,16 @@ BiomeSizeWhenBorder: 8
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 0.1
+BiomeHeight: -1.0
 
 # Biome volatility.
-BiomeVolatility: 0.3
+BiomeVolatility: 2.4
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 2
+SmoothRadius: 1
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -125,12 +125,12 @@ MaxAverageDepth: 0.0
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: 0.0
+Volatility1: -8.0
 
-Volatility2: 0.0
+Volatility2: 0.6
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
-VolatilityWeight1: 0.5
+VolatilityWeight1: 3.5
 
 VolatilityWeight2: 0.45
 
@@ -194,10 +194,10 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: STONE
 
 # Surface block, usually GRASS.
-SurfaceBlock: GRASS
+SurfaceBlock: STATIONARY_WATER
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: DIRT
+GroundBlock: STATIONARY_WATER
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -225,10 +225,10 @@ ReplacedBlocks: None
 ################################
 
 # Set this to false to use the "Water / Lava & Frozen States" settings of this biome.
-UseWorldWaterLevel: true
+UseWorldWaterLevel: false
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 63
+WaterLevelMax: 78
 
 WaterLevelMin: 0
 
@@ -240,7 +240,7 @@ IceBlock: ICE
 
 # Block used as cooled or frozen lava.
 # Set this to OBSIDIAN for "frozen" lava lakes in cold biomes
-CooledLavaBlock: OBSIDIAN
+CooledLavaBlock: STATIONARY_LAVA
 
 
 #######################################################################
@@ -254,7 +254,7 @@ CooledLavaBlock: OBSIDIAN
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
 # However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 0.5
+BiomeTemperature: 0.6
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # If this biome is a custom biome, and this value is set to 0, no rain will fall.
@@ -345,31 +345,31 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Ore(DIRT,33,10,100.0,0,255,STONE)
-Ore(GRAVEL,33,8,100.0,0,255,STONE)
-Ore(STONE:1,33,10,100.0,0,79,STONE)
-Ore(STONE:3,33,10,100.0,0,79,STONE)
-Ore(STONE:5,33,10,100.0,0,79,STONE)
-Ore(COAL_ORE,17,20,100.0,0,127,STONE)
-Ore(IRON_ORE,9,20,100.0,0,63,STONE)
-Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
-Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
-Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
-Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
-UnderGroundLake(25,60,2,5.0,0,49)
-Liquid(WATER,20,100.0,8,256,STONE)
-Liquid(LAVA,10,100.0,8,256,STONE)
-SmallLake(WATER,4,7.0,8,119)
-SmallLake(LAVA,2,1.0,8,119)
-SmallLake(LAVA,2,8.0,6,50)
-UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
-UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Dungeon(8,100.0,0,256)
-Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(Dandelion,2,100.0,0,256,GRASS,DIRT)
+Ore(STONE:1,16,8,100.0,0,256,STONE)
+Ore(STONE:5,16,8,100.0,0,256,STONE)
+Ore(STONE:3,16,8,100.0,0,256,STONE)
+Ore(DIRT,32,10,100.0,0,110,STONE)
+Ore(GRAVEL,32,10,100.0,0,256,STONE)
+Ore(GRAVEL,20,10,100.0,100,256,STONE)
+Ore(COAL_ORE,16,20,100.0,0,128,STONE)
+Ore(IRON_ORE,6,10,100.0,0,100,STONE)
+Ore(IRON_ORE,10,4,100.0,0,80,STONE)
+Ore(STATIONARY_WATER,1,100,100.0,125,126,AIR)
+Ore(STATIONARY_WATER,1,100,100.0,125,126,AIR)
+Ore(STATIONARY_WATER,1,100,100.0,125,126,AIR)
+Ore(IRON_ORE,8,5,100.0,0,100,STONE)
+Ore(GOLD_ORE,8,1,100.0,0,32,STONE)
+Ore(EMERALD_ORE,8,1,100.0,0,32,STONE)
+Ore(REDSTONE_ORE,4,8,100.0,0,16,STONE)
+Ore(DIAMOND_ORE,4,1,100.0,0,16,STONE)
+Ore(LAPIS_ORE,7,1,100.0,0,16,STONE)
+UnderGroundLake(25,60,2,5.0,0,50)
+CustomObject(we-dungeon)
+Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
+Plant(RED_ROSE,2,100.0,0,256,GRASS,DIRT,SOIL)
+Plant(YELLOW_FLOWER,2,100.0,0,256,GRASS,DIRT,SOIL)
 Plant(PUMPKIN,1,3.0,0,256,GRASS)
-CustomObject(UseWorld)
+CustomStructure()
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -388,6 +388,15 @@ CustomObject(UseWorld)
 # All - will make the tree spawn from all saplings, but not from mushrooms.
 # BigJungle - for when 4 jungle saplings grow at once.
 # RedMushroom/BrownMushroom - will only grow when bonemeal is used.
+Sapling(Redwood,52,5,ME1,5,ME2,5,ME3,5,ME4,5,ME6,5,ME7,5,ME8,5,ME9,5,ME10,5,ME11,5,ME13,5,ME14,5,ME15,5,ME16,5,ME17,5,ME18,5,ME19,5,NA17S,5,NA18S,5,NA19S,5,NA6S,5,NA5S,5,NA5L,5,NA2L,5,NA4L,5,NA4S,5,EUR20S,5,EUR20L,5,EUR19S,5,EUR19L,5,EUR18S,5,EUR14S,5,EUR11L,5,EUR10L,5,EUR21L,5,EUR21S,5)
+Sapling(Birch,NA15S,5,NA15L,5,NA11L,5,NA11S,5,NA7S,5,NA7L,5,EUR15L,5,EUR15S,5,EUR3S,5,EUR3L,5,SA19S,5,SA19L,5,SA14S,5,SA14L,5,SA11S,5,SA11L,5,SA2S,5,SA2L,5,AFR12S,5,AFR10L,5,AFR9S,5,AFR9L,5,AFR5S,5,AFR5L,5)
+Sapling(SmallJungle,MountainBush16,100)
+Sapling(BigJungle,MountainBush16,100)
+Sapling(RedMushroom,MountainBush16,100)
+Sapling(BrownMushroom,MountainBush16,100)
+Sapling(Acacia,Fan01,10,Fan02,10,Fan05,10,Fan06,10,Fan07,10,Fan08,10,Fan09,10,Fan10,10)
+Sapling(DarkOak,Dense01,10,Dense02,10,Dense03,10,Dense04,10,Dense05,10,Dense06,10,Dense07,10,Dense08,10,Dense09,10,Dense10,10)
+Sapling(HugeRedwood,30,5,45,5,46,5,47,5,48,5,50,5,51,5,44,5,46,5,ME5,5,Pine09,5,Pine10,5,NA21S,5,NA17L,5,NA19L,5,NA6L,5,EUR14L,5)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -410,7 +419,7 @@ BiomeObjects:
 # regardless of these settings.
 # Disables strongholds for this biome. If there is no suitable biome nearby,
 # Minecraft will ignore this setting.
-StrongholdsEnabled: true
+StrongholdsEnabled: false
 
 # Whether a Woodland Mansion can be placed in this biome.
 WoodLandMansionsEnabled: false
@@ -469,19 +478,19 @@ RareBuildingType: disabled
 # For instance [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
-SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "cave_spider", "weight": 100, "min": 4, "max": 4}, {"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 # For instance [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "wolf", "weight": 100, "min": 5, "max": 5}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 # For instance [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
-SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: []
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 # For instance [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
