@@ -3,10 +3,10 @@
 <strong>Download:</strong> https://www.dregora.com/download/ <br>
 <strong>Credits:</strong> https://www.dregora.com/about-us/ <br>
 <strong>FAQ:</strong>  https://www.dregora.com/faq/ <br>
+<strong>Roadmap/To Do's/Changelog</strong> https://kanboard.dregora.com
 <br>
 <strong>Denizen & Dregora</strong> <br>
 Instructions: https://www.dregora.com/information/ <br>
-ChangeLog: https://www.dregora.com/download/ <br>
 <br>
 <strong>Open Terrain Generator</strong> <br>
 OTG Plugin: https://minecraft.curseforge.com/projects/open-terrain-generator <br>
