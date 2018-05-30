@@ -3,7 +3,7 @@
 <strong>Download:</strong> https://www.dregora.com/download/ <br>
 <strong>Credits:</strong> https://www.dregora.com/about-us/ <br>
 <strong>FAQ:</strong>  https://www.dregora.com/faq/ <br>
-<strong>Roadmap/To Do's/Changelog</strong> https://roadmap.dregora.com<br>
+<strong>Roadmap/To Do's/Changelog</strong> https://roadmap.dregora.com/public<br>
 <br>
 <strong>Denizen & Dregora</strong> <br>
 Instructions: https://www.dregora.com/information/ <br>
