@@ -1,0 +1,128 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit - Bo3 Created by NLBlackEagle for Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: WATER,SAND,STONE,GRAVEL,CLAY,SANDSTONE,STATIONARY_WATER,AIR
+MaxPercentageOutsideSourceBlock: 40
+OutsideSourceBlock: placeAnyway
+
+BlockCheck(-3,0,3,STATIONARY_WATER,AIR)
+BlockCheck(2,0,-3,STATIONARY_WATER,AIR)
+BlockCheck(-3,0,-3,STATIONARY_WATER,AIR)
+BlockCheck(2,0,3,STATIONARY_WATER,AIR)
+
+BlockCheck(-3,-1,3,Solid)
+BlockCheck(2,-1,-3,Solid)
+BlockCheck(-3,-1,-3,Solid)
+BlockCheck(2,-1,3,Solid)
+
+B(-2,0,-3,SAND:0)
+B(-1,0,-3,SAND:0)
+B(0,0,-3,SAND:0)
+B(-3,0,-2,SAND:0)
+B(-2,0,-2,SAND:0)
+B(-1,0,-2,SAND:0)
+B(0,0,-2,SAND:0)
+B(1,0,-2,SAND:0)
+B(-3,0,-1,SAND:0)
+B(-2,0,-1,SAND:0)
+B(-1,0,-1,SAND:0)
+B(0,0,-1,SAND:0)
+B(1,0,-1,SAND:0)
+B(2,0,-1,SAND:0)
+B(-2,0,0,SAND:0)
+B(-1,0,0,SAND:0)
+B(0,0,0,SAND:0)
+B(1,0,0,SAND:0)
+B(2,0,0,SAND:0)
+B(-2,0,1,SAND:0)
+B(-1,0,1,RED_SANDSTONE:0)
+B(0,0,1,SAND:0)
+B(1,0,1,SAND:0)
+B(2,0,1,SAND:0)
+B(-3,0,2,SAND:0)
+B(-2,0,2,SAND:0)
+B(-1,0,2,SAND:0)
+B(0,0,2,SAND:0)
+B(1,0,2,SAND:0)
+B(2,0,2,SAND:0)
+B(-3,0,3,SAND:0)
+B(-2,0,3,SAND:0)
+B(-1,0,3,SAND:0)
+B(0,0,3,SAND:0)
+B(-2,1,-2,SAND:0)
+B(-1,1,-2,SANDSTONE:1)
+B(1,1,-2,SANDSTONE:1)
+B(-2,1,-1,SANDSTONE:1)
+B(0,1,-1,SAND:0)
+B(1,1,-1,SAND:0)
+B(2,1,-1,SANDSTONE:1)
+B(-2,1,0,SANDSTONE:1)
+B(-1,1,0,SAND:0)
+B(0,1,0,SAND:0)
+B(1,1,0,SAND:0)
+B(2,1,0,SANDSTONE:1)
+B(-2,1,1,SANDSTONE:1)
+B(0,1,1,SAND:0)
+RB(1,1,1,CHEST:3,../NBT/VanillaLoot/oceanruin_small.nbt,50,MOSSY_COBBLESTONE,100)
+B(2,1,1,SANDSTONE:1)
+B(-2,1,2,SAND:0)
+B(-1,1,2,SANDSTONE:1)
+B(0,1,2,SANDSTONE:1)
+B(1,1,2,SANDSTONE:1)
+B(-2,1,3,SAND:0)
+B(-1,2,-2,SANDSTONE:1)
+B(1,2,-2,SANDSTONE:1)
+B(-2,2,-1,SANDSTONE:1)
+B(0,2,-1,SAND:0)
+B(2,2,-1,SANDSTONE:1)
+B(-2,2,0,RED_SANDSTONE:0)
+B(1,2,0,SAND:0)
+B(2,2,0,RED_SANDSTONE:0)
+B(-2,2,1,SANDSTONE:1)
+B(0,2,1,SAND:0)
+B(1,2,1,SAND:0)
+B(2,2,1,SANDSTONE:1)
+B(-2,2,2,SAND:0)
+B(-1,2,2,SANDSTONE:1)
+B(0,2,2,RED_SANDSTONE:0)
+B(1,2,2,SANDSTONE:1)
+B(-1,3,-2,SANDSTONE:1)
+B(0,3,-2,SANDSTONE:1)
+B(1,3,-2,SANDSTONE:1)
+B(-2,3,-1,SANDSTONE:1)
+B(2,3,-1,SANDSTONE:1)
+B(-2,3,0,SANDSTONE:1)
+B(2,3,0,SANDSTONE:1)
+B(-2,3,1,SANDSTONE:1)
+B(1,3,1,SAND:0)
+B(2,3,1,SANDSTONE:1)
+B(-1,3,2,SANDSTONE:1)
+B(0,3,2,SANDSTONE:1)
+B(1,3,2,SANDSTONE:1)
+B(-1,4,-1,SANDSTONE:1)
+B(0,4,-1,SANDSTONE:1)
+B(1,4,-1,SANDSTONE:1)
+B(-1,4,0,SANDSTONE:1)
+B(0,4,0,RED_SANDSTONE:0)
+B(1,4,0,SANDSTONE:1)
+B(-1,4,1,SANDSTONE:1)
+B(0,4,1,SANDSTONE:1)
+B(1,4,1,SANDSTONE:1)
+

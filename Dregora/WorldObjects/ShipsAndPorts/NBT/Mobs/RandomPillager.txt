@@ -1,0 +1,1 @@
+{CustomName:Pillager,CustomNameVisible:0,Johnny:1b,Health:10,Attributes:[{Name:"generic.maxHealth",Base:10},{Name:"generic.attackDamage",Base:0}],HandItems:[{id:"minecraft:iron_sword",Count:1},{id:"minecraft:iron_sword",Count:1}]}

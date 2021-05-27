@@ -1,0 +1,1 @@
+{ShowArms:1b,Rotation:[90f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:9504512}}},{id:"iron_leggings",Count:1b},{id:"leather_chestplate",Count:1b,tag:{display:{color:12215040}}},{}],HandItems:[{id:"stone_hoe",Count:1b},{id:"skull",Count:1b}],Pose:{Head:[177f,0f,0f],LeftArm:[150f,76f,0f],RightArm:[207f,45f,0f]}}

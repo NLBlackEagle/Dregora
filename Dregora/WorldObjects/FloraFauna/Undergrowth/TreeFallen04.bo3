@@ -1,0 +1,105 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: Converted version of the BO2 TreeFallen04
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 20.0
+
+RotateRandomly: false
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 0
+
+MaxHeight: 255
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: ALL
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(3,0,0,log:4)
+B(4,0,0,log:4)
+B(0,0,0,log:4)
+B(1,0,0,log:4)
+B(2,0,0,log:4)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(-3,-2,-3,dirt,grass,clay)
+BlockCheck(-3,-2,3,dirt,grass,clay)
+BlockCheck(3,-2,-5,dirt,grass,clay)
+BlockCheck(3,-2,2,dirt,grass,clay)
+BlockCheck(2,-2,3,dirt,grass,clay)
+BlockCheckNot(-3,-2,-3,air,water)
+BlockCheckNot(-3,-2,3,air,water)
+BlockCheckNot(3,-2,-5,air,water)
+BlockCheckNot(3,-2,2,air,water)
+BlockCheckNot(2,-2,3,air,water)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

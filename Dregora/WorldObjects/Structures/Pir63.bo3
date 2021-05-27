@@ -1,0 +1,103 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 48
+
+MaxHeight: 48
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: water
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: water
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-2,32,7,wooden_slab:9)
+B(-2,32,8,double_wooden_slab:1)
+B(-2,33,5,wooden_slab:9)
+B(-2,33,6,double_wooden_slab:1)
+B(-2,33,7,double_wooden_slab:1)
+B(-2,33,8,wooden_slab:1)
+B(-2,34,3,wooden_slab:9)
+B(-2,34,4,double_wooden_slab:1)
+B(-2,34,5,double_wooden_slab:1)
+B(-2,34,6,wooden_slab:1)
+B(-2,34,7,spruce_fence)
+B(-2,34,8,spruce_fence)
+B(-2,35,8,spruce_fence)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

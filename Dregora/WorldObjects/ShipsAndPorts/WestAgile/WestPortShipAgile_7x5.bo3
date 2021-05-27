@@ -1,0 +1,32 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(-8,3,-5,WOOL:0)
+B(-7,3,-5,WOOL:0)
+B(-8,8,-7,WOOL:15)
+B(-7,9,-6,WOOL:15)
+B(-7,11,-8,WOOL:0)
+B(-6,11,-8,WOOL:0)
+
+BR(-8,0,0,WestPortShipAgile_6x5,NORTH,100)

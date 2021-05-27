@@ -1,0 +1,64 @@
+
+
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 25.0
+
+RotateRandomly: false
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 2
+
+SpawnHeightVariance: 0
+
+
+
+
+MinHeight: 70
+
+MaxHeight: 90
+
+
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 50
+
+ExcludedBiomes: All
+
+
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+BlockCheck(0,-1,0,GRASS,DIRT,SOIL)
+
+WeightedBranch(0,0,0,windmill1,EAST,10.0,windmill5,EAST,10.0,windmill9,EAST,10.0,30.0)
+
+
+
+
+
+
+
+

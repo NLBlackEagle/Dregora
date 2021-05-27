@@ -1,0 +1,1 @@
+{CustomName:"Randomprofession Damage",CustomNameVisible:1,Attributes:[{Name:"generic.attackDamage",Base:5}]}

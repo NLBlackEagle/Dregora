@@ -1,0 +1,300 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: Bo3 Created by NLBlackEagle - For Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 15
+
+MaxHeight: 23
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 80
+
+OutsideSourceBlock: dontPlace
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-11,0,0,stained_glass_pane)
+B(-10,0,0,stone:3)
+B(-10,0,1,stained_glass_pane)
+B(-10,1,0,stained_glass_pane)
+B(-9,0,-1,stained_glass_pane)
+B(-9,0,0,stone:3)
+B(-9,0,1,stained_glass_pane)
+B(-9,1,-1,stained_glass_pane)
+B(-9,1,0,stone:3)
+B(-9,1,1,stained_glass_pane)
+B(-9,2,0,stained_glass_pane)
+B(-8,0,-2,stained_glass_pane)
+B(-8,0,-1,stained_glass_pane)
+B(-8,0,0,stone:3)
+B(-8,0,1,stained_glass_pane)
+B(-8,0,2,stained_glass_pane)
+B(-8,1,0,stone:3)
+B(-8,1,1,stained_glass_pane)
+B(-8,2,0,stone:3)
+B(-8,2,1,stained_glass_pane)
+B(-8,3,0,stained_glass_pane)
+B(-8,3,1,stained_glass_pane)
+B(-7,0,-2,stained_glass_pane)
+B(-7,0,-1,stained_glass_pane)
+B(-7,0,0,stone:3)
+B(-7,0,1,stained_glass_pane)
+B(-7,0,2,stained_glass_pane)
+B(-7,1,-1,stained_glass_pane)
+B(-7,1,0,stained_glass)
+B(-7,1,1,stained_glass_pane)
+B(-7,1,2,stained_glass_pane)
+B(-7,2,-1,stained_glass_pane)
+B(-7,2,0,stone:3)
+B(-7,2,1,stained_glass_pane)
+B(-7,3,-1,stained_glass_pane)
+B(-7,3,0,stone:3)
+B(-7,3,1,stained_glass_pane)
+B(-7,4,-1,stained_glass_pane)
+B(-7,4,0,stained_glass_pane)
+B(-6,0,-1,stained_glass_pane)
+B(-6,0,0,sea_lantern)
+B(-6,0,1,stained_glass_pane)
+B(-6,0,2,stained_glass_pane)
+B(-6,1,-1,stained_glass_pane)
+B(-6,1,0,stone:3)
+B(-6,1,1,stained_glass_pane)
+B(-6,2,-1,stained_glass_pane)
+B(-6,2,0,stone:3)
+B(-6,2,1,stained_glass_pane)
+B(-6,3,-1,stained_glass_pane)
+B(-6,3,0,stone:3)
+B(-6,3,1,stained_glass_pane)
+B(-6,4,-1,stained_glass_pane)
+B(-6,4,0,stone:3)
+B(-6,4,1,stained_glass_pane)
+B(-6,5,-1,stained_glass_pane)
+B(-6,5,0,stained_glass_pane)
+B(-5,0,-1,stained_glass_pane)
+B(-5,0,0,stained_glass_pane)
+B(-5,0,1,stained_glass_pane)
+B(-5,1,0,stained_glass_pane)
+B(-5,2,-1,stained_glass_pane)
+B(-5,2,0,stone:3)
+B(-5,2,1,stained_glass_pane)
+B(-5,3,-1,stained_glass_pane)
+B(-5,3,0,stained_glass)
+B(-5,3,1,stained_glass_pane)
+B(-5,4,-1,stained_glass_pane)
+B(-5,4,0,stone:3)
+B(-5,4,1,stained_glass_pane)
+B(-5,5,-1,stained_glass_pane)
+B(-5,5,0,stone:3)
+B(-5,5,1,stained_glass_pane)
+B(-5,6,0,stained_glass_pane)
+B(-4,0,0,stained_glass_pane)
+B(-4,2,0,stained_glass_pane)
+B(-4,3,0,stained_glass_pane)
+B(-4,3,1,stained_glass_pane)
+B(-4,4,-1,stained_glass_pane)
+B(-4,4,0,stained_glass)
+B(-4,4,1,stained_glass_pane)
+B(-4,5,-1,stained_glass_pane)
+B(-4,5,0,stained_glass)
+B(-4,5,1,stained_glass_pane)
+B(-4,6,0,stone:3)
+B(-4,6,1,stained_glass_pane)
+B(-4,7,0,stained_glass_pane)
+B(-3,2,0,stained_glass_pane)
+B(-3,3,0,stained_glass_pane)
+B(-3,4,-1,stained_glass_pane)
+B(-3,4,0,stone:3)
+B(-3,4,1,stained_glass_pane)
+B(-3,5,0,stone:3)
+B(-3,5,1,stained_glass_pane)
+B(-3,6,-1,stained_glass_pane)
+B(-3,6,0,stained_glass)
+B(-3,6,1,stained_glass_pane)
+B(-3,7,0,stone:3)
+B(-3,7,1,stained_glass_pane)
+B(-3,8,0,stained_glass_pane)
+B(-2,4,0,stained_glass_pane)
+B(-2,5,0,stained_glass_pane)
+B(-2,5,1,stained_glass_pane)
+B(-2,6,-1,stained_glass_pane)
+B(-2,6,0,stone:3)
+B(-2,6,1,stained_glass_pane)
+B(-2,7,-1,stained_glass_pane)
+B(-2,7,0,stone:3)
+B(-2,7,1,stained_glass_pane)
+B(-2,8,-1,stained_glass_pane)
+B(-2,8,0,stone:3)
+B(-2,8,1,stained_glass_pane)
+B(-1,5,0,stained_glass_pane)
+B(-1,6,0,stained_glass_pane)
+B(-1,6,1,stained_glass_pane)
+B(-1,7,0,stained_glass)
+B(-1,7,1,stained_glass_pane)
+B(-1,8,-1,stained_glass_pane)
+B(-1,8,0,stone:3)
+B(-1,8,1,stained_glass_pane)
+B(-1,9,0,stone:3)
+B(-1,9,1,stained_glass_pane)
+B(-1,10,0,stained_glass_pane)
+B(0,7,0,stained_glass_pane)
+B(0,8,-1,stained_glass_pane)
+B(0,8,0,stone:3)
+B(0,8,1,stained_glass_pane)
+B(0,9,-1,stained_glass_pane)
+B(0,9,0,stained_glass)
+B(0,9,1,stained_glass_pane)
+B(0,10,0,stone:3)
+B(0,10,1,stained_glass_pane)
+B(0,11,0,stained_glass_pane)
+B(1,8,0,stained_glass_pane)
+B(1,9,0,stained_glass_pane)
+B(1,10,-1,stained_glass_pane)
+B(1,10,0,stone:3)
+B(1,10,1,stained_glass_pane)
+B(1,11,-1,stained_glass_pane)
+B(1,11,0,stone:3)
+B(1,11,1,stained_glass_pane)
+B(1,12,0,stained_glass_pane)
+B(2,10,-1,stained_glass_pane)
+B(2,10,0,stained_glass_pane)
+B(2,11,0,stone:3)
+B(2,11,1,stained_glass_pane)
+B(2,12,-1,stained_glass_pane)
+B(2,12,0,stone:3)
+B(2,12,1,stained_glass_pane)
+B(2,13,0,stained_glass_pane)
+B(3,11,0,stained_glass_pane)
+B(3,11,1,stained_glass_pane)
+B(3,12,0,stone:3)
+B(3,12,1,stained_glass_pane)
+B(3,13,0,stained_glass)
+B(3,13,1,stained_glass_pane)
+B(3,14,0,stained_glass_pane)
+B(4,12,0,stained_glass_pane)
+B(4,13,-1,stained_glass_pane)
+B(4,13,0,stone:3)
+B(4,13,1,stained_glass_pane)
+B(4,14,-1,stained_glass_pane)
+B(4,14,0,stone:3)
+B(4,14,1,stained_glass_pane)
+B(4,15,0,stained_glass_pane)
+B(5,13,-1,stained_glass_pane)
+B(5,13,0,stained_glass_pane)
+B(5,14,-1,stained_glass_pane)
+B(5,14,0,stained_glass)
+B(5,14,1,stained_glass_pane)
+B(5,15,-1,stained_glass_pane)
+B(5,15,0,stone:3)
+B(5,15,1,stained_glass_pane)
+B(5,16,0,stained_glass_pane)
+B(6,13,0,stained_glass_pane)
+B(6,14,0,stained_glass_pane)
+B(6,15,-1,stained_glass_pane)
+B(6,15,0,stone:3)
+B(6,15,1,stained_glass_pane)
+B(6,16,0,stained_glass)
+B(6,16,1,stained_glass_pane)
+B(6,17,0,stained_glass_pane)
+B(7,15,-1,stained_glass_pane)
+B(7,15,0,stained_glass_pane)
+B(7,16,-1,stained_glass_pane)
+B(7,16,0,stone:3)
+B(7,16,1,stained_glass_pane)
+B(7,17,-1,stained_glass_pane)
+B(7,17,0,stone:3)
+B(7,17,1,stained_glass_pane)
+B(7,18,-1,stained_glass_pane)
+B(7,18,0,stained_glass_pane)
+B(8,16,0,stained_glass_pane)
+B(8,17,-1,stained_glass_pane)
+B(8,17,0,stained_glass_pane)
+B(8,17,1,stained_glass_pane)
+B(8,18,-1,stained_glass_pane)
+B(8,18,0,stained_glass_pane)
+B(8,18,1,stained_glass_pane)
+B(9,16,0,stained_glass_pane)
+B(9,17,0,stained_glass_pane)
+B(9,18,-1,stained_glass_pane)
+B(9,18,0,stained_glass_pane)
+B(9,18,1,stained_glass_pane)
+B(9,19,0,stained_glass_pane)
+B(10,18,0,stained_glass_pane)
+B(10,19,0,stained_glass_pane)
+B(11,19,0,stained_glass_pane)
+B(11,20,0,stained_glass_pane)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(0,-1,0,stone)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

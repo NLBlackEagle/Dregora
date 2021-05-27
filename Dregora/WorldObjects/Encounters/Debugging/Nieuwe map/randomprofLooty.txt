@@ -1,0 +1,1 @@
+{CustomName:"Random profession Looty",CustomNameVisible:1,CanPickUpLoot:1b}

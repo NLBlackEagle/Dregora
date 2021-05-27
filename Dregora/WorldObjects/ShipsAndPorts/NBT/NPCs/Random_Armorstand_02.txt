@@ -1,0 +1,1 @@
+{ShowArms:1b,ArmorItems:[{id:"golden_boots",Count:1b},{id:"diamond_leggings",Count:1b},{id:"iron_chestplate",Count:1b},{id:"golden_helmet",Count:1b}],HandItems:[{id:"iron_sword",Count:1b},{id:"golden_sword",Count:1b}],DisabledSlots:12}

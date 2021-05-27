@@ -1,0 +1,51 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit - Bo3 Created by NLBlackEagle for Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 200
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 40
+MaxHeight: 40
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(0,0,0,DIAMOND_BLOCK)
+
+WeightedBranch(0,0,0,co_structurebig_warm_4,north,10,co_structurebig_warm_5,north,10,co_structurebig_warm_6,north,10,co_structurebig_warm_7,north,10,40)
+
+
+WeightedBranch(0,0,-16,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,90)
+WeightedBranch(16,0,0,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,90)
+WeightedBranch(-16,0,0,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,90)
+WeightedBranch(0,0,16,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,90)
+
+WeightedBranch(16,0,-16,co_structurebig_warm_4,north,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,115)
+WeightedBranch(-16,0,-16,co_structurebig_warm_5,north,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,115)
+WeightedBranch(16,0,16,co_structurebig_warm_6,north,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,115)
+WeightedBranch(-16,0,16,co_structurebig_warm_7,north,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,10,115)
+
+WeightedBranch(0,0,-25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+WeightedBranch(25,0,0,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+WeightedBranch(-25,0,0,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+WeightedBranch(0,0,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+
+WeightedBranch(25,0,-25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+WeightedBranch(-25,0,-25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+WeightedBranch(25,0,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+WeightedBranch(-25,0,25,co_structurewarm_1,north,10,co_structurewarm_2,north,10,co_structurewarm_3,north,10,co_structurewarm_4,north,10,co_structurewarm_5,north,10,co_structurewarm_6,north,10,co_structurewarm_7,north,10,co_structurewarm_8,north,10,co_structurestop,north,20,100)
+
+
+

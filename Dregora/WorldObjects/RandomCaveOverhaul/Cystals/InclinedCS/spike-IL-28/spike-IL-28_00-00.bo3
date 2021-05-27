@@ -1,0 +1,346 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# This is the config file of a custom object.
+# If you add this object correctly to your BiomeConfigs, it will spawn in the world.
+
+# This is the creator of this BO3 object
+Author: BO3 BulkEdit (by LanToaster)
+
+# A short description of this BO3 object
+Description: This Object was Created with BO3_BulkEdit
+
+# The BO3 version, don't change this! It can be used by external applications to do a version check.
+Version: 3
+
+# The settings mode, WriteAll, WriteWithoutComments or WriteDisable. See WorldConfig.
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# This needs to be set to true to spawn the object in the Tree and Sapling resources.
+Tree: false
+
+# The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
+
+Frequency: 1
+
+# The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
+
+Rarity: 100.0
+
+# If you set this to true, the BO3 will be placed with a random rotation.
+RotateRandomly: false
+
+# The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
+SpawnHeight: highestBlock
+
+# The height limits for the BO3.
+MinHeight: 0
+
+MaxHeight: 256
+
+# Objects can have other objects attacthed to it: branches. Branches can also
+# have branches attached to it, which can also have branches, etc. This is the
+# maximum branch depth for this objects.
+MaxBranchDepth: 10
+
+# When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
+# If you writer.write the BO3 name directly in the BiomeConfigs, this will be ignored.
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# The block(s) the BO3 should spawn in.
+SourceBlocks: AIR
+
+# The maximum percentage of the BO3 that can be outside the SourceBlock.
+# The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
+MaxPercentageOutsideSourceBlock: 100
+
+# What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
+OutsideSourceBlock: placeAnyway
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# All the blocks used in the BO3 are listed here. Possible blocks:
+# Block(x,y,z,id[.data][,nbtfile.nbt)
+# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
+# fails, a 100% percent chance to have the contents of anotherchest.nbt.
+Block(1,26,8,STAINED_GLASS:15)
+Block(2,26,8,STAINED_GLASS:15)
+Block(3,26,8,STAINED_GLASS:15)
+Block(1,27,7,STAINED_GLASS:15)
+Block(2,27,7,STAINED_GLASS:15)
+Block(0,27,8,STAINED_GLASS:15)
+Block(1,27,8,STAINED_GLASS:15)
+Block(2,27,8,STAINED_GLASS:15)
+Block(3,27,8,STAINED_GLASS:15)
+Block(0,28,6,STAINED_GLASS:15)
+Block(1,28,6,STAINED_GLASS:15)
+Block(-2,28,7,STAINED_GLASS:15)
+Block(-1,28,7,STAINED_GLASS:15)
+Block(0,28,7,STAINED_GLASS:15)
+Block(1,28,7,STAINED_GLASS:15)
+Block(2,28,7,STAINED_GLASS:15)
+Block(-3,28,8,STAINED_GLASS:15)
+Block(-2,28,8,STAINED_GLASS:15)
+Block(-1,28,8,STAINED_GLASS:15)
+Block(0,28,8,STAINED_GLASS:15)
+Block(1,28,8,STAINED_GLASS:15)
+Block(2,28,8,STAINED_GLASS:15)
+Block(3,28,8,STAINED_GLASS:15)
+Block(-2,29,6,STAINED_GLASS:15)
+Block(-1,29,6,STAINED_GLASS:15)
+Block(0,29,6,STAINED_GLASS:15)
+Block(1,29,6,STAINED_GLASS:15)
+Block(-3,29,7,STAINED_GLASS:15)
+Block(-2,29,7,STAINED_GLASS:15)
+Block(-1,29,7,STAINED_GLASS:15)
+Block(0,29,7,STAINED_GLASS:15)
+Block(1,29,7,STAINED_GLASS:15)
+Block(2,29,7,STAINED_GLASS:15)
+Block(-3,29,8,STAINED_GLASS:15)
+Block(-2,29,8,STAINED_GLASS:15)
+Block(-1,29,8,STAINED_GLASS:14)
+Block(0,29,8,STAINED_GLASS:15)
+Block(1,29,8,STAINED_GLASS:9)
+Block(2,29,8,STAINED_GLASS:15)
+Block(3,29,8,STAINED_GLASS:15)
+Block(1,30,5,STAINED_GLASS:15)
+Block(-3,30,6,STAINED_GLASS:15)
+Block(-2,30,6,STAINED_GLASS:14)
+Block(-1,30,6,STAINED_GLASS:15)
+Block(0,30,6,STAINED_GLASS:15)
+Block(1,30,6,STAINED_GLASS:15)
+Block(-3,30,7,STAINED_GLASS:15)
+Block(-2,30,7,STAINED_GLASS:15)
+Block(-1,30,7,STAINED_GLASS:15)
+Block(0,30,7,STAINED_GLASS:9)
+Block(1,30,7,STAINED_GLASS:15)
+Block(2,30,7,STAINED_GLASS:15)
+Block(-4,30,8,STAINED_GLASS:15)
+Block(-3,30,8,STAINED_GLASS:15)
+Block(-2,30,8,STAINED_GLASS:14)
+Block(-1,30,8,SEA_LANTERN:0)
+Block(0,30,8,STAINED_GLASS:9)
+Block(1,30,8,SEA_LANTERN:0)
+Block(2,30,8,STAINED_GLASS:9)
+Block(3,30,8,STAINED_GLASS:15)
+Block(-1,31,5,STAINED_GLASS:15)
+Block(0,31,5,STAINED_GLASS:15)
+Block(1,31,5,STAINED_GLASS:15)
+Block(-4,31,6,STAINED_GLASS:15)
+Block(-3,31,6,STAINED_GLASS:15)
+Block(-2,31,6,STAINED_GLASS:9)
+Block(-1,31,6,STAINED_GLASS:15)
+Block(0,31,6,STAINED_GLASS:15)
+Block(1,31,6,STAINED_GLASS:15)
+Block(-4,31,7,STAINED_GLASS:15)
+Block(-3,31,7,STAINED_GLASS:15)
+Block(-2,31,7,STAINED_GLASS:9)
+Block(-1,31,7,STAINED_GLASS:9)
+Block(0,31,7,STAINED_GLASS:9)
+Block(1,31,7,STAINED_GLASS:9)
+Block(2,31,7,STAINED_GLASS:15)
+Block(-4,31,8,STAINED_GLASS:15)
+Block(-3,31,8,STAINED_GLASS:15)
+Block(-2,31,8,STAINED_GLASS:9)
+Block(-1,31,8,SEA_LANTERN:0)
+Block(0,31,8,SEA_LANTERN:0)
+Block(1,31,8,SEA_LANTERN:0)
+Block(2,31,8,STAINED_GLASS:15)
+Block(3,31,8,STAINED_GLASS:15)
+Block(-2,32,4,STAINED_GLASS:15)
+Block(0,32,4,STAINED_GLASS:15)
+Block(-3,32,5,STAINED_GLASS:15)
+Block(-2,32,5,STAINED_GLASS:15)
+Block(-1,32,5,STAINED_GLASS:15)
+Block(0,32,5,STAINED_GLASS:15)
+Block(1,32,5,STAINED_GLASS:15)
+Block(-4,32,6,STAINED_GLASS:15)
+Block(-3,32,6,STAINED_GLASS:15)
+Block(-2,32,6,SEA_LANTERN:0)
+Block(-1,32,6,STAINED_GLASS:9)
+Block(0,32,6,STAINED_GLASS:15)
+Block(1,32,6,STAINED_GLASS:15)
+Block(-5,32,7,STAINED_GLASS:15)
+Block(-4,32,7,STAINED_GLASS:15)
+Block(-3,32,7,STAINED_GLASS:9)
+Block(-2,32,7,STAINED_GLASS:9)
+Block(-1,32,7,STAINED_GLASS:9)
+Block(0,32,7,SEA_LANTERN:0)
+Block(1,32,7,STAINED_GLASS:9)
+Block(2,32,7,STAINED_GLASS:15)
+Block(-4,32,8,STAINED_GLASS:15)
+Block(-3,32,8,STAINED_GLASS:15)
+Block(-2,32,8,SEA_LANTERN:0)
+Block(-1,32,8,SEA_LANTERN:0)
+Block(0,32,8,SEA_LANTERN:0)
+Block(1,32,8,STAINED_GLASS:9)
+Block(2,32,8,STAINED_GLASS:15)
+Block(3,32,8,STAINED_GLASS:15)
+Block(-2,33,4,STAINED_GLASS:15)
+Block(-1,33,4,STAINED_GLASS:15)
+Block(0,33,4,STAINED_GLASS:15)
+Block(-3,33,5,STAINED_GLASS:15)
+Block(-2,33,5,STAINED_GLASS:9)
+Block(-1,33,5,STAINED_GLASS:15)
+Block(0,33,5,STAINED_GLASS:15)
+Block(1,33,5,STAINED_GLASS:15)
+Block(-5,33,6,STAINED_GLASS:2)
+Block(-4,33,6,STAINED_GLASS:2)
+Block(-3,33,6,STAINED_GLASS:15)
+Block(-2,33,6,SEA_LANTERN:0)
+Block(-1,33,6,STAINED_GLASS:9)
+Block(0,33,6,STAINED_GLASS:9)
+Block(1,33,6,STAINED_GLASS:15)
+Block(-5,33,7,STAINED_GLASS:2)
+Block(-4,33,7,STAINED_GLASS:15)
+Block(-3,33,7,STAINED_GLASS:9)
+Block(-2,33,7,SEA_LANTERN:0)
+Block(-1,33,7,SEA_LANTERN:0)
+Block(0,33,7,STAINED_GLASS:9)
+Block(1,33,7,STAINED_GLASS:15)
+Block(2,33,7,STAINED_GLASS:15)
+Block(-4,33,8,STAINED_GLASS:2)
+Block(-3,33,8,STAINED_GLASS:9)
+Block(-2,33,8,STAINED_GLASS:9)
+Block(-1,33,8,SEA_LANTERN:0)
+Block(0,33,8,STAINED_GLASS:9)
+Block(1,33,8,STAINED_GLASS:15)
+Block(2,33,8,STAINED_GLASS:15)
+Block(3,33,8,STAINED_GLASS:15)
+Block(-2,34,4,STAINED_GLASS:15)
+Block(-1,34,4,STAINED_GLASS:15)
+Block(-3,34,5,STAINED_GLASS:2)
+Block(-2,34,5,STAINED_GLASS:9)
+Block(-1,34,5,STAINED_GLASS:15)
+Block(0,34,5,STAINED_GLASS:15)
+Block(-5,34,6,STAINED_GLASS:2)
+Block(-4,34,6,STAINED_GLASS:2)
+Block(-3,34,6,STAINED_GLASS:9)
+Block(-2,34,6,SEA_LANTERN:0)
+Block(-1,34,6,STAINED_GLASS:9)
+Block(0,34,6,STAINED_GLASS:15)
+Block(1,34,6,STAINED_GLASS:15)
+Block(-4,34,7,STAINED_GLASS:2)
+Block(-3,34,7,STAINED_GLASS:9)
+Block(-2,34,7,STAINED_GLASS:2)
+Block(-1,34,7,STAINED_GLASS:15)
+Block(0,34,7,STAINED_GLASS:9)
+Block(1,34,7,STAINED_GLASS:15)
+Block(2,34,7,STAINED_GLASS:15)
+Block(-3,34,8,STAINED_GLASS:2)
+Block(-2,34,8,STAINED_GLASS:9)
+Block(-1,34,8,SEA_LANTERN:0)
+Block(0,34,8,STAINED_GLASS:15)
+Block(1,34,8,STAINED_GLASS:15)
+Block(2,34,8,STAINED_GLASS:15)
+Block(-2,35,3,STAINED_GLASS:15)
+Block(-3,35,4,STAINED_GLASS:15)
+Block(-2,35,4,STAINED_GLASS:15)
+Block(-1,35,4,STAINED_GLASS:15)
+Block(-4,35,5,STAINED_GLASS:2)
+Block(-3,35,5,STAINED_GLASS:2)
+Block(-2,35,5,STAINED_GLASS:9)
+Block(-1,35,5,STAINED_GLASS:15)
+Block(0,35,5,STAINED_GLASS:15)
+Block(-5,35,6,STAINED_GLASS:2)
+Block(-4,35,6,STAINED_GLASS:2)
+Block(-3,35,6,STAINED_GLASS:15)
+Block(-2,35,6,STAINED_GLASS:9)
+Block(-1,35,6,STAINED_GLASS:15)
+Block(0,35,6,STAINED_GLASS:15)
+Block(1,35,6,STAINED_GLASS:15)
+Block(-4,35,7,STAINED_GLASS:2)
+Block(-3,35,7,STAINED_GLASS:2)
+Block(-2,35,7,STAINED_GLASS:15)
+Block(-1,35,7,STAINED_GLASS:15)
+Block(0,35,7,STAINED_GLASS:15)
+Block(1,35,7,STAINED_GLASS:15)
+Block(-3,35,8,STAINED_GLASS:2)
+Block(-2,35,8,STAINED_GLASS:2)
+Block(-1,35,8,STAINED_GLASS:15)
+Block(0,35,8,STAINED_GLASS:15)
+Block(1,35,8,STAINED_GLASS:15)
+Block(-2,36,3,STAINED_GLASS:2)
+Block(-3,36,4,STAINED_GLASS:15)
+Block(-2,36,4,STAINED_GLASS:2)
+Block(-1,36,4,STAINED_GLASS:2)
+Block(-4,36,5,STAINED_GLASS:2)
+Block(-3,36,5,STAINED_GLASS:2)
+Block(-2,36,5,STAINED_GLASS:15)
+Block(-1,36,5,STAINED_GLASS:15)
+Block(-5,36,6,STAINED_GLASS:2)
+Block(-4,36,6,STAINED_GLASS:2)
+Block(-3,36,6,STAINED_GLASS:15)
+Block(-2,36,6,STAINED_GLASS:15)
+Block(-1,36,6,STAINED_GLASS:15)
+Block(0,36,6,STAINED_GLASS:15)
+Block(-3,36,7,STAINED_GLASS:15)
+Block(-2,36,7,STAINED_GLASS:15)
+Block(-1,36,7,STAINED_GLASS:15)
+Block(0,36,7,STAINED_GLASS:15)
+Block(-3,36,8,STAINED_GLASS:15)
+Block(-2,36,8,STAINED_GLASS:15)
+Block(-1,36,8,STAINED_GLASS:15)
+Block(0,36,8,STAINED_GLASS:15)
+Block(-2,37,3,STAINED_GLASS:2)
+Block(-3,37,4,STAINED_GLASS:2)
+Block(-2,37,4,STAINED_GLASS:2)
+Block(-4,37,5,STAINED_GLASS:2)
+Block(-3,37,5,STAINED_GLASS:15)
+Block(-2,37,5,STAINED_GLASS:15)
+Block(-1,37,5,STAINED_GLASS:2)
+Block(-4,37,6,STAINED_GLASS:2)
+Block(-3,37,6,STAINED_GLASS:15)
+Block(-2,37,6,STAINED_GLASS:15)
+Block(-1,37,6,STAINED_GLASS:15)
+Block(-3,37,7,STAINED_GLASS:15)
+Block(-2,37,7,STAINED_GLASS:15)
+Block(-1,37,7,STAINED_GLASS:15)
+Block(-3,38,3,STAINED_GLASS:2)
+Block(-2,38,3,STAINED_GLASS:2)
+Block(-4,38,4,STAINED_GLASS:15)
+Block(-3,38,4,STAINED_GLASS:2)
+Block(-2,38,4,STAINED_GLASS:2)
+Block(-4,38,5,STAINED_GLASS:15)
+Block(-3,38,5,STAINED_GLASS:15)
+Block(-2,38,5,STAINED_GLASS:15)
+Block(-1,38,5,STAINED_GLASS:15)
+Block(-4,38,6,STAINED_GLASS:15)
+Block(-3,38,6,STAINED_GLASS:15)
+Block(-2,38,6,STAINED_GLASS:15)
+Block(-3,39,3,STAINED_GLASS:2)
+Block(-2,39,3,STAINED_GLASS:2)
+Block(-4,39,4,STAINED_GLASS:2)
+Block(-3,39,4,STAINED_GLASS:2)
+Block(-2,39,4,STAINED_GLASS:2)
+Block(-4,39,5,STAINED_GLASS:15)
+Block(-3,39,5,STAINED_GLASS:15)
+Block(-4,40,3,STAINED_GLASS:2)
+Block(-3,40,3,STAINED_GLASS:2)
+Block(-4,40,4,STAINED_GLASS:2)
+Block(-3,40,4,STAINED_GLASS:2)
+Block(-4,41,3,STAINED_GLASS:2)

@@ -1,0 +1,169 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 256
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: HARDENED_CLAY,WATER,STATIONARY_WATER,SANDSTONE,AIR,LAVA,OBSIDIAN,SAND,STATIONARY_LAVA,DIRT,GRASS,GRAVEL,CLAY,DIRT:2,DIRT:1,STONE:5,STONE,STONE:3,STONE:1,STONE:1,REDSTONE_ORE,LAPIS_ORE,IRON_ORE,GOLD_ORE,EMERALD_ORE,DIAMOND_ORE,COAL_ORE
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: dontPlace
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,0,-8,COBBLESTONE)
+B(-2,0,-8,COBBLESTONE)
+B(1,0,-8,COBBLESTONE)
+B(7,0,-8,COBBLESTONE)
+B(-8,0,-2,COBBLESTONE)
+B(-2,0,-2,COBBLESTONE)
+B(1,0,-2,COBBLESTONE)
+B(7,0,-2,COBBLESTONE)
+B(-8,0,1,COBBLESTONE)
+B(-2,0,1,COBBLESTONE)
+B(1,0,1,COBBLESTONE)
+B(7,0,1,COBBLESTONE)
+B(-8,0,7,COBBLESTONE)
+B(-2,0,7,COBBLESTONE)
+B(1,0,7,COBBLESTONE)
+B(7,0,7,COBBLESTONE)
+B(-8,1,-8,COBBLESTONE)
+B(-2,1,-8,COBBLESTONE)
+B(1,1,-8,COBBLESTONE)
+B(7,1,-8,COBBLESTONE)
+B(-8,1,-2,COBBLESTONE)
+B(-2,1,-2,COBBLESTONE)
+B(1,1,-2,COBBLESTONE)
+B(7,1,-2,COBBLESTONE)
+B(-8,1,1,COBBLESTONE)
+B(-2,1,1,COBBLESTONE)
+B(1,1,1,COBBLESTONE)
+B(7,1,1,COBBLESTONE)
+B(-8,1,7,COBBLESTONE)
+B(-2,1,7,COBBLESTONE)
+B(1,1,7,COBBLESTONE)
+B(7,1,7,COBBLESTONE)
+B(-8,2,-8,COBBLESTONE)
+B(-2,2,-8,COBBLESTONE)
+B(1,2,-8,COBBLESTONE)
+B(7,2,-8,COBBLESTONE)
+B(-8,2,-2,COBBLESTONE)
+B(-2,2,-2,COBBLESTONE)
+B(1,2,-2,COBBLESTONE)
+B(7,2,-2,COBBLESTONE)
+B(-8,2,1,COBBLESTONE)
+B(-2,2,1,COBBLESTONE)
+B(1,2,1,COBBLESTONE)
+B(7,2,1,COBBLESTONE)
+B(-8,2,7,COBBLESTONE)
+B(-2,2,7,COBBLESTONE)
+B(1,2,7,COBBLESTONE)
+B(7,2,7,COBBLESTONE)
+B(-8,3,-8,COBBLESTONE)
+B(-2,3,-8,COBBLESTONE)
+B(1,3,-8,COBBLESTONE)
+B(7,3,-8,COBBLESTONE)
+B(-8,3,-2,COBBLESTONE)
+B(-2,3,-2,COBBLESTONE)
+B(1,3,-2,COBBLESTONE)
+B(7,3,-2,COBBLESTONE)
+B(-8,3,1,COBBLESTONE)
+B(-2,3,1,COBBLESTONE)
+B(1,3,1,COBBLESTONE)
+B(7,3,1,COBBLESTONE)
+B(-8,3,7,COBBLESTONE)
+B(-2,3,7,COBBLESTONE)
+B(1,3,7,COBBLESTONE)
+B(7,3,7,COBBLESTONE)
+B(-8,4,-8,COBBLESTONE)
+B(-2,4,-8,COBBLESTONE)
+B(1,4,-8,COBBLESTONE)
+B(7,4,-8,COBBLESTONE)
+B(-8,4,-2,COBBLESTONE)
+B(-2,4,-2,COBBLESTONE)
+B(1,4,-2,COBBLESTONE)
+B(7,4,-2,COBBLESTONE)
+B(-8,4,1,COBBLESTONE)
+B(-2,4,1,COBBLESTONE)
+B(1,4,1,COBBLESTONE)
+B(7,4,1,COBBLESTONE)
+B(-8,4,7,COBBLESTONE)
+B(-2,4,7,COBBLESTONE)
+B(1,4,7,COBBLESTONE)
+B(7,4,7,COBBLESTONE)
+B(-8,5,-8,COBBLESTONE)
+B(-2,5,-8,COBBLESTONE)
+B(1,5,-8,COBBLESTONE)
+B(7,5,-8,COBBLESTONE)
+B(-8,5,-2,COBBLESTONE)
+B(-2,5,-2,COBBLESTONE)
+B(1,5,-2,COBBLESTONE)
+B(7,5,-2,COBBLESTONE)
+B(-8,5,1,COBBLESTONE)
+B(-2,5,1,COBBLESTONE)
+B(1,5,1,COBBLESTONE)
+B(7,5,1,COBBLESTONE)
+B(-8,5,7,COBBLESTONE)
+B(-2,5,7,COBBLESTONE)
+B(1,5,7,COBBLESTONE)
+B(7,5,7,COBBLESTONE)
+B(-8,6,-8,COBBLESTONE)
+B(-2,6,-8,COBBLESTONE)
+B(1,6,-8,COBBLESTONE)
+B(7,6,-8,COBBLESTONE)
+B(-8,6,-2,COBBLESTONE)
+B(-2,6,-2,COBBLESTONE)
+B(1,6,-2,COBBLESTONE)
+B(7,6,-2,COBBLESTONE)
+B(-8,6,1,COBBLESTONE)
+B(-2,6,1,COBBLESTONE)
+B(1,6,1,COBBLESTONE)
+B(7,6,1,COBBLESTONE)
+B(-8,6,7,COBBLESTONE)
+B(-2,6,7,COBBLESTONE)
+B(1,6,7,COBBLESTONE)
+B(7,6,7,COBBLESTONE)
+
+BlockCheck(7,7,7,COBBLESTONE)
+Branch(0,-7,0,MineshaftLargeSupportExtension-02,NORTH,100)

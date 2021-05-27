@@ -1,0 +1,1 @@
+{CustomName:"Randomprofession FollowRange",CustomNameVisible:1,Attributes:[{Name:"generic.followRange",Base:243}]}

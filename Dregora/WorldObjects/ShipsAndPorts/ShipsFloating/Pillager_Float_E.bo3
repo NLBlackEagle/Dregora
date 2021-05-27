@@ -1,0 +1,33 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+BR(32,0,0,Pillager_Front,EAST,100)
+BR(16,0,0,Pillager_FrontMid,EAST,100)
+BR(0,0,0,Pillager_BackMid,EAST,100)
+BR(-16,0,0,Pillager_Back,EAST,100)
+
+BR(32,0,16,Pillager_Front_Sec,EAST,100)
+BR(16,0,16,Pillager_FrontMid_Sec,EAST,100)
+BR(0,0,16,Pillager_BackMid_Sec,EAST,100)
+BR(-16,0,16,Pillager_Back_Sec,EAST,100)

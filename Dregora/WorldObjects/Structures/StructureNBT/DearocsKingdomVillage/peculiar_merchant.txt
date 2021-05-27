@@ -1,0 +1,1 @@
+{Profession:2,CustomName:"\"Dearoc's Peculiar Merchant\"",CustomNameVisible:0,Health:50}

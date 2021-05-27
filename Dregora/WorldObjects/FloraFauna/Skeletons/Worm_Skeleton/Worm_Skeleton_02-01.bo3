@@ -1,0 +1,480 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 70
+
+MaxHeight: 75
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: Solid
+
+MaxPercentageOutsideSourceBlock: 80
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-6,1,0,QUARTZ_STAIRS:4)
+Block(-3,1,0,QUARTZ_STAIRS:4)
+Block(-7,2,0,BONE_BLOCK:0)
+Block(-6,2,0,BONE_BLOCK)
+Block(-5,2,0,BONE_BLOCK)
+Block(-4,2,0,BONE_BLOCK)
+Block(-3,2,0,BONE_BLOCK)
+Block(-2,2,0,QUARTZ_STAIRS:1)
+B(3,3,-5,QUARTZ_STAIRS:6)
+Block(-5,3,-4,QUARTZ_STAIRS:6)
+Block(-1,3,-4,QUARTZ_STAIRS:6)
+B(3,3,-4,BONE_BLOCK:0)
+B(7,3,-4,QUARTZ_STAIRS:6)
+Block(-5,3,-3,BONE_BLOCK:0)
+Block(-1,3,-3,BONE_BLOCK:0)
+B(3,3,-3,BONE_BLOCK:0)
+B(7,3,-3,BONE_BLOCK:0)
+B(3,3,-2,QUARTZ_STAIRS:0)
+B(7,3,-2,BONE_BLOCK:0)
+B(7,3,-1,QUARTZ_STAIRS:0)
+Block(-7,3,0,BONE_BLOCK)
+Block(-6,3,0,QUARTZ_STAIRS:1)
+Block(-4,3,0,QUARTZ_STAIRS:1)
+B(3,3,3,QUARTZ_STAIRS:2)
+B(3,3,4,BONE_BLOCK:0)
+B(7,3,4,QUARTZ_STAIRS:2)
+B(3,3,5,BONE_BLOCK:0)
+B(7,3,5,BONE_BLOCK:0)
+B(3,3,6,QUARTZ_STAIRS:7)
+B(7,3,6,BONE_BLOCK:0)
+B(7,3,7,QUARTZ_STAIRS:7)
+Block(-1,4,-5,QUARTZ_STAIRS:6)
+B(3,4,-5,BONE_BLOCK:0)
+Block(-5,4,-4,BONE_BLOCK:0)
+Block(-1,4,-4,BONE_BLOCK:0)
+B(3,4,-4,QUARTZ_STAIRS:0)
+B(7,4,-4,BONE_BLOCK:0)
+Block(-5,4,-3,QUARTZ_STAIRS:0)
+Block(-1,4,-3,QUARTZ_STAIRS:0)
+B(7,4,-3,QUARTZ_STAIRS:0)
+Block(-1,4,2,QUARTZ_STAIRS:2)
+Block(-1,4,3,BONE_BLOCK:0)
+Block(-1,4,4,BONE_BLOCK:0)
+Block(-1,4,5,QUARTZ_STAIRS:7)
+B(3,4,5,QUARTZ_STAIRS:2)
+B(3,4,6,BONE_BLOCK:0)
+B(7,4,6,QUARTZ_STAIRS:2)
+B(7,4,7,BONE_BLOCK:0)
+B(3,5,-6,QUARTZ_STAIRS:6)
+Block(-5,5,-5,QUARTZ_STAIRS:6)
+Block(-1,5,-5,BONE_BLOCK:0)
+B(3,5,-5,BONE_BLOCK:8)
+B(7,5,-5,QUARTZ_STAIRS:6)
+Block(-5,5,-4,BONE_BLOCK:0)
+Block(-1,5,-4,QUARTZ_STAIRS:0)
+B(7,5,-4,BONE_BLOCK:8)
+Block(-5,5,2,QUARTZ_STAIRS:2)
+Block(-5,5,3,BONE_BLOCK:0)
+Block(-5,5,4,BONE_BLOCK:0)
+Block(-1,5,4,QUARTZ_STAIRS:2)
+Block(-5,5,5,QUARTZ_STAIRS:7)
+Block(-1,5,5,BONE_BLOCK:0)
+B(3,5,6,BONE_BLOCK:8)
+B(3,5,7,QUARTZ_STAIRS:7)
+B(7,5,7,BONE_BLOCK:8)
+B(7,5,8,QUARTZ_STAIRS:7)
+Block(-1,6,-6,QUARTZ_STAIRS:6)
+B(3,6,-6,BONE_BLOCK:0)
+B(7,6,-6,QUARTZ_STAIRS:6)
+Block(-5,6,-5,BONE_BLOCK:0)
+Block(-1,6,-5,BONE_BLOCK:8)
+B(3,6,-5,QUARTZ_STAIRS:0)
+B(7,6,-5,BONE_BLOCK:0)
+Block(-5,6,-4,QUARTZ_STAIRS:0)
+B(7,6,-4,QUARTZ_STAIRS:0)
+Block(-5,6,4,QUARTZ_STAIRS:2)
+Block(-5,6,5,BONE_BLOCK:0)
+Block(-1,6,5,BONE_BLOCK:8)
+Block(-1,6,6,QUARTZ_STAIRS:7)
+B(3,6,6,QUARTZ_STAIRS:2)
+B(3,6,7,BONE_BLOCK:0)
+B(7,6,7,QUARTZ_STAIRS:2)
+B(7,6,8,BONE_BLOCK:0)
+Block(-1,7,-7,QUARTZ_STAIRS:6)
+Block(-5,7,-6,QUARTZ_STAIRS:6)
+Block(-1,7,-6,BONE_BLOCK:0)
+B(3,7,-6,BONE_BLOCK:0)
+Block(-5,7,-5,BONE_BLOCK:8)
+Block(-1,7,-5,QUARTZ_STAIRS:0)
+B(7,7,-5,BONE_BLOCK:0)
+Block(-5,7,5,BONE_BLOCK:8)
+Block(-1,7,5,QUARTZ_STAIRS:2)
+Block(-5,7,6,QUARTZ_STAIRS:7)
+Block(-1,7,6,BONE_BLOCK:0)
+Block(-1,7,7,QUARTZ_STAIRS:7)
+B(3,7,7,BONE_BLOCK:0)
+B(7,7,8,BONE_BLOCK:0)
+Block(-5,8,-6,BONE_BLOCK:0)
+Block(-1,8,-6,BONE_BLOCK:0)
+B(3,8,-6,BONE_BLOCK:0)
+B(7,8,-6,QUARTZ_STAIRS:2)
+Block(-5,8,-5,QUARTZ_STAIRS:0)
+B(7,8,-5,BONE_BLOCK:0)
+Block(-5,8,5,QUARTZ_STAIRS:2)
+Block(-5,8,6,BONE_BLOCK:0)
+Block(-1,8,6,BONE_BLOCK:0)
+B(3,8,7,BONE_BLOCK:0)
+B(7,8,8,BONE_BLOCK:0)
+Block(-1,9,-7,QUARTZ_STAIRS:2)
+Block(-5,9,-6,BONE_BLOCK:0)
+Block(-1,9,-6,BONE_BLOCK:0)
+B(3,9,-6,QUARTZ_STAIRS:2)
+B(3,9,-5,QUARTZ_STAIRS:7)
+B(7,9,-5,QUARTZ_STAIRS:2)
+B(7,9,-4,QUARTZ_STAIRS:7)
+Block(-5,9,6,BONE_BLOCK:0)
+Block(-1,9,6,BONE_BLOCK:0)
+B(3,9,6,QUARTZ_STAIRS:6)
+Block(-1,9,7,QUARTZ_STAIRS:0)
+B(3,9,7,QUARTZ_STAIRS:0)
+B(7,9,7,QUARTZ_STAIRS:6)
+B(7,9,8,QUARTZ_STAIRS:0)
+Block(-5,10,-6,BONE_BLOCK:0)
+Block(-1,10,-6,QUARTZ_STAIRS:2)
+Block(-1,10,-5,QUARTZ_STAIRS:7)
+B(3,10,-5,QUARTZ_STAIRS:2)
+B(3,10,-4,BONE_BLOCK:8)
+B(7,10,-4,QUARTZ_STAIRS:2)
+B(3,10,-3,QUARTZ_STAIRS:7)
+B(7,10,-3,BONE_BLOCK:8)
+B(7,10,-2,QUARTZ_STAIRS:7)
+B(3,10,4,QUARTZ_STAIRS:6)
+Block(-1,10,5,QUARTZ_STAIRS:6)
+B(3,10,5,BONE_BLOCK:8)
+B(7,10,5,QUARTZ_STAIRS:6)
+Block(-5,10,6,BONE_BLOCK:0)
+Block(-1,10,6,QUARTZ_STAIRS:0)
+B(3,10,6,QUARTZ_STAIRS:0)
+B(7,10,6,BONE_BLOCK:8)
+B(7,10,7,QUARTZ_STAIRS:0)
+Block(-5,11,-6,QUARTZ_STAIRS:2)
+Block(-5,11,-5,QUARTZ_STAIRS:7)
+Block(-1,11,-5,QUARTZ_STAIRS:2)
+Block(-1,11,-4,BONE_BLOCK:8)
+B(3,11,-4,QUARTZ_STAIRS:2)
+Block(-1,11,-3,QUARTZ_STAIRS:7)
+B(3,11,-3,BONE_BLOCK:8)
+B(7,11,-3,QUARTZ_STAIRS:2)
+B(3,11,-2,BONE_BLOCK:8)
+B(7,11,-2,BONE_BLOCK:8)
+B(3,11,-1,BONE_BLOCK:0)
+B(7,11,-1,BONE_BLOCK:8)
+B(7,11,0,BONE_BLOCK:0)
+B(3,11,2,BONE_BLOCK:0)
+Block(-1,11,3,QUARTZ_STAIRS:6)
+B(3,11,3,BONE_BLOCK:8)
+B(7,11,3,BONE_BLOCK:0)
+Block(-1,11,4,BONE_BLOCK:8)
+B(3,11,4,BONE_BLOCK:8)
+B(7,11,4,BONE_BLOCK:8)
+Block(-5,11,5,QUARTZ_STAIRS:6)
+Block(-1,11,5,QUARTZ_STAIRS:0)
+B(3,11,5,QUARTZ_STAIRS:0)
+B(7,11,5,BONE_BLOCK:8)
+Block(-5,11,6,QUARTZ_STAIRS:0)
+B(7,11,6,QUARTZ_STAIRS:0)
+Block(-5,12,-5,QUARTZ_STAIRS:2)
+Block(-5,12,-4,BONE_BLOCK:8)
+Block(-1,12,-4,QUARTZ_STAIRS:2)
+Block(-5,12,-3,QUARTZ_STAIRS:7)
+Block(-1,12,-3,BONE_BLOCK:8)
+B(3,12,-3,BONE_BLOCK:0)
+Block(-1,12,-2,BONE_BLOCK:8)
+B(3,12,-2,QUARTZ_STAIRS:2)
+B(7,12,-2,BONE_BLOCK:0)
+Block(-1,12,-1,BONE_BLOCK:0)
+B(1,12,-1,QUARTZ_STAIRS:2)
+B(3,12,-1,BONE_BLOCK:8)
+B(7,12,-1,QUARTZ_STAIRS:2)
+B(0,12,0,BONE_BLOCK:0)
+B(1,12,0,BONE_BLOCK)
+B(2,12,0,BONE_BLOCK)
+B(3,12,0,BONE_BLOCK)
+B(5,12,0,QUARTZ_STAIRS:2)
+B(7,12,0,BONE_BLOCK:8)
+Block(-1,12,1,BONE_BLOCK:0)
+B(1,12,1,QUARTZ_STAIRS:0)
+B(3,12,1,BONE_BLOCK:8)
+B(4,12,1,BONE_BLOCK:8)
+B(5,12,1,BONE_BLOCK)
+B(6,12,1,BONE_BLOCK)
+B(7,12,1,BONE_BLOCK)
+Block(-1,12,2,BONE_BLOCK:8)
+B(3,12,2,BONE_BLOCK:8)
+B(5,12,2,QUARTZ_STAIRS:0)
+B(7,12,2,BONE_BLOCK:8)
+B(8,12,2,BONE_BLOCK)
+Block(-5,12,3,QUARTZ_STAIRS:6)
+Block(-1,12,3,BONE_BLOCK:8)
+B(3,12,3,QUARTZ_STAIRS:0)
+B(7,12,3,BONE_BLOCK:8)
+Block(-5,12,4,BONE_BLOCK:8)
+Block(-1,12,4,QUARTZ_STAIRS:0)
+B(3,12,4,BONE_BLOCK:0)
+B(7,12,4,QUARTZ_STAIRS:0)
+Block(-5,12,5,QUARTZ_STAIRS:0)
+B(7,12,5,BONE_BLOCK:0)
+Block(-5,13,-4,QUARTZ_STAIRS:2)
+Block(-5,13,-3,BONE_BLOCK:8)
+Block(-1,13,-3,BONE_BLOCK:0)
+B(3,13,-3,QUARTZ_STAIRS:2)
+Block(-5,13,-2,BONE_BLOCK:8)
+Block(-1,13,-2,QUARTZ_STAIRS:2)
+B(7,13,-2,QUARTZ_STAIRS:2)
+Block(-5,13,-1,BONE_BLOCK:0)
+Block(-1,13,-1,BONE_BLOCK:8)
+Block(-2,13,0,BONE_BLOCK:0)
+Block(-1,13,0,BONE_BLOCK)
+B(0,13,0,BONE_BLOCK)
+B(3,13,0,QUARTZ_STAIRS:1)
+Block(-5,13,1,BONE_BLOCK:0)
+Block(-1,13,1,BONE_BLOCK:8)
+B(7,13,1,QUARTZ_STAIRS:1)
+Block(-5,13,2,BONE_BLOCK:8)
+Block(-1,13,2,QUARTZ_STAIRS:0)
+Block(-5,13,3,BONE_BLOCK:8)
+Block(-1,13,3,BONE_BLOCK:0)
+Block(-5,13,4,QUARTZ_STAIRS:0)
+B(3,13,4,QUARTZ_STAIRS:0)
+B(7,13,5,QUARTZ_STAIRS:0)
+Block(-5,14,-3,BONE_BLOCK:0)
+Block(-1,14,-3,QUARTZ_STAIRS:2)
+Block(-5,14,-2,QUARTZ_STAIRS:2)
+Block(-7,14,-1,QUARTZ_STAIRS:2)
+Block(-5,14,-1,BONE_BLOCK:8)
+Block(-3,14,-1,QUARTZ_STAIRS:2)
+Block(-7,14,0,BONE_BLOCK)
+Block(-6,14,0,BONE_BLOCK)
+Block(-5,14,0,BONE_BLOCK:0)
+Block(-4,14,0,BONE_BLOCK)
+Block(-3,14,0,BONE_BLOCK)
+Block(-2,14,0,BONE_BLOCK)
+Block(-1,14,0,QUARTZ_STAIRS:1)
+B(2,14,0,QUARTZ_STAIRS:4)
+Block(-7,14,1,QUARTZ_STAIRS:0)
+Block(-5,14,1,BONE_BLOCK:8)
+Block(-3,14,1,QUARTZ_STAIRS:0)
+B(6,14,1,QUARTZ_STAIRS:4)
+Block(-5,14,2,QUARTZ_STAIRS:0)
+Block(-5,14,3,BONE_BLOCK:0)
+Block(-1,14,3,QUARTZ_STAIRS:0)
+Block(-5,15,-3,QUARTZ_STAIRS:2)
+Block(-5,15,0,QUARTZ_STAIRS:1)
+Block(-3,15,0,QUARTZ_STAIRS:4)
+Block(-2,15,0,QUARTZ_STAIRS:1)
+B(1,15,0,BONE_BLOCK:0)
+B(2,15,0,BONE_BLOCK)
+B(3,15,0,BONE_BLOCK)
+B(6,15,0,QUARTZ_STAIRS:2)
+B(2,15,1,QUARTZ_STAIRS:0)
+B(4,15,1,BONE_BLOCK:8)
+B(5,15,1,BONE_BLOCK)
+B(6,15,1,BONE_BLOCK)
+B(7,15,1,BONE_BLOCK)
+B(5,15,2,QUARTZ_STAIRS:0)
+B(7,15,2,BONE_BLOCK:8)
+B(8,15,2,BONE_BLOCK)
+Block(-5,15,3,QUARTZ_STAIRS:0)
+B(8,15,3,QUARTZ_STAIRS:0)
+B(1,16,-1,QUARTZ_STAIRS:2)
+Block(-6,16,0,QUARTZ_STAIRS:4)
+Block(-3,16,0,BONE_BLOCK:0)
+Block(-2,16,0,BONE_BLOCK)
+Block(-1,16,0,BONE_BLOCK)
+B(0,16,0,BONE_BLOCK)
+B(1,16,0,BONE_BLOCK)
+B(2,16,0,QUARTZ_STAIRS:1)
+Block(-3,16,1,QUARTZ_STAIRS:0)
+Block(-1,16,1,QUARTZ_STAIRS:0)
+B(6,16,1,BONE_BLOCK:0)
+B(7,16,1,QUARTZ_STAIRS:1)
+Block(-6,17,-1,QUARTZ_STAIRS:2)
+Block(-3,17,-1,QUARTZ_STAIRS:2)
+Block(-7,17,0,BONE_BLOCK)
+Block(-6,17,0,BONE_BLOCK)
+Block(-5,17,0,BONE_BLOCK)
+Block(-4,17,0,BONE_BLOCK)
+Block(-3,17,0,BONE_BLOCK)
+Block(-2,17,0,QUARTZ_STAIRS:1)
+B(1,17,0,QUARTZ_STAIRS:1)
+Block(-6,17,1,QUARTZ_STAIRS:0)
+B(6,17,1,QUARTZ_STAIRS:1)
+Block(-7,18,0,BONE_BLOCK:0)
+Block(-6,18,0,BONE_BLOCK:0)
+Block(-5,18,0,QUARTZ_STAIRS:1)
+Block(-3,18,0,QUARTZ_STAIRS:1)
+Block(-6,19,0,QUARTZ_STAIRS:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0, Worm_Skeleton_01-01,NORTH,100.0)
+Branch(0,0,-16, Worm_Skeleton_02-00,NORTH,100.0)
+Branch(0,0,16, Worm_Skeleton_02-02,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

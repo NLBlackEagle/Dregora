@@ -1,0 +1,25 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 43
+MaxHeight: 45
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+WeightedBranch(0,0,0,Pillager_Degraded_Up_N,NORTH,25,Pillager_Degraded_Up_S,NORTH,25,Pillager_Degraded_Up_E,NORTH,25,Pillager_Degraded_Up_W,NORTH,25,Pillager_Degraded_Down_N,NORTH,25,Pillager_Degraded_Down_S,NORTH,25,Pillager_Degraded_Down_E,NORTH,25,Pillager_Degraded_Down_W,NORTH,25,Agil_Degraded_Up_N,NORTH,25,Agil_Degraded_Up_S,NORTH,25,Agil_Degraded_Up_E,NORTH,25,Agil_Degraded_Up_W,NORTH,25,Agil_Degraded_Down_N,NORTH,25,Agil_Degraded_Down_S,NORTH,25,Agil_Degraded_Down_E,NORTH,25,Agil_Degraded_Down_W,NORTH,25,400)

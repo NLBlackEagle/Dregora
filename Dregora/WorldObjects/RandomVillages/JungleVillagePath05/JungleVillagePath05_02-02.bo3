@@ -1,0 +1,182 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(-6,0,-3, AnimalFarm01,NORTH,10.0,Farm01,NORTH,10.0,AnimalFarm02,NORTH,10.0,Farm02,NORTH,10.0,AnimalFarm03,NORTH,10.0,Farm03,NORTH,10.0,AnimalFarm04,NORTH,10.0,Farm04,NORTH,10.0,AnimalFarm05,NORTH,10.0,Farm05,NORTH,10.0,AnimalFarm06,NORTH,10.0,AnimalFarm07,NORTH,10.0,AnimalFarm01,EAST,10.0,Farm01,EAST,10.0,AnimalFarm02,EAST,10.0,Farm02,EAST,10.0,AnimalFarm03,EAST,10.0,Farm03,EAST,10.0,AnimalFarm04,EAST,10.0,Farm04,EAST,10.0,AnimalFarm05,EAST,10.0,Farm05,EAST,10.0,AnimalFarm06,EAST,10.0,AnimalFarm07,EAST,10.0,AnimalFarm01,WEST,10.0,Farm01,WEST,10.0,AnimalFarm02,WEST,10.0,Farm02,WEST,10.0,AnimalFarm03,WEST,10.0,Farm03,WEST,10.0,AnimalFarm04,WEST,10.0,Farm04,WEST,10.0,AnimalFarm05,WEST,10.0,Farm05,WEST,10.0,AnimalFarm06,WEST,10.0,AnimalFarm07,WEST,10.0,AnimalFarm01,SOUTH,10.0,Farm01,SOUTH,10.0,AnimalFarm02,SOUTH,10.0,Farm02,SOUTH,10.0,AnimalFarm03,SOUTH,10.0,Farm03,SOUTH,10.0,AnimalFarm04,SOUTH,10.0,Farm04,SOUTH,10.0,AnimalFarm05,SOUTH,10.0,Farm05,SOUTH,10.0,AnimalFarm06,SOUTH,10.0,AnimalFarm07,SOUTH,10.0,480.0)
+Branch(0,0,-16, JungleVillagePath05_02-01,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

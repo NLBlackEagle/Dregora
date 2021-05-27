@@ -1,0 +1,1 @@
+{Profession:4,CustomName:"\"Dearoc's Royal Chef\"",CustomNameVisible:0,Health:50}
