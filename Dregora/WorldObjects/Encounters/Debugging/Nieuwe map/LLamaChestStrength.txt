@@ -1,0 +1,1 @@
+{CustomName:LLamaChestStrength,CustomNameVisible:1,ChestedHorse:1,Strength:5}

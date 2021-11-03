@@ -1,0 +1,273 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 4
+
+BiomeRarity: 99
+
+BiomeColor: #FBF7F7
+
+ReplaceToBiomeName: Dregora_RFBigMountainEdge
+
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 9
+
+BiomeRarityWhenIsle: 99
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: 
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 8
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 4.0
+
+BiomeVolatility: 0.2
+
+SmoothRadius: 5
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: 1.0
+
+Volatility2: 0.6
+
+VolatilityWeight1: 3.5
+
+VolatilityWeight2: 0.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: River
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: STONE
+
+GroundBlock: STONE:1
+
+SurfaceAndGroundControl: AIR, STONE:1, -7.0, AIR, STONE:1, -0.8, AIR, STONE:1, 5.0 
+ReplacedBlocks: (STONE:1,159:8,200,202),(STONE:1,159:5,202,204),(STONE:1,159:12,204,206),(STONE:1,159:13,206,208),(STONE:1,159:15,208,210),(STONE:1,159:8,210,212),(STONE:1,159:5,212,214),(STONE:1,159:12,214,216),(STONE:1,159:13,216,218),(STONE:1,159:15,218,220),(STONE:1,159:8,220,222),(STONE:1,159:5,222,224),(STONE:1,159:12,224,226),(STONE:1,159:13,226,228),(STONE:1,159:15,228,230),(GRASS,159:8,230,232),(GRASS,159:5,232,234),(GRASS,159:12,234,236),(GRASS,159:13,238,240),(GRASS,159:15,240,242),(GRASS,159:8,242,244),(GRASS,159:5,244,246),(GRASS,159:12,246,248),(GRASS,159:13,248,250),(GRASS,159:15,250,252),(GRASS,159:8,252,254),(STONE:1,159:8,230,232),(STONE:1,159:5,232,234),(STONE:1,159:12,234,236),(STONE:1,159:13,238,240),(STONE:1,159:15,240,242),(STONE:1,159:8,242,244),(STONE:1,159:5,244,246),(STONE:1,159:12,246,248),(STONE:1,159:13,248,250),(STONE:1,159:15,250,252),(STONE:1,159:8,252,254),(GRASS,159:8,180,182),(GRASS,159:5,182,184),(GRASS,159:12,184,186),(GRASS,159:13,186,188),(GRASS,159:15,188,190),(GRASS,159:8,190,192),(GRASS,159:5,192,194),(GRASS,159:12,194,196),(GRASS,159:13,196,198),(GRASS,159:15,198,200),(STONE:1,159:8,180,182),(STONE:1,159:5,182,184),(STONE:1,159:12,184,186),(STONE:1,159:13,186,188),(STONE:1,159:15,188,190),(STONE:1,159:8,190,192),(STONE:1,159:5,192,194),(STONE:1,159:12,194,196),(STONE:1,159:13,196,198),(STONE:1,159:15,198,200),(STONE:1,159:8,130,132),(STONE:1,159:5,132,134),(STONE:1,159:12,134,136),(STONE:1,159:13,136,138),(STONE:1,159:15,138,140),(STONE:1,159:8,140,142),(STONE:1,159:5,142,144),(STONE:1,159:12,144,146),(STONE:1,159:13,146,148),(STONE:1,159:15,148,150),(STONE:1,159:8,150,152),(STONE:1,159:5,152,154),(STONE:1,159:12,154,156),(STONE:1,159:13,156,158),(STONE:1,159:15,158,160),(STONE:1,159:8,160,162),(STONE:1,159:5,162,164),(STONE:1,159:12,164,166),(STONE:1,159:13,166,168),(STONE:1,159:15,168,170),(STONE:1,159:8,170,172),(STONE:1,159:5,172,174),(STONE:1,159:12,174,176),(STONE:1,159:13,176,178),(STONE:1,159:15,178,180),(STONE:1,159:8,120,122),(STONE:1,159:5,122,124),(STONE:1,159:12,124,126),(STONE:1,159:13,126,128),(STONE:1,159:15,128,130),(STONE:1,159:8,110,112),(STONE:1,159:5,112,114),(STONE:1,159:12,114,116),(STONE:1,159:13,116,118),(STONE:1,159:15,118,120),(STONE:1,159:8,100,102),(STONE:1,159:5,102,104),(STONE:1,159:12,104,106),(STONE:1,159:13,106,108),(STONE:1,159:15,108,110),(STONE:1,159:5,98,100),(STONE:1,159:12,96,98),(STONE:1,159:13,94,96),(STONE:1,159:15,92,94),(STONE:1,159:8,90,92),(STONE:1,159:5,88,90),(STONE:1,159:12,86,88),(STONE:1,159:13,84,86),(STONE:1,159:15,82,84),(STONE:1,159:8,80,82),(STONE:1,159:5,78,80),(STONE:1,159:12,76,78),(STONE:1,159:13,74,76),(STONE:1,159:15,72,74),(STONE:1,159:8,70,72)
+
+
+UseWorldWaterLevel: false
+
+WaterLevelMax: 70
+
+WaterLevelMin: 0
+
+WaterBlock: ICE
+
+IceBlock: ICE
+
+CooledLavaBlock: OBSIDIAN
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 1.6
+
+BiomeWetness: 0.8
+
+SkyColor: #b1d2ae
+
+WaterColor: #007c47
+
+GrassColor: #FFFFFF
+
+GrassColorIsMultiplier: true
+
+FoliageColor: #FFFFFF
+
+FoliageColorIsMultiplier: true
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+Ore(STONE:5,16,8,100.0,3,60,STONE:0)
+Ore(STONE:3,16,8,100.0,3,60,STONE:0)
+Ore(STONE:1,16,8,100.0,3,60,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,3,32,STONE:0)
+Ore(MAGMA,25,50,100.0,10,24,STONE,159,DIRT)
+Ore(LAPIS_ORE,4,1,100.0,3,16,STONE:0)
+Ore(IRON_ORE,9,20,100.0,3,60,STONE:0)
+Ore(GRAVEL,33,8,100.0,3,60,STONE:0)
+Ore(GOLD_ORE,8,2,90.0,3,32,STONE:0)
+Ore(EMERALD_ORE,8,1,100.0,3,10,STONE:0)
+Ore(DIRT,33,10,100.0,3,60,STONE:0)
+Ore(DIAMOND_ORE,4,4,100.0,3,8,STONE:0)
+Ore(COAL_ORE,17,20,100.0,3,60,STONE:0)
+
+CustomStructure()
+CustomObject(dungeon,RFgroundspike,RFceilingspike)
+
+
+Tree(5,tropicalroots_small_03,15,tropicalroots_small_02,15,tropicalroots_small_01,15)
+Tree(20,tropicalleaves_tiny_01,50,tropicalbush_small_01,50,tropicalbush_med_01,50,tropicalbush_large_01,50)
+Tree(2,tropicaltree_tiny_10,15,tropicaltree_tiny_09,15,tropicaltree_tiny_08,15,tropicaltree_tiny_07,15,tropicaltree_tiny_06,15,tropicaltree_tiny_05,15,tropicaltree_tiny_04,15,tropicaltree_tiny_03,15,tropicaltree_tiny_02,15,tropicaltree_tiny_01,15)
+
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
+Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
+Plant(RED_ROSE,2,100.0,0,128,GRASS,DIRT,SOIL)
+Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
+Reed(SUGAR_CANE_BLOCK,100,100.0,70,90,SAND,GRASS,DIRT)
+
+Tree(20,tropicalbush_reed_01,50)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+Sapling(Oak,Tree,20,TreeSwamp03,5,TreeSwamp04,5,TreeSwamp06,5,TreeSwamp07,5,TreeSwamp08,5,TreeSwamp10,5,80,5,81,5,82,5,83,5,84,5,85,5,BigTree,100)
+Sapling(Birch,TallBirch,20,SA2S,5,SA19S,5,SA11S,5,SA11L,5,NA7L,5,NA11S,5,EUR3S,5,Birch,100)
+Sapling(Redwood,Taiga1,20,pine04,5,pine05,5,pine06,5,pine07,5,pine08,5,pine09,5,pine10,5,ME1,5,ME2,5,ME3,5,ME4,5,52,5,53,5,Taiga2,100)
+Sapling(HugeRedwood,HugeTaiga1,20,SpookyTree1,5,SpookyTree3,5,SpookyTree4,5,ME5,5,51,5,HugeTaiga2,100)
+Sapling(SmallJungle,GroundBush,20,CocoaTree,20,tropicaltree_tiny_01,5,tropicaltree_tiny_02,5,tropicaltree_tiny_03,5,tropicaltree_tiny_04,5,tropicaltree_tiny_05,5,tropicaltree_tiny_06,5,tropicaltree_tiny_07,5,tropicaltree_tiny_08,5,tropicaltree_tiny_09,5,tropicaltree_tiny_10,5,CocoaTree,100)
+Sapling(BigJungle,JungleTree,50,RFGodTree01,1,RFGodTree02,1,RFMedTree01,2,RFMedTree02,2,RFMedTree03,2,RFTree01,4,RFTree05,4,RFTree10,4,RFTree15,4,RFTree20,4,RFTree25,4,RFTree30,4,RFTree35,4,JungleTree,100)
+Sapling(RedMushroom,MushroomRedWideTall,10,MushroomRedWide,10,MushroomRedSmall,10,MushroomRedMedium,10,MushroomRedDiagonal,10,HugeRedMushroom,100)
+Sapling(BrownMushroom,MushroomRedBrownSplit,10,MushroomBrownRedSingle,10,HugeMushroom,20,HugeBrownMushroom,100)
+Sapling(Acacia,Acacia,50,AFR3L,5,AFR3S,5,AFR5S,5,AFR6L,5,AFR8L,5,AFR8S,5,AFR9L,5,AFR9S,5,AFR10L,5,AFR10S,5,AFR11S,5,AFR11L,5,AFR12L,5,Acacia,100)
+Sapling(DarkOak,DarkOak,50,Dense01,5,Dense02,5,Dense03,5,Dense04,5,Dense05,5,Dense06,5,Dense07,5,Dense08,5,Dense09,5,Dense10,5,DarkOak,100)
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: false
+
+VillageType: disabled
+
+MineshaftType: normal
+
+MineshaftRarity: 0.0
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+BiomeDictId:
+
+InheritMobsBiomeName: minecraft:jungle_hills
+

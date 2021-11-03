@@ -1,0 +1,1 @@
+{ShowArms:1b,Rotation:[90f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:0}}},{id:"iron_leggings",Count:1b},{},{id:"Pumpkin",Count:1b}],HandItems:[{id:"stone_hoe",Count:1b},{}],Pose:{Head:[335f,26f,16f],LeftArm:[275f,0f,272f],RightArm:[205f,177f,0f]}}

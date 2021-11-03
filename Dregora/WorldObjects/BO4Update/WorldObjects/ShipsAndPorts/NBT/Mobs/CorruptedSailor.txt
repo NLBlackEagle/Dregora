@@ -1,0 +1,1 @@
+{CustomName:"Corrupted Sailor",CustomNameVisible:0,HandItems:[{id:"minecraft:iron_sword",Count:1},{id:"minecraft:iron_sword",Count:1}]}

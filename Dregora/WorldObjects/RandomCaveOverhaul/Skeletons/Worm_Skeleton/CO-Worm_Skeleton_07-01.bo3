@@ -1,0 +1,220 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 70
+
+MaxHeight: 75
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: Solid
+
+MaxPercentageOutsideSourceBlock: 80
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-5,5,-5,QUARTZ_STAIRS:6)
+Block(-5,5,-3,QUARTZ_STAIRS:7)
+Block(-5,6,-5,BONE_BLOCK:0)
+Block(-3,6,-5,QUARTZ_STAIRS:6)
+Block(-5,6,-3,BONE_BLOCK:0)
+Block(-3,6,-3,QUARTZ_STAIRS:7)
+Block(-7,7,-5,QUARTZ_STAIRS:2)
+Block(-5,7,-5,QUARTZ_STAIRS:2)
+Block(-3,7,-5,QUARTZ_STAIRS:2)
+B(0,7,-5,QUARTZ_STAIRS:6)
+Block(-7,7,-4,BONE_BLOCK)
+Block(-6,7,-4,BONE_BLOCK)
+Block(-5,7,-4,BONE_BLOCK)
+Block(-4,7,-4,BONE_BLOCK)
+Block(-3,7,-4,BONE_BLOCK)
+Block(-2,7,-4,BONE_BLOCK)
+Block(-1,7,-4,QUARTZ_STAIRS:5)
+Block(-7,7,-3,QUARTZ_STAIRS:0)
+Block(-5,7,-3,QUARTZ_STAIRS:0)
+Block(-3,7,-3,QUARTZ_STAIRS:0)
+B(0,7,-3,QUARTZ_STAIRS:7)
+B(0,8,-5,QUARTZ_STAIRS:2)
+Block(-4,8,-4,BONE_BLOCK)
+Block(-3,8,-4,BONE_BLOCK:0)
+Block(-2,8,-4,BONE_BLOCK)
+Block(-1,8,-4,BONE_BLOCK)
+B(0,8,-4,BONE_BLOCK)
+B(1,8,-4,BONE_BLOCK)
+B(2,8,-4,BONE_BLOCK)
+B(0,8,-3,QUARTZ_STAIRS:0)
+Block(-5,9,-4,BONE_BLOCK)
+Block(-4,9,-4,BONE_BLOCK)
+Block(-3,9,-4,BONE_BLOCK:0)
+Block(-2,9,-4,QUARTZ_STAIRS:1)
+Block(-7,10,-4,BONE_BLOCK)
+Block(-6,10,-4,BONE_BLOCK)
+Block(-5,10,-4,QUARTZ_STAIRS:1)
+Block(-6,11,-4,QUARTZ_STAIRS:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,CO-Worm_Skeleton_07-00,NORTH,100.0)
+Branch(0,0,16,CO-Worm_Skeleton_07-02,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

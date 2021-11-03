@@ -1,0 +1,104 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: highestSolidBlock
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR,GRASS,DIRT,SAND
+MaxPercentageOutsideSourceBlock: 0
+OutsideSourceBlock: placeAnyway
+
+BlockCheck(0,-1,0,GRASS,DIRT:1)
+BlockCheck(0,-2,0,Solid)
+
+B(0,-2,0,LOG:1)
+B(0,-1,0,LOG:1)
+B(0,0,0,LOG:1)
+B(0,1,0,LOG:1)
+B(0,2,0,LOG:1)
+B(0,3,0,LOG:1)
+B(0,4,0,LOG:1)
+B(0,5,0,LOG:1)
+B(0,6,0,LOG:1)
+B(0,7,0,LOG:1)
+B(0,8,0,LOG:1)
+B(0,9,0,LOG2:1)
+B(0,10,0,LOG2:1)
+B(0,11,0,LOG2:1)
+B(0,12,0,LOG2:1)
+B(0,13,0,LOG2:1)
+B(0,14,0,LOG2:1)
+B(0,15,0,LOG2:1)
+B(0,16,0,LOG2:1)
+B(0,17,0,LOG2:1)
+B(0,18,0,LOG2:1)
+B(0,19,0,LOG2:1)
+B(0,20,0,LOG2:1)
+B(0,21,0,LOG2:1)
+B(0,22,0,LOG2:1)
+B(0,23,0,LOG2:1)
+B(0,24,-1,LOG2:9)
+B(0,24,0,LOG2:1)
+B(0,25,0,LOG2:1)
+B(0,26,-1,LOG2:9)
+B(-2,26,0,LOG2:5)
+B(-1,26,0,LOG2:5)
+B(0,26,0,LOG2:1)
+B(0,27,0,LOG2:1)
+B(0,27,1,LOG2:9)
+B(0,27,2,LOG2:9)
+B(0,28,0,LOG2:1)
+B(0,29,0,LOG2:1)
+B(1,29,0,LOG2:5)
+B(2,29,0,LOG2:5)
+B(3,29,0,LOG2:5)
+B(1,30,-3,LOG2:9)
+B(0,30,-2,LOG2:9)
+B(1,30,-2,LOG2:5)
+B(0,30,-1,LOG2:9)
+B(0,30,0,LOG2:1)
+B(1,30,0,LEAVES:13)
+B(0,31,-2,LEAVES:13)
+B(0,31,-1,LEAVES:13)
+B(0,31,0,LOG2:1)
+B(1,31,0,LEAVES:13)
+B(0,32,-1,LEAVES:13)
+B(-2,32,0,LOG2:5)
+B(-1,32,0,LOG2:5)
+B(0,32,0,LOG2:1)
+B(-1,33,0,LEAVES:13)
+B(0,33,0,LOG2:1)
+B(0,34,-3,LOG2:9)
+B(0,34,-2,LOG2:9)
+B(0,34,-1,LOG2:9)
+B(0,34,0,LOG2:1)
+B(0,35,-1,LEAVES:13)
+B(0,35,0,LOG2:1)
+B(0,35,1,LOG2:9)
+B(-1,35,2,LOG2:5)
+B(0,35,2,LOG2:9)
+B(-1,35,3,LOG2:9)
+B(0,36,-1,LEAVES:13)
+B(-1,36,0,LOG2:5)
+B(0,36,0,LOG2:1)
+B(-1,37,0,LEAVES:13)
+B(0,37,0,LOG2:1)
+B(1,37,0,LEAVES:13)
+B(0,38,0,LOG2:1)
+B(0,39,0,LOG2:1)
+B(0,40,0,LOG2:1)
+B(0,41,0,LOG2:1)

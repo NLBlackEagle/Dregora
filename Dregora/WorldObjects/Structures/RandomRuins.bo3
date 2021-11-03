@@ -1,0 +1,29 @@
+Author: NLBlackEagle
+Description: No description given
+Version: 3
+SettingsMode: WriteDisable
+
+
+Tree: false
+Frequency: 1
+Rarity: 100.0
+RotateRandomly: true
+SpawnHeight: highestBlock
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+
+MinHeight: 0
+MaxHeight: 256
+
+
+ExtrudeMode: None
+ExtrudeThroughBlocks: AIR
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 0
+OutsideSourceBlock: placeAnyway
+
+WeightedBranch(0,0,0,ruins1,north,10,ruins2,north,10,ruins3,north,10,ruins4,north,10,ruins5,north,10,ruins6,north,10,ruins7,north,10,70) 

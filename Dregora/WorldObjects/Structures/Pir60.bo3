@@ -1,0 +1,208 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 48
+
+MaxHeight: 48
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: water
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: water
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-5,34,-3,wall_banner,StructureNBT/PirateBo3/pir60/1-Banner.nbt)
+B(-8,25,7,wool)
+B(-8,26,7,wool)
+B(-8,27,6,wool)
+B(-8,28,7,wool)
+B(-8,28,8,spruce_fence)
+B(-8,29,8,wooden_slab:1)
+B(-7,25,7,wool)
+B(-7,26,7,wool)
+B(-7,27,6,wool)
+B(-7,28,7,wool)
+B(-6,25,8,wool)
+B(-6,26,7,wool)
+B(-6,27,7,wool)
+B(-6,28,8,wool)
+B(-5,25,8,wool)
+B(-5,26,7,wool)
+B(-5,27,7,wool)
+B(-5,28,8,wool)
+B(-5,29,8,wooden_slab:9)
+B(-5,30,6,wooden_slab:9)
+B(-5,30,7,double_wooden_slab:1)
+B(-5,30,8,wooden_slab:1)
+B(-5,31,4,wooden_slab:9)
+B(-5,31,5,double_wooden_slab:1)
+B(-5,31,6,wooden_slab:1)
+B(-5,31,8,wool)
+B(-5,32,2,wooden_slab:9)
+B(-5,32,3,double_wooden_slab:1)
+B(-5,32,4,wooden_slab:1)
+B(-5,32,5,spruce_fence)
+B(-5,32,6,spruce_fence)
+B(-5,32,7,wool)
+B(-5,32,8,wool)
+B(-5,33,0,wooden_slab:9)
+B(-5,33,1,double_wooden_slab:1)
+B(-5,33,2,wooden_slab:1)
+B(-5,33,6,spruce_fence)
+B(-5,33,7,spruce_fence)
+B(-5,33,8,wool)
+B(-5,34,-2,wooden_slab:9)
+B(-5,34,-1,double_wooden_slab:1)
+B(-5,34,0,wooden_slab:1)
+B(-5,34,7,spruce_fence)
+B(-5,34,8,spruce_fence)
+B(-5,35,-2,spruce_fence)
+B(-5,35,-1,spruce_fence)
+B(-5,35,8,spruce_fence)
+B(-5,36,-1,spruce_fence)
+B(-5,36,0,spruce_fence)
+B(-5,36,1,wool)
+B(-5,36,2,wool)
+B(-5,37,0,spruce_fence)
+B(-5,37,1,spruce_fence)
+B(-5,37,2,wool)
+B(-5,37,3,wool)
+B(-5,38,1,spruce_fence)
+B(-5,38,2,spruce_fence)
+B(-5,38,3,wool)
+B(-5,38,4,wool)
+B(-5,39,2,spruce_fence)
+B(-5,39,3,spruce_fence)
+B(-5,39,4,wool)
+B(-5,39,5,wool)
+B(-5,40,3,spruce_fence)
+B(-5,40,4,spruce_fence)
+B(-5,40,5,wool)
+B(-5,40,6,wool)
+B(-5,41,4,spruce_fence)
+B(-5,41,5,spruce_fence)
+B(-5,41,6,wool)
+B(-5,41,7,wool)
+B(-5,42,5,spruce_fence)
+B(-5,42,6,spruce_fence)
+B(-5,42,7,wool)
+B(-5,42,8,wool)
+B(-5,43,6,spruce_fence)
+B(-5,43,7,spruce_fence)
+B(-5,43,8,wool)
+B(-5,44,7,spruce_fence)
+B(-5,44,8,spruce_fence)
+B(-5,45,8,spruce_fence)
+B(-4,25,8,wool)
+B(-4,26,7,wool)
+B(-4,27,7,wool)
+B(-4,28,8,wool)
+B(-4,36,3,wool)
+B(-4,36,4,wool)
+B(-4,36,5,wool)
+B(-4,37,4,wool)
+B(-4,37,5,wool)
+B(-4,38,5,wool)
+B(-4,38,6,wool)
+B(-4,39,6,wool)
+B(-4,39,7,wool)
+B(-4,40,7,wool)
+B(-4,40,8,wool)
+B(-4,41,8,wool)
+B(-3,25,8,wool)
+B(-3,26,7,wool)
+B(-3,27,8,wool)
+B(-3,28,8,wool)
+B(-3,36,6,wool)
+B(-3,36,7,wool)
+B(-3,37,6,wool)
+B(-3,37,7,wool)
+B(-3,37,8,wool)
+B(-3,38,7,wool)
+B(-3,38,8,wool)
+B(-3,39,8,wool)
+B(-2,24,8,wool)
+B(-2,25,8,wool)
+B(-2,26,8,wool)
+B(-2,27,8,wool)
+B(-2,28,8,wool)
+B(-1,26,8,wool)
+B(-1,27,8,wool)
+B(0,26,8,wool)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

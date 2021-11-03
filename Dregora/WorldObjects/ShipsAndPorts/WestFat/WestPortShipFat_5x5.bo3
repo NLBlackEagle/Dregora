@@ -1,0 +1,47 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(-3,-3,-8,DISPENSER:3)
+B(-3,-2,-8,WOODEN_SLAB:13)
+B(-5,0,-8,DISPENSER:3)
+B(-3,0,-8,TRAPDOOR:5)
+B(-1,0,-8,DISPENSER:3)
+B(-5,1,-8,WOODEN_SLAB:9)
+B(-3,1,-8,TRAPDOOR:5)
+B(-1,1,-8,WOODEN_SLAB:9)
+B(-3,2,-8,TRAPDOOR:5)
+B(-2,2,-8,WOODEN_BUTTON:3)
+B(-1,2,-8,WOODEN_BUTTON:3)
+B(-5,3,-8,FENCE:0)
+B(-4,3,-8,FENCE:0)
+B(-3,3,-8,FENCE:0)
+B(-5,3,-7,FENCE:0)
+B(-7,4,-7,FENCE:0)
+B(-6,4,-7,FENCE:0)
+B(-5,4,-7,FENCE:0)
+B(-7,4,-6,FENCE:0)
+B(-8,5,-6,FENCE:0)
+B(-7,5,-6,FENCE:0)
+
+BR(-8,0,0,WestPortShipFat_4x5,NORTH,100)

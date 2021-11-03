@@ -1,0 +1,1 @@
+{CustomName:"Corrupted Sailor",CustomNameVisible:0,Health:30,Attributes:[{Name:"generic.followRange",Base:30},{Name:"generic.knockbackResistance",Base:0.2f},{Name:"generic.attackDamage",Base:2}],Silent:1,HandItems:[{id:"minecraft:iron_sword",tag:{display:{Lore:["Ancient Sword"]}},Count:1},{}],HandDropChances:[0.5F,0F]}

@@ -1,0 +1,52 @@
+
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: Vines Created by NLBlackEagle for Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+MinHeight: 110
+
+MaxHeight: 125
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+
+SourceBlocks: AIR,GRASS
+
+MaxPercentageOutsideSourceBlock: 5
+
+OutsideSourceBlock: placeAnyway
+
+BlockCheck(0,0,0,GRASS,STONE,DIRT)
+
+Block(0,-1,-1,LEAVES:7)
+Block(0,0,-1,LEAVES:15)
+Block(0,1,-1,LEAVES:7)
+Block(0,1,0,LEAVES:7)
+
+
+
+
+
+
+
+

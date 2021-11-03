@@ -1,0 +1,1 @@
+{Profession:2,CustomName:"Tribal priest",CustomNameVisible:0,CanPickUpLoot:1b,Silent:1}

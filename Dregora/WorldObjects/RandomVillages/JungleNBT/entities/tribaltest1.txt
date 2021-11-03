@@ -1,0 +1,1 @@
+{Profession:0,CustomName:"Tribal Bowman",CustomNameVisible:0,Team:Tribal}

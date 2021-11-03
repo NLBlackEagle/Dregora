@@ -1,0 +1,303 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 20
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,STONE
+MaxPercentageOutsideSourceBlock: 0
+OutsideSourceBlock: placeAnyway
+
+ReplaceBelow: STONE
+ReplaceWithBiomeBlocks: true
+ReplaceWithGroundBlock: DIRT
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(10,1,9,CONCRETE:15)
+Block(11,1,9,CONCRETE:15)
+Block(9,1,10,CONCRETE:15)
+Block(10,1,10,CONCRETE:15)
+Block(11,1,10,CONCRETE:15)
+Block(12,1,10,CONCRETE:15)
+Block(9,1,11,CONCRETE:15)
+Block(10,1,11,CONCRETE:15)
+Block(11,1,11,CONCRETE:15)
+Block(12,1,11,CONCRETE:15)
+Block(13,1,11,CONCRETE:15)
+Block(10,1,12,CONCRETE:15)
+Block(11,1,12,CONCRETE:15)
+Block(12,1,12,CONCRETE:15)
+Block(11,1,13,CONCRETE:15)
+Block(9,2,10,CONCRETE:15)
+Block(10,2,10,CONCRETE:15)
+Block(11,2,10,CONCRETE:15)
+Block(12,2,10,CONCRETE:15)
+Block(10,2,11,CONCRETE:15)
+Block(11,2,11,CONCRETE:15)
+Block(12,2,11,CONCRETE:15)
+Block(13,2,11,CONCRETE:15)
+Block(10,2,12,CONCRETE:15)
+Block(11,2,12,CONCRETE:15)
+Block(12,2,12,CONCRETE:15)
+Block(13,2,12,CONCRETE:15)
+Block(11,2,13,CONCRETE:15)
+Block(12,2,13,CONCRETE:15)
+Block(13,2,13,CONCRETE:15)
+Block(10,3,10,CONCRETE:15)
+Block(11,3,10,CONCRETE:15)
+Block(12,3,10,CONCRETE:15)
+Block(10,3,11,CONCRETE:15)
+Block(12,3,11,CONCRETE:15)
+Block(13,3,11,CONCRETE:15)
+Block(10,3,12,CONCRETE:15)
+Block(11,3,12,CONCRETE:15)
+Block(12,3,12,CONCRETE:15)
+Block(13,3,12,CONCRETE:15)
+Block(14,3,12,CONCRETE:15)
+Block(11,3,13,CONCRETE:15)
+Block(12,3,13,CONCRETE:15)
+Block(13,3,13,CONCRETE:15)
+Block(12,3,14,CONCRETE:15)
+Block(11,4,10,CONCRETE:15)
+Block(12,4,10,CONCRETE:15)
+Block(10,4,11,CONCRETE:15)
+Block(11,4,11,CONCRETE:15)
+Block(12,4,11,CONCRETE:15)
+Block(13,4,11,CONCRETE:15)
+Block(10,4,12,CONCRETE:15)
+Block(11,4,12,CONCRETE:15)
+Block(12,4,12,CONCRETE:15)
+Block(13,4,12,CONCRETE:15)
+Block(14,4,12,CONCRETE:15)
+Block(11,4,13,CONCRETE:15)
+Block(12,4,13,CONCRETE:15)
+Block(13,4,13,CONCRETE:15)
+Block(12,4,14,CONCRETE:15)
+Block(10,5,11,CONCRETE:15)
+Block(11,5,11,CONCRETE:15)
+Block(12,5,11,CONCRETE:15)
+Block(13,5,11,CONCRETE:15)
+Block(11,5,12,CONCRETE:15)
+Block(12,5,12,CONCRETE:15)
+Block(13,5,12,CONCRETE:15)
+Block(14,5,12,CONCRETE:15)
+Block(11,5,13,CONCRETE:15)
+Block(12,5,13,CONCRETE:15)
+Block(13,5,13,CONCRETE:15)
+Block(12,5,14,CONCRETE:15)
+Block(11,6,11,CONCRETE:15)
+Block(12,6,11,CONCRETE:15)
+Block(13,6,11,CONCRETE:15)
+Block(11,6,12,CONCRETE:15)
+Block(12,6,12,CONCRETE:15)
+Block(13,6,12,CONCRETE:15)
+Block(14,6,12,CONCRETE:15)
+Block(11,6,13,CONCRETE:15)
+Block(12,6,13,CONCRETE:15)
+Block(13,6,13,CONCRETE:15)
+Block(14,6,13,CONCRETE:15)
+Block(12,6,14,CONCRETE:15)
+Block(13,6,14,CONCRETE:15)
+Block(14,6,14,CONCRETE:15)
+Block(12,7,11,CONCRETE:15)
+Block(13,7,11,CONCRETE:15)
+Block(11,7,12,CONCRETE:15)
+Block(12,7,12,CONCRETE:15)
+Block(13,7,12,CONCRETE:15)
+Block(14,7,12,CONCRETE:15)
+Block(11,7,13,CONCRETE:15)
+Block(12,7,13,CONCRETE:15)
+Block(13,7,13,CONCRETE:15)
+Block(14,7,13,CONCRETE:15)
+Block(12,7,14,CONCRETE:15)
+Block(13,7,14,CONCRETE:15)
+Block(14,7,14,CONCRETE:15)
+Block(11,8,12,CONCRETE:15)
+Block(12,8,12,CONCRETE:15)
+Block(13,8,12,CONCRETE:15)
+Block(14,8,12,CONCRETE:15)
+Block(12,8,13,CONCRETE:15)
+Block(13,8,13,CONCRETE:15)
+Block(14,8,13,CONCRETE:15)
+Block(15,8,13,CONCRETE:15)
+Block(12,8,14,CONCRETE:15)
+Block(13,8,14,CONCRETE:15)
+Block(14,8,14,CONCRETE:15)
+Block(13,8,15,CONCRETE:15)
+Block(12,9,12,CONCRETE:15)
+Block(13,9,12,CONCRETE:15)
+Block(14,9,12,CONCRETE:15)
+Block(12,9,13,CONCRETE:15)
+Block(13,9,13,CONCRETE:15)
+Block(14,9,13,CONCRETE:15)
+Block(15,9,13,CONCRETE:15)
+Block(12,9,14,CONCRETE:15)
+Block(13,9,14,CONCRETE:15)
+Block(14,9,14,CONCRETE:15)
+Block(15,9,14,CONCRETE:15)
+Block(13,9,15,CONCRETE:15)
+Block(14,9,15,CONCRETE:15)
+Block(13,10,12,CONCRETE:15)
+Block(14,10,12,CONCRETE:15)
+Block(12,10,13,CONCRETE:15)
+Block(13,10,13,CONCRETE:15)
+Block(14,10,13,CONCRETE:15)
+Block(12,10,14,CONCRETE:15)
+Block(13,10,14,CONCRETE:15)
+Block(14,10,14,CONCRETE:15)
+Block(15,10,14,CONCRETE:15)
+Block(14,10,15,CONCRETE:15)
+Block(12,11,13,CONCRETE:15)
+Block(13,11,13,CONCRETE:15)
+Block(14,11,13,CONCRETE:15)
+Block(15,11,13,CONCRETE:15)
+Block(13,11,14,CONCRETE:15)
+Block(14,11,14,CONCRETE:15)
+Block(15,11,14,CONCRETE:15)
+Block(13,11,15,CONCRETE:15)
+Block(14,11,15,CONCRETE:15)
+Block(15,11,15,CONCRETE:15)
+Block(13,12,13,CONCRETE:15)
+Block(14,12,13,CONCRETE:15)
+Block(13,12,14,CONCRETE:15)
+Block(14,12,14,CONCRETE:15)
+Block(15,12,14,CONCRETE:15)
+Block(14,12,15,CONCRETE:15)
+Block(15,12,15,CONCRETE:15)
+Block(14,13,13,CONCRETE:15)
+Block(13,13,14,CONCRETE:15)
+Block(14,13,14,CONCRETE:15)
+Block(15,13,14,CONCRETE:15)
+Block(14,13,15,CONCRETE:15)
+Block(15,13,15,CONCRETE:15)
+Block(16,13,15,CONCRETE:15)
+Block(15,13,16,CONCRETE:15)
+Block(13,14,14,CONCRETE:15)
+Block(14,14,14,CONCRETE:15)
+Block(15,14,14,CONCRETE:15)
+Block(14,14,15,CONCRETE:15)
+Block(15,14,15,CONCRETE:15)
+Block(16,14,15,CONCRETE:15)
+Block(15,14,16,CONCRETE:15)
+Block(14,15,14,CONCRETE:15)
+Block(15,15,14,CONCRETE:15)
+Block(14,15,15,CONCRETE:15)
+Block(15,15,15,CONCRETE:15)
+Block(16,15,15,CONCRETE:15)
+Block(15,15,16,CONCRETE:15)
+Block(16,15,16,CONCRETE:15)
+Block(15,16,14,CONCRETE:15)
+Block(14,16,15,CONCRETE:15)
+Block(15,16,15,CONCRETE:15)
+Block(16,16,15,CONCRETE:15)
+Block(15,16,16,CONCRETE:15)
+Block(16,16,16,CONCRETE:15)
+Block(15,17,15,CONCRETE:15)
+Block(16,17,15,CONCRETE:15)
+Block(15,17,16,CONCRETE:15)
+Block(16,17,16,CONCRETE:15)
+Block(15,18,15,CONCRETE:15)
+Block(16,18,15,CONCRETE:15)
+Block(15,18,16,CONCRETE:15)
+Block(16,18,16,CONCRETE:15)
+Block(17,18,16,CONCRETE:15)
+Block(16,18,17,CONCRETE:15)
+Block(16,19,15,CONCRETE:15)
+Block(15,19,16,CONCRETE:15)
+Block(16,19,16,CONCRETE:15)
+Block(17,19,16,CONCRETE:15)
+Block(16,19,17,CONCRETE:15)
+Block(17,19,17,CONCRETE:15)
+Block(16,20,16,CONCRETE:15)
+Block(17,20,16,CONCRETE:15)
+Block(16,20,17,CONCRETE:15)
+Block(17,20,17,CONCRETE:15)
+Block(16,21,16,CONCRETE:15)
+Block(17,21,16,CONCRETE:15)
+Block(16,21,17,CONCRETE:15)
+Block(17,21,17,CONCRETE:15)
+Block(17,22,16,CONCRETE:15)
+Block(16,22,17,CONCRETE:15)
+Block(17,22,17,CONCRETE:15)
+Block(17,23,17,CONCRETE:15)
+Block(18,23,17,CONCRETE:15)
+Block(17,23,18,CONCRETE:15)
+Block(17,24,17,CONCRETE:15)
+Block(18,24,17,CONCRETE:15)
+Block(17,24,18,CONCRETE:15)
+Block(18,24,18,CONCRETE:15)
+Block(18,25,17,CONCRETE:15)
+Block(17,25,18,CONCRETE:15)
+Block(18,25,18,CONCRETE:15)
+Block(18,26,18,CONCRETE:15)
+Block(0,0,0,LOG:13)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(10,0,9,Solid)
+BlockCheck(11,0,9,Solid)
+BlockCheck(9,0,10,Solid)
+BlockCheck(10,0,10,Solid)
+BlockCheck(11,0,10,Solid)
+BlockCheck(12,0,10,Solid)
+BlockCheck(9,0,11,Solid)
+BlockCheck(10,0,11,Solid)
+BlockCheck(11,0,11,Solid)
+BlockCheck(12,0,11,Solid)
+BlockCheck(13,0,11,Solid)
+BlockCheck(10,0,12,Solid)
+BlockCheck(11,0,12,Solid)
+BlockCheck(12,0,12,Solid)
+BlockCheck(11,0,13,Solid)
+

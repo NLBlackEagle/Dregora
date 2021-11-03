@@ -1,0 +1,37 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 5
+MaxHeight: 5
+
+SourceBlocks: STONE,GRASS
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+BR(0,0,0,BigAirCave_8x9,NORTH,100)
+
+BlockCheck(0,25,0,Solid)
+
+BlockCheck(0,25,25,Solid)
+BlockCheck(25,25,0,Solid)
+BlockCheck(-25,25,0,Solid)
+BlockCheck(0,25,-25,Solid)
+
+BlockCheck(25,25,-25,Solid)
+BlockCheck(-25,25,25,Solid)
+BlockCheck(-25,25,-25,Solid)
+BlockCheck(25,25,25,Solid)

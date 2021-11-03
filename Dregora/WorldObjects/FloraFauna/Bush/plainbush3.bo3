@@ -1,0 +1,326 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+# This is the config file of a custom object.
+# If you add this object correctly to your BiomeConfigs, it will spawn in the world.
+
+# This is the creator of this BO3 object
+Author: NLBlackEagle
+
+# A short description of this BO3 object
+Description: Bo3 Created by NLBlackEagle - For Dregora
+
+# The BO3 version, don't change this! It can be used by external applications to do a version check.
+Version: 3
+
+# The settings mode, WriteAll, WriteWithoutComments or WriteDisable. See WorldConfig.
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+# This needs to be set to true to spawn the object in the Tree and Sapling resources.
+# Ignored when IsOTGPlus:true.
+Tree: true
+
+# When IsOTGPlus is set to false: The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
+
+# When IsOTGPlus is set to true: This BO3 can only spawn at least Frequency chunks distance away from any other BO3 with the exact same name.
+# You can use this to make this BO3 spawn in groups or make sure that this BO3 only spawns once every X chunks.
+Frequency: 1
+
+# The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
+
+# Ignored when IsOTGPlus:true, rarity is configured via the CustomStructure tag in the biome config.
+Rarity: 10.0
+
+# If you set this to true, the BO3 will be placed with a random rotation.
+# Ignored when IsOTGPlus:true, this is broken for OTG+ atm, will fix this a.s.a.p.
+RotateRandomly: true
+
+# The spawn height of the BO3: randomY, highestBlock or highestSolidBlock.
+SpawnHeight: highestBlock
+
+# The offset from the spawn height to spawn this BO3
+# Ex. SpawnHeight = highestSolidBlock, SpawnHeightOffset = 3; This object will spawn 3 blocks above the highest solid block
+# Ignored when IsOTGPlus:true, use HeightOffset instead.
+SpawnHeightOffset: 0
+
+# A random amount to offset the spawn location from the spawn offset height
+# Ex. SpawnHeightOffset = 3, SpawnHeightVariance = 3; This object will spawn 3 to 6 blocks above the original spot it would have spawned
+# Ignored when IsOTGPlus:true.
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+# When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
+MinHeight: 0
+
+# When in randomY mode used as the maximum Y to spawn this BO3 at.
+MaxHeight: 256
+
+
+# Extrusion settings #
+
+
+# The style of extrusion you wish to use - BottomDown, TopUp, None (Default)
+# Ignored when IsOTGPlus:true.
+ExtrudeMode: None
+
+# The blocks to extrude your BO3 through
+# Ignored when IsOTGPlus:true.
+ExtrudeThroughBlocks: AIR
+
+# Objects can have other objects attacthed to it: branches. Branches can also
+# have branches attached to it, which can also have branches, etc. This is the
+# maximum branch depth for this objects.
+# Ignored when IsOTGPlus:true, branch depth is configured in the Branch() tag.
+MaxBranchDepth: 10
+
+# When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
+# If you write the BO3 name directly in the BiomeConfigs, this will be ignored.
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+# The B(s) the BO3 should spawn in.
+# Ignored when IsOTGPlus:true.
+SourceBlocks: AIR
+
+# The maximum percentage of the BO3 that can be outside the SourceBlock.
+# The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
+# Ignored when IsOTGPlus:true.
+MaxPercentageOutsideSourceBlock: 0
+
+# What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
+# Ignored when IsOTGPlus:true.
+OutsideSourceBlock: placeAnyway
+
+# OTG+ settings #
+# Set this to true to enable the advanced customstructure features of OTG+.
+IsOTGPlus: false
+
+# Copies the blocks and branches of an existing BO3 into this BO3. You can still add blocks and branches in this BO3, they will be added on top of the inherited blocks and branches.
+InheritBO3: 
+
+# Rotates the inheritedBO3's resources (blocks, spawners, checks etc) and branches, defaults to NORTH (no rotation).
+InheritBO3Rotation: NORTH
+
+# Defaults to true, if true and this is the starting BO3 for this branching structure then this BO3's smoothing and height settings are used for all children (branches).
+OverrideChildSettings: true
+
+# Defaults to false, if true then this branch uses it's own height settings (SpawnHeight, minHeight, maxHeight, spawnAtWaterLevel) instead of those defined in the starting BO3 for this branching structure.
+OverrideParentHeight: false
+
+# If this is set to true then this BO3 can spawn on top of or inside an existing BO3. If this is set to false then this BO3 will use a bounding box to detect collisions with other BO3's, if a collision is detected then this BO3 won't spawn and the current branch is rolled back.
+CanOverride: false
+
+# This branch can only spawn at least branchFrequency chunks (x,z) distance away from any other branch with the exact same name.
+BranchFrequency: 0
+
+# Define groups that this branch belongs to along with a minimum (x,z) range in chunks that this branch must have between it and any other members of this group if it is to be allowed to spawn. Syntax is "GroupName:Frequency, GoupName2:Frequency2" etc so for example a branch that belongs to 3 groups: "BranchFrequencyGroup: Ships:10, Vehicles:5, FloatingThings:3".
+BranchFrequencyGroup: 
+
+# If this is set to true then this BO3 can only spawn underneath an existing BO3. Used to make sure that dungeons only appear underneath buildings.
+MustBeBelowOther: false
+
+# Used with CanOverride: true. A comma-seperated list of BO3s, this BO3's bounding box must collide with one of the BO3's in the list or this BO3 fails to spawn and the current branch is rolled back.
+MustBeInside: 
+
+# Used with CanOverride: true. A comma-seperated list of BO3s, this BO3's bounding box cannot collide with any of the BO3's in the list or this BO3 fails to spawn and the current branch is rolled back.
+CannotBeInside: 
+
+# Used with CanOverride: true. A comma-seperated list of BO3s, if this BO3's bounding box collides with any of the BO3's in the list then those BO3's won't spawn any blocks. This does not remove or roll back any BO3's.
+ReplacesBO3: 
+
+# Defaults to true. Set to false if the BO3 is not allowed to spawn on a water block
+CanSpawnOnWater: true
+
+# Defaults to false. Set to true if the BO3 is allowed to spawn only on a water block
+SpawnOnWaterOnly: false
+
+# Defaults to false. Set to true if the BO3 and its smoothing area should ignore water when looking for the highest block to spawn on. Defaults to false (things spawn on top of water)
+SpawnUnderWater: false
+
+# Defaults to false. Set to true if the BO3 should spawn at water level
+SpawnAtWaterLevel: false
+
+# Spawns the BO3 at a Y offset of this value. Handy when using highestBlock for lowering BO3s into the surrounding terrain when there are layers of ground included in the BO3, also handy when using SpawnAtWaterLevel to lower objects like ships into the water.
+HeightOffset: 0
+
+# If set to true removes all AIR blocks from the BO3 so that it can be flooded or buried.
+RemoveAir: true
+
+# Replaces all the non-air blocks that are above this BO3 or its smoothing area with the given block material (should be WATER or AIR or NONE), also applies to smoothing areas although OTG intentionally leaves some of the terrain above them intact. WATER can be used in combination with SpawnUnderWater to fill any air blocks underneath waterlevel with water (and any above waterlevel with air).
+ReplaceAbove: 
+
+# Replaces all air blocks underneath the BO3 (but not its smoothing area) with the specified material until a solid block is found.
+ReplaceBelow: 
+
+# Defaults to true. If set to true then every block in the BO3 of the materials defined in ReplaceWithGroundBlock or ReplaceWithSurfaceBlock will be replaced by the GroundBlock or SurfaceBlock materials configured for the biome the block is spawned in.
+ReplaceWithBiomeBlocks: true
+
+# Defaults to DIRT, Replaces all the blocks of the given material in the BO3 with the GroundBlock configured for the biome it spawns in.
+ReplaceWithGroundBlock: DIRT
+
+# Defaults to GRASS, Replaces all the blocks of the given material in the BO3 with the SurfaceBlock configured for the biome it spawns in.
+ReplaceWithSurfaceBlock: GRASS
+
+# Makes the terrain around the BO3 slope evenly towards the edges of the BO3. The given value is the distance in blocks around the BO3 from where the slope should start and can be any positive number.
+SmoothRadius: 0
+
+# Moves the smoothing area up or down relative to the BO3 (at the points where the smoothing area is connected to the BO3). Handy when using SmoothStartTop: false and the BO3 has some layers of ground included, in that case we can set the HeightOffset to a negative value to lower the BO3 into the ground and we can set the SmoothHeightOffset to a positive value to move the smoothing area starting height up.
+SmoothHeightOffset: 0
+
+# Should the smoothing area be attached at the bottom or the top of the edges of the BO3? Defaults to false (bottom). Using this setting can make things slower so try to avoid using it and use SmoothHeightOffset instead if for instance you have a BO3 with some ground layers included. The only reason you should need to use this setting is if you have a BO3 with edges that have an irregular height (like some hills).
+SmoothStartTop: false
+
+# Should the smoothing area attach itself to "log" block or ignore them? Defaults to false (ignore logs).
+SmoothStartWood: false
+
+# The block used for smoothing area surface blocks, defaults to biome SurfaceBlock.
+SmoothingSurfaceBlock: 
+
+# The block used for smoothing area ground blocks, defaults to biome GroundBlock.
+SmoothingGroundBlock: 
+
+# Define groups that this BO3 belongs to along with a minimum range in chunks that this BO3 must have between it and any other members of this group if it is to be allowed to spawn. Syntax is "GroupName:Frequency, GoupName2:Frequency2" etc so for example a BO3 that belongs to 3 groups: "BO3Group: Ships:10, Vehicles:5, FloatingThings:3".
+BO3Group: 
+
+# Defaults to false. Set to true if this BO3 should spawn at the player spawn point. When the server starts the spawn point is determined and the BO3's for the biome it is in are loaded, one of these BO3s that has IsSpawnPoint set to true (if any) is selected randomly and is spawned at the spawn point regardless of its rarity (so even Rarity:0, IsSpawnPoint: true BO3's can get spawned as the spawn point!).
+IsSpawnPoint: false
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+# All the blocks used in the BO3 are listed here. Possible blocks:
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+#  So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+#  the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
+#  fails, a 100% percent chance to have the contents of anotherchest.nbt.
+# MinecraftObject(x,y,z,name) (TODO: This may not work anymore and needs to be tested.
+#  Spawns an object in the Mojang NBT structure format. For example, 
+#  MinecraftObject(0,0,0,igloo/igloo_bottom)
+#  spawns the bottom part of an igloo.
+B(-2,0,-1,LONG_GRASS:2)
+B(-2,0,0,LONG_GRASS:2)
+B(-2,0,1,LEAVES)
+B(-2,0,2,LONG_GRASS:2)
+B(-1,0,-2,LONG_GRASS:2)
+B(-1,0,-1,Leaves:6)
+B(-1,0,0,LEAVES)
+B(-1,0,1,LOG)
+B(-1,0,2,LEAVES)
+B(-1,1,0,LEAVES)
+B(-1,1,1,LEAVES)
+B(0,0,-2,LEAVES)
+B(0,0,-1,LOG)
+B(0,0,0,LOG)
+B(0,0,1,LOG)
+B(0,0,2,LEAVES)
+B(0,1,-1,LEAVES)
+B(0,1,0,LOG)
+B(0,1,1,LEAVES)
+B(0,2,0,LEAVES)
+B(1,0,-2,LONG_GRASS:2)
+B(1,0,-1,LEAVES)
+B(1,0,0,LEAVES)
+B(1,0,1,LOG)
+B(1,0,2,LEAVES)
+B(1,1,0,LEAVES)
+B(1,1,1,Leaves:6)
+B(2,0,-1,LONG_GRASS:2)
+B(2,0,0,Leaves:6)
+B(2,0,1,LOG)
+B(2,0,2,LEAVES)
+B(2,1,1,LEAVES)
+B(3,0,0,LONG_GRASS:2)
+B(3,0,1,LEAVES)
+
+BlockCheck(-2,1,-1,AIR)
+BlockCheck(-2,1,0,AIR)
+BlockCheck(-2,1,2,AIR)
+BlockCheck(-1,1,-2,AIR)
+BlockCheck(1,1,-2,AIR)
+BlockCheck(2,1,-1,AIR)
+BlockCheck(3,1,0,AIR)
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+# Ignored when IsOTGPlus:true.
+# Require a condition at a certain location in order for the BO3 to be spawned.
+# BlockCheck(x,y,z,BlockName[,BlockName[,...]]) - one of the blocks must be at the location
+# BlockCheckNot(x,y,z,BlockName[,BlockName[,...]]) - all the blocks must not be at the location
+# LightCheck(x,y,z,minLightLevel,maxLightLevel) - light must be between min and max (inclusive)
+
+# You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
+
+# Examples:
+#   BlockCheck(0,-1,0,GRASS,DIRT)  Require grass or dirt just below the object
+#   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
+#   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
+#   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
+#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+BlockCheck(0,-1,0,GRASS,DIRT)
+
+BlockCheckNot(-2,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(-2,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(-2,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(-2,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(3,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(3,-1,1,AIR,WATER,LAVA)
+
+BlockCheck(-2,-1,-1,DIRT,GRASS)
+BlockCheck(-2,-1,0,DIRT,GRASS)
+BlockCheck(-2,-1,2,DIRT,GRASS)
+BlockCheck(-1,-1,-2,DIRT,GRASS)
+BlockCheck(1,-1,-2,DIRT,GRASS)
+BlockCheck(2,-1,-1,DIRT,GRASS)
+BlockCheck(3,-1,0,DIRT,GRASS)

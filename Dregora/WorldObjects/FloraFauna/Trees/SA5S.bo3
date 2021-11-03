@@ -1,0 +1,141 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: Converted version of the BO2 SA5S
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 0
+
+MaxHeight: 199
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: 
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: AIR,GRASS,DIRT,SAND
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(2,8,0,Leaves:4)
+B(2,7,0,Leaves:4)
+B(-1,7,1,LOG:1)
+B(3,10,3,Leaves:4)
+B(0,2,0,LOG:12)
+B(-2,7,0,Leaves:4)
+B(0,3,0,log)
+B(1,8,-1,Leaves:4)
+B(-2,8,0,Leaves:4)
+B(-1,8,1,Leaves:4)
+B(1,5,-1,pumpkin:0)
+B(0,0,0,LOG:12)
+B(1,6,-1,LOG:1)
+B(0,1,0,LOG:12)
+B(0,6,0,log)
+B(2,9,2,Leaves:4)
+B(0,7,0,Leaves:4)
+B(0,4,0,log)
+B(-2,9,2,Leaves:4)
+B(0,5,0,log)
+B(-1,6,1,pumpkin:3)
+B(1,5,0,Leaves:4)
+B(0,9,-3,Leaves:4)
+B(1,6,0,Leaves:4)
+B(1,4,0,LOG:1)
+B(0,10,4,Leaves:4)
+B(-4,10,0,Leaves:4)
+B(-3,9,0,Leaves:4)
+B(4,10,0,Leaves:4)
+B(-1,5,0,LOG:1)
+B(-1,6,0,Leaves:4)
+B(3,9,0,Leaves:4)
+B(0,6,1,Leaves:4)
+B(0,5,1,LOG:1)
+B(0,9,3,Leaves:4)
+B(-3,10,3,Leaves:4)
+B(0,8,2,Leaves:4)
+B(0,7,2,Leaves:4)
+B(0,6,-1,Leaves:4)
+B(0,5,-1,LOG:1)
+B(1,7,1,Leaves:4)
+B(1,8,1,Leaves:4)
+B(3,10,-3,Leaves:4)
+B(0,7,-2,Leaves:4)
+B(0,8,-2,Leaves:4)
+B(0,10,-4,Leaves:4)
+B(2,9,-2,Leaves:4)
+B(-3,10,-3,Leaves:4)
+B(-1,8,-1,Leaves:4)
+B(-2,9,-2,Leaves:4)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(0,-1,0,grass,dirt)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

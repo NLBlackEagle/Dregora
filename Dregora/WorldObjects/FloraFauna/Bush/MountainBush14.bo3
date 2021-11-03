@@ -1,0 +1,160 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 10.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 0
+
+MaxHeight: 256
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-3,0,0,tallgrass:2)
+B(-2,0,-1,tallgrass:2)
+B(-2,0,0,Leaves:6)
+B(-2,0,1,tallgrass:2)
+B(-1,0,-2,tallgrass:2)
+B(-1,0,-1,leaves)
+B(-1,0,0,log)
+B(-1,0,1,leaves)
+B(-1,0,2,tallgrass:2)
+B(-1,1,0,leaves)
+B(0,0,-2,Leaves:6)
+B(0,0,-1,log)
+B(0,0,0,log)
+B(0,0,1,leaves)
+B(0,0,2,tallgrass:2)
+B(0,1,-1,leaves)
+B(0,1,0,log)
+B(0,1,1,leaves)
+B(0,2,0,Leaves:6)
+B(1,0,-2,tallgrass:2)
+B(1,0,-1,leaves)
+B(1,0,0,log)
+B(1,0,1,leaves)
+B(1,0,2,tallgrass:2)
+B(1,1,0,leaves)
+B(2,0,-2,tallgrass:2)
+B(2,0,-1,leaves)
+B(2,0,0,log)
+B(2,0,1,leaves)
+B(2,1,0,leaves)
+B(3,0,0,Leaves:6)
+B(3,0,1,tallgrass:2)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(0,-1,0,grass,dirt)
+
+BlockCheckNot(-3,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(-2,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(-2,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(-2,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(-1,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(0,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(1,-1,2,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,-2,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,-1,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(2,-1,1,AIR,WATER,LAVA)
+BlockCheckNot(3,-1,0,AIR,WATER,LAVA)
+BlockCheckNot(3,-1,1,AIR,WATER,LAVA)
+
+BlockCheck(-3,-1,0,GRASS,DIRT)
+BlockCheck(-2,-1,-1,GRASS,DIRT)
+BlockCheck(-2,-1,1,GRASS,DIRT)
+BlockCheck(-1,-1,-2,GRASS,DIRT)
+BlockCheck(-1,-1,2,GRASS,DIRT)
+BlockCheck(0,-1,2,GRASS,DIRT)
+BlockCheck(1,-1,-2,GRASS,DIRT)
+BlockCheck(1,-1,2,GRASS,DIRT)
+BlockCheck(2,-1,-2,GRASS,DIRT)
+BlockCheck(3,-1,1,GRASS,DIRT)
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

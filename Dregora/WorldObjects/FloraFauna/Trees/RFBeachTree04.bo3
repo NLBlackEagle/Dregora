@@ -1,0 +1,296 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 60
+
+MaxHeight: 256
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: AIR,GRASS,DIRT,SAND,stone,sand,grass,dirt
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: dontPlace
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-11,9,-6,leaves:3)
+B(-11,10,-6,leaves:3)
+B(-10,6,-6,leaves:3)
+B(-10,9,-2,leaves:3)
+B(-10,10,-10,leaves:3)
+B(-10,10,-6,leaves:3)
+B(-10,11,-9,leaves:3)
+B(-10,11,-6,leaves:3)
+B(-9,7,-9,leaves:3)
+B(-9,7,-6,leaves:3)
+B(-9,7,-3,leaves:3)
+B(-9,10,-5,leaves:3)
+B(-9,10,-3,leaves:3)
+B(-9,11,-6,leaves:3)
+B(-9,11,-3,leaves:3)
+B(-9,12,-9,leaves:3)
+B(-9,12,-6,leaves:3)
+B(-9,14,-3,leaves:3)
+B(-8,7,-6,leaves:3)
+B(-8,8,-8,leaves:3)
+B(-8,8,-4,leaves:3)
+B(-8,8,-3,leaves:3)
+B(-8,9,-8,leaves:3)
+B(-8,10,-6,leaves:3)
+B(-8,11,-7,leaves:3)
+B(-8,11,-6,leaves:3)
+B(-8,11,-4,leaves:3)
+B(-8,12,-8,leaves:3)
+B(-8,13,-4,leaves:3)
+B(-8,14,-6,leaves:3)
+B(-8,15,-8,leaves:3)
+B(-7,8,-6,leaves:3)
+B(-7,9,-7,leaves:3)
+B(-7,9,-6,leaves:3)
+B(-7,9,-4,leaves:3)
+B(-7,10,-7,leaves:3)
+B(-7,10,-6,leaves:3)
+B(-7,10,-5,leaves:3)
+B(-7,11,-8,leaves:3)
+B(-7,11,-6,leaves:3)
+B(-7,11,-5,leaves:3)
+B(-7,12,-6,leaves:3)
+B(-7,12,-5,leaves:3)
+B(-7,12,-4,leaves:3)
+B(-7,13,-8,leaves:3)
+B(-7,13,-7,leaves:3)
+B(-7,13,-6,leaves:3)
+B(-7,13,-5,leaves:3)
+B(-7,14,-7,leaves:3)
+B(-6,6,-6,spruce_stairs:4)
+B(-6,7,-9,leaves:3)
+B(-6,7,-6,LOG:15)
+B(-6,7,-3,leaves:3)
+B(-6,8,-9,leaves:3)
+B(-6,8,-8,leaves:3)
+B(-6,8,-6,LOG:15)
+B(-6,8,-4,leaves:3)
+B(-6,9,-7,leaves:3)
+B(-6,9,-6,LOG:15)
+B(-6,9,-5,leaves:3)
+B(-6,10,-9,leaves:3)
+B(-6,10,-8,leaves:3)
+B(-6,10,-7,leaves:3)
+B(-6,10,-6,leaves:3)
+B(-6,10,-5,leaves:3)
+B(-6,10,-4,leaves:3)
+B(-6,10,-2,leaves:3)
+B(-6,11,-8,leaves:3)
+B(-6,11,-7,leaves:3)
+B(-6,11,-6,leaves:3)
+B(-6,11,-5,leaves:3)
+B(-6,11,-3,leaves:3)
+B(-6,12,-8,leaves:3)
+B(-6,12,-7,leaves:3)
+B(-6,12,-6,leaves:3)
+B(-6,12,-5,leaves:3)
+B(-6,13,-7,leaves:3)
+B(-6,13,-6,leaves:3)
+B(-5,-4,0,LOG:15)
+B(-5,-3,0,LOG:15)
+B(-5,5,-6,LOG:15)
+B(-5,6,-6,LOG:15)
+B(-5,7,-6,wooden_slab:1)
+B(-5,8,-7,leaves:3)
+B(-5,8,-1,leaves:3)
+B(-5,9,-8,leaves:3)
+B(-5,9,-7,leaves:3)
+B(-5,9,-6,leaves:3)
+B(-5,9,-4,leaves:3)
+B(-5,9,-2,leaves:3)
+B(-5,10,-8,leaves:3)
+B(-5,10,-7,leaves:3)
+B(-5,10,-6,leaves:3)
+B(-5,10,-5,leaves:3)
+B(-5,11,-8,leaves:3)
+B(-5,11,-7,leaves:3)
+B(-5,11,-6,leaves:3)
+B(-5,12,-9,leaves:3)
+B(-5,12,-7,leaves:3)
+B(-5,12,-6,leaves:3)
+B(-5,13,-7,leaves:3)
+B(-5,13,-5,leaves:3)
+B(-5,14,-7,leaves:3)
+B(-5,14,-4,leaves:3)
+B(-4,-3,-6,LOG:15)
+B(-4,-3,0,LOG:15)
+B(-4,-2,-6,LOG:15)
+B(-4,-2,-5,LOG:15)
+B(-4,-2,0,LOG:15)
+B(-4,-1,0,LOG:15)
+B(-4,3,-5,wooden_slab:9)
+B(-4,4,-5,LOG:15)
+B(-4,5,-5,spruce_stairs:1)
+B(-4,7,-4,leaves:3)
+B(-4,8,-8,leaves:3)
+B(-4,8,-6,leaves:3)
+B(-4,8,-4,leaves:3)
+B(-4,9,-8,leaves:3)
+B(-4,10,-6,leaves:3)
+B(-4,11,-10,leaves:3)
+B(-4,11,-7,leaves:3)
+B(-4,11,-6,leaves:3)
+B(-4,11,-4,leaves:3)
+B(-4,12,-10,leaves:3)
+B(-4,13,-8,leaves:3)
+B(-4,15,-6,leaves:3)
+B(-3,-2,-5,LOG:15)
+B(-3,-2,-4,LOG:15)
+B(-3,-1,0,LOG:15)
+B(-3,2,-4,wooden_slab:9)
+B(-3,3,-4,LOG:15)
+B(-3,4,-4,wooden_slab:1)
+B(-3,6,-3,leaves:3)
+B(-3,7,-9,leaves:3)
+B(-3,7,-6,leaves:3)
+B(-3,10,-11,leaves:3)
+B(-3,10,-3,leaves:3)
+B(-3,11,-8,leaves:3)
+B(-3,11,-6,leaves:3)
+B(-3,11,-3,leaves:3)
+B(-2,-2,-4,LOG:15)
+B(-2,-1,-4,LOG:15)
+B(-2,-1,-1,LOG:15)
+B(-2,-1,0,LOG:15)
+B(-2,0,-1,LOG:15)
+B(-2,2,-3,spruce_stairs:6)
+B(-2,3,-3,LOG:15)
+B(-2,7,-6,leaves:3)
+B(-2,9,-9,leaves:3)
+B(-2,10,-8,leaves:3)
+B(-2,11,-5,leaves:3)
+B(-2,12,-5,leaves:3)
+B(-1,-2,-3,LOG:15)
+B(-1,-1,-4,LOG:15)
+B(-1,-1,-3,LOG:15)
+B(-1,-1,-2,LOG:15)
+B(-1,0,-1,LOG:15)
+B(-1,1,-2,spruce_stairs:6)
+B(-1,1,-1,spruce_STAIRS:0)
+B(-1,2,-2,LOG:15)
+B(-1,3,-2,wooden_slab:1)
+B(-1,9,-6,leaves:3)
+B(-1,10,-6,leaves:3)
+B(-1,11,-5,leaves:3)
+B(0,-4,-1,LOG:15)
+B(0,-4,1,LOG:15)
+B(0,-3,-1,LOG:15)
+B(0,-3,1,LOG:15)
+B(0,-2,-1,LOG:15)
+B(0,-2,0,LOG:15)
+B(0,-2,1,LOG:15)
+B(0,-1,-2,LOG:15)
+B(0,-1,-1,LOG:15)
+B(0,-1,0,LOG:15)
+B(0,-1,1,LOG:15)
+B(0,0,-2,LOG:15)
+B(0,0,-1,LOG:15)
+B(0,0,0,LOG:15)
+B(0,1,-2,LOG:15)
+B(0,1,-1,LOG:15)
+B(0,1,0,wooden_slab:1)
+B(0,2,-2,spruce_stairs:2)
+B(0,2,-1,wooden_slab:1)
+B(1,-3,-1,LOG:15)
+B(1,-2,-1,LOG:15)
+B(1,-1,-5,LOG:15)
+B(1,-1,-4,LOG:15)
+B(1,-1,-3,LOG:15)
+B(1,-1,-1,LOG:15)
+B(1,0,-3,LOG:15)
+B(1,0,-2,LOG:15)
+B(1,0,-1,LOG:15)
+B(1,1,-1,spruce_stairs:1)
+B(2,-4,-1,LOG:15)
+B(2,-3,-1,LOG:15)
+B(2,-2,-7,LOG:15)
+B(2,-2,-1,LOG:15)
+B(2,-1,-7,LOG:15)
+B(2,-1,-6,LOG:15)
+B(2,-1,-5,LOG:15)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(0,-1,0,sand)
+BlockCheckNot(-32,-3,32,water)
+BlockCheckNot(-32,-3,-32,water)
+BlockCheckNot(32,-3,-32,water)
+BlockCheckNot(32,-3,32,water)
+BlockCheckNot(-32,-3,32,water)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

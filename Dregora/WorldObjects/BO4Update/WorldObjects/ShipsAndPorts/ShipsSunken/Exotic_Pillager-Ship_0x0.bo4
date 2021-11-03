@@ -1,0 +1,130 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: true
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 256
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BranchFrequency: 2
+ReplaceWithBiomeBlocks: true
+ReplaceWithGroundBlock: DIRT
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+BO3Group: ExoticCaveShips:2
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(0,750,0,AIR)
+Block(15,750,15,AIR)
+Block(7,11,15,PLANKS:5)
+Block(7,12,14,PLANKS:5)
+Block(7,12,15,PLANKS:5)
+Block(7,13,13,STAINED_HARDENED_CLAY:9)
+Block(7,13,14,STAINED_HARDENED_CLAY:9)
+Block(6,13,15,STAINED_HARDENED_CLAY:9)
+Block(7,13,15,STAINED_HARDENED_CLAY:9)
+Block(8,13,15,STAINED_HARDENED_CLAY:9)
+Block(7,14,12,STAINED_HARDENED_CLAY:9)
+Block(6,14,13,WOODEN_SLAB:13)
+Block(7,14,13,STAINED_HARDENED_CLAY:9)
+Block(8,14,13,WOODEN_SLAB:13)
+Block(6,14,14,WOODEN_SLAB:13)
+Block(8,14,14,WOODEN_SLAB:13)
+Block(5,14,15,WOODEN_SLAB:13)
+Block(9,14,15,WOODEN_SLAB:13)
+Block(7,15,10,WOODEN_SLAB:13)
+Block(7,15,11,DARK_OAK_STAIRS:6)
+Block(7,15,12,STAINED_HARDENED_CLAY:9)
+Block(6,15,13,DARK_OAK_STAIRS:7)
+Block(7,15,13,STAINED_HARDENED_CLAY:9)
+Block(8,15,13,DARK_OAK_STAIRS:7)
+Block(6,15,14,WOODEN_SLAB:13)
+Block(8,15,14,WOODEN_SLAB:13)
+Block(5,15,15,WOODEN_SLAB:13)
+Block(9,15,15,WOODEN_SLAB:13)
+Block(7,16,11,DOUBLE_WOODEN_SLAB:5)
+Block(6,16,12,WOODEN_SLAB:5)
+Block(7,16,12,STAINED_HARDENED_CLAY:9)
+Block(8,16,12,WOODEN_SLAB:5)
+Block(7,16,13,STAINED_HARDENED_CLAY:9)
+Block(7,16,14,WOODEN_SLAB:9)
+Block(7,16,15,DOUBLE_WOODEN_SLAB:1)
+Block(7,17,11,DARK_OAK_STAIRS:3)
+Block(7,17,12,WOODEN_SLAB:9)
+Block(7,17,13,DOUBLE_WOODEN_SLAB:1)
+Block(7,17,14,DOUBLE_WOODEN_SLAB:1)
+Block(7,17,15,WOODEN_SLAB:1)
+Block(7,18,10,WOODEN_SLAB:9)
+Block(7,18,11,DOUBLE_WOODEN_SLAB:1)
+Block(7,18,12,DOUBLE_WOODEN_SLAB:1)
+Block(7,18,13,WOODEN_SLAB:1)
+Block(7,19,8,WOODEN_SLAB:9)
+Block(7,19,9,DOUBLE_WOODEN_SLAB:1)
+Block(7,19,10,DOUBLE_WOODEN_SLAB:1)
+Block(7,19,11,WOODEN_SLAB:1)
+Block(7,20,6,WOODEN_SLAB:9)
+Block(7,20,7,DOUBLE_WOODEN_SLAB:1)
+Block(7,20,8,DOUBLE_WOODEN_SLAB:1)
+Block(7,20,9,WOODEN_SLAB:1)
+Block(7,21,4,WOODEN_SLAB:9)
+Block(7,21,5,DOUBLE_WOODEN_SLAB:1)
+Block(7,21,6,DOUBLE_WOODEN_SLAB:1)
+Block(7,21,7,WOODEN_SLAB:1)
+Block(7,22,2,WOODEN_SLAB:9)
+Block(7,22,3,DOUBLE_WOODEN_SLAB:1)
+Block(7,22,4,DOUBLE_WOODEN_SLAB:1)
+Block(7,22,5,WOODEN_SLAB:1)
+

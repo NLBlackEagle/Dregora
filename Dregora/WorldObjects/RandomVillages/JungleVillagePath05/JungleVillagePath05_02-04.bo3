@@ -1,0 +1,429 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(1,-10,-7,WOOD:3)
+Block(1,-10,-6,WOOD:3)
+Block(1,-10,-5,WOOD:3)
+Block(1,-10,-4,WOOD:3)
+Block(0,-10,-3,LOG:3)
+Block(0,-10,-2,WOOD:3)
+Block(0,-10,-1,WOOD:3)
+Block(0,-10,0,WOOD:3)
+Block(0,-10,1,WOOD:3)
+Block(0,-10,2,WOOD:3)
+Block(0,-10,3,WOOD:3)
+Block(0,-10,4,WOOD:3)
+Block(1,-10,5,WOOD:3)
+Block(2,-10,6,WOOD:3)
+Block(2,-10,7,LOG:3)
+Block(2,-10,8,WOOD:3)
+Block(1,-9,-7,WOOD:3)
+Block(1,-9,-6,WOOD:3)
+Block(1,-9,-5,WOOD:3)
+Block(1,-9,-4,WOOD:3)
+Block(0,-9,-3,LOG:3)
+Block(0,-9,-2,WOOD:3)
+Block(0,-9,-1,WOOD:3)
+Block(0,-9,0,WOOD:3)
+Block(0,-9,1,WOOD:3)
+Block(0,-9,2,WOOD:3)
+Block(0,-9,3,WOOD:3)
+Block(0,-9,4,WOOD:3)
+Block(1,-9,5,WOOD:3)
+Block(2,-9,6,WOOD:3)
+Block(2,-9,7,LOG:3)
+Block(2,-9,8,WOOD:3)
+Block(1,-8,-7,WOOD:3)
+Block(1,-8,-6,WOOD:3)
+Block(1,-8,-5,WOOD:3)
+Block(1,-8,-4,WOOD:3)
+Block(0,-8,-3,LOG:3)
+Block(0,-8,-2,WOOD:3)
+Block(0,-8,-1,WOOD:3)
+Block(0,-8,0,WOOD:3)
+Block(0,-8,1,WOOD:3)
+Block(0,-8,2,WOOD:3)
+Block(0,-8,3,WOOD:3)
+Block(0,-8,4,WOOD:3)
+Block(1,-8,5,WOOD:3)
+Block(2,-8,6,WOOD:3)
+Block(2,-8,7,LOG:3)
+Block(2,-8,8,WOOD:3)
+Block(1,-7,-7,WOOD:3)
+Block(1,-7,-6,WOOD:3)
+Block(1,-7,-5,WOOD:3)
+Block(1,-7,-4,WOOD:3)
+Block(0,-7,-3,LOG:3)
+Block(0,-7,-2,WOOD:3)
+Block(0,-7,-1,WOOD:3)
+Block(0,-7,0,WOOD:3)
+Block(0,-7,1,WOOD:3)
+Block(0,-7,2,WOOD:3)
+Block(0,-7,3,WOOD:3)
+Block(0,-7,4,WOOD:3)
+Block(1,-7,5,WOOD:3)
+Block(2,-7,6,WOOD:3)
+Block(2,-7,7,LOG:3)
+Block(2,-7,8,WOOD:3)
+Block(1,-6,-7,WOOD:3)
+Block(1,-6,-6,WOOD:3)
+Block(1,-6,-5,WOOD:3)
+Block(1,-6,-4,WOOD:3)
+Block(0,-6,-3,LOG:3)
+Block(0,-6,-2,WOOD:3)
+Block(0,-6,-1,WOOD:3)
+Block(0,-6,0,WOOD:3)
+Block(0,-6,1,WOOD:3)
+Block(0,-6,2,WOOD:3)
+Block(0,-6,3,WOOD:3)
+Block(0,-6,4,WOOD:3)
+Block(1,-6,5,WOOD:3)
+Block(2,-6,6,WOOD:3)
+Block(2,-6,7,LOG:3)
+Block(2,-6,8,WOOD:3)
+Block(1,-5,-7,WOOD:3)
+Block(1,-5,-6,WOOD:3)
+Block(1,-5,-5,WOOD:3)
+Block(1,-5,-4,WOOD:3)
+Block(0,-5,-3,LOG:3)
+Block(0,-5,-2,WOOD:3)
+Block(0,-5,-1,WOOD:3)
+Block(0,-5,0,WOOD:3)
+Block(0,-5,1,WOOD:3)
+Block(0,-5,2,WOOD:3)
+Block(0,-5,3,WOOD:3)
+Block(0,-5,4,WOOD:3)
+Block(1,-5,5,WOOD:3)
+Block(2,-5,6,WOOD:3)
+Block(2,-5,7,LOG:3)
+Block(2,-5,8,WOOD:3)
+Block(1,-4,-7,WOOD:3)
+Block(1,-4,-6,WOOD:3)
+Block(1,-4,-5,WOOD:3)
+Block(1,-4,-4,WOOD:3)
+Block(0,-4,-3,LOG:3)
+Block(0,-4,-2,WOOD:3)
+Block(0,-4,-1,WOOD:3)
+Block(0,-4,0,WOOD:3)
+Block(0,-4,1,WOOD:3)
+Block(0,-4,2,WOOD:3)
+Block(0,-4,3,WOOD:3)
+Block(0,-4,4,WOOD:3)
+Block(1,-4,5,WOOD:3)
+Block(2,-4,6,WOOD:3)
+Block(2,-4,7,LOG:3)
+Block(2,-4,8,WOOD:3)
+Block(1,-3,-7,WOOD:3)
+Block(1,-3,-6,WOOD:3)
+Block(1,-3,-5,WOOD:3)
+Block(1,-3,-4,WOOD:3)
+Block(0,-3,-3,LOG:3)
+Block(0,-3,-2,WOOD:3)
+Block(0,-3,-1,WOOD:3)
+Block(0,-3,0,WOOD:3)
+Block(0,-3,1,WOOD:3)
+Block(0,-3,2,WOOD:3)
+Block(0,-3,3,WOOD:3)
+Block(0,-3,4,WOOD:3)
+Block(1,-3,5,WOOD:3)
+Block(2,-3,6,WOOD:3)
+Block(2,-3,7,LOG:3)
+Block(2,-3,8,WOOD:3)
+Block(1,-2,-7,WOOD:3)
+Block(1,-2,-6,WOOD:3)
+Block(1,-2,-5,WOOD:3)
+Block(1,-2,-4,WOOD:3)
+Block(0,-2,-3,LOG:3)
+Block(0,-2,-2,WOOD:3)
+Block(0,-2,-1,WOOD:3)
+Block(0,-2,0,WOOD:3)
+Block(0,-2,1,WOOD:3)
+Block(0,-2,2,WOOD:3)
+Block(0,-2,3,WOOD:3)
+Block(0,-2,4,WOOD:3)
+Block(1,-2,5,WOOD:3)
+Block(2,-2,6,WOOD:3)
+Block(2,-2,7,LOG:3)
+Block(2,-2,8,WOOD:3)
+Block(1,-1,-7,WOOD:3)
+Block(1,-1,-6,WOOD:3)
+Block(1,-1,-5,WOOD:3)
+Block(1,-1,-4,WOOD:3)
+Block(0,-1,-3,LOG:3)
+Block(0,-1,-2,WOOD:3)
+Block(0,-1,-1,WOOD:3)
+Block(0,-1,0,WOOD:3)
+Block(0,-1,1,WOOD:3)
+Block(0,-1,2,WOOD:3)
+Block(0,-1,3,WOOD:3)
+Block(0,-1,4,WOOD:3)
+Block(1,-1,5,WOOD:3)
+Block(2,-1,6,WOOD:3)
+Block(2,-1,7,LOG:3)
+Block(8,-1,7,GRASS_PATH)
+Block(2,-1,8,WOOD:3)
+Block(7,-1,8,GRASS_PATH)
+Block(8,-1,8,GRASS_PATH)
+Block(1,0,-7,WOOD:3)
+Block(1,0,-6,WOOD:3)
+Block(0,0,-5,SPRUCE_FENCE)
+Block(1,0,-5,WOOD:3)
+Block(0,0,-4,SPRUCE_FENCE)
+Block(1,0,-4,WOOD:3)
+Block(-1,0,-3,SPRUCE_FENCE)
+Block(0,0,-3,LOG:3)
+Block(0,0,-2,WOOD:3)
+Block(-1,0,-1,SPRUCE_FENCE)
+Block(0,0,-1,WOOD:3)
+Block(-1,0,0,SPRUCE_FENCE)
+Block(0,0,0,WOOD:3)
+Block(-1,0,1,SPRUCE_FENCE)
+Block(0,0,1,WOOD:3)
+Block(-1,0,2,SPRUCE_FENCE)
+Block(0,0,2,WOOD:3)
+Block(0,0,3,WOOD:3)
+Block(-1,0,4,SPRUCE_FENCE)
+Block(0,0,4,WOOD:3)
+Block(0,0,5,SPRUCE_FENCE)
+Block(1,0,5,WOOD:3)
+Block(0,0,6,SPRUCE_FENCE)
+Block(1,0,6,SPRUCE_FENCE)
+Block(2,0,6,WOOD:3)
+Block(1,0,7,SPRUCE_FENCE)
+Block(2,0,7,LOG:3)
+Block(1,0,8,SPRUCE_FENCE)
+Block(2,0,8,WOOD:3)
+Block(1,1,-7,WOOD:3)
+Block(1,1,-6,WOOD:3)
+Block(1,1,-5,WOOD:3)
+Block(0,1,-4,SPRUCE_FENCE)
+Block(1,1,-4,WOOD:3)
+Block(0,1,-3,LOG:3)
+Block(0,1,-2,WOOD:3)
+Block(0,1,-1,WOOD:3)
+Block(-1,1,0,SPRUCE_FENCE)
+Block(0,1,0,WOOD:3)
+Block(0,1,1,WOOD:3)
+Block(0,1,2,WOOD:3)
+Block(0,1,3,WOOD:3)
+Block(0,1,4,WOOD:3)
+Block(0,1,5,SPRUCE_FENCE)
+Block(1,1,5,WOOD:3)
+Block(1,1,6,SPRUCE_FENCE)
+Block(2,1,6,WOOD:3)
+Block(2,1,7,LOG:3)
+Block(2,1,8,WOOD:3)
+Block(1,2,-7,WOOD:3)
+Block(1,2,-6,WOOD:3)
+Block(1,2,-5,WOOD:3)
+Block(1,2,-4,WOOD:3)
+Block(0,2,-3,LOG:3)
+Block(0,2,-2,WOOD:3)
+Block(0,2,-1,WOOD:3)
+Block(0,2,0,WOOD:3)
+Block(0,2,2,WOOD:3)
+Block(0,2,3,WOOD:3)
+Block(0,2,4,WOOD:3)
+Block(0,2,5,SPRUCE_FENCE)
+Block(1,2,5,WOOD:3)
+Block(2,2,6,WOOD:3)
+Block(2,2,7,LOG:3)
+Block(2,2,8,WOOD:3)
+Block(1,3,-6,WOOD:3)
+Block(1,3,-5,WOOD:3)
+Block(1,3,-4,WOOD:3)
+Block(0,3,-3,LOG:3)
+Block(0,3,-2,WOOD:3)
+Block(0,3,-1,WOOD:3)
+Block(0,3,4,WOOD:3)
+Block(1,3,5,WOOD:3)
+Block(2,3,6,WOOD:3)
+Block(2,3,7,LOG:3)
+Block(2,3,8,WOOD:3)
+Block(1,4,-5,WOOD:3)
+Block(1,4,-4,WOOD:3)
+Block(0,4,-3,LOG:3)
+Block(2,4,7,LOG:3)
+Block(2,4,8,WOOD:3)
+RandomBlock(0,5,-3,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner01.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner02.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner03.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner04.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner05.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner06.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner07.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner08.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner09.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner10.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner11.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner12.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner13.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner14.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner15.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner16.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner17.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner18.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner19.nbt,8,STANDING_BANNER:5,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(2,5,7,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner01.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner02.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner03.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner04.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner05.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner06.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner07.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner08.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner09.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner10.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner11.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner12.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner13.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner14.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner15.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner16.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner17.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner18.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner19.nbt,8,STANDING_BANNER:4,../JungleNBT/banners/JungleBanner20.nbt,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0, JungleVillagePath05_01-04,NORTH,100.0)
+Branch(0,0,-16, JungleVillagePath05_02-03,NORTH,100.0)
+Branch(0,0,16, JungleVillagePath05_02-05,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

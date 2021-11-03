@@ -1,0 +1,1 @@
+{CustomName:cliffdweller,CustomNameVisible:0,Health:5,Attributes:[{Name:"generic.maxHealth",Base:10}],Age:-6000}

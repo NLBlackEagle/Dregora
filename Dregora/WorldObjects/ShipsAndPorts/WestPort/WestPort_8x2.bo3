@@ -1,0 +1,81 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(-8,0,-1,STONE:6)
+B(-8,1,-1,STONE:6)
+B(-8,2,-1,STONE:6)
+B(-8,3,-1,STONE:6)
+B(-8,4,-1,STONE:6)
+B(-8,5,-1,STONE:6)
+B(-8,6,-1,STONE:6)
+B(-8,7,-1,STONE:6)
+B(-8,8,-1,STONE:6)
+B(-8,9,-1,STONE:6)
+B(-8,10,-1,STONE:6)
+B(-8,11,-1,STONE:6)
+B(-8,12,-1,STONE:6)
+B(-8,13,-1,STONE:6)
+B(-8,14,-1,STONE:6)
+B(-8,15,-1,STONE:6)
+B(-8,16,-1,STONE:6)
+B(-8,17,-1,STONE:6)
+B(-8,18,-1,STONE:6)
+B(-8,19,-1,STONE:6)
+B(-8,20,-1,STONE:6)
+B(-8,21,-1,STONE:6)
+B(-8,22,-1,STONE:6)
+B(-8,23,-1,STONE:6)
+B(-8,24,-1,STONE:6)
+B(-8,25,-1,STONE:6)
+B(-8,26,-1,STONE:6)
+B(-8,27,-1,STONE:6)
+B(-8,28,-1,STONE:6)
+B(-8,29,-1,STONE:6)
+B(-8,30,-1,STONE:6)
+B(-8,31,-1,STONE:6)
+B(-8,32,-1,STONE:6)
+B(-8,33,-1,STONE:6)
+B(-8,34,-1,STONE:6)
+B(-8,35,-1,STONE:6)
+B(-8,36,-1,STONE:6)
+B(-8,37,-1,STONE:6)
+B(-8,38,-1,STONE:6)
+B(-8,39,-1,STONE:6)
+B(-8,40,-1,STONE:6)
+B(-8,41,-1,STONE:6)
+B(-8,42,-1,STONE:6)
+B(-8,43,-1,STONE:6)
+B(-8,44,-1,STONE:6)
+B(-8,45,-1,STONE:6)
+B(-8,46,-1,STONE:6)
+B(-8,47,-1,STONE:6)
+B(-8,48,-1,STONE:6)
+B(-8,49,-1,STONE:6)
+B(-8,50,-1,STONE_BRICK_STAIRS:2)
+B(-8,51,-1,STONE_BRICK_STAIRS:6)
+B(-8,52,-1,STONE:6)
+B(-8,53,-1,STONE_BRICK_STAIRS:2)
+B(-8,54,-1,STONE_SLAB:0)
+
+BR(-8,0,0,WestPort_7x2,NORTH,100)

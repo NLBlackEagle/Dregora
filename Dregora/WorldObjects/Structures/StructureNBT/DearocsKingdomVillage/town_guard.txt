@@ -1,0 +1,1 @@
+{Profession:5,CustomName:"\"Dearoc's Town Guard\"",CustomNameVisible:0,Health:50}
