@@ -1,0 +1,1 @@
+{CustomName:"Tribal Warrior",CustomNameVisible:0}

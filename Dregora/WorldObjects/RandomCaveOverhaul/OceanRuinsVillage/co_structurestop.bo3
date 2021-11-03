@@ -1,0 +1,27 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit - Bo3 Created by NLBlackEagle for Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: WATER,SAND,STONE,GRAVEL,CLAY,SANDSTONE,STATIONARY_WATER,AIR,159:15
+MaxPercentageOutsideSourceBlock: 40
+OutsideSourceBlock: placeAnyway
+
+BlockCheck(0,-1,0,Solid)
+
+

@@ -1,0 +1,1 @@
+{CustomName:"Eagle's Parrot",CustomNameVisible:0,Health:30,Attributes:[{Name:"generic.maxHealth",Base:30}],Age:-6000,ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647},{Id:10,Amplifier:0,Duration:2147483647},{Id:11,Amplifier:0,Duration:2147483647},{Id:12,Amplifier:0,Duration:2147483647},{Id:21,Amplifier:0,Duration:2147483647}]}

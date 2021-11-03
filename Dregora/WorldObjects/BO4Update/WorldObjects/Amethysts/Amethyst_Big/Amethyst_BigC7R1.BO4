@@ -1,0 +1,510 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,57,5,STONE:3)
+Block(-8,57,6,STONE:3)
+Block(-8,57,7,STONE:3)
+Block(-8,57,8,STONE:3)
+Block(-8,58,5,STONE:3)
+Block(-8,58,6,STONE:3)
+Block(-8,58,7,STONE:3)
+Block(-8,58,8,STONE:3)
+Block(-8,59,5,STONE:3)
+Block(-8,59,6,STONE:3)
+Block(-8,59,7,STONE:3)
+Block(-8,59,8,STONE:3)
+Block(-8,60,5,STONE:5)
+Block(-8,60,6,STONE:3)
+Block(-8,60,7,STONE:3)
+Block(-8,60,8,STONE:3)
+Block(-8,61,6,STONE:3)
+Block(-8,61,7,STONE:3)
+Block(-8,61,8,STONE:3)
+Block(-8,62,6,STONE:3)
+Block(-8,62,7,STONE:3)
+Block(-8,62,8,STONE:3)
+Block(-8,63,6,STONE:3)
+Block(-8,63,7,STONE:3)
+Block(-8,63,8,STONE:3)
+Block(-8,64,6,STONE:3)
+Block(-8,64,7,STONE:3)
+Block(-8,64,8,STONE:3)
+Block(-8,65,6,STONE:3)
+Block(-8,65,7,STONE:3)
+Block(-8,65,8,STONE:3)
+Block(-8,66,6,STONE:3)
+Block(-8,66,7,STONE:3)
+Block(-8,66,8,STONE:3)
+Block(-8,67,6,STONE:3)
+Block(-8,67,7,STONE:3)
+Block(-8,67,8,STONE:3)
+Block(-8,68,6,STONE:5)
+Block(-8,68,7,STONE:3)
+Block(-8,68,8,STONE:3)
+Block(-8,69,7,STONE:5)
+Block(-8,69,8,STONE:3)
+Block(-8,70,8,STONE:5)
+Block(-7,57,7,STONE:3)
+Block(-7,57,8,STONE:3)
+Block(-7,58,6,STONE:3)
+Block(-7,58,7,STONE:3)
+Block(-7,58,8,STONE:3)
+Block(-7,59,6,STONE:3)
+Block(-7,59,7,STONE:3)
+Block(-7,59,8,STONE:3)
+Block(-7,60,5,STONE:5)
+Block(-7,60,6,STONE:3)
+Block(-7,60,7,STONE:3)
+Block(-7,60,8,STONE:3)
+Block(-7,61,6,STONE:3)
+Block(-7,61,7,STONE:3)
+Block(-7,61,8,STONE:3)
+Block(-7,62,6,STONE:3)
+Block(-7,62,7,STONE:3)
+Block(-7,62,8,STONE:3)
+Block(-7,63,6,STONE:3)
+Block(-7,63,7,STONE:3)
+Block(-7,63,8,STONE:3)
+Block(-7,64,6,STONE:3)
+Block(-7,64,7,STONE:3)
+Block(-7,64,8,STONE:3)
+Block(-7,65,6,STONE:3)
+Block(-7,65,7,STONE:3)
+Block(-7,65,8,STONE:3)
+Block(-7,66,6,STONE:3)
+Block(-7,66,7,STONE:3)
+Block(-7,66,8,STONE:3)
+Block(-7,67,6,STONE:3)
+Block(-7,67,7,STONE:3)
+Block(-7,67,8,STONE:3)
+Block(-7,68,6,STONE:5)
+Block(-7,68,7,STONE:3)
+Block(-7,68,8,STONE:3)
+Block(-7,69,7,STONE:5)
+Block(-7,69,8,STONE:3)
+Block(-7,70,8,STONE:5)
+Block(-6,57,8,STONE:3)
+Block(-6,58,7,STONE:3)
+Block(-6,58,8,STONE:3)
+Block(-6,59,7,STONE:3)
+Block(-6,59,8,STONE:3)
+Block(-6,60,6,STONE:3)
+Block(-6,60,7,STONE:3)
+Block(-6,60,8,STONE:3)
+Block(-6,61,6,STONE:3)
+Block(-6,61,7,STONE:3)
+Block(-6,61,8,STONE:3)
+Block(-6,62,6,STONE:3)
+Block(-6,62,7,STONE:3)
+Block(-6,62,8,STONE:3)
+Block(-6,63,6,STONE:3)
+Block(-6,63,7,STONE:3)
+Block(-6,63,8,STONE:3)
+Block(-6,64,6,STONE:3)
+Block(-6,64,7,STONE:3)
+Block(-6,64,8,STONE:3)
+Block(-6,65,6,STONE:3)
+Block(-6,65,7,STONE:3)
+Block(-6,65,8,STONE:3)
+Block(-6,66,6,STONE:3)
+Block(-6,66,7,STONE:3)
+Block(-6,66,8,STONE:3)
+Block(-6,67,6,STONE:3)
+Block(-6,67,7,STONE:3)
+Block(-6,67,8,STONE:3)
+Block(-6,68,6,STONE:3)
+Block(-6,68,7,STONE:3)
+Block(-6,68,8,STONE:3)
+Block(-6,69,6,STONE:3)
+Block(-6,69,7,STONE:3)
+Block(-6,69,8,STONE:3)
+Block(-6,70,6,STONE:5)
+Block(-6,70,7,STONE:3)
+Block(-6,70,8,STONE:3)
+Block(-6,71,7,STONE:5)
+Block(-6,71,8,STONE:3)
+Block(-6,72,8,STONE:5)
+Block(-5,58,8,STONE:3)
+Block(-5,59,8,STONE:3)
+Block(-5,60,6,STONE:3)
+Block(-5,60,7,STONE:3)
+Block(-5,60,8,STONE:3)
+Block(-5,61,5,STONE:5)
+Block(-5,61,6,STONE:3)
+Block(-5,61,7,STONE:3)
+Block(-5,61,8,STONE:3)
+Block(-5,62,6,STONE:3)
+Block(-5,62,7,STONE:3)
+Block(-5,62,8,STONE:3)
+Block(-5,63,6,STONE:3)
+Block(-5,63,7,STONE:3)
+Block(-5,63,8,STONE:3)
+Block(-5,64,6,STONE:3)
+Block(-5,64,7,STONE:3)
+Block(-5,64,8,STONE:3)
+Block(-5,65,6,STONE:3)
+Block(-5,65,7,STONE:3)
+Block(-5,65,8,STONE:3)
+Block(-5,66,6,STONE:3)
+Block(-5,66,7,STONE:3)
+Block(-5,66,8,STONE:3)
+Block(-5,67,6,STONE:3)
+Block(-5,67,7,STONE:3)
+Block(-5,67,8,STONE:3)
+Block(-5,68,6,STONE:3)
+Block(-5,68,7,STONE:3)
+Block(-5,68,8,STONE:3)
+Block(-5,69,6,STONE:3)
+Block(-5,69,7,STONE:3)
+Block(-5,69,8,STONE:3)
+Block(-5,70,6,STONE:5)
+Block(-5,70,7,STONE:3)
+Block(-5,70,8,STONE:3)
+Block(-5,71,7,STONE:3)
+Block(-5,71,8,OBSIDIAN:0)
+Block(-5,72,7,STONE:5)
+Block(-5,72,8,STONE:3)
+Block(-5,73,8,STONE:5)
+Block(-4,59,7,STONE:3)
+Block(-4,59,8,STONE:3)
+Block(-4,60,6,STONE:3)
+Block(-4,60,7,STONE:3)
+Block(-4,60,8,STONE:3)
+Block(-4,61,5,STONE:5)
+Block(-4,61,6,STONE:3)
+Block(-4,61,7,STONE:3)
+Block(-4,61,8,STONE:3)
+Block(-4,62,6,STONE:3)
+Block(-4,62,7,STONE:3)
+Block(-4,62,8,STONE:3)
+Block(-4,63,6,STONE:3)
+Block(-4,63,7,STONE:3)
+Block(-4,63,8,STONE:3)
+Block(-4,64,6,STONE:3)
+Block(-4,64,7,STONE:3)
+Block(-4,64,8,STONE:3)
+Block(-4,65,6,STONE:3)
+Block(-4,65,7,STONE:3)
+Block(-4,65,8,STONE:3)
+Block(-4,66,6,STONE:3)
+Block(-4,66,7,STONE:3)
+Block(-4,66,8,STONE:3)
+Block(-4,67,6,STONE:3)
+Block(-4,67,7,STONE:3)
+Block(-4,67,8,STONE:3)
+Block(-4,68,6,STONE:3)
+Block(-4,68,7,STONE:3)
+Block(-4,68,8,STONE:3)
+Block(-4,69,6,STONE:3)
+Block(-4,69,7,STONE:3)
+Block(-4,69,8,STONE:3)
+Block(-4,70,6,STONE:3)
+Block(-4,70,7,STONE:3)
+Block(-4,70,8,STONE:3)
+Block(-4,71,6,STONE:5)
+Block(-4,71,7,STONE:3)
+Block(-4,71,8,OBSIDIAN:0)
+Block(-4,72,7,STONE:5)
+Block(-4,72,8,STONE:3)
+Block(-4,73,8,STONE:5)
+Block(-3,60,8,STONE:3)
+Block(-3,61,6,STONE:3)
+Block(-3,61,7,STONE:3)
+Block(-3,61,8,STONE:3)
+Block(-3,62,6,STONE:3)
+Block(-3,62,7,STONE:3)
+Block(-3,62,8,STONE:3)
+Block(-3,63,6,STONE:3)
+Block(-3,63,7,STONE:3)
+Block(-3,63,8,STONE:3)
+Block(-3,64,6,STONE:3)
+Block(-3,64,7,STONE:3)
+Block(-3,64,8,STONE:3)
+Block(-3,65,6,STONE:3)
+Block(-3,65,7,STONE:3)
+Block(-3,65,8,STONE:3)
+Block(-3,66,6,STONE:3)
+Block(-3,66,7,STONE:3)
+Block(-3,66,8,STONE:3)
+Block(-3,67,6,STONE:3)
+Block(-3,67,7,STONE:3)
+Block(-3,67,8,STONE:3)
+Block(-3,68,6,STONE:3)
+Block(-3,68,7,STONE:3)
+Block(-3,68,8,STONE:3)
+Block(-3,69,6,STONE:3)
+Block(-3,69,7,STONE:3)
+Block(-3,69,8,STONE:3)
+Block(-3,70,6,STONE:5)
+Block(-3,70,7,STONE:3)
+Block(-3,70,8,STONE:3)
+Block(-3,71,7,STONE:3)
+Block(-3,71,8,STONE:3)
+Block(-3,72,7,STONE:5)
+Block(-3,72,8,STONE:3)
+Block(-3,73,8,STONE:5)
+Block(-2,61,7,STONE:3)
+Block(-2,61,8,STONE:3)
+Block(-2,62,7,STONE:3)
+Block(-2,62,8,STONE:3)
+Block(-2,63,6,STONE:3)
+Block(-2,63,7,STONE:3)
+Block(-2,63,8,STONE:3)
+Block(-2,64,6,STONE:3)
+Block(-2,64,7,STONE:3)
+Block(-2,64,8,STONE:3)
+Block(-2,65,6,STONE:3)
+Block(-2,65,7,STONE:3)
+Block(-2,65,8,STONE:3)
+Block(-2,66,6,STONE:3)
+Block(-2,66,7,STONE:3)
+Block(-2,66,8,STONE:3)
+Block(-2,67,6,STONE:3)
+Block(-2,67,7,STONE:3)
+Block(-2,67,8,STONE:3)
+Block(-2,68,6,STONE:3)
+Block(-2,68,7,STONE:3)
+Block(-2,68,8,STONE:3)
+Block(-2,69,6,STONE:3)
+Block(-2,69,7,STONE:3)
+Block(-2,69,8,STONE:3)
+Block(-2,70,6,STONE:5)
+Block(-2,70,7,STONE:3)
+Block(-2,70,8,STONE:3)
+Block(-2,71,7,STONE:5)
+Block(-2,71,8,STONE:3)
+Block(-2,72,8,STONE:5)
+Block(-1,61,8,STONE:3)
+Block(-1,62,8,STONE:3)
+Block(-1,63,7,STONE:3)
+Block(-1,63,8,STONE:3)
+Block(-1,64,7,STONE:3)
+Block(-1,64,8,STONE:3)
+Block(-1,65,6,STONE:3)
+Block(-1,65,7,STONE:3)
+Block(-1,65,8,STONE:3)
+Block(-1,66,6,STONE:3)
+Block(-1,66,7,STONE:3)
+Block(-1,66,8,STONE:3)
+Block(-1,67,6,STONE:3)
+Block(-1,67,7,STONE:3)
+Block(-1,67,8,STONE:3)
+Block(-1,68,6,STONE:3)
+Block(-1,68,7,STONE:3)
+Block(-1,68,8,STONE:3)
+Block(-1,69,6,STONE:3)
+Block(-1,69,7,STONE:3)
+Block(-1,69,8,STONE:3)
+Block(-1,70,6,STONE:5)
+Block(-1,70,7,STONE:3)
+Block(-1,70,8,STONE:3)
+Block(-1,71,7,STONE:3)
+Block(-1,71,8,STONE:3)
+Block(-1,72,7,STONE:5)
+Block(-1,72,8,STONE:3)
+Block(-1,73,8,STONE:5)
+Block(0,63,8,STONE:3)
+Block(0,64,7,STONE:3)
+Block(0,64,8,STONE:3)
+Block(0,65,7,STONE:3)
+Block(0,65,8,STONE:3)
+Block(0,66,6,STONE:3)
+Block(0,66,7,STONE:3)
+Block(0,66,8,STONE:3)
+Block(0,67,6,STONE:3)
+Block(0,67,7,STONE:3)
+Block(0,67,8,STONE:3)
+Block(0,68,6,STONE:3)
+Block(0,68,7,STONE:3)
+Block(0,68,8,STONE:3)
+Block(0,69,6,STONE:3)
+Block(0,69,7,STONE:3)
+Block(0,69,8,STONE:3)
+Block(0,70,6,STONE:5)
+Block(0,70,7,STONE:3)
+Block(0,70,8,STONE:3)
+Block(0,71,7,STONE:3)
+Block(0,71,8,OBSIDIAN:0)
+Block(0,72,7,STONE:5)
+Block(0,72,8,STONE:3)
+Block(0,73,8,STONE:5)
+Block(1,63,8,STONE:3)
+Block(1,64,7,STONE:3)
+Block(1,64,8,STONE:3)
+Block(1,65,7,STONE:3)
+Block(1,65,8,STONE:3)
+Block(1,66,7,STONE:3)
+Block(1,66,8,STONE:3)
+Block(1,67,6,STONE:3)
+Block(1,67,7,STONE:3)
+Block(1,67,8,STONE:3)
+Block(1,68,6,STONE:3)
+Block(1,68,7,STONE:3)
+Block(1,68,8,STONE:3)
+Block(1,69,6,STONE:3)
+Block(1,69,7,STONE:3)
+Block(1,69,8,STONE:3)
+Block(1,70,6,STONE:5)
+Block(1,70,7,STONE:5)
+Block(1,70,8,STONE:3)
+Block(1,71,8,STONE:5)
+Block(2,63,8,STONE:3)
+Block(2,64,8,STONE:3)
+Block(2,65,7,STONE:3)
+Block(2,65,8,STONE:3)
+Block(2,66,7,STONE:3)
+Block(2,66,8,STONE:3)
+Block(2,67,6,STONE:3)
+Block(2,67,7,STONE:3)
+Block(2,67,8,STONE:3)
+Block(2,68,8,STONE:3)
+Block(2,69,6,STONE:5)
+Block(2,69,7,STONE:5)
+Block(2,69,8,STONE:3)
+Block(2,70,8,STONE:5)
+Block(3,66,8,STONE:3)
+Block(3,67,8,STONE:3)
+Block(3,68,8,STONE:5)
+Block(4,66,8,STONE:3)
+Block(4,68,8,STONE:3)
+Block(4,69,8,STONE:5)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,Amethyst_BigC6R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

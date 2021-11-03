@@ -1,0 +1,198 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: true
+
+Frequency: 100
+
+Rarity: 30.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 70
+
+MaxHeight: 80
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-10,0,-1,log:7)
+B(-10,1,-2,log:7)
+B(-10,1,-1,log:7)
+B(-10,1,0,log:7)
+B(-10,1,1,log:7)
+B(-10,2,-1,log:3)
+B(-10,2,0,log:7)
+B(-10,2,1,log:3)
+B(-10,3,0,log:3)
+B(-10,3,1,log:7)
+B(-9,1,-2,Leaves:7)
+B(-9,1,-1,log:7)
+B(-9,1,0,log:7)
+B(-9,1,1,Leaves:7)
+B(-9,2,-1,log:7)
+B(-9,2,0,log:7)
+B(-9,2,1,log:7)
+B(-9,3,0,log:7)
+B(-8,1,-2,Leaves:7)
+B(-8,1,-1,log:7)
+B(-8,1,0,log:7)
+B(-8,1,1,Leaves:7)
+B(-8,2,0,log:7)
+B(-8,2,1,log:7)
+B(-8,3,0,log:3)
+B(-7,1,-2,Leaves:7)
+B(-7,1,-1,log:7)
+B(-7,1,0,log:7)
+B(-7,1,1,Leaves:7)
+B(-7,2,0,log:7)
+B(-7,2,1,log:7)
+B(-6,1,-2,Leaves:7)
+B(-6,1,-1,log:7)
+B(-6,1,0,log:7)
+B(-6,2,0,log:7)
+B(-6,2,1,log:7)
+B(-6,3,1,Leaves:7)
+B(-5,1,-1,log:7)
+B(-5,1,0,log:7)
+B(-5,2,-1,Leaves:7)
+B(-5,2,0,log:7)
+B(-5,2,1,log:7)
+B(-5,3,1,Leaves:7)
+B(-4,1,-1,log:7)
+B(-4,1,0,log:7)
+B(-4,2,-1,Leaves:7)
+B(-4,2,0,log:7)
+B(-4,2,1,log:7)
+B(-4,3,1,Leaves:7)
+B(-3,1,-1,log:7)
+B(-3,1,0,log:7)
+B(-3,2,0,log:7)
+B(-3,2,1,Leaves:7)
+B(-2,1,-1,log:7)
+B(-2,1,0,log:7)
+B(-2,2,-1,Leaves:7)
+B(-2,2,0,log:7)
+B(-2,2,1,Leaves:7)
+B(-1,1,-1,log:7)
+B(-1,1,0,log:7)
+B(-1,2,-1,Leaves:7)
+B(0,1,0,log:7)
+B(1,1,0,log:7)
+B(2,1,0,log:7)
+B(2,2,0,Leaves:7)
+B(3,0,0,log:7)
+B(3,1,-1,Leaves:7)
+B(3,1,0,log:7)
+B(3,2,0,Leaves:7)
+B(4,0,0,log:7)
+B(4,1,-1,Leaves:7)
+B(4,1,0,log:7)
+B(4,1,2,Leaves:7)
+B(4,2,0,Leaves:7)
+B(5,0,0,log:7)
+B(5,1,-1,Leaves:7)
+B(5,1,0,log:7)
+B(5,1,1,log:7)
+B(5,1,2,Leaves:7)
+B(6,0,0,log:7)
+B(6,0,1,Leaves:7)
+B(6,1,-1,Leaves:7)
+B(6,1,0,log:7)
+B(6,1,1,log:7)
+B(6,1,2,Leaves:7)
+B(7,0,0,log:7)
+B(7,1,0,log:7)
+B(7,1,1,log:7)
+B(7,1,2,Leaves:7)
+B(8,0,0,log:7)
+B(8,0,1,Leaves:7)
+B(8,1,0,log:7)
+B(8,1,1,log:7)
+B(9,0,-2,grass)
+B(9,0,0,log:7)
+B(9,1,0,log:7)
+B(9,1,1,log:7)
+B(10,0,-2,dirt)
+B(10,0,-1,grass)
+B(10,0,0,dirt)
+B(10,0,1,grass)
+B(10,0,2,Leaves:7)
+B(10,1,-2,grass)
+B(10,1,0,log:7)
+B(10,1,1,Leaves:4)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(-10,-1,-1,grass,dirt,stone)
+BlockCheck(0,-1,0,air)
+BlockCheck(10,-1,1,grass,dirt,stone)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

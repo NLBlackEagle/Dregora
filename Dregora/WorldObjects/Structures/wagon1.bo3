@@ -1,0 +1,131 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 2.5
+
+RotateRandomly: true
+
+SpawnHeight: highestBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 0
+
+MaxHeight: 256
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-2,0,0,dark_oak_stairs:6)
+B(-2,0,1,dark_oak_stairs:7)
+B(-2,1,0,dark_oak_stairs:2)
+B(-2,1,1,dark_oak_STAIRS:0)
+B(-1,0,-4,spruce_stairs:0)
+B(-1,0,-3,wooden_slab:1)
+B(-1,0,-2,wooden_slab:9)
+B(-1,0,0,wooden_slab:9)
+B(-1,1,-1,wooden_slab:1)
+B(-1,1,0,double_wooden_slab:1)
+B(-1,1,1,double_wooden_slab:1)
+B(-1,1,2,double_wooden_slab:1)
+B(-1,2,1,wooden_slab:1)
+B(-1,2,2,wooden_slab:1)
+B(0,0,-4,wooden_slab:9)
+B(0,0,0,wooden_slab:9)
+B(0,0,1,wooden_slab:9)
+B(0,1,-4,dark_oak_fence)
+B(0,1,-1,wooden_slab:1)
+B(0,1,0,hay_block:4)
+B(0,1,1,hay_block)
+B(0,1,2,wooden_slab:1)
+B(0,1,3,spruce_stairs:7)
+B(0,2,1,hay_block)
+B(0,2,2,hay_block:8)
+B(0,2,3,dark_oak_fence)
+B(1,0,-4,spruce_stairs:1)
+B(1,0,-3,wooden_slab:1)
+B(1,0,-2,wooden_slab:9)
+B(1,0,0,wooden_slab:9)
+B(1,1,-1,wooden_slab:1)
+B(1,1,0,double_wooden_slab:1)
+B(1,1,1,double_wooden_slab:1)
+B(1,1,2,double_wooden_slab:1)
+B(1,2,1,wooden_slab:1)
+B(1,2,2,wooden_slab:1)
+B(2,0,0,dark_oak_stairs:6)
+B(2,0,1,dark_oak_stairs:7)
+B(2,1,0,dark_oak_stairs:2)
+B(2,1,1,dark_oak_STAIRS:0)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(0,-1,0,grass,dirt,farmland)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

@@ -1,0 +1,265 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,62,8,STONE:3)
+Block(-8,63,7,STONE:3)
+Block(-8,63,8,STONE:3)
+Block(-8,64,6,STONE:3)
+Block(-8,64,7,STONE:3)
+Block(-8,64,8,STONE:3)
+Block(-8,65,6,STONE:3)
+Block(-8,65,7,STONE:3)
+Block(-8,65,8,STONE:3)
+Block(-8,66,5,STONE:3)
+Block(-8,66,6,STONE:3)
+Block(-8,66,7,STONE:3)
+Block(-8,66,8,STONE:3)
+Block(-8,67,5,STONE:3)
+Block(-8,67,6,STONE:3)
+Block(-8,67,7,STONE:3)
+Block(-8,67,8,STONE:3)
+Block(-8,68,5,STONE:3)
+Block(-8,68,6,STONE:3)
+Block(-8,68,7,STONE:3)
+Block(-8,68,8,STONE:3)
+Block(-8,69,4,STONE:3)
+Block(-8,69,5,STONE:3)
+Block(-8,69,6,STONE:3)
+Block(-8,69,7,STONE:3)
+Block(-8,69,8,OBSIDIAN:0)
+Block(-8,70,5,STONE:3)
+Block(-8,70,6,OBSIDIAN:0)
+Block(-8,70,7,OBSIDIAN:0)
+Block(-8,70,8,OBSIDIAN:0)
+Block(-8,71,5,OBSIDIAN:0)
+Block(-8,71,6,OBSIDIAN:0)
+Block(-8,71,7,OBSIDIAN:0)
+Block(-8,71,8,OBSIDIAN:0)
+Block(-8,72,5,OBSIDIAN:0)
+Block(-8,72,6,OBSIDIAN:0)
+Block(-8,72,7,OBSIDIAN:0)
+Block(-8,72,8,OBSIDIAN:0)
+Block(-8,73,6,OBSIDIAN:0)
+Block(-8,73,7,MAGMA:0)
+Block(-8,73,8,MAGMA:0)
+Block(-8,74,7,MAGMA:0)
+Block(-8,74,8,MAGMA:0)
+Block(-8,75,8,MAGMA:0)
+Block(-7,63,8,STONE:3)
+Block(-7,64,7,STONE:3)
+Block(-7,64,8,STONE:3)
+Block(-7,65,6,STONE:3)
+Block(-7,65,7,STONE:3)
+Block(-7,65,8,STONE:3)
+Block(-7,66,6,STONE:3)
+Block(-7,66,7,STONE:3)
+Block(-7,66,8,STONE:3)
+Block(-7,67,6,STONE:3)
+Block(-7,67,7,STONE:3)
+Block(-7,67,8,STONE:3)
+Block(-7,68,6,STONE:3)
+Block(-7,68,7,STONE:3)
+Block(-7,68,8,STONE:3)
+Block(-7,69,5,STONE:3)
+Block(-7,69,6,STONE:3)
+Block(-7,69,7,OBSIDIAN:0)
+Block(-7,69,8,OBSIDIAN:0)
+Block(-7,70,5,STONE:3)
+Block(-7,70,6,OBSIDIAN:0)
+Block(-7,70,7,OBSIDIAN:0)
+Block(-7,70,8,OBSIDIAN:0)
+Block(-7,71,6,OBSIDIAN:0)
+Block(-7,71,7,OBSIDIAN:0)
+Block(-7,71,8,OBSIDIAN:0)
+Block(-7,72,6,OBSIDIAN:0)
+Block(-7,72,7,OBSIDIAN:0)
+Block(-7,72,8,OBSIDIAN:0)
+Block(-7,73,7,MAGMA:0)
+Block(-7,73,8,MAGMA:0)
+Block(-7,74,8,MAGMA:0)
+Block(-7,75,8,MAGMA:0)
+Block(-6,64,8,STONE:3)
+Block(-6,65,7,STONE:3)
+Block(-6,65,8,STONE:3)
+Block(-6,66,6,STONE:3)
+Block(-6,66,7,STONE:3)
+Block(-6,66,8,STONE:3)
+Block(-6,67,6,STONE:3)
+Block(-6,67,7,STONE:3)
+Block(-6,67,8,STONE:3)
+Block(-6,68,6,STONE:3)
+Block(-6,68,7,STONE:3)
+Block(-6,68,8,STONE:3)
+Block(-6,69,6,STONE:3)
+Block(-6,69,7,OBSIDIAN:0)
+Block(-6,69,8,OBSIDIAN:0)
+Block(-6,70,6,OBSIDIAN:0)
+Block(-6,70,7,OBSIDIAN:0)
+Block(-6,70,8,OBSIDIAN:0)
+Block(-6,71,6,OBSIDIAN:0)
+Block(-6,71,7,OBSIDIAN:0)
+Block(-6,71,8,OBSIDIAN:0)
+Block(-6,72,7,OBSIDIAN:0)
+Block(-6,72,8,OBSIDIAN:0)
+Block(-6,73,8,MAGMA:0)
+Block(-6,74,8,MAGMA:0)
+Block(-5,65,8,STONE:3)
+Block(-5,66,7,STONE:3)
+Block(-5,66,8,STONE:3)
+Block(-5,67,7,STONE:3)
+Block(-5,67,8,STONE:3)
+Block(-5,68,6,STONE:3)
+Block(-5,68,7,STONE:3)
+Block(-5,68,8,STONE:3)
+Block(-5,69,6,STONE:3)
+Block(-5,69,7,OBSIDIAN:0)
+Block(-5,69,8,OBSIDIAN:0)
+Block(-5,70,7,OBSIDIAN:0)
+Block(-5,70,8,OBSIDIAN:0)
+Block(-5,71,8,OBSIDIAN:0)
+Block(-5,72,7,OBSIDIAN:0)
+Block(-5,72,8,MAGMA:0)
+Block(-5,73,8,MAGMA:0)
+Block(-5,74,8,MAGMA:0)
+Block(-4,72,8,MAGMA:0)
+Block(-4,73,8,MAGMA:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,Amethyst_BigC9R2,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

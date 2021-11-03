@@ -1,0 +1,254 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 50
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-3,-1,-4,GRASS)
+Block(-2,-1,-4,GRASS)
+Block(-3,-1,-3,GRASS)
+Block(-2,-1,-3,GRASS)
+Block(-1,-1,-3,GRASS)
+Block(0,-1,-3,GRASS)
+Block(-4,-1,-2,GRASS)
+Block(-3,-1,-2,GRASS)
+Block(-2,-1,-2,DIRT)
+Block(-1,-1,-2,GRASS)
+Block(0,-1,-2,GRASS)
+Block(1,-1,-2,GRASS)
+Block(-4,-1,-1,GRASS)
+Block(-3,-1,-1,GRASS)
+Block(-2,-1,-1,GRASS)
+RandomBlock(-1,-1,-1,SMOOTH_BRICK:1,10,SMOOTH_BRICK:2,10,COBBLESTONE,10,MOSSY_COBBLESTONE,10,SMOOTH_BRICK,100)
+Block(0,-1,-1,GRASS)
+Block(1,-1,-1,GRASS)
+Block(2,-1,-1,GRASS)
+Block(-3,-1,0,GRASS)
+Block(-2,-1,0,GRASS)
+Block(-1,-1,0,GRASS)
+Block(0,-1,0,GRASS)
+Block(1,-1,0,GRASS)
+Block(-2,-1,1,GRASS)
+Block(-1,-1,1,GRASS)
+Block(0,-1,1,GRASS)
+Block(-1,0,-3,WOOD_STEP:5)
+Block(-2,0,-2,AIR)
+Block(-1,0,-2,WOOD_STEP:13)
+Block(-2,0,-1,WOOD_BUTTON:2)
+Block(-1,0,-1,LOG:3)
+Block(0,0,-1,WOOD_BUTTON:1)
+Block(-1,0,0,WOOD_STEP:13)
+Block(-1,0,1,WOOD_STEP:5)
+Block(-1,1,-2,JUNGLE_FENCE_GATE:3)
+Block(-2,1,-1,WOOD_BUTTON:2)
+Block(-1,1,-1,LOG:3)
+Block(0,1,-1,WOOD_BUTTON:1)
+Block(-1,1,0,JUNGLE_FENCE_GATE:3)
+Block(-1,2,-2,LEVER)
+Block(-2,2,-1,WOOD_BUTTON:2)
+Block(-1,2,-1,LOG:3)
+Block(0,2,-1,WOOD_BUTTON:1)
+Block(-1,2,0,LEVER:3)
+Block(-1,3,-4,WOOD_STEP:13)
+Block(-1,3,-3,WOOD_STEP:13)
+Block(-1,3,-2,WOOD_STEP:5)
+Block(-2,3,-1,WOOD_BUTTON:2)
+Block(-1,3,-1,LOG:3)
+Block(0,3,-1,WOOD_BUTTON:1)
+Block(-1,3,0,WOOD_STEP:5)
+Block(-1,3,1,WOOD_STEP:13)
+Block(-1,3,2,WOOD_STEP:13)
+Block(-1,4,-5,WOOD_STEP:13)
+Block(-1,4,-4,WOOD_STEP:13)
+Block(-1,4,-3,black_glazed_terracotta)
+Block(-1,4,-2,black_glazed_terracotta)
+Block(-2,4,-1,WOOD_BUTTON:2)
+Block(-1,4,-1,LOG:3)
+Block(0,4,-1,WOOD_BUTTON:1)
+Block(-1,4,0,black_glazed_terracotta:0)
+Block(-1,4,1,black_glazed_terracotta:0)
+Block(-1,4,2,WOOD_STEP:13)
+Block(-1,4,3,WOOD_STEP:13)
+Block(-1,5,-3,WOOD_STEP:5)
+Block(-1,5,-2,TRAP_DOOR:8)
+Block(-2,5,-1,WOOD_BUTTON:2)
+Block(-1,5,-1,LOG:3)
+Block(0,5,-1,WOOD_BUTTON:1)
+Block(-1,5,0,TRAP_DOOR:9)
+Block(-1,5,1,WOOD_STEP:5)
+Block(-1,6,-1,TRAP_DOOR:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(-2,0,-2,VILLAGER,1,../JungleNBT/entities/tribalnative.txt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

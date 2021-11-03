@@ -1,0 +1,1 @@
+{Tame:1,Passengers:[{id:"minecraft:skeleton",CustomName:SkeletonRidden,CustomNameVisible:1}]}

@@ -1,0 +1,221 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(3,29,-7,STONE:5)
+Block(3,30,-7,STONE:5)
+Block(3,31,-7,STONE:5)
+Block(3,32,-7,STONE:5)
+Block(3,33,-7,STONE:5)
+Block(4,28,-7,STONE:3)
+Block(4,29,-7,STONE:5)
+Block(4,30,-7,STONE:5)
+Block(4,30,-6,STONE:5)
+Block(4,31,-7,STONE:5)
+Block(4,31,-6,STONE:5)
+Block(4,32,-7,STONE:5)
+Block(4,32,-6,STONE:5)
+Block(4,33,-7,STONE:5)
+Block(4,34,-7,STONE:5)
+Block(5,28,-7,STONE:3)
+Block(5,29,-7,STONE:5)
+Block(5,29,-6,STONE:5)
+Block(5,30,-7,STONE:5)
+Block(5,30,-6,STONE:5)
+Block(5,31,-7,STONE:5)
+Block(5,31,-6,STONE:5)
+Block(5,32,-7,STONE:5)
+Block(5,32,-6,STONE:5)
+Block(5,33,-7,STONE:5)
+Block(5,33,-6,STONE:5)
+Block(5,34,-7,STONE:5)
+Block(6,28,-7,STONE:3)
+Block(6,29,-7,STONE:3)
+Block(6,29,-6,STONE:3)
+Block(6,30,-7,STONE:5)
+Block(6,30,-6,STONE:5)
+Block(6,30,-5,STONE:5)
+Block(6,31,-7,STONE:5)
+Block(6,31,-6,STONE:5)
+Block(6,31,-5,STONE:5)
+Block(6,32,-7,STONE:5)
+Block(6,32,-6,STONE:5)
+Block(6,32,-5,STONE:5)
+Block(6,33,-7,STONE:5)
+Block(6,33,-6,STONE:5)
+Block(6,33,-5,STONE:5)
+Block(6,34,-7,STONE:5)
+Block(6,34,-6,STONE:5)
+Block(6,34,-5,STONE:5)
+Block(6,35,-7,STONE:5)
+Block(6,35,-6,STONE:5)
+Block(7,27,-7,STONE:3)
+Block(7,28,-7,STONE:3)
+Block(7,28,-6,STONE:3)
+Block(7,29,-7,STONE:3)
+Block(7,29,-6,STONE:3)
+Block(7,29,-5,STONE:3)
+Block(7,30,-7,STONE:3)
+Block(7,30,-6,STONE:3)
+Block(7,30,-5,STONE:5)
+Block(7,30,-4,STONE:5)
+Block(7,31,-7,STONE:5)
+Block(7,31,-6,STONE:5)
+Block(7,31,-5,STONE:5)
+Block(7,31,-4,STONE:5)
+Block(7,32,-7,STONE:5)
+Block(7,32,-6,STONE:5)
+Block(7,32,-5,STONE:5)
+Block(7,32,-4,STONE:5)
+Block(7,33,-7,STONE:5)
+Block(7,33,-6,STONE:5)
+Block(7,33,-5,STONE:5)
+Block(7,33,-4,STONE:5)
+Block(7,34,-7,STONE:5)
+Block(7,34,-6,STONE:5)
+Block(7,34,-5,STONE:5)
+Block(7,34,-4,STONE:5)
+Block(7,35,-7,STONE:5)
+Block(7,35,-6,STONE:5)
+Block(7,35,-5,STONE:5)
+Block(7,36,-7,STONE:5)
+Block(7,36,-6,STONE:5)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,true,Amethyst_MediumC1R7,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

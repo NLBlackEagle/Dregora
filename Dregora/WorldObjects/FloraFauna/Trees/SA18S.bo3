@@ -1,0 +1,509 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: Converted version of the BO2 SA18S
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 199
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,SAND
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(1,19,-4,Leaves:4)
+Block(-3,17,-6,Leaves:4)
+B(4,13,-5,LOG:12)
+B(11,15,-9,Leaves:4)
+B(11,16,-9,Leaves:4)
+B(11,8,-6,Leaves:4)
+Block(-3,14,-6,Leaves:4)
+B(6,14,-11,Leaves:4)
+B(9,19,-7,Leaves:4)
+B(9,13,-7,Leaves:4)
+B(12,13,-7,Leaves:4)
+B(5,21,-5,Leaves:4)
+B(4,15,-10,Leaves:4)
+B(4,16,-10,Leaves:4)
+B(5,18,-8,Leaves:4)
+B(9,11,-7,Leaves:4)
+B(3,17,-6,Leaves:4)
+B(2,-3,-7,LOG:12)
+B(3,18,-6,Leaves:4)
+B(4,14,-10,LOG:12)
+B(4,16,-5,Leaves:4)
+B(3,0,-3,LOG:12)
+B(8,16,-8,Leaves:4)
+B(1,15,-4,Leaves:4)
+Block(-4,17,0,Leaves:4)
+B(11,10,0,Leaves:4)
+Block(-4,18,0,Leaves:4)
+B(11,17,-10,Leaves:4)
+B(11,18,-10,Leaves:4)
+B(11,14,-10,Leaves:4)
+B(12,12,-5,Leaves:4)
+B(3,9,-7,LOG:12)
+B(12,13,-5,Leaves:4)
+B(8,15,-4,LOG:12)
+B(0,16,-2,Leaves:4)
+B(12,11,-5,Leaves:4)
+B(8,10,-4,LOG:12)
+B(12,17,-5,Leaves:4)
+B(8,12,-4,Leaves:4)
+B(8,17,-7,Leaves:4)
+Block(-3,19,-3,Leaves:4)
+B(8,14,-7,LOG:12)
+Block(-3,17,-3,LOG:12)
+Block(-3,15,-3,Leaves:4)
+Block(-3,16,-3,Leaves:4)
+B(14,12,0,Leaves:4)
+B(3,21,-4,Leaves:4)
+Block(-3,20,-3,Leaves:4)
+Block(-3,18,-7,Leaves:4)
+Block(-6,16,-4,Leaves:4)
+B(10,8,-5,Leaves:4)
+B(8,10,-7,Leaves:4)
+B(9,16,-11,Leaves:4)
+B(7,17,-1,Leaves:4)
+B(11,9,-7,Leaves:4)
+B(4,22,-5,Leaves:4)
+B(3,-1,-3,LOG:12)
+B(6,15,-3,LOG:12)
+B(2,16,-4,Leaves:4)
+B(3,16,-5,Leaves:4)
+B(6,19,-3,Leaves:4)
+B(3,16,-4,Leaves:4)
+B(3,18,-4,Leaves:4)
+B(3,17,-4,Leaves:4)
+B(3,18,-2,Leaves:4)
+B(3,14,-5,LOG:12)
+B(3,16,-2,Leaves:4)
+B(1,19,-3,Leaves:4)
+B(6,8,-5,LOG:12)
+B(6,17,-9,Leaves:4)
+B(11,12,-8,Leaves:4)
+B(6,15,-8,LOG:12)
+B(6,14,-8,LOG:12)
+B(6,13,-8,Leaves:4)
+Block(-1,13,-5,Leaves:4)
+Block(-1,14,-5,Leaves:4)
+Block(-1,14,-6,Leaves:4)
+Block(-5,14,-4,Leaves:4)
+B(8,14,-9,Leaves:4)
+B(11,14,-8,Leaves:4)
+Block(-1,16,-2,Leaves:4)
+B(11,15,-8,Leaves:4)
+B(10,11,-5,LOG:12)
+Block(-2,16,-6,Leaves:4)
+B(3,3,-4,LOG:12)
+B(10,15,-5,Leaves:4)
+B(3,2,-4,LOG:12)
+B(10,14,-5,Leaves:4)
+Block(-2,18,-6,Leaves:4)
+B(3,1,-4,LOG:12)
+Block(-2,17,-6,Leaves:4)
+B(10,12,-5,Leaves:4)
+B(3,0,-4,LOG:12)
+Block(-5,19,-2,Leaves:4)
+B(6,14,-9,Leaves:4)
+B(6,16,-8,Leaves:4)
+B(6,17,-8,Leaves:4)
+B(6,15,-9,Leaves:4)
+B(12,10,-2,Leaves:4)
+B(6,17,-2,Leaves:4)
+B(12,13,-2,Leaves:4)
+B(12,12,-2,LOG:4)
+B(6,14,-2,Leaves:4)
+Block(-2,17,-3,Leaves:4)
+Block(-2,18,-3,Leaves:4)
+B(11,11,-4,Leaves:4)
+B(10,9,-3,Leaves:4)
+B(5,17,-9,Leaves:4)
+B(10,11,-2,Leaves:4)
+B(10,12,-2,Leaves:4)
+B(4,17,0,Leaves:4)
+B(3,10,-7,LOG:12)
+B(9,18,-8,Leaves:4)
+B(2,-1,-6,LOG:12)
+B(9,16,-8,LOG:12)
+B(3,15,-7,Leaves:4)
+B(9,15,-8,LOG:12)
+B(9,14,-8,Leaves:4)
+B(9,13,-8,Leaves:4)
+B(4,15,-2,Leaves:4)
+B(1,21,-2,Leaves:4)
+B(5,18,-4,Leaves:4)
+B(7,16,-10,Leaves:4)
+B(5,19,-4,Leaves:4)
+Block(-1,15,-4,Leaves:4)
+Block(-1,17,-4,LOG:12)
+Block(-3,17,-5,Leaves:4)
+B(9,12,-8,Leaves:4)
+Block(-3,17,-2,Leaves:4)
+Block(-3,16,-2,Leaves:4)
+B(5,20,-6,Leaves:4)
+B(12,15,-2,Leaves:4)
+Block(-3,13,-5,Leaves:4)
+B(0,18,-5,Leaves:4)
+Block(-3,14,-5,Leaves:4)
+B(0,15,-5,Leaves:4)
+B(0,16,-5,Leaves:4)
+Block(-3,16,-5,LOG:12)
+B(5,17,-6,Leaves:4)
+Block(-5,17,-3,Leaves:4)
+Block(-4,20,-4,Leaves:4)
+B(11,12,-6,Leaves:4)
+B(7,9,-4,LOG:12)
+Block(-3,15,-4,Leaves:4)
+Block(-3,14,-4,Leaves:4)
+Block(-3,17,-4,Leaves:4)
+B(11,17,-6,Leaves:4)
+B(11,11,-3,LOG:4)
+B(13,14,0,Leaves:4)
+B(11,16,-6,Leaves:4)
+B(13,13,0,Leaves:4)
+B(11,19,-6,Leaves:4)
+B(5,21,-4,Leaves:4)
+B(6,16,1,Leaves:4)
+B(9,10,-4,LOG:12)
+Block(-4,13,-5,Leaves:4)
+B(5,18,-5,Leaves:4)
+B(5,12,-6,LOG:12)
+B(15,11,-3,Leaves:4)
+B(3,-3,-2,LOG:12)
+Block(-1,16,-7,Leaves:4)
+B(9,14,-4,Leaves:4)
+B(3,-1,-5,LOG:12)
+Block(-4,19,-5,Leaves:4)
+B(11,11,-6,Leaves:4)
+B(3,-2,-2,LOG:12)
+B(14,14,-3,Leaves:4)
+B(5,16,-5,Leaves:4)
+B(4,13,-9,LOG:12)
+B(1,-2,-6,LOG:12)
+B(6,12,-5,LOG:12)
+B(1,-3,-6,LOG:12)
+B(6,17,-6,Leaves:4)
+B(10,19,-6,Leaves:4)
+B(6,10,-6,LOG:12)
+B(6,11,-6,LOG:12)
+B(10,17,-6,Leaves:4)
+B(10,16,-6,LOG:12)
+B(10,11,-6,Leaves:4)
+B(5,16,-2,LOG:12)
+B(5,18,-2,Leaves:4)
+B(10,17,-11,Leaves:4)
+B(12,10,-3,Leaves:4)
+B(3,1,-5,LOG:12)
+B(3,0,-5,LOG:12)
+B(2,22,-5,Leaves:4)
+B(8,15,-2,Leaves:4)
+B(4,19,-7,Leaves:4)
+B(13,15,-1,Leaves:4)
+Block(-2,15,-2,Leaves:4)
+Block(-2,19,-2,Leaves:4)
+B(5,17,0,Leaves:4)
+B(13,13,-2,Leaves:4)
+B(12,11,0,Leaves:4)
+B(2,16,-3,Leaves:4)
+B(11,11,-5,Leaves:4)
+B(2,15,-5,LOG:12)
+Block(-4,18,-1,Leaves:4)
+B(9,12,-1,Leaves:4)
+B(6,14,-10,Leaves:4)
+B(7,18,-3,Leaves:4)
+B(6,13,-10,Leaves:4)
+B(2,15,-8,Leaves:4)
+B(2,17,-5,Leaves:4)
+B(7,17,-2,Leaves:4)
+B(14,12,-2,Leaves:4)
+B(7,18,-2,Leaves:4)
+B(9,12,-5,Leaves:4)
+B(2,11,-6,LOG:12)
+B(2,12,-6,LOG:12)
+B(9,11,-5,Leaves:4)
+B(12,12,-4,Leaves:4)
+B(6,20,-5,Leaves:4)
+B(4,14,-4,Leaves:4)
+B(15,12,-2,Leaves:4)
+B(4,15,-4,Leaves:4)
+B(9,19,-9,Leaves:4)
+B(4,18,-4,Leaves:4)
+Block(-1,17,-6,Leaves:4)
+B(4,8,-6,LOG:12)
+B(0,17,-4,Leaves:4)
+B(0,16,-4,LOG:12)
+B(4,16,-3,Leaves:4)
+B(13,9,-2,Leaves:4)
+B(1,15,-8,Leaves:4)
+B(4,5,-4,LOG:12)
+B(5,13,-7,Leaves:4)
+B(4,6,-4,LOG:12)
+B(5,15,-7,Leaves:4)
+B(4,4,-4,LOG:12)
+B(4,0,-4,LOG:12)
+B(13,17,-5,Leaves:4)
+B(7,16,-7,Leaves:4)
+B(3,22,-3,Leaves:4)
+B(3,20,-3,Leaves:4)
+B(8,17,-6,Leaves:4)
+B(10,17,-7,Leaves:4)
+B(8,16,-6,Leaves:4)
+B(1,13,-6,LOG:12)
+B(2,14,-7,Leaves:4)
+B(2,16,-7,Leaves:4)
+B(1,15,-6,Leaves:4)
+Block(-4,14,-3,Leaves:4)
+B(8,15,-6,Leaves:4)
+B(1,18,-6,Leaves:4)
+B(8,14,-6,Leaves:4)
+B(2,19,-7,Leaves:4)
+B(5,7,-5,LOG:12)
+B(9,15,-6,LOG:12)
+B(5,8,-5,LOG:12)
+B(9,17,-6,Leaves:4)
+B(9,18,-6,Leaves:4)
+B(5,9,-5,LOG:12)
+B(6,17,-7,Leaves:4)
+B(3,11,-8,LOG:12)
+B(3,12,-8,LOG:12)
+B(3,14,-8,Leaves:4)
+B(7,12,-7,LOG:12)
+B(3,15,-8,Leaves:4)
+B(7,13,-7,LOG:12)
+B(0,16,-3,Leaves:4)
+B(7,13,-4,LOG:12)
+B(7,14,-4,LOG:12)
+B(8,13,-10,Leaves:4)
+Block(-2,17,-4,LOG:12)
+B(7,16,-4,Leaves:4)
+B(0,16,-6,Leaves:4)
+B(8,14,-10,Leaves:4)
+B(7,18,-8,Leaves:4)
+B(7,15,-8,Leaves:4)
+B(7,16,0,Leaves:4)
+B(7,16,-9,Leaves:4)
+Block(-2,17,-8,Leaves:4)
+B(13,12,-5,Leaves:4)
+B(13,11,-5,Leaves:4)
+B(13,10,-5,Leaves:4)
+B(13,16,-5,Leaves:4)
+B(10,18,-8,Leaves:4)
+B(0,18,-3,Leaves:4)
+B(10,16,-8,Leaves:4)
+B(12,13,-1,Leaves:4)
+B(2,-1,-4,LOG:12)
+B(2,0,-6,LOG:12)
+B(6,16,-1,Leaves:4)
+B(2,19,-2,Leaves:4)
+B(10,12,-3,Leaves:4)
+B(0,14,-7,LOG:12)
+B(6,16,-4,Leaves:4)
+B(1,13,-5,Leaves:4)
+B(6,19,-4,Leaves:4)
+Block(-4,16,-7,Leaves:4)
+B(10,10,-3,Leaves:4)
+B(2,0,-4,LOG:12)
+B(10,11,-3,LOG:12)
+B(2,15,-2,Leaves:4)
+B(1,17,-5,Leaves:4)
+B(2,-2,-4,LOG:12)
+B(6,15,-4,Leaves:4)
+B(2,-3,-4,LOG:12)
+B(6,14,-4,Leaves:4)
+B(1,15,-5,LOG:12)
+Block(-2,17,-7,Leaves:4)
+B(7,16,-11,Leaves:4)
+Block(-2,18,-5,Leaves:4)
+Block(-6,16,-5,Leaves:4)
+B(10,13,-4,Leaves:4)
+Block(-2,14,-5,Leaves:4)
+B(10,15,-4,Leaves:4)
+B(10,16,-4,Leaves:4)
+Block(-2,15,-5,Leaves:4)
+B(10,17,-4,Leaves:4)
+Block(-2,17,-5,Leaves:4)
+B(4,-3,-4,LOG:12)
+B(4,-2,-4,LOG:12)
+B(4,18,-1,Leaves:4)
+B(4,-1,-4,LOG:12)
+B(4,17,-1,Leaves:4)
+B(9,14,-10,Leaves:4)
+B(11,17,-7,Leaves:4)
+Block(-5,15,-6,Leaves:4)
+B(12,14,-1,Leaves:4)
+B(3,17,-3,Leaves:4)
+B(10,12,-1,Leaves:4)
+B(11,11,-7,Leaves:4)
+B(10,13,-1,Leaves:4)
+B(3,19,-3,Leaves:4)
+B(1,16,-7,Leaves:4)
+B(1,17,-7,Leaves:4)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,0,GRASS,DIRT)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

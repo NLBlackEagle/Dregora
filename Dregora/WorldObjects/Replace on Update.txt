@@ -1,0 +1,11 @@
+dregora\WorldObjects\ShipsAndPorts:
+
+- YELLOW_GLAZED_TERRACOTTA:0 -> BELL
+- VINDICATOR -> PILLAGER ( && dregora\WorldObjects\ShipsAndPorts\NBT\Mobs )
+- EVOKER -> VINDICATOR ( && dregora\WorldObjects\ShipsAndPorts\NBT\Mobs )
+- VILLAGER -> VILLAGER-BIOME (&& dregora\WorldObjects\ShipsAndPorts\NBT\Mobs )
+- ALL MAGMA BLOCKS +1 CAMPFIRE
+- SQUID -> DROWNED ( IN dregora\WorldObjects\ShipsAndPorts\ShipsSunken )
+- Add OverworldTags
+
+- 1.16.5 changeSpawnPointSet: true to FixedSpawnPoint: true for HexSpawnPoint

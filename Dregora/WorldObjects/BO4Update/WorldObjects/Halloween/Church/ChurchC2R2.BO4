@@ -1,0 +1,457 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAIR: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,13,-7,AIR:0)
+Block(-8,13,-6,AIR:0)
+Block(-8,13,-5,AIR:0)
+Block(-8,13,-4,AIR:0)
+Block(-8,14,-7,AIR:0)
+Block(-8,14,-6,AIR:0)
+Block(-8,14,-5,AIR:0)
+Block(-8,14,-4,AIR:0)
+Block(-8,15,-7,AIR:0)
+Block(-8,15,-6,AIR:0)
+Block(-8,15,-5,AIR:0)
+Block(-8,15,-4,AIR:0)
+Block(-8,16,-7,AIR:0)
+Block(-8,16,-6,AIR:0)
+Block(-8,16,-5,AIR:0)
+Block(-8,16,-4,AIR:0)
+Block(-8,17,-7,AIR:0)
+Block(-8,17,-6,AIR:0)
+Block(-8,17,-5,AIR:0)
+Block(-8,17,-4,AIR:0)
+Block(-8,18,-7,AIR:0)
+Block(-8,18,-6,AIR:0)
+Block(-8,18,-5,AIR:0)
+Block(-8,18,-4,AIR:0)
+Block(-8,19,-7,AIR:0)
+Block(-8,19,-6,AIR:0)
+Block(-8,19,-5,AIR:0)
+Block(-8,19,-4,AIR:0)
+Block(-8,20,-7,AIR:0)
+Block(-8,20,-6,AIR:0)
+Block(-8,20,-5,AIR:0)
+Block(-8,20,-4,AIR:0)
+Block(-8,21,-7,AIR:0)
+Block(-8,21,-6,AIR:0)
+Block(-8,21,-5,AIR:0)
+Block(-8,21,-4,AIR:0)
+Block(-8,22,-7,AIR:0)
+Block(-8,22,-6,AIR:0)
+Block(-8,22,-5,AIR:0)
+Block(-8,22,-4,AIR:0)
+Block(-8,23,-7,AIR:0)
+Block(-8,23,-6,AIR:0)
+Block(-8,23,-5,AIR:0)
+Block(-8,23,-4,AIR:0)
+Block(-8,24,-7,AIR:0)
+Block(-8,24,-6,AIR:0)
+Block(-8,24,-5,AIR:0)
+Block(-8,24,-4,AIR:0)
+Block(-8,25,-7,AIR:0)
+Block(-8,25,-6,AIR:0)
+Block(-8,25,-5,AIR:0)
+Block(-8,25,-4,AIR:0)
+Block(-8,26,-7,AIR:0)
+Block(-8,26,-6,AIR:0)
+Block(-8,26,-5,AIR:0)
+Block(-8,26,-4,AIR:0)
+Block(-8,27,-7,AIR:0)
+Block(-8,27,-6,AIR:0)
+Block(-8,27,-5,AIR:0)
+Block(-8,27,-4,AIR:0)
+Block(-8,28,-7,AIR:0)
+Block(-8,28,-6,AIR:0)
+Block(-8,28,-5,AIR:0)
+Block(-8,28,-4,AIR:0)
+Block(-8,29,-7,AIR:0)
+Block(-8,29,-6,AIR:0)
+Block(-8,29,-5,AIR:0)
+Block(-8,29,-4,AIR:0)
+Block(-8,30,-7,AIR:0)
+Block(-8,30,-6,AIR:0)
+Block(-8,30,-5,AIR:0)
+Block(-8,30,-4,AIR:0)
+Block(-8,31,-7,AIR:0)
+Block(-8,31,-6,AIR:0)
+Block(-8,31,-5,AIR:0)
+Block(-8,31,-4,AIR:0)
+Block(-8,32,-7,AIR:0)
+Block(-8,32,-6,AIR:0)
+Block(-8,32,-5,AIR:0)
+Block(-8,32,-4,AIR:0)
+Block(-8,33,-7,AIR:0)
+Block(-8,33,-6,AIR:0)
+Block(-8,33,-5,AIR:0)
+Block(-8,33,-4,AIR:0)
+Block(-8,34,-7,AIR:0)
+Block(-8,34,-6,AIR:0)
+Block(-8,34,-5,AIR:0)
+Block(-8,34,-4,AIR:0)
+Block(-8,35,-7,AIR:0)
+Block(-8,35,-6,AIR:0)
+Block(-8,35,-5,AIR:0)
+Block(-8,35,-4,AIR:0)
+Block(-8,36,-7,AIR:0)
+Block(-8,36,-6,AIR:0)
+Block(-8,36,-5,AIR:0)
+Block(-8,36,-4,AIR:0)
+Block(-8,37,-7,AIR:0)
+Block(-8,37,-6,AIR:0)
+Block(-8,37,-5,AIR:0)
+Block(-8,37,-4,AIR:0)
+Block(-8,38,-7,AIR:0)
+Block(-8,38,-6,AIR:0)
+Block(-8,38,-5,AIR:0)
+Block(-8,38,-4,AIR:0)
+Block(-8,39,-7,AIR:0)
+Block(-8,39,-6,AIR:0)
+Block(-8,39,-5,AIR:0)
+Block(-8,39,-4,AIR:0)
+Block(-8,40,-7,AIR:0)
+Block(-8,40,-6,AIR:0)
+Block(-8,40,-5,AIR:0)
+Block(-8,40,-4,AIR:0)
+Block(-8,41,-7,AIR:0)
+Block(-8,41,-6,AIR:0)
+Block(-8,41,-5,AIR:0)
+Block(-8,41,-4,AIR:0)
+Block(-8,42,-7,AIR:0)
+Block(-8,42,-6,AIR:0)
+Block(-8,42,-5,AIR:0)
+Block(-8,42,-4,AIR:0)
+Block(-8,43,-7,AIR:0)
+Block(-8,43,-6,AIR:0)
+Block(-8,43,-5,AIR:0)
+Block(-8,43,-4,AIR:0)
+Block(-8,44,-7,AIR:0)
+Block(-8,44,-6,AIR:0)
+Block(-8,44,-5,AIR:0)
+Block(-8,44,-4,AIR:0)
+Block(-8,45,-7,AIR:0)
+Block(-8,45,-6,AIR:0)
+Block(-8,45,-5,AIR:0)
+Block(-8,45,-4,AIR:0)
+Block(-8,46,-7,AIR:0)
+Block(-8,46,-6,AIR:0)
+Block(-8,46,-5,AIR:0)
+Block(-8,46,-4,AIR:0)
+Block(-8,47,-7,AIR:0)
+Block(-8,47,-6,AIR:0)
+Block(-8,47,-5,AIR:0)
+Block(-8,47,-4,AIR:0)
+Block(-8,48,-7,AIR:0)
+Block(-8,48,-6,AIR:0)
+Block(-8,48,-5,AIR:0)
+Block(-8,48,-4,AIR:0)
+Block(-8,49,-7,AIR:0)
+Block(-8,49,-6,AIR:0)
+Block(-8,49,-5,AIR:0)
+Block(-8,49,-4,AIR:0)
+Block(-8,50,-7,AIR:0)
+Block(-8,50,-6,AIR:0)
+Block(-8,50,-5,AIR:0)
+Block(-8,50,-4,AIR:0)
+Block(-8,51,-7,AIR:0)
+Block(-8,51,-6,AIR:0)
+Block(-8,51,-5,AIR:0)
+Block(-8,51,-4,AIR:0)
+Block(-7,13,-7,AIR:0)
+Block(-7,13,-6,AIR:0)
+Block(-7,13,-5,AIR:0)
+Block(-7,13,-4,AIR:0)
+Block(-7,14,-7,AIR:0)
+Block(-7,14,-6,AIR:0)
+Block(-7,14,-5,AIR:0)
+Block(-7,14,-4,AIR:0)
+Block(-7,15,-7,AIR:0)
+Block(-7,15,-6,AIR:0)
+Block(-7,15,-5,AIR:0)
+Block(-7,15,-4,AIR:0)
+Block(-7,16,-7,AIR:0)
+Block(-7,16,-6,AIR:0)
+Block(-7,16,-5,AIR:0)
+Block(-7,16,-4,AIR:0)
+Block(-7,17,-7,AIR:0)
+Block(-7,17,-6,AIR:0)
+Block(-7,17,-5,AIR:0)
+Block(-7,17,-4,AIR:0)
+Block(-7,18,-7,AIR:0)
+Block(-7,18,-6,AIR:0)
+Block(-7,18,-5,AIR:0)
+Block(-7,18,-4,AIR:0)
+Block(-7,19,-7,AIR:0)
+Block(-7,19,-6,AIR:0)
+Block(-7,19,-5,AIR:0)
+Block(-7,19,-4,AIR:0)
+Block(-7,20,-7,AIR:0)
+Block(-7,20,-6,AIR:0)
+Block(-7,20,-5,AIR:0)
+Block(-7,20,-4,AIR:0)
+Block(-7,21,-7,AIR:0)
+Block(-7,21,-6,AIR:0)
+Block(-7,21,-5,AIR:0)
+Block(-7,21,-4,AIR:0)
+Block(-7,22,-7,AIR:0)
+Block(-7,22,-6,AIR:0)
+Block(-7,22,-5,AIR:0)
+Block(-7,22,-4,AIR:0)
+Block(-7,23,-7,AIR:0)
+Block(-7,23,-6,AIR:0)
+Block(-7,23,-5,AIR:0)
+Block(-7,23,-4,AIR:0)
+Block(-7,24,-7,AIR:0)
+Block(-7,24,-6,AIR:0)
+Block(-7,24,-5,AIR:0)
+Block(-7,24,-4,AIR:0)
+Block(-7,25,-7,AIR:0)
+Block(-7,25,-6,AIR:0)
+Block(-7,25,-5,AIR:0)
+Block(-7,25,-4,AIR:0)
+Block(-7,26,-7,AIR:0)
+Block(-7,26,-6,AIR:0)
+Block(-7,26,-5,AIR:0)
+Block(-7,26,-4,AIR:0)
+Block(-7,27,-7,AIR:0)
+Block(-7,27,-6,AIR:0)
+Block(-7,27,-5,AIR:0)
+Block(-7,27,-4,AIR:0)
+Block(-7,28,-7,AIR:0)
+Block(-7,28,-6,AIR:0)
+Block(-7,28,-5,AIR:0)
+Block(-7,28,-4,AIR:0)
+Block(-7,29,-7,AIR:0)
+Block(-7,29,-6,AIR:0)
+Block(-7,29,-5,AIR:0)
+Block(-7,29,-4,AIR:0)
+Block(-7,30,-7,AIR:0)
+Block(-7,30,-6,AIR:0)
+Block(-7,30,-5,AIR:0)
+Block(-7,30,-4,AIR:0)
+Block(-7,31,-7,AIR:0)
+Block(-7,31,-6,AIR:0)
+Block(-7,31,-5,AIR:0)
+Block(-7,31,-4,AIR:0)
+Block(-7,32,-7,AIR:0)
+Block(-7,32,-6,AIR:0)
+Block(-7,32,-5,AIR:0)
+Block(-7,32,-4,AIR:0)
+Block(-7,33,-7,AIR:0)
+Block(-7,33,-6,AIR:0)
+Block(-7,33,-5,AIR:0)
+Block(-7,33,-4,AIR:0)
+Block(-7,34,-7,AIR:0)
+Block(-7,34,-6,AIR:0)
+Block(-7,34,-5,AIR:0)
+Block(-7,34,-4,AIR:0)
+Block(-7,35,-7,AIR:0)
+Block(-7,35,-6,AIR:0)
+Block(-7,35,-5,AIR:0)
+Block(-7,35,-4,AIR:0)
+Block(-7,36,-7,AIR:0)
+Block(-7,36,-6,AIR:0)
+Block(-7,36,-5,AIR:0)
+Block(-7,36,-4,AIR:0)
+Block(-7,37,-7,AIR:0)
+Block(-7,37,-6,AIR:0)
+Block(-7,37,-5,AIR:0)
+Block(-7,37,-4,AIR:0)
+Block(-7,38,-7,AIR:0)
+Block(-7,38,-6,AIR:0)
+Block(-7,38,-5,AIR:0)
+Block(-7,38,-4,AIR:0)
+Block(-7,39,-7,AIR:0)
+Block(-7,39,-6,AIR:0)
+Block(-7,39,-5,AIR:0)
+Block(-7,39,-4,AIR:0)
+Block(-7,40,-7,AIR:0)
+Block(-7,40,-6,AIR:0)
+Block(-7,40,-5,AIR:0)
+Block(-7,40,-4,AIR:0)
+Block(-7,41,-7,AIR:0)
+Block(-7,41,-6,AIR:0)
+Block(-7,41,-5,AIR:0)
+Block(-7,41,-4,AIR:0)
+Block(-7,42,-7,AIR:0)
+Block(-7,42,-6,AIR:0)
+Block(-7,42,-5,AIR:0)
+Block(-7,42,-4,AIR:0)
+Block(-7,43,-7,AIR:0)
+Block(-7,43,-6,AIR:0)
+Block(-7,43,-5,AIR:0)
+Block(-7,43,-4,AIR:0)
+Block(-7,44,-7,AIR:0)
+Block(-7,44,-6,AIR:0)
+Block(-7,44,-5,AIR:0)
+Block(-7,44,-4,AIR:0)
+Block(-7,45,-7,AIR:0)
+Block(-7,45,-6,AIR:0)
+Block(-7,45,-5,AIR:0)
+Block(-7,45,-4,AIR:0)
+Block(-7,46,-7,AIR:0)
+Block(-7,46,-6,AIR:0)
+Block(-7,46,-5,AIR:0)
+Block(-7,46,-4,AIR:0)
+Block(-7,47,-7,AIR:0)
+Block(-7,47,-6,AIR:0)
+Block(-7,47,-5,AIR:0)
+Block(-7,47,-4,AIR:0)
+Block(-7,48,-7,AIR:0)
+Block(-7,48,-6,AIR:0)
+Block(-7,48,-5,AIR:0)
+Block(-7,48,-4,AIR:0)
+Block(-7,49,-7,AIR:0)
+Block(-7,49,-6,AIR:0)
+Block(-7,49,-5,AIR:0)
+Block(-7,49,-4,AIR:0)
+Block(-7,50,-7,AIR:0)
+Block(-7,50,-6,AIR:0)
+Block(-7,50,-5,AIR:0)
+Block(-7,50,-4,AIR:0)
+Block(-7,51,-7,AIR:0)
+Block(-7,51,-6,AIR:0)
+Block(-7,51,-5,AIR:0)
+Block(-7,51,-4,AIR:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,ChurchC1R2,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

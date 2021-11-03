@@ -1,0 +1,282 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: Bo3 Created by NLBlackEagle - For Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 7
+
+Rarity: 15.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 26
+
+MaxHeight: 40
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-3,0,0,obsidian)
+B(-3,1,0,obsidian)
+B(-3,2,0,obsidian)
+B(-3,3,0,obsidian)
+B(-3,4,0,prismarine)
+B(-3,5,0,obsidian)
+B(-2,-1,0,obsidian)
+B(-2,0,-1,obsidian)
+B(-2,0,0,obsidian)
+B(-2,1,-1,obsidian)
+B(-2,1,0,obsidian)
+B(-2,1,1,prismarine)
+B(-2,2,-1,prismarine)
+B(-2,2,0,obsidian)
+B(-2,2,1,prismarine)
+B(-2,3,-1,prismarine)
+B(-2,3,0,obsidian)
+B(-2,3,1,prismarine)
+B(-2,4,-1,obsidian)
+B(-2,4,0,obsidian)
+B(-2,4,1,obsidian)
+B(-2,5,-1,obsidian)
+B(-2,5,0,obsidian)
+B(-2,5,1,obsidian)
+B(-1,-4,0,prismarine)
+B(-1,-3,0,obsidian)
+B(-1,-2,-1,prismarine)
+B(-1,-2,0,obsidian)
+B(-1,-2,1,obsidian)
+B(-1,-1,-1,prismarine)
+B(-1,-1,0,obsidian)
+B(-1,-1,1,obsidian)
+B(-1,0,-2,prismarine)
+B(-1,0,-1,obsidian)
+B(-1,0,0,obsidian)
+B(-1,0,1,obsidian)
+B(-1,0,2,obsidian)
+B(-1,1,-2,prismarine)
+B(-1,1,-1,obsidian)
+B(-1,1,0,obsidian)
+B(-1,1,1,obsidian)
+B(-1,1,2,obsidian)
+B(-1,2,-2,obsidian)
+B(-1,2,-1,obsidian)
+B(-1,2,0,obsidian)
+B(-1,2,1,obsidian)
+B(-1,2,2,obsidian)
+B(-1,3,-2,obsidian)
+B(-1,3,-1,obsidian)
+B(-1,3,0,obsidian)
+B(-1,3,1,obsidian)
+B(-1,3,2,obsidian)
+B(-1,4,-2,obsidian)
+B(-1,4,-1,obsidian)
+B(-1,4,0,obsidian)
+B(-1,4,1,obsidian)
+B(-1,4,2,obsidian)
+B(-1,5,-2,obsidian)
+B(-1,5,-1,obsidian)
+B(-1,5,0,obsidian)
+B(-1,5,1,obsidian)
+B(-1,5,2,obsidian)
+B(0,-10,0,obsidian)
+B(0,-9,0,obsidian)
+B(0,-8,0,obsidian)
+B(0,-7,0,obsidian)
+B(0,-6,0,prismarine)
+B(0,-6,1,obsidian)
+B(0,-5,-1,obsidian)
+B(0,-5,0,prismarine)
+B(0,-5,1,obsidian)
+B(0,-4,-1,prismarine)
+B(0,-4,0,obsidian)
+B(0,-4,1,obsidian)
+B(0,-3,-2,obsidian)
+B(0,-3,-1,obsidian)
+B(0,-3,0,obsidian)
+B(0,-3,1,obsidian)
+B(0,-2,-2,obsidian)
+B(0,-2,-1,obsidian)
+B(0,-2,0,obsidian)
+B(0,-2,1,obsidian)
+B(0,-2,2,obsidian)
+B(0,-1,-2,obsidian)
+B(0,-1,-1,obsidian)
+B(0,-1,0,obsidian)
+B(0,-1,1,obsidian)
+B(0,-1,2,obsidian)
+B(0,0,-3,obsidian)
+B(0,0,-2,obsidian)
+B(0,0,-1,obsidian)
+B(0,0,0,obsidian)
+B(0,0,1,obsidian)
+B(0,0,2,obsidian)
+B(0,1,-3,obsidian)
+B(0,1,-2,obsidian)
+B(0,1,-1,obsidian)
+B(0,1,0,obsidian)
+B(0,1,1,obsidian)
+B(0,1,2,obsidian)
+B(0,2,-3,obsidian)
+B(0,2,-2,obsidian)
+B(0,2,-1,obsidian)
+B(0,2,0,obsidian)
+B(0,2,1,obsidian)
+B(0,2,2,obsidian)
+B(0,3,-3,obsidian)
+B(0,3,-2,obsidian)
+B(0,3,-1,obsidian)
+B(0,3,0,obsidian)
+B(0,3,1,obsidian)
+B(0,3,2,obsidian)
+B(0,4,-3,obsidian)
+B(0,4,-2,obsidian)
+B(0,4,-1,obsidian)
+B(0,4,0,obsidian)
+B(0,4,1,obsidian)
+B(0,4,2,obsidian)
+B(0,5,-3,obsidian)
+B(0,5,-2,obsidian)
+B(0,5,-1,obsidian)
+B(0,5,0,obsidian)
+B(0,5,1,obsidian)
+B(0,5,2,obsidian)
+B(1,-5,0,obsidian)
+B(1,-4,0,obsidian)
+B(1,-3,-1,prismarine)
+B(1,-3,0,obsidian)
+B(1,-2,-1,prismarine)
+B(1,-2,0,obsidian)
+B(1,-1,-2,prismarine)
+B(1,-1,-1,obsidian)
+B(1,-1,0,obsidian)
+B(1,-1,1,obsidian)
+B(1,0,-2,prismarine)
+B(1,0,-1,obsidian)
+B(1,0,0,obsidian)
+B(1,0,1,obsidian)
+B(1,0,2,obsidian)
+B(1,1,-2,prismarine)
+B(1,1,-1,obsidian)
+B(1,1,0,obsidian)
+B(1,1,1,obsidian)
+B(1,1,2,obsidian)
+B(1,2,-2,prismarine)
+B(1,2,-1,obsidian)
+B(1,2,0,obsidian)
+B(1,2,1,obsidian)
+B(1,2,2,obsidian)
+B(1,3,-2,prismarine)
+B(1,3,-1,obsidian)
+B(1,3,0,obsidian)
+B(1,3,1,obsidian)
+B(1,3,2,obsidian)
+B(1,4,-2,prismarine)
+B(1,4,-1,obsidian)
+B(1,4,0,obsidian)
+B(1,4,1,obsidian)
+B(1,4,2,obsidian)
+B(1,5,-2,prismarine)
+B(1,5,-1,obsidian)
+B(1,5,0,obsidian)
+B(1,5,1,obsidian)
+B(1,5,2,obsidian)
+B(2,-2,0,obsidian)
+B(2,-1,-1,obsidian)
+B(2,-1,0,obsidian)
+B(2,0,-1,obsidian)
+B(2,0,0,obsidian)
+B(2,0,1,obsidian)
+B(2,1,-1,obsidian)
+B(2,1,0,obsidian)
+B(2,1,1,obsidian)
+B(2,2,-1,obsidian)
+B(2,2,0,obsidian)
+B(2,2,1,obsidian)
+B(2,3,-1,obsidian)
+B(2,3,0,obsidian)
+B(2,3,1,obsidian)
+B(2,4,-1,obsidian)
+B(2,4,0,obsidian)
+B(2,4,1,obsidian)
+B(2,5,-1,obsidian)
+B(2,5,0,obsidian)
+B(2,5,1,obsidian)
+B(3,0,0,obsidian)
+B(3,1,0,obsidian)
+B(3,2,0,obsidian)
+B(3,3,0,obsidian)
+B(3,4,0,obsidian)
+B(3,5,0,obsidian)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+BlockCheck(0,1,0,stone)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

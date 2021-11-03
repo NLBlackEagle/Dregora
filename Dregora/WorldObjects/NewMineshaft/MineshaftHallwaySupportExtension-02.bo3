@@ -1,0 +1,87 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 256
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: HARDENED_CLAY,WATER,STATIONARY_WATER,SANDSTONE,AIR,LAVA,OBSIDIAN,SAND,STATIONARY_LAVA,DIRT,GRASS,GRAVEL,CLAY,DIRT:2,DIRT:1,STONE:5,STONE,STONE:3,STONE:1,STONE:1,REDSTONE_ORE,LAPIS_ORE,IRON_ORE,GOLD_ORE,EMERALD_ORE,DIAMOND_ORE,COAL_ORE
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: dontPlace
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-2,0,-8,COBBLESTONE)
+B(1,0,-8,COBBLESTONE)
+B(-2,0,7,COBBLESTONE)
+B(1,0,7,COBBLESTONE)
+B(-2,1,-8,COBBLESTONE)
+B(1,1,-8,COBBLESTONE)
+B(-2,1,7,COBBLESTONE)
+B(1,1,7,COBBLESTONE)
+B(-2,2,-8,COBBLESTONE)
+B(1,2,-8,COBBLESTONE)
+B(-2,2,7,COBBLESTONE)
+B(1,2,7,COBBLESTONE)
+B(-2,3,-8,COBBLESTONE)
+B(1,3,-8,COBBLESTONE)
+B(-2,3,7,COBBLESTONE)
+B(1,3,7,COBBLESTONE)
+B(-2,4,-8,COBBLESTONE)
+B(1,4,-8,COBBLESTONE)
+B(-2,4,7,COBBLESTONE)
+B(1,4,7,COBBLESTONE)
+B(-2,5,-8,COBBLESTONE)
+B(1,5,-8,COBBLESTONE)
+B(-2,5,7,COBBLESTONE)
+B(1,5,7,COBBLESTONE)
+B(-2,6,-8,COBBLESTONE)
+B(1,6,-8,COBBLESTONE)
+B(-2,6,7,COBBLESTONE)
+B(1,6,7,COBBLESTONE)
+B(-2,7,-8,COBBLESTONE)
+B(1,7,-8,COBBLESTONE)
+B(-2,7,7,COBBLESTONE)
+B(1,7,7,COBBLESTONE)
+

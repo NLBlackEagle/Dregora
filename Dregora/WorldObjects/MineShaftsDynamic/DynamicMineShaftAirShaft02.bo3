@@ -1,0 +1,338 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 0
+
+MaxHeight: 256
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: air
+
+MaxBranchDepth: 40
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+B(-6,0,-7,log:1)
+B(-6,0,-6,dark_oak_stairs:0)
+B(-6,0,-5,log:1)
+B(-6,0,-4,dark_oak_stairs:0)
+B(-6,0,-3,dark_oak_stairs:0)
+B(-6,0,-2,log:1)
+B(-6,0,-1,dark_oak_stairs:0)
+B(-6,0,0,dark_oak_stairs:0)
+B(-6,0,1,log:1)
+B(-6,0,2,dark_oak_stairs:0)
+B(-6,0,3,dark_oak_stairs:0)
+B(-6,0,4,log:1)
+B(-6,1,-7,log:1)
+B(-6,1,-6,spruce_fence)
+B(-6,1,-5,log:1)
+B(-6,1,-4,spruce_fence)
+B(-6,1,-3,spruce_fence)
+B(-6,1,-2,log:1)
+B(-6,1,-1,spruce_fence)
+B(-6,1,0,spruce_fence)
+B(-6,1,1,log:1)
+B(-6,1,2,spruce_fence)
+B(-6,1,3,spruce_fence)
+B(-6,1,4,log:1)
+B(-6,2,-7,log:1)
+B(-6,2,-6,dark_oak_stairs:4)
+B(-6,2,-5,log:1)
+B(-6,2,-4,dark_oak_stairs:4)
+B(-6,2,-3,dark_oak_stairs:4)
+B(-6,2,-2,log:1)
+B(-6,2,-1,dark_oak_stairs:4)
+B(-6,2,0,dark_oak_stairs:4)
+B(-6,2,1,log:1)
+B(-6,2,2,dark_oak_stairs:4)
+B(-6,2,3,dark_oak_stairs:4)
+B(-6,2,4,log:1)
+B(-5,0,-8,log:1)
+B(-5,0,-7,planks:1)
+B(-5,0,-6,dark_oak_stairs:1)
+B(-5,0,-5,planks:1)
+B(-5,0,-4,dark_oak_stairs:1)
+B(-5,0,-3,dark_oak_stairs:1)
+B(-5,0,-2,planks:1)
+B(-5,0,-1,dark_oak_stairs:1)
+B(-5,0,0,dark_oak_stairs:1)
+B(-5,0,1,planks:1)
+B(-5,0,2,dark_oak_stairs:1)
+B(-5,0,3,dark_oak_stairs:1)
+B(-5,0,4,planks:1)
+B(-5,0,5,log:1)
+B(-5,1,-8,log:1)
+B(-5,1,-7,planks:1)
+B(-5,1,-6,dark_oak_stairs:5)
+B(-5,1,-5,planks:1)
+B(-5,1,-4,dark_oak_stairs:5)
+B(-5,1,-3,dark_oak_stairs:5)
+B(-5,1,-2,planks:1)
+B(-5,1,-1,dark_oak_stairs:5)
+B(-5,1,0,dark_oak_stairs:5)
+B(-5,1,1,planks:1)
+B(-5,1,2,dark_oak_stairs:5)
+B(-5,1,3,dark_oak_stairs:5)
+B(-5,1,4,planks:1)
+B(-5,1,5,log:1)
+B(-5,2,-8,log:1)
+B(-5,2,-7,planks:1)
+B(-5,2,-6,planks:1)
+B(-5,2,-5,planks:1)
+B(-5,2,-4,planks:1)
+B(-5,2,-3,planks:1)
+B(-5,2,-2,planks:1)
+B(-5,2,-1,planks:1)
+B(-5,2,0,planks:1)
+B(-5,2,1,planks:1)
+B(-5,2,2,planks:1)
+B(-5,2,3,planks:1)
+B(-5,2,4,planks:1)
+B(-5,2,5,log:1)
+B(-4,0,-8,dark_oak_stairs:2)
+B(-4,0,-7,dark_oak_STAIRS:0)
+B(-4,0,-6,air)
+B(-4,0,-5,ladder:5)
+B(-4,0,-4,air)
+B(-4,0,-3,air)
+B(-4,0,-2,air)
+B(-4,0,-1,air)
+B(-4,0,0,air)
+B(-4,0,1,wooden_door:1)
+B(-4,0,2,air)
+B(-4,0,3,air)
+B(-4,0,4,dark_oak_stairs:2)
+B(-4,0,5,dark_oak_STAIRS:0)
+B(-4,1,-8,spruce_fence)
+B(-4,1,-7,dark_oak_stairs:7)
+B(-4,1,-6,air)
+B(-4,1,-5,ladder:5)
+B(-4,1,-4,air)
+B(-4,1,-3,air)
+B(-4,1,-2,air)
+B(-4,1,-1,air)
+B(-4,1,0,air)
+B(-4,1,1,wooden_door:9)
+B(-4,1,2,air)
+B(-4,1,3,air)
+B(-4,1,4,dark_oak_stairs:6)
+B(-4,1,5,spruce_fence)
+B(-4,2,-8,dark_oak_stairs:6)
+B(-4,2,-7,planks:1)
+B(-4,2,-6,wooden_slab:13)
+B(-4,2,-5,ladder:5)
+B(-4,2,-4,wooden_slab:13)
+B(-4,2,-3,wooden_slab:13)
+B(-4,2,-2,wooden_slab:13)
+B(-4,2,-1,wooden_slab:13)
+B(-4,2,0,wooden_slab:13)
+B(-4,2,1,planks:1)
+B(-4,2,2,trapdoor:9)
+B(-4,2,3,trapdoor:8)
+B(-4,2,4,planks:1)
+B(-4,2,5,dark_oak_stairs:7)
+B(-3,0,-8,dark_oak_stairs:2)
+B(-3,0,-7,dark_oak_STAIRS:0)
+B(-3,0,-6,air)
+B(-3,0,-5,air)
+B(-3,0,-4,air)
+B(-3,0,-3,air)
+B(-3,0,-2,air)
+B(-3,0,-1,air)
+B(-3,0,0,air)
+B(-3,0,1,wooden_door:1)
+B(-3,0,2,air)
+B(-3,0,3,air)
+B(-3,0,4,dark_oak_stairs:2)
+B(-3,0,5,dark_oak_STAIRS:0)
+B(-3,1,-8,spruce_fence)
+B(-3,1,-7,dark_oak_stairs:7)
+B(-3,1,-6,air)
+B(-3,1,-5,air)
+B(-3,1,-4,air)
+B(-3,1,-3,air)
+B(-3,1,-2,air)
+B(-3,1,-1,air)
+B(-3,1,0,air)
+B(-3,1,1,wooden_door:8)
+B(-3,1,2,air)
+B(-3,1,3,air)
+B(-3,1,4,dark_oak_stairs:6)
+B(-3,1,5,spruce_fence)
+B(-3,2,-8,dark_oak_stairs:6)
+B(-3,2,-7,planks:1)
+B(-3,2,-6,wooden_slab:13)
+B(-3,2,-5,wooden_slab:13)
+B(-3,2,-4,wooden_slab:13)
+B(-3,2,-3,wooden_slab:13)
+B(-3,2,-2,wooden_slab:13)
+B(-3,2,-1,wooden_slab:13)
+B(-3,2,0,wooden_slab:13)
+B(-3,2,1,planks:1)
+B(-3,2,2,trapdoor:9)
+B(-3,2,3,trapdoor:10)
+B(-3,2,4,planks:1)
+B(-3,2,5,dark_oak_stairs:7)
+B(-2,0,-8,log:1)
+B(-2,0,-7,planks:1)
+B(-2,0,-6,dark_oak_stairs:0)
+B(-2,0,-5,dark_oak_stairs:0)
+B(-2,0,-4,dark_oak_stairs:0)
+B(-2,0,-3,dark_oak_stairs:0)
+B(-2,0,-2,planks:1)
+B(-2,0,-1,dark_oak_stairs:0)
+B(-2,0,0,dark_oak_stairs:0)
+B(-2,0,1,planks:1)
+B(-2,0,2,dark_oak_stairs:0)
+B(-2,0,3,dark_oak_stairs:0)
+B(-2,0,4,planks:1)
+B(-2,0,5,log:1)
+B(-2,1,-8,log:1)
+B(-2,1,-7,planks:1)
+B(-2,1,-6,dark_oak_stairs:4)
+B(-2,1,-5,dark_oak_stairs:4)
+B(-2,1,-4,dark_oak_stairs:4)
+B(-2,1,-3,dark_oak_stairs:4)
+B(-2,1,-2,planks:1)
+B(-2,1,-1,dark_oak_stairs:4)
+B(-2,1,0,dark_oak_stairs:4)
+B(-2,1,1,planks:1)
+B(-2,1,2,dark_oak_stairs:4)
+B(-2,1,3,dark_oak_stairs:4)
+B(-2,1,4,planks:1)
+B(-2,1,5,log:1)
+B(-2,2,-8,log:1)
+B(-2,2,-7,planks:1)
+B(-2,2,-6,planks:1)
+B(-2,2,-5,planks:1)
+B(-2,2,-4,planks:1)
+B(-2,2,-3,planks:1)
+B(-2,2,-2,planks:1)
+B(-2,2,-1,planks:1)
+B(-2,2,0,planks:1)
+B(-2,2,1,planks:1)
+B(-2,2,2,planks:1)
+B(-2,2,3,planks:1)
+B(-2,2,4,planks:1)
+B(-2,2,5,log:1)
+B(-1,0,-7,log:1)
+B(-1,0,-6,dark_oak_stairs:1)
+B(-1,0,-5,log:1)
+B(-1,0,-4,dark_oak_stairs:1)
+B(-1,0,-3,dark_oak_stairs:1)
+B(-1,0,-2,log:1)
+B(-1,0,-1,dark_oak_stairs:1)
+B(-1,0,0,dark_oak_stairs:1)
+B(-1,0,1,log:1)
+B(-1,0,2,dark_oak_stairs:1)
+B(-1,0,3,dark_oak_stairs:1)
+B(-1,0,4,log:1)
+B(-1,1,-7,log:1)
+B(-1,1,-6,spruce_fence)
+B(-1,1,-5,log:1)
+B(-1,1,-4,spruce_fence)
+B(-1,1,-3,spruce_fence)
+B(-1,1,-2,log:1)
+B(-1,1,-1,spruce_fence)
+B(-1,1,0,spruce_fence)
+B(-1,1,1,log:1)
+B(-1,1,2,spruce_fence)
+B(-1,1,3,spruce_fence)
+B(-1,1,4,log:1)
+B(-1,2,-7,log:1)
+B(-1,2,-6,dark_oak_stairs:5)
+B(-1,2,-5,log:1)
+B(-1,2,-4,dark_oak_stairs:5)
+B(-1,2,-3,dark_oak_stairs:5)
+B(-1,2,-2,log:1)
+B(-1,2,-1,dark_oak_stairs:5)
+B(-1,2,0,dark_oak_stairs:5)
+B(-1,2,1,log:1)
+B(-1,2,2,dark_oak_stairs:5)
+B(-1,2,3,dark_oak_stairs:5)
+B(-1,2,4,log:1)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+LightCheck(-10,0,-10,0,0)
+LightCheck(10,0,10,0,0)
+LightCheck(10,0,-10,0,0)
+LightCheck(-10,0,10,0,0)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+
+Branch(0,3,0,DynamicMineShaftAirShaft02,NORTH,100.0)
+Branch(-3,3,-2,MineShaftAirTop,NORTH,100.0)
+Branch(-3,2,-2,MineShaftAirTop,NORTH,100.0)
+Branch(-3,1,-2,MineShaftAirTop,NORTH,100.0)

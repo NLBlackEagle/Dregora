@@ -1,0 +1,339 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 10
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 19
+
+MaxHeight: 22
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source Block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: -3
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+RandomBlock(-6,15,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-6,16,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-5,14,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-5,15,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-5,15,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-5,16,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-4,13,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-4,14,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-4,14,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-4,15,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-3,12,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-3,13,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-3,13,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-3,14,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-2,11,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-2,12,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-2,12,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-2,13,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-1,10,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-1,11,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-1,11,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(-1,12,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(0,9,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(0,10,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(0,10,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(0,11,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(1,8,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(1,9,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(1,9,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(1,10,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(2,7,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(2,8,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(2,8,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(2,9,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(3,6,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(3,7,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(3,7,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(3,8,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(4,5,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(4,6,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(4,6,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(4,7,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(5,4,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(5,5,-1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(5,5,1,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(5,6,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(6,4,0,CONCRETE:15,70,LEAVES:7,100)
+RandomBlock(6,5,0,CONCRETE:15,70,LEAVES:7,100)
+
+Block(-9,19,0,CONCRETE:15)
+Block(-8,17,0,CONCRETE:15)
+Block(-8,18,0,CONCRETE:15)
+Block(-7,15,0,CONCRETE:15)
+Block(-7,16,0,CONCRETE:15)
+Block(-7,17,-1,CONCRETE:15)
+Block(-7,17,0,CONCRETE:15)
+Block(-7,17,1,CONCRETE:15)
+Block(-7,18,0,CONCRETE:15)
+Block(-6,14,0,CONCRETE:15)
+Block(-6,15,-1,CONCRETE:15)
+Block(-6,15,1,CONCRETE:15)
+Block(-6,16,-1,CONCRETE:15)
+Block(-6,16,1,CONCRETE:15)
+Block(-6,17,0,CONCRETE:15)
+Block(-5,13,0,CONCRETE:15)
+Block(-5,14,-1,CONCRETE:15)
+Block(-5,14,1,CONCRETE:15)
+Block(-5,15,0,MAGMA)
+Block(-5,16,-1,CONCRETE:15)
+Block(-5,16,1,CONCRETE:15)
+Block(-5,17,0,CONCRETE:15)
+Block(-4,12,0,CONCRETE:15)
+Block(-4,13,-1,CONCRETE:15)
+Block(-4,13,1,CONCRETE:15)
+Block(-4,14,0,MAGMA)
+Block(-4,15,-1,CONCRETE:15)
+Block(-4,15,1,CONCRETE:15)
+Block(-4,16,0,CONCRETE:15)
+Block(-3,11,0,CONCRETE:15)
+Block(-3,12,-1,CONCRETE:15)
+Block(-3,12,1,CONCRETE:15)
+Block(-3,13,0,MAGMA)
+Block(-3,14,-1,CONCRETE:15)
+Block(-3,14,1,CONCRETE:15)
+Block(-3,15,0,CONCRETE:15)
+Block(-2,10,0,CONCRETE:15)
+Block(-2,11,-1,CONCRETE:15)
+Block(-2,11,1,CONCRETE:15)
+Block(-2,12,0,MAGMA)
+Block(-2,13,-1,CONCRETE:15)
+Block(-2,13,1,CONCRETE:15)
+Block(-2,14,0,CONCRETE:15)
+Block(-1,9,0,CONCRETE:15)
+Block(-1,10,-1,CONCRETE:15)
+Block(-1,10,1,CONCRETE:15)
+Block(-1,11,0,MAGMA)
+Block(-1,12,-1,CONCRETE:15)
+Block(-1,12,1,CONCRETE:15)
+Block(-1,13,0,CONCRETE:15)
+Block(0,8,0,CONCRETE:15)
+Block(0,9,-1,CONCRETE:15)
+Block(0,9,1,CONCRETE:15)
+Block(0,10,0,MAGMA)
+Block(0,11,-1,CONCRETE:15)
+Block(0,11,1,CONCRETE:15)
+Block(0,12,0,CONCRETE:15)
+Block(1,7,0,CONCRETE:15)
+Block(1,8,-1,CONCRETE:15)
+Block(1,8,1,CONCRETE:15)
+Block(1,9,0,MAGMA)
+Block(1,10,-1,CONCRETE:15)
+Block(1,10,1,CONCRETE:15)
+Block(1,11,0,CONCRETE:15)
+Block(2,6,0,CONCRETE:15)
+Block(2,7,-1,CONCRETE:15)
+Block(2,7,1,CONCRETE:15)
+Block(2,8,0,MAGMA)
+Block(2,9,-1,CONCRETE:15)
+Block(2,9,1,CONCRETE:15)
+Block(2,10,0,CONCRETE:15)
+Block(3,5,0,CONCRETE:15)
+Block(3,6,-1,CONCRETE:15)
+Block(3,6,1,CONCRETE:15)
+Block(3,7,0,MAGMA)
+Block(3,8,-1,CONCRETE:15)
+Block(3,8,1,CONCRETE:15)
+Block(3,9,0,CONCRETE:15)
+Block(4,4,0,CONCRETE:15)
+Block(4,5,-1,CONCRETE:15)
+Block(4,5,1,CONCRETE:15)
+Block(4,6,0,MAGMA)
+Block(4,7,-1,CONCRETE:15)
+Block(4,7,1,CONCRETE:15)
+Block(4,8,0,CONCRETE:15)
+Block(5,3,0,CONCRETE:15)
+Block(5,4,-1,CONCRETE:15)
+Block(5,4,1,CONCRETE:15)
+Block(5,5,0,MAGMA)
+Block(5,6,-1,CONCRETE:15)
+Block(5,6,1,CONCRETE:15)
+Block(5,7,0,CONCRETE:15)
+Block(6,3,0,CONCRETE:15)
+Block(6,4,-1,CONCRETE:15)
+Block(6,4,1,CONCRETE:15)
+Block(6,5,-1,CONCRETE:15)
+Block(6,5,1,CONCRETE:15)
+Block(6,6,0,CONCRETE:15)
+Block(7,2,0,CONCRETE:15)
+Block(7,3,-1,CONCRETE:15)
+Block(7,3,0,CONCRETE:15)
+Block(7,3,1,CONCRETE:15)
+Block(7,4,0,CONCRETE:15)
+Block(7,5,0,CONCRETE:15)
+Block(8,2,0,CONCRETE:15)
+Block(8,3,0,CONCRETE:15)
+Block(9,1,0,CONCRETE:15)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(4,4,-1,Solid)
+BlockCheck(1,11,1,AIR)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

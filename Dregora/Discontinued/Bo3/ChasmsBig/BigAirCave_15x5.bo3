@@ -1,0 +1,42 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(-5,27,-1,AIR:0)
+B(-8,28,-2,AIR:0)
+B(-8,28,-1,AIR:0)
+B(-6,28,-1,AIR:0)
+B(-5,28,-1,AIR:0)
+B(-8,29,-3,AIR:0)
+B(-8,29,-2,AIR:0)
+B(-8,29,-1,AIR:0)
+B(-7,29,-1,AIR:0)
+B(-6,29,-1,AIR:0)
+B(-8,30,-2,AIR:0)
+B(-8,30,-1,AIR:0)
+B(-7,30,-1,AIR:0)
+B(-6,30,-1,AIR:0)
+B(-7,31,-1,AIR:0)
+B(-6,31,-1,AIR:0)
+B(-6,32,-1,AIR:0)
+

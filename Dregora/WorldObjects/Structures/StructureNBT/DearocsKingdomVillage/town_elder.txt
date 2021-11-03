@@ -1,0 +1,1 @@
+{Profession:1,CustomName:"\"Dearoc's Town Elder\"",CustomNameVisible:0,Health:50}

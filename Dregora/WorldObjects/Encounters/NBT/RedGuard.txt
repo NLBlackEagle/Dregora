@@ -1,0 +1,1 @@
+{Passengers:[{id:"minecraft:skeleton",PersistenceRequired:1b,CustomName:"Red Guard",CustomNameVisible:0,ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}]}

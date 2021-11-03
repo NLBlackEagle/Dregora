@@ -1,0 +1,153 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: true
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 256
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CanOverride: true
+InheritBO3Rotation: true
+ReplaceWithBiomeBlocks: true
+ReplaceWithGroundBlock: DIRT
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(0,300,0,AIR)
+Block(15,300,15,AIR)
+
+Block(7,0,7,LOG:1)
+Block(7,1,7,LOG:1)
+Block(7,2,7,LOG:1)
+Block(7,3,7,LOG:1)
+Block(6,4,1,WOOL:15)
+Block(7,4,7,LOG:1)
+Block(7,5,0,LOG:9)
+Block(6,5,1,WOOL:15)
+Block(7,5,1,LOG:9)
+Block(7,5,2,LOG:1)
+Block(6,5,3,WOOL:15)
+Block(7,5,7,LOG:1)
+Block(6,5,14,WOOL:15)
+Block(7,5,14,LOG:1)
+Block(7,5,15,LOG:9)
+Block(7,6,1,WOOL:15)
+Block(7,6,2,LOG:9)
+Block(6,6,3,WOOL:15)
+Block(7,6,3,LOG:9)
+Block(7,6,4,LOG:9)
+Block(7,6,5,LOG:1)
+Block(5,6,6,WOOL:15)
+Block(6,6,6,WOOL:15)
+Block(7,6,7,LOG:1)
+Block(6,6,9,WOOL:15)
+Block(6,6,12,WOOL:15)
+Block(7,6,13,LOG:1)
+Block(7,6,14,LOG:9)
+Block(6,7,3,WOOL:15)
+Block(7,7,3,WOOL:15)
+Block(7,7,4,WOOL:15)
+Block(6,7,5,WOOL:15)
+Block(7,7,5,LOG:9)
+Block(5,7,6,WOOL:15)
+Block(6,7,6,WOOL:15)
+Block(7,7,6,LOG:9)
+Block(7,7,7,LOG:1)
+Block(6,7,9,WOOL:15)
+Block(6,7,12,WOOL:15)
+Block(7,7,12,LOG:1)
+Block(7,7,13,LOG:9)
+Block(5,8,6,WOOL:15)
+Block(7,8,7,LOG:1)
+Block(6,8,9,WOOL:15)
+Block(7,8,9,LOG:1)
+Block(7,8,10,LOG:9)
+Block(7,8,11,LOG:9)
+Block(7,8,12,LOG:9)
+Block(5,9,6,WOOL:15)
+Block(7,9,7,LOG:1)
+Block(7,9,8,LOG:9)
+Block(6,9,9,WOOL:15)
+Block(7,9,9,LOG:9)
+Block(6,10,4,WOOL:15)
+Block(5,10,6,WOOL:15)
+Block(7,10,7,LOG:1)
+Block(6,11,5,WOOL:15)
+Block(5,11,6,WOOL:15)
+Block(6,11,6,WOOL:15)
+Block(7,11,7,LOG:1)
+Block(6,12,5,WOOL:15)
+Block(6,12,6,WOOL:15)
+Block(7,12,7,LOG:1)
+Block(7,12,8,WOOL:15)
+Block(6,13,4,WOOL:15)
+Block(7,13,4,LOG:9)
+Block(6,13,5,WOOL:15)
+Block(6,13,6,WOOL:15)
+Block(7,13,7,LOG:1)
+Block(7,13,8,WOOL:15)
+Block(7,14,4,WOODEN_SLAB:5)
+Block(6,14,5,WOOL:15)
+Block(7,14,5,LOG:9)
+Block(6,14,6,WOOL:15)
+Block(7,14,6,LOG:9)
+Block(7,14,7,LOG:1)
+Block(7,14,8,WOOL:15)
+Block(7,15,5,WOODEN_SLAB:5)
+Block(7,15,6,WOODEN_SLAB:5)
+Block(7,15,7,LOG:1)
+

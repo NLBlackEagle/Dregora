@@ -1,0 +1,1 @@
+{ShowArms:1b,ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:16746496}}},{id:"leather_leggings",Count:1b,tag:{display:{color:16746496}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:0}}},{id:"leather_helmet",Count:1b,tag:{display:{color:0}}}],HandItems:[{id:"wooden_sword",Count:1b},{id:"wooden_sword",Count:1b}]}

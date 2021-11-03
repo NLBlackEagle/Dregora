@@ -1,0 +1,33 @@
+Author: BO3 BulkEdit (by LanToaster)
+Description: This Object was Created with BO3_BulkEdit
+Version: 3
+SettingsMode: WriteDisable
+
+
+Tree: true
+Frequency: 200
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MinHeight: 0
+MaxHeight: 40
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 0
+OutsideSourceBlock: placeAnyway
+
+
+Block(0,-1,0,FENCE:0)
+Block(0,-2,0,FENCE:0)
+Block(0,-3,0,SEA_LANTERN:0)
+
+BlockCheck(0,0,0,LEAVES)
+BlockCheck(0,-1,0,AIR)
+BlockCheck(0,-2,0,AIR)
+BlockCheck(0,-3,0,AIR)
+BlockCheck(0,-4,0,AIR)
+BlockCheck(0,-5,0,AIR)

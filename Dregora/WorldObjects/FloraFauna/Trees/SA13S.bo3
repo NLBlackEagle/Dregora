@@ -1,0 +1,315 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: Converted version of the BO2 SA13S
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 199
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,SAND
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(4,10,-5,LEAVES:4)
+B(2,6,0,LEAVES:4)
+B(0,7,0,LEAVES:4)
+B(0,7,-5,LOG:12)
+B(3,7,-3,LOG:12)
+Block(-3,7,-1,LOG:12)
+B(3,5,-3,LEAVES:4)
+Block(-3,8,-1,LEAVES:4)
+B(3,6,-3,LOG:12)
+B(0,9,-3,LEAVES:4)
+Block(-3,3,-1,LEAVES:4)
+B(5,8,-4,LEAVES:4)
+Block(-6,5,-3,LEAVES:4)
+Block(-4,6,0,LEAVES:4)
+B(5,7,-4,LEAVES:4)
+B(0,7,-3,LEAVES:4)
+Block(-3,4,-1,LEAVES:4)
+B(1,10,-4,LEAVES:4)
+B(0,10,-2,LEAVES:4)
+B(3,6,-7,LEAVES:4)
+B(3,3,-5,LEAVES:4)
+B(3,9,-5,LEAVES:4)
+B(3,8,1,LEAVES:4)
+Block(-1,8,0,LEAVES:4)
+B(3,4,0,LEAVES:4)
+Block(-3,4,2,LEAVES:4)
+Block(-3,4,1,LEAVES:4)
+Block(-5,4,0,LEAVES:4)
+Block(-3,8,1,LOG:12)
+B(1,8,-6,LEAVES:4)
+B(0,9,-1,LEAVES:4)
+B(4,7,-6,LEAVES:4)
+Block(-2,5,-5,LEAVES:4)
+Block(-2,8,-5,LEAVES:4)
+Block(-2,3,-2,LEAVES:4)
+B(5,7,-2,LEAVES:4)
+B(3,10,-5,LEAVES:4)
+B(2,11,-4,LEAVES:4)
+Block(-5,10,0,LEAVES:4)
+B(0,9,0,LEAVES:4)
+Block(-2,7,-2,LEAVES:4)
+Block(-1,8,-6,LOG:12)
+Block(-2,6,-2,LEAVES:4)
+B(3,7,-1,LEAVES:4)
+B(4,7,-4,LEAVES:4)
+B(6,7,-3,LEAVES:4)
+Block(-1,10,-2,LEAVES:4)
+B(2,5,0,LEAVES:4)
+Block(-4,7,2,LEAVES:4)
+Block(-5,6,-1,LEAVES:4)
+Block(-5,7,2,LEAVES:4)
+Block(-5,4,-1,LEAVES:4)
+Block(-3,6,-4,LOG:12)
+B(4,9,-2,LOG:12)
+B(4,8,-2,LOG:12)
+B(1,8,-2,LEAVES:4)
+Block(-5,7,-5,LEAVES:4)
+Block(-1,7,-4,LEAVES:4)
+B(1,7,-2,LEAVES:4)
+Block(-2,7,0,LOG:12)
+B(1,2,-2,LOG:12)
+Block(-1,7,-5,LEAVES:4)
+B(1,7,-1,LEAVES:4)
+B(1,3,-2,LOG:12)
+B(1,0,-2,LOG:12)
+B(1,1,-2,LOG:12)
+Block(-2,9,1,LEAVES:4)
+B(4,9,-3,LEAVES:4)
+B(3,9,-2,LEAVES:4)
+B(1,9,-1,LEAVES:4)
+Block(-3,8,-4,LEAVES:4)
+B(4,7,-3,LEAVES:4)
+Block(-2,6,0,LOG:12)
+Block(-2,6,1,LEAVES:4)
+Block(-3,7,-4,LEAVES:4)
+B(3,7,-2,LEAVES:4)
+Block(-1,8,-3,LEAVES:4)
+Block(-1,9,-3,LEAVES:4)
+Block(-1,4,-2,LEAVES:4)
+B(0,4,-4,LEAVES:4)
+B(1,6,0,LOG:12)
+B(1,8,-3,LEAVES:4)
+B(1,7,-3,LEAVES:4)
+B(1,7,-4,LOG:12)
+B(1,6,-4,LOG:12)
+Block(-1,5,-3,LOG:12)
+B(1,3,-4,LEAVES:4)
+B(2,8,-7,LEAVES:4)
+Block(-3,9,-2,LEAVES:4)
+Block(-1,10,0,LEAVES:4)
+Block(-1,11,-4,LEAVES:4)
+Block(-2,7,4,LEAVES:4)
+Block(-2,5,4,LEAVES:4)
+B(0,10,-1,LEAVES:4)
+B(2,4,-5,LEAVES:4)
+B(2,11,-2,LEAVES:4)
+B(2,5,-5,LEAVES:4)
+Block(-1,6,-7,LEAVES:4)
+B(2,8,-5,LOG:12)
+B(2,9,-5,LOG:12)
+B(2,5,-3,LOG:12)
+B(1,11,-5,LEAVES:4)
+B(2,4,-3,LOG:12)
+B(0,10,-5,LEAVES:4)
+B(4,7,-7,LEAVES:4)
+B(1,7,1,LOG:12)
+B(7,7,-1,LEAVES:4)
+Block(-2,9,-1,LEAVES:4)
+B(5,7,-3,LEAVES:4)
+Block(-2,7,-1,LEAVES:4)
+Block(-2,6,-1,LEAVES:4)
+B(6,7,-4,LEAVES:4)
+B(1,7,0,LEAVES:4)
+B(0,4,-2,LOG:12)
+B(5,7,-1,LEAVES:4)
+B(5,6,-1,LEAVES:4)
+B(1,9,0,LEAVES:4)
+Block(-4,7,1,LEAVES:4)
+Block(-2,5,-3,LOG:12)
+B(7,7,-2,LEAVES:4)
+Block(-6,7,1,LEAVES:4)
+Block(-1,3,-1,LEAVES:4)
+Block(-2,10,1,LEAVES:4)
+Block(-1,7,-1,LEAVES:4)
+B(2,5,-1,LOG:12)
+Block(-1,5,-1,LOG:12)
+B(2,4,-1,LOG:12)
+B(2,7,-2,LEAVES:4)
+Block(-4,7,3,LEAVES:4)
+B(2,9,-1,LEAVES:4)
+Block(-4,7,-1,LEAVES:4)
+Block(-4,5,-1,LEAVES:4)
+Block(-6,4,-1,LEAVES:4)
+Block(-4,6,-2,LEAVES:4)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,0,GRASS,DIRT)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

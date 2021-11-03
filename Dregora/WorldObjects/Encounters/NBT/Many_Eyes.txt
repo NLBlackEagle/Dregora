@@ -1,0 +1,1 @@
+{CustomName:"Many Eyes",CustomNameVisible:0,Health:25,Attributes:[{Name:"generic.maxHealth",Base:25},{Name:"generic.followRange",Base:30},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.attackDamage",Base:2}],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647}]}

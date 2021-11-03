@@ -1,0 +1,661 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 50
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-7,-1,-5,LOG:3)
+Block(-6,-1,-5,GRASS_PATH)
+Block(-5,-1,-5,GRASS_PATH)
+Block(-4,-1,-5,GRASS_PATH)
+Block(-3,-1,-5,GRASS_PATH)
+Block(-2,-1,-5,GRASS_PATH)
+Block(-1,-1,-5,GRASS_PATH)
+Block(0,-1,-5,GRASS_PATH)
+Block(1,-1,-5,GRASS_PATH)
+Block(2,-1,-5,GRASS_PATH)
+Block(3,-1,-5,GRASS_PATH)
+Block(4,-1,-5,GRASS_PATH)
+Block(5,-1,-5,GRASS_PATH)
+Block(6,-1,-5,LOG:3)
+Block(-7,-1,-4,GRASS_PATH)
+Block(-6,-1,-4,GRASS_PATH)
+Block(-5,-1,-4,GRASS_PATH)
+Block(-4,-1,-4,HAY_BLOCK:8)
+Block(-3,-1,-4,HAY_BLOCK:4)
+Block(-2,-1,-4,GRASS_PATH)
+Block(-1,-1,-4,GRASS_PATH)
+Block(0,-1,-4,GRASS_PATH)
+Block(1,-1,-4,GRASS_PATH)
+Block(2,-1,-4,GRAVEL)
+Block(3,-1,-4,GRAVEL)
+Block(4,-1,-4,GRASS_PATH)
+Block(5,-1,-4,GRASS_PATH)
+Block(6,-1,-4,GRASS_PATH)
+Block(-7,-1,-3,LOG:3)
+Block(-6,-1,-3,GRASS_PATH)
+Block(-5,-1,-3,HAY_BLOCK)
+Block(-4,-1,-3,HAY_BLOCK)
+Block(-3,-1,-3,HAY_BLOCK:4)
+Block(-2,-1,-3,COBBLESTONE)
+Block(-1,-1,-3,COBBLESTONE)
+Block(0,-1,-3,COBBLESTONE)
+Block(1,-1,-3,COBBLESTONE)
+Block(2,-1,-3,GRAVEL)
+Block(3,-1,-3,GRAVEL)
+Block(4,-1,-3,GRAVEL)
+Block(5,-1,-3,GRAVEL)
+Block(6,-1,-3,LOG:3)
+Block(-7,-1,-2,COBBLESTONE)
+Block(-6,-1,-2,GRASS_PATH)
+Block(-5,-1,-2,HAY_BLOCK:8)
+Block(-4,-1,-2,LOG:3)
+Block(-3,-1,-2,HAY_BLOCK:8)
+Block(-2,-1,-2,COBBLESTONE)
+Block(-1,-1,-2,COBBLESTONE)
+Block(0,-1,-2,COBBLESTONE)
+Block(1,-1,-2,COBBLESTONE)
+Block(2,-1,-2,GRAVEL)
+Block(3,-1,-2,LOG:3)
+Block(4,-1,-2,GRAVEL)
+Block(5,-1,-2,GRASS_PATH)
+Block(6,-1,-2,COBBLESTONE)
+Block(-7,-1,-1,GRASS_PATH)
+Block(-6,-1,-1,GRAVEL)
+Block(-5,-1,-1,GRAVEL)
+Block(-4,-1,-1,GRAVEL)
+Block(-3,-1,-1,GRAVEL)
+Block(-2,-1,-1,COBBLESTONE)
+Block(-1,-1,-1,COBBLESTONE)
+Block(0,-1,-1,COBBLESTONE)
+Block(1,-1,-1,COBBLESTONE)
+Block(2,-1,-1,GRAVEL)
+Block(3,-1,-1,GRAVEL)
+Block(4,-1,-1,GRAVEL)
+Block(5,-1,-1,GRASS_PATH)
+Block(6,-1,-1,GRASS_PATH)
+Block(-7,-1,0,GRASS_PATH)
+Block(-6,-1,0,GRAVEL)
+Block(-5,-1,0,GRAVEL)
+Block(-4,-1,0,GRAVEL)
+Block(-3,-1,0,GRASS_PATH)
+Block(-2,-1,0,GRAVEL)
+Block(-1,-1,0,GRAVEL)
+Block(0,-1,0,GRAVEL)
+Block(1,-1,0,GRAVEL)
+Block(2,-1,0,GRAVEL)
+Block(3,-1,0,GRASS_PATH)
+Block(4,-1,0,GRASS_PATH)
+Block(5,-1,0,concrete:15)
+Block(6,-1,0,GRASS_PATH)
+Block(-7,-1,1,COBBLESTONE)
+Block(-6,-1,1,GRAVEL)
+Block(-5,-1,1,GRAVEL)
+Block(-4,-1,1,LOG:3)
+Block(-3,-1,1,COBBLESTONE)
+Block(-2,-1,1,COBBLESTONE)
+Block(-1,-1,1,COBBLESTONE)
+Block(0,-1,1,GRAVEL)
+Block(1,-1,1,COBBLESTONE)
+Block(2,-1,1,STEP:3)
+Block(3,-1,1,LOG:3)
+Block(4,-1,1,concrete:15)
+Block(5,-1,1,concrete:15)
+Block(6,-1,1,COBBLESTONE)
+Block(-7,-1,2,LOG:3)
+Block(-6,-1,2,GRASS_PATH)
+Block(-5,-1,2,GRAVEL)
+Block(-4,-1,2,COBBLESTONE)
+Block(-3,-1,2,COBBLESTONE)
+Block(-2,-1,2,COBBLESTONE)
+Block(-1,-1,2,COBBLESTONE)
+Block(0,-1,2,COBBLESTONE)
+Block(1,-1,2,COBBLESTONE)
+Block(2,-1,2,COBBLESTONE)
+Block(3,-1,2,concrete:15)
+Block(4,-1,2,concrete:15)
+Block(5,-1,2,concrete:15)
+Block(6,-1,2,LOG:3)
+Block(-7,-1,3,GRASS_PATH)
+Block(-6,-1,3,GRASS_PATH)
+Block(-5,-1,3,GRAVEL)
+Block(-4,-1,3,COBBLESTONE)
+Block(-3,-1,3,COBBLESTONE)
+Block(-2,-1,3,COBBLESTONE)
+Block(-1,-1,3,COBBLESTONE)
+Block(0,-1,3,DOUBLE_STEP:3)
+Block(1,-1,3,COBBLESTONE)
+Block(2,-1,3,DOUBLE_STEP:3)
+Block(3,-1,3,concrete:15)
+Block(4,-1,3,concrete:15)
+Block(5,-1,3,concrete:15)
+Block(6,-1,3,concrete:15)
+Block(-7,-1,4,LOG:3)
+Block(-6,-1,4,GRASS_PATH)
+Block(-5,-1,4,GRASS_PATH)
+Block(-4,-1,4,GRASS_PATH)
+Block(-3,-1,4,GRASS_PATH)
+Block(-2,-1,4,GRASS_PATH)
+Block(-1,-1,4,GRASS_PATH)
+Block(0,-1,4,GRASS_PATH)
+Block(1,-1,4,GRASS_PATH)
+Block(2,-1,4,GRASS_PATH)
+Block(3,-1,4,GRASS_PATH)
+Block(4,-1,4,concrete:15)
+Block(5,-1,4,GRASS_PATH)
+Block(6,-1,4,LOG:3)
+Block(-7,0,-7,WOOD_STEP:10)
+Block(-6,0,-7,WOOD_STEP:10)
+Block(-5,0,-7,WOOD_STEP:10)
+Block(-4,0,-7,WOOD_STEP:8)
+Block(-1,0,-7,WOOD_STEP:8)
+Block(0,0,-7,WOOD_STEP:10)
+Block(1,0,-7,WOOD_STEP:10)
+Block(2,0,-7,WOOD_STEP:10)
+Block(3,0,-7,WOOD_STEP:10)
+Block(4,0,-7,WOOD_STEP:10)
+Block(5,0,-7,WOOD_STEP:10)
+Block(6,0,-7,WOOD_STEP:10)
+Block(-7,0,-6,WOOD_STEP:10)
+Block(6,0,-6,WOOD_STEP:10)
+Block(-7,0,-5,SPRUCE_FENCE)
+Block(6,0,-5,SPRUCE_FENCE)
+Block(-4,0,-4,HAY_BLOCK)
+Block(-3,0,-4,HAY_BLOCK:4)
+Block(-7,0,-3,SPRUCE_FENCE)
+Block(-4,0,-3,HAY_BLOCK:4)
+Block(-2,0,-3,STEP:3)
+Block(-1,0,-3,COBBLESTONE)
+Block(0,0,-3,COBBLESTONE_STAIRS:2)
+Block(1,0,-3,COBBLESTONE)
+Block(3,0,-3,SPRUCE_WOOD_STAIRS:5)
+Block(4,0,-3,SPRUCE_WOOD_STAIRS:4)
+Block(6,0,-3,SPRUCE_FENCE)
+Block(-7,0,-2,COBBLE_WALL)
+Block(-4,0,-2,SPRUCE_FENCE)
+Block(-2,0,-2,COBBLESTONE_STAIRS:0)
+Block(-1,0,-2,FURNACE:3)
+Block(0,0,-2,FURNACE:3)
+Block(1,0,-2,COBBLESTONE_STAIRS:1)
+Block(2,0,-2,CAULDRON:3)
+Block(3,0,-2,SPRUCE_FENCE)
+Block(6,0,-2,COBBLE_WALL)
+Block(-2,0,-1,STEP:3)
+Block(1,0,-1,COBBLESTONE_STAIRS:0)
+Block(-5,0,0,AIR)
+Block(1,0,0,AIR)
+Block(-7,0,1,COBBLE_WALL)
+Block(-4,0,1,SPRUCE_FENCE)
+Block(-3,0,1,COBBLESTONE_STAIRS:2)
+Block(-2,0,1,COBBLESTONE_STAIRS:2)
+Block(-1,0,1,STEP:3)
+Block(3,0,1,SPRUCE_FENCE)
+Block(4,0,1,COBBLESTONE_STAIRS:2)
+Block(5,0,1,STEP:3)
+Block(6,0,1,COBBLE_WALL)
+Block(-7,0,2,SPRUCE_FENCE)
+Block(-5,0,2,CAULDRON:3)
+Block(-4,0,2,COBBLESTONE_STAIRS:0)
+Block(-3,0,2,MAGMA)
+Block(-2,0,2,MAGMA)
+Block(-1,0,2,COBBLESTONE_STAIRS:1)
+Block(1,0,2,ANVIL:5)
+Block(3,0,2,COBBLESTONE_STAIRS:0)
+Block(4,0,2,MAGMA)
+Block(5,0,2,concrete:15)
+Block(6,0,2,SPRUCE_FENCE)
+Block(-4,0,3,COBBLESTONE)
+Block(-3,0,3,COBBLESTONE_STAIRS:0)
+Block(-2,0,3,COBBLESTONE_STAIRS:0)
+Block(-1,0,3,COBBLESTONE_STAIRS:1)
+Block(2,0,3,STEP:3)
+Block(3,0,3,concrete:15)
+Block(4,0,3,concrete:15)
+Block(5,0,3,STEP:3)
+Block(-7,0,4,SPRUCE_FENCE)
+Block(6,0,4,SPRUCE_FENCE)
+Block(-7,0,5,WOOD_STEP:10)
+Block(6,0,5,WOOD_STEP:10)
+Block(-7,0,6,WOOD_STEP:10)
+Block(-6,0,6,WOOD_STEP:10)
+Block(-3,0,6,WOOD_STEP:10)
+Block(-2,0,6,WOOD_STEP:10)
+Block(-1,0,6,WOOD_STEP:10)
+Block(4,0,6,WOOD_STEP:10)
+Block(5,0,6,WOOD_STEP:10)
+Block(6,0,6,WOOD_STEP:10)
+Block(-5,1,-7,WOOD_STEP:3)
+Block(-4,1,-7,WOOD_STEP)
+Block(-3,1,-7,WOOD_STEP)
+Block(-2,1,-7,WOOD_STEP)
+Block(-1,1,-7,WOOD_STEP)
+Block(-7,1,-6,WOOD_STEP:2)
+Block(-6,1,-6,WOOD_STEP)
+Block(-5,1,-6,WOOD_STEP)
+Block(-4,1,-6,WOOD_DOUBLE_STEP)
+Block(-3,1,-6,WOOD_DOUBLE_STEP)
+Block(-2,1,-6,WOOD_STEP:11)
+Block(-1,1,-6,WOOD_STEP:11)
+Block(0,1,-6,WOOD_STEP)
+Block(1,1,-6,WOOD_STEP)
+Block(2,1,-6,WOOD_DOUBLE_STEP)
+Block(3,1,-6,WOOD_DOUBLE_STEP)
+Block(4,1,-6,WOOD_STEP)
+Block(5,1,-6,WOOD_STEP)
+Block(6,1,-6,WOOD_STEP:2)
+Block(-7,1,-5,WOOD_DOUBLE_STEP:2)
+Block(-6,1,-5,WOOD_STEP:8)
+Block(-5,1,-5,WOOD_STEP:8)
+Block(-4,1,-5,WOOD_STEP:8)
+Block(-3,1,-5,WOOD_STEP:8)
+Block(-2,1,-5,WOOD_STEP:8)
+Block(-1,1,-5,WOOD_STEP:8)
+Block(0,1,-5,WOOD_STEP:8)
+Block(1,1,-5,WOOD_STEP:8)
+Block(2,1,-5,WOOD_STEP:8)
+Block(3,1,-5,WOOD_STEP:8)
+Block(4,1,-5,WOOD_STEP:8)
+Block(5,1,-5,WOOD_STEP:8)
+Block(6,1,-5,WOOD_DOUBLE_STEP:2)
+RandomBlock(-8,1,-4,WALL_BANNER:4,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner20.nbt,100)
+Block(-7,1,-4,WOOD_STEP:10)
+RandomBlock(-6,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-5,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-4,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-3,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-2,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-1,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(0,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(1,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(2,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(3,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(4,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(5,1,-4,WALL_BANNER:3,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:3,../JungleNBT/banners/JungleBanner20.nbt,100)
+Block(6,1,-4,WOOD_STEP:10)
+Block(-7,1,-3,SPRUCE_FENCE)
+Block(6,1,-3,SPRUCE_FENCE)
+Block(-7,1,-2,TORCH)
+Block(-4,1,-2,SPRUCE_FENCE)
+Block(-1,1,-2,STEP:3)
+Block(0,1,-2,STEP:3)
+Block(3,1,-2,SPRUCE_FENCE)
+Block(6,1,-2,TORCH)
+Block(-7,1,1,TORCH)
+Block(-4,1,1,SPRUCE_FENCE)
+Block(3,1,1,SPRUCE_FENCE)
+Block(6,1,1,TORCH)
+Block(-7,1,2,SPRUCE_FENCE)
+Block(6,1,2,SPRUCE_FENCE)
+RandomBlock(-8,1,3,WALL_BANNER:4,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER:4,../JungleNBT/banners/JungleBanner20.nbt,100)
+Block(-7,1,3,WOOD_STEP:10)
+RandomBlock(-6,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-5,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-4,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-3,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-2,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(-1,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(0,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(1,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(2,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(3,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(4,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+RandomBlock(5,1,3,WALL_BANNER,../JungleNBT/banners/JungleBanner01.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner02.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner03.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner04.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner05.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner06.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner07.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner08.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner09.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner10.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner11.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner12.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner13.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner14.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner15.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner16.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner17.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner18.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner19.nbt,8,WALL_BANNER,../JungleNBT/banners/JungleBanner20.nbt,100)
+Block(6,1,3,WOOD_STEP:10)
+Block(-7,1,4,WOOD_DOUBLE_STEP:2)
+Block(-6,1,4,WOOD_STEP:8)
+Block(-5,1,4,WOOD_STEP:8)
+Block(-4,1,4,WOOD_STEP:8)
+Block(-3,1,4,WOOD_STEP:8)
+Block(-2,1,4,WOOD_STEP:8)
+Block(-1,1,4,WOOD_STEP:8)
+Block(0,1,4,WOOD_STEP:8)
+Block(1,1,4,WOOD_STEP:8)
+Block(2,1,4,WOOD_STEP:8)
+Block(3,1,4,WOOD_STEP:8)
+Block(4,1,4,WOOD_STEP:8)
+Block(5,1,4,WOOD_STEP:8)
+Block(6,1,4,WOOD_DOUBLE_STEP:2)
+Block(-7,1,5,WOOD_STEP:2)
+Block(-6,1,5,WOOD_STEP)
+Block(-5,1,5,WOOD_DOUBLE_STEP)
+Block(-4,1,5,WOOD_STEP)
+Block(-3,1,5,WOOD_STEP)
+Block(-2,1,5,WOOD_STEP)
+Block(-1,1,5,WOOD_STEP)
+Block(0,1,5,WOOD_DOUBLE_STEP)
+Block(1,1,5,WOOD_DOUBLE_STEP)
+Block(2,1,5,WOOD_DOUBLE_STEP)
+Block(3,1,5,WOOD_DOUBLE_STEP)
+Block(4,1,5,WOOD_STEP)
+Block(5,1,5,WOOD_STEP)
+Block(6,1,5,WOOD_STEP:2)
+Block(-5,1,6,WOOD_STEP)
+Block(-4,1,6,WOOD_STEP)
+Block(-3,1,6,WOOD_STEP:3)
+Block(0,1,6,WOOD_STEP)
+Block(1,1,6,WOOD_STEP)
+Block(2,1,6,WOOD_STEP)
+Block(3,1,6,WOOD_STEP)
+Block(4,1,6,WOOD_STEP)
+Block(-4,2,-5,WOOD_STEP)
+Block(3,2,-5,WOOD_STEP:3)
+Block(-7,2,-4,WOOD_STEP:2)
+Block(-6,2,-4,WOOD_STEP)
+Block(-5,2,-4,WOOD_DOUBLE_STEP)
+Block(-4,2,-4,WOOD_DOUBLE_STEP)
+Block(-3,2,-4,WOOD_STEP)
+Block(-2,2,-4,WOOD_STEP)
+Block(-1,2,-4,WOOD_STEP)
+Block(0,2,-4,WOOD_DOUBLE_STEP)
+Block(1,2,-4,WOOD_DOUBLE_STEP)
+Block(2,2,-4,WOOD_DOUBLE_STEP)
+Block(3,2,-4,WOOD_STEP)
+Block(4,2,-4,WOOD_STEP)
+Block(5,2,-4,WOOD_STEP)
+Block(6,2,-4,WOOD_STEP:2)
+Block(-7,2,-3,WOOD_DOUBLE_STEP:2)
+Block(-6,2,-3,WOOD_STEP:8)
+Block(-5,2,-3,WOOD_STEP:8)
+Block(-4,2,-3,WOOD_STEP:8)
+Block(-3,2,-3,WOOD_STEP:8)
+Block(-2,2,-3,WOOD_STEP:8)
+Block(-1,2,-3,WOOD_STEP:8)
+Block(0,2,-3,WOOD_STEP:8)
+Block(1,2,-3,WOOD_STEP:8)
+Block(2,2,-3,WOOD_STEP:8)
+Block(3,2,-3,WOOD_STEP:8)
+Block(4,2,-3,WOOD_STEP:11)
+Block(5,2,-3,WOOD_STEP:11)
+Block(6,2,-3,WOOD_DOUBLE_STEP:2)
+Block(-7,2,-2,WOOD_STEP:10)
+Block(-4,2,-2,SPRUCE_FENCE)
+Block(3,2,-2,SPRUCE_FENCE)
+Block(6,2,-2,WOOD_STEP:10)
+Block(-7,2,1,WOOD_STEP:10)
+Block(-4,2,1,SPRUCE_FENCE)
+Block(3,2,1,SPRUCE_FENCE)
+Block(6,2,1,WOOD_STEP:10)
+Block(-7,2,2,WOOD_DOUBLE_STEP:2)
+Block(-6,2,2,WOOD_STEP:8)
+Block(-5,2,2,WOOD_STEP:8)
+Block(-4,2,2,WOOD_STEP:8)
+Block(-3,2,2,WOOD_STEP:8)
+Block(-2,2,2,WOOD_STEP:8)
+Block(-1,2,2,WOOD_STEP:8)
+Block(0,2,2,WOOD_STEP:8)
+Block(1,2,2,WOOD_STEP:8)
+Block(2,2,2,WOOD_STEP:8)
+Block(3,2,2,WOOD_STEP:8)
+Block(4,2,2,WOOD_STEP:8)
+Block(5,2,2,WOOD_STEP:8)
+Block(6,2,2,WOOD_DOUBLE_STEP:2)
+Block(-7,2,3,WOOD_STEP:2)
+Block(-6,2,3,WOOD_STEP)
+Block(-5,2,3,WOOD_STEP)
+Block(-4,2,3,WOOD_STEP)
+Block(-3,2,3,WOOD_DOUBLE_STEP)
+Block(-2,2,3,WOOD_DOUBLE_STEP)
+Block(-1,2,3,WOOD_DOUBLE_STEP)
+Block(0,2,3,WOOD_DOUBLE_STEP)
+Block(1,2,3,WOOD_STEP)
+Block(2,2,3,WOOD_STEP)
+Block(3,2,3,WOOD_STEP)
+Block(4,2,3,WOOD_DOUBLE_STEP)
+Block(5,2,3,WOOD_STEP)
+Block(6,2,3,WOOD_STEP:2)
+Block(-4,2,4,WOOD_STEP:3)
+Block(-3,2,4,WOOD_STEP:3)
+Block(-2,2,4,WOOD_STEP:3)
+Block(-1,2,4,WOOD_STEP)
+Block(0,2,4,WOOD_STEP)
+Block(1,2,4,WOOD_STEP)
+Block(3,2,4,WOOD_STEP)
+Block(4,2,4,WOOD_STEP)
+Block(-6,3,-3,WOOD_STEP)
+Block(-5,3,-3,WOOD_STEP)
+Block(-4,3,-3,WOOD_STEP)
+Block(-1,3,-3,WOOD_STEP)
+Block(0,3,-3,WOOD_STEP)
+Block(1,3,-3,WOOD_STEP)
+Block(-7,3,-2,WOOD_STEP:2)
+Block(-6,3,-2,WOOD_STEP)
+Block(-5,3,-2,WOOD_STEP)
+Block(-4,3,-2,WOOD_DOUBLE_STEP)
+Block(-3,3,-2,WOOD_STEP)
+Block(-2,3,-2,WOOD_STEP)
+Block(-1,3,-2,WOOD_STEP)
+Block(0,3,-2,WOOD_DOUBLE_STEP)
+Block(1,3,-2,WOOD_STEP)
+Block(2,3,-2,WOOD_STEP)
+Block(3,3,-2,WOOD_STEP)
+Block(4,3,-2,WOOD_STEP)
+Block(5,3,-2,WOOD_STEP)
+Block(6,3,-2,WOOD_STEP:2)
+Block(-7,3,-1,WOOD_DOUBLE_STEP:2)
+Block(-6,3,-1,WOOD_STEP:8)
+Block(-5,3,-1,WOOD_STEP:8)
+Block(-4,3,-1,WOOD_STEP:8)
+Block(-3,3,-1,WOOD_STEP:8)
+Block(-2,3,-1,WOOD_STEP:8)
+Block(-1,3,-1,WOOD_STEP:8)
+Block(0,3,-1,WOOD_STEP:8)
+Block(1,3,-1,WOOD_STEP:8)
+Block(2,3,-1,WOOD_STEP:8)
+Block(3,3,-1,WOOD_STEP:8)
+Block(4,3,-1,WOOD_STEP:8)
+Block(5,3,-1,WOOD_STEP:8)
+Block(6,3,-1,WOOD_DOUBLE_STEP:2)
+Block(-7,3,0,WOOD_DOUBLE_STEP:2)
+Block(-6,3,0,WOOD_STEP:8)
+Block(-5,3,0,WOOD_STEP:8)
+Block(-4,3,0,WOOD_STEP:8)
+Block(-3,3,0,WOOD_STEP:8)
+Block(-2,3,0,WOOD_STEP:8)
+Block(-1,3,0,WOOD_STEP:8)
+Block(0,3,0,WOOD_STEP:11)
+Block(1,3,0,WOOD_STEP:11)
+Block(2,3,0,WOOD_STEP:11)
+Block(3,3,0,WOOD_STEP:8)
+Block(4,3,0,WOOD_STEP:8)
+Block(5,3,0,WOOD_STEP:8)
+Block(6,3,0,WOOD_DOUBLE_STEP:2)
+Block(-7,3,1,WOOD_STEP:2)
+Block(-6,3,1,WOOD_STEP)
+Block(-5,3,1,WOOD_STEP)
+Block(-4,3,1,WOOD_DOUBLE_STEP)
+Block(-3,3,1,WOOD_DOUBLE_STEP)
+Block(-2,3,1,WOOD_DOUBLE_STEP)
+Block(-1,3,1,WOOD_STEP)
+Block(0,3,1,WOOD_STEP:3)
+Block(1,3,1,WOOD_STEP)
+Block(2,3,1,WOOD_STEP)
+Block(3,3,1,WOOD_STEP)
+Block(4,3,1,WOOD_STEP)
+Block(5,3,1,WOOD_STEP)
+Block(6,3,1,WOOD_STEP:2)
+Block(-5,3,2,WOOD_STEP:3)
+Block(-4,3,2,WOOD_STEP:3)
+Block(-3,3,2,WOOD_STEP)
+Block(-2,3,2,WOOD_STEP)
+Block(-1,3,2,WOOD_STEP:3)
+Block(0,3,2,WOOD_STEP:3)
+Block(3,3,2,WOOD_STEP)
+Block(4,3,2,WOOD_STEP)
+Block(-5,4,-1,WOOD_STEP)
+Block(-4,4,-1,WOOD_STEP)
+Block(-3,4,0,WOOD_STEP)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(-5,0,0,VILLAGER,1,../JungleNBT/entities/tribalsmith.txt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

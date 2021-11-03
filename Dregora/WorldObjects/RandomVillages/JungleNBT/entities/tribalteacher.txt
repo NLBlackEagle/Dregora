@@ -1,0 +1,1 @@
+{Profession:1,CustomName:"Tribal Teacher",CustomNameVisible:0}

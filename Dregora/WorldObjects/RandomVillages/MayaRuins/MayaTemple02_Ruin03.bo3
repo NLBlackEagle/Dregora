@@ -1,0 +1,18 @@
+Author: BO3 BulkEdit (by LanToaster)
+Description: This Object was Created with BO3_BulkEdit
+Version: 3
+SettingsMode: WriteDisable
+Tree: false
+Frequency: 100
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+MinHeight: 82
+MaxHeight: 82
+MaxBranchDepth: 10
+ExcludedBiomes: All
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+Branch(0,0,0,MayaTemple02_Ruin03_01-01,NORTH,100)

@@ -1,0 +1,49 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit - Bo3 Created by NLBlackEagle for Dregora
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 200
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: highestSolidBlock
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+WeightedBranch(0,0,0,structure_big_brick_1,north,10,structure_big_brick_2,north,10,structure_big_brick_3,north,10,structure_big_brick_8,north,10,40)
+
+
+WeightedBranch(0,0,-16,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,90)
+WeightedBranch(16,0,0,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,90)
+WeightedBranch(-16,0,0,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,90)
+WeightedBranch(0,0,16,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,90)
+
+WeightedBranch(16,0,-16,structure_big_brick_1,north,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,115)
+WeightedBranch(-16,0,-16,structure_big_brick_2,north,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,115)
+WeightedBranch(16,0,16,structure_big_brick_3,north,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,115)
+WeightedBranch(-16,0,16,structure_big_brick_8,north,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,10,115)
+
+WeightedBranch(0,0,-25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+WeightedBranch(25,0,0,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+WeightedBranch(-25,0,0,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+WeightedBranch(0,0,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+
+WeightedBranch(25,0,-25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+WeightedBranch(-25,0,-25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+WeightedBranch(25,0,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+WeightedBranch(-25,0,25,structure_brick_1,north,10,structure_brick_2,north,10,structure_brick_3,north,10,structure_brick_4,north,10,structure_brick_5,north,10,structure_brick_6,north,10,structure_brick_7,north,10,structure_brick_8,north,10,structure_stop,north,20,100)
+
+
+

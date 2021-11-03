@@ -1,0 +1,1 @@
+{Profession:5,CustomName:"\"Dearoc's Scared Man\"",CustomNameVisible:0,Health:50}

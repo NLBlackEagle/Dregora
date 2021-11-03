@@ -1,0 +1,327 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 20
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,STONE,WATER
+MaxPercentageOutsideSourceBlock: 0
+OutsideSourceBlock: placeAnyway
+
+ReplaceBelow: STONE
+ReplaceWithBiomeBlocks: true
+ReplaceWithGroundBlock: DIRT
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-2,1,-3,SPRUCE_FENCE)
+Block(-1,1,-3,SPRUCE_FENCE)
+Block(-4,1,-2,SPRUCE_FENCE)
+Block(-3,1,-2,SPRUCE_FENCE)
+Block(-1,1,-2,PLANKS:1)
+Block(0,1,-2,DIRT:1)
+Block(4,1,-2,DOUBLE_WOODEN_SLAB:1)
+Block(-1,1,-1,DIRT:1)
+Block(0,1,-1,DIRT)
+Block(1,1,-1,DIRT:1)
+Block(3,1,-1,DOUBLE_WOODEN_SLAB:1)
+Block(-1,1,0,PLANKS:1)
+Block(0,1,0,DIRT:1)
+Block(1,1,0,DIRT:1)
+Block(-2,1,1,LOG:2)
+Block(-1,1,1,SPRUCE_FENCE)
+Block(1,1,1,DIRT:1)
+Block(-2,1,2,SPRUCE_FENCE)
+Block(-1,1,2,SPRUCE_FENCE)
+Block(-1,2,-3,SPRUCE_FENCE)
+Block(0,2,-3,SPRUCE_FENCE)
+Block(-3,2,-2,SPRUCE_FENCE)
+Block(-2,2,-2,SPRUCE_FENCE)
+Block(0,2,-2,PLANKS:1)
+Block(1,2,-2,PLANKS:1)
+Block(-2,2,-1,SPRUCE_FENCE)
+Block(-1,2,-1,SPRUCE_FENCE)
+Block(0,2,-1,DIRT:1)
+Block(1,2,-1,DIRT:1)
+Block(3,2,-1,DIRT:1)
+Block(0,2,0,PLANKS:1)
+Block(1,2,0,DIRT)
+Block(2,2,0,DIRT:1)
+Block(-1,2,1,SPRUCE_FENCE)
+Block(0,2,1,SPRUCE_FENCE)
+Block(1,2,1,PLANKS:1)
+Block(2,2,1,DIRT:1)
+Block(0,3,-1,DIRT:1)
+Block(1,3,-1,PLANKS:1)
+Block(2,3,-1,DIRT:1)
+Block(3,3,-1,PLANKS:1)
+Block(1,3,0,DIRT:1)
+Block(2,3,0,DIRT)
+Block(3,3,0,DIRT:1)
+Block(1,3,1,PLANKS:1)
+Block(2,3,1,PLANKS:1)
+Block(2,4,-1,PLANKS:1)
+Block(3,4,-1,PLANKS:1)
+Block(1,4,0,DIRT:1)
+Block(2,4,0,DIRT)
+Block(3,4,0,DIRT:1)
+Block(2,4,1,PLANKS:1)
+Block(3,4,1,PLANKS:1)
+Block(3,5,-1,PLANKS:1)
+Block(4,5,-1,PLANKS:1)
+Block(2,5,0,DIRT:1)
+Block(3,5,0,DIRT)
+Block(4,5,0,DIRT:1)
+Block(3,5,1,PLANKS:1)
+Block(4,6,-1,PLANKS:1)
+Block(5,6,-1,PLANKS:1)
+Block(3,6,0,LOG:2)
+Block(4,6,0,PLANKS:1)
+Block(5,6,0,DIRT:1)
+Block(4,7,-1,LOG:2)
+Block(5,7,-1,PLANKS:1)
+Block(2,7,0,STAINED_GLASS_PANE)
+Block(4,7,0,DIRT:1)
+Block(5,7,0,DIRT:1)
+Block(0,7,1,STAINED_GLASS_PANE)
+Block(1,7,1,STAINED_GLASS_PANE)
+Block(2,7,1,STAINED_GLASS_PANE)
+Block(5,8,-1,PLANKS:1)
+Block(2,8,0,STAINED_GLASS_PANE)
+Block(3,8,0,STAINED_GLASS_PANE)
+Block(4,8,0,LOG:2)
+Block(5,8,0,DIRT:1)
+Block(-1,8,1,STAINED_GLASS_PANE)
+Block(0,8,1,STAINED_GLASS_PANE)
+Block(5,8,1,PLANKS:1)
+Block(-1,8,2,STAINED_GLASS_PANE)
+Block(3,9,0,STAINED_GLASS_PANE)
+Block(4,9,0,PLANKS:1)
+Block(5,9,0,LOG:2)
+Block(4,9,1,PLANKS:1)
+Block(5,9,1,PLANKS:1)
+Block(-2,9,2,STAINED_GLASS_PANE)
+Block(-1,9,2,STAINED_GLASS_PANE)
+Block(4,9,2,PLANKS:1)
+Block(-3,10,1,PLANKS:1)
+Block(4,10,1,PLANKS:1)
+Block(5,10,1,LOG:2)
+Block(-3,10,2,PLANKS:1)
+Block(-2,10,2,PLANKS:1)
+Block(-1,10,2,LOG:2)
+Block(3,10,2,DIRT:1)
+Block(4,10,2,PLANKS:1)
+Block(7,11,-3,LEAVES:8)
+Block(7,11,-2,LEAVES:8)
+Block(8,11,-2,LEAVES:8)
+Block(5,11,0,STAINED_GLASS_PANE)
+Block(-4,11,1,PLANKS:1)
+Block(-3,11,1,PLANKS:1)
+Block(2,11,1,DIRT:1)
+Block(3,11,1,PLANKS:1)
+Block(4,11,1,PLANKS:1)
+Block(5,11,1,SEA_LANTERN)
+Block(-2,11,2,PLANKS:1)
+Block(-1,11,2,LOG:2)
+Block(0,11,2,DIRT:1)
+Block(1,11,2,DIRT:1)
+Block(2,11,2,DIRT:1)
+Block(3,11,2,PLANKS:1)
+Block(7,11,4,LEAVES:8)
+Block(8,11,4,LEAVES:8)
+Block(7,11,5,LEAVES:8)
+Block(5,12,-2,LEAVES:8)
+Block(6,12,-2,LEAVES:8)
+Block(6,12,-1,LEAVES:8)
+Block(7,12,-1,LEAVES:8)
+Block(4,12,0,STAINED_GLASS_PANE)
+Block(5,12,0,STAINED_GLASS_PANE)
+Block(7,12,0,LEAVES:8)
+Block(-4,12,1,PLANKS:1)
+Block(-3,12,1,LOG:2)
+Block(0,12,1,PLANKS:1)
+Block(1,12,1,PLANKS:1)
+Block(2,12,1,PLANKS:1)
+Block(3,12,1,DIRT:1)
+Block(4,12,1,STAINED_GLASS_PANE)
+Block(5,12,1,STAINED_GLASS_PANE)
+Block(0,12,2,PLANKS:1)
+Block(1,12,2,PLANKS:1)
+Block(2,12,2,PLANKS:1)
+Block(3,12,2,PLANKS:1)
+Block(4,12,2,STAINED_GLASS_PANE)
+Block(5,12,2,STAINED_GLASS_PANE)
+Block(7,12,2,LEAVES:8)
+Block(6,12,3,LEAVES:8)
+Block(7,12,3,LEAVES:8)
+Block(5,12,4,LEAVES:8)
+Block(6,12,4,LEAVES:8)
+Block(5,13,-1,LEAVES:8)
+Block(3,13,0,STAINED_GLASS_PANE)
+Block(5,13,0,LEAVES:8)
+Block(6,13,0,LEAVES:8)
+Block(-4,13,1,LOG:2)
+Block(3,13,1,STAINED_GLASS_PANE)
+Block(4,13,1,STAINED_GLASS_PANE)
+Block(-5,13,2,PLANKS:1)
+Block(5,13,2,STAINED_GLASS_PANE)
+Block(6,13,2,LEAVES:8)
+Block(5,13,3,LEAVES:8)
+Block(6,13,3,LEAVES:8)
+Block(2,14,-1,LEAVES:8)
+Block(3,14,0,STAINED_GLASS_PANE)
+Block(-4,14,1,LOG:2)
+Block(3,14,1,STAINED_GLASS_PANE)
+Block(-5,14,2,PLANKS:1)
+Block(-7,14,5,LEAVES:8)
+Block(3,15,-1,LEAVES:8)
+Block(2,15,0,LEAVES:8)
+Block(3,15,0,LEAVES:8)
+Block(-6,15,1,STAINED_GLASS_PANE)
+Block(-6,15,2,STAINED_GLASS_PANE)
+Block(-5,15,2,PLANKS:1)
+Block(-6,15,3,STAINED_GLASS_PANE)
+Block(-5,15,3,STAINED_GLASS_PANE)
+Block(-7,15,4,LEAVES:8)
+Block(-6,15,4,LEAVES:8)
+Block(-6,15,5,LEAVES:8)
+Block(-7,16,0,LEAVES:8)
+Block(-6,16,1,STAINED_GLASS_PANE)
+Block(-5,16,2,DIRT:1)
+Block(-6,17,0,LEAVES:8)
+Block(-7,17,1,LEAVES:8)
+Block(-6,17,1,LEAVES:8)
+Block(-5,17,2,DIRT:1)
+Block(-4,17,2,DIRT:1)
+Block(-4,18,2,DIRT:1)
+Block(-4,18,3,DIRT:1)
+Block(-7,19,-2,LEAVES:8)
+Block(-8,19,-1,LEAVES:8)
+Block(-7,19,-1,LEAVES:8)
+Block(-4,19,3,DIRT:1)
+Block(-3,19,3,DIRT:1)
+Block(-6,20,-1,LEAVES:8)
+Block(-5,20,-1,LEAVES:8)
+Block(-7,20,0,LEAVES:8)
+Block(-6,20,0,LEAVES:8)
+Block(-7,20,1,LEAVES:8)
+Block(-3,20,2,STAINED_GLASS_PANE)
+Block(-4,20,3,SEA_LANTERN)
+Block(-3,20,3,LOG:2)
+Block(0,21,-2,LEAVES:8)
+Block(0,21,-1,LEAVES:8)
+Block(1,21,-1,LEAVES:8)
+Block(-5,21,0,LEAVES:8)
+Block(-6,21,1,LEAVES:8)
+Block(-5,21,1,LEAVES:8)
+Block(-4,21,1,STAINED_GLASS_PANE)
+Block(-3,21,1,STAINED_GLASS_PANE)
+Block(-2,21,1,STAINED_GLASS_PANE)
+Block(-3,21,2,STAINED_GLASS_PANE)
+Block(-3,21,3,LOG:2)
+Block(-2,22,-1,LEAVES:8)
+Block(-1,22,-1,LEAVES:8)
+Block(-1,22,0,LEAVES:8)
+Block(0,22,0,LEAVES:8)
+Block(-2,22,1,STAINED_GLASS_PANE)
+Block(0,22,1,LEAVES:8)
+Block(-3,22,3,LOG:2)
+Block(-1,22,5,LEAVES:8)
+Block(-2,23,0,LEAVES:8)
+Block(-3,23,1,LEAVES:8)
+Block(-2,23,1,LEAVES:8)
+Block(-1,23,1,LEAVES:8)
+Block(-2,23,2,LEAVES:8)
+Block(-3,23,3,STAINED_GLASS_PANE)
+Block(-4,23,4,STAINED_GLASS_PANE)
+Block(-3,23,4,STAINED_GLASS_PANE)
+Block(-2,23,4,LEAVES:8)
+Block(-1,23,4,LEAVES:8)
+Block(-2,23,5,LEAVES:8)
+Block(-6,24,0,LEAVES:8)
+Block(-4,24,2,STAINED_GLASS_PANE)
+Block(-3,24,2,STAINED_GLASS_PANE)
+Block(-3,24,3,STAINED_GLASS_PANE)
+Block(-4,24,4,STAINED_GLASS_PANE)
+Block(-5,24,5,LEAVES:8)
+Block(-5,25,0,LEAVES:8)
+Block(-6,25,1,LEAVES:8)
+Block(-5,25,1,LEAVES:8)
+Block(-4,25,2,STAINED_GLASS_PANE)
+Block(-5,25,4,LEAVES:4)
+Block(-4,25,4,LEAVES:4)
+Block(-4,25,5,LEAVES:8)
+Block(-4,26,1,LEAVES:8)
+Block(-5,26,2,LEAVES:8)
+Block(-4,26,2,LEAVES:8)
+Block(0,0,0,LOG:2)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(-2,0,-3,Solid)
+BlockCheck(-1,0,-3,Solid)
+BlockCheck(-4,0,-2,Solid)
+BlockCheck(-3,0,-2,Solid)
+BlockCheck(-1,0,-2,Solid)
+BlockCheck(0,0,-2,Solid)
+BlockCheck(-1,0,-1,Solid)
+BlockCheck(0,0,-1,Solid)
+BlockCheck(1,0,-1,Solid)
+BlockCheck(-1,0,0,Solid)
+BlockCheck(1,0,0,Solid)
+BlockCheck(-2,0,1,Solid)
+BlockCheck(-1,0,1,Solid)
+BlockCheck(1,0,1,Solid)
+BlockCheck(-2,0,2,Solid)
+BlockCheck(-1,0,2,Solid)
+

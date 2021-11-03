@@ -1,0 +1,269 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,22,1,WOOD_STEP:9)
+Block(-7,22,0,VINE:1)
+Block(-7,22,1,WOOD_DOUBLE_STEP:1)
+Block(-6,19,0,VINE:1)
+Block(-6,20,0,VINE:1)
+Block(-6,21,0,VINE:1)
+Block(-6,21,1,WOOD_STEP:9)
+Block(-6,22,0,VINE:1)
+Block(-6,22,1,WOOD_DOUBLE_STEP:1)
+Block(-5,21,0,VINE:1)
+Block(-5,21,1,WOOD_DOUBLE_STEP:1)
+Block(-5,22,1,WOOD_STEP:1)
+Block(-4,20,1,WOOD_STEP:9)
+Block(-4,21,1,WOOD_DOUBLE_STEP:1)
+Block(-3,20,1,WOOD_DOUBLE_STEP:1)
+Block(-3,21,1,WOOD_STEP:1)
+Block(-2,19,1,WOOD_STEP:9)
+Block(-2,19,2,VINE:4)
+Block(-2,20,1,WOOD_DOUBLE_STEP:1)
+Block(-2,20,2,VINE:4)
+Block(-1,19,1,WOOD_DOUBLE_STEP:1)
+Block(-1,20,1,WOOD_STEP:1)
+Block(0,15,1,WOOD_STEP:13)
+Block(0,18,1,WOOD_STEP:9)
+Block(0,19,1,WOOD_DOUBLE_STEP:1)
+Block(1,12,1,VINE:8)
+Block(1,13,1,VINE:8)
+Block(1,14,1,VINE:8)
+Block(1,15,1,DARK_OAK_STAIRS:4)
+Block(1,16,1,WOOD_DOUBLE_STEP:5)
+Block(1,17,1,DARK_OAK_STAIRS:1)
+Block(1,18,0,VINE:1)
+Block(1,18,1,WOOD_DOUBLE_STEP:1)
+Block(1,19,1,WOOD_STEP:1)
+Block(2,14,1,STAINED_CLAY:9)
+Block(2,15,1,STAINED_CLAY:9)
+Block(2,16,0,WOOD_STEP:5)
+Block(2,16,1,STAINED_CLAY:9)
+Block(2,16,2,WOOD_STEP:5)
+Block(2,17,1,WOOD_STEP:9)
+Block(2,18,0,VINE:1)
+Block(2,18,1,WOOD_DOUBLE_STEP:1)
+Block(3,13,1,STAINED_CLAY:9)
+Block(3,14,0,WOOD_STEP:13)
+Block(3,14,1,STAINED_CLAY:9)
+Block(3,14,2,WOOD_STEP:13)
+Block(3,15,0,DARK_OAK_STAIRS:5)
+Block(3,15,1,STAINED_CLAY:9)
+Block(3,15,2,DARK_OAK_STAIRS:5)
+Block(3,16,1,STAINED_CLAY:9)
+Block(3,17,1,WOOD_DOUBLE_STEP:1)
+Block(3,18,1,WOOD_STEP:1)
+Block(4,12,1,WOOD:5)
+Block(4,13,1,STAINED_CLAY:9)
+Block(4,14,0,WOOD_STEP:13)
+Block(4,14,1,AIR:0)
+Block(4,14,2,WOOD_STEP:13)
+Block(4,15,0,WOOD_STEP:13)
+Block(4,15,1,AIR:0)
+Block(4,15,2,WOOD_STEP:13)
+Block(4,16,1,WOOD_STEP:9)
+Block(4,17,1,WOOD_DOUBLE_STEP:1)
+Block(5,11,0,VINE:1)
+Block(5,11,1,WOOD:5)
+Block(5,12,0,VINE:9)
+Block(5,12,1,WOOD:5)
+Block(5,13,0,STAINED_CLAY:9)
+Block(5,13,1,STAINED_CLAY:9)
+Block(5,13,2,STAINED_CLAY:9)
+Block(5,14,-1,WOOD_STEP:13)
+Block(5,14,0,AIR:0)
+Block(5,14,1,AIR:0)
+Block(5,14,2,AIR:0)
+Block(5,14,3,WOOD_STEP:13)
+Block(5,15,-1,WOOD_STEP:13)
+Block(5,15,0,AIR:0)
+Block(5,15,1,AIR:0)
+Block(5,15,2,AIR:0)
+Block(5,15,3,WOOD_STEP:13)
+Block(5,16,0,VINE:1)
+Block(5,16,1,WOOD_DOUBLE_STEP:1)
+Block(5,17,1,WOOD_STEP:1)
+Block(6,11,1,WOOD:5)
+Block(6,12,-1,VINE:1)
+Block(6,12,0,WOOD:5)
+Block(6,12,1,WOOD:5)
+Block(6,12,2,WOOD:5)
+Block(6,13,0,STAINED_CLAY:9)
+Block(6,13,1,STAINED_CLAY:9)
+Block(6,13,2,STAINED_CLAY:9)
+Block(6,14,-1,WOOD_STEP:5)
+Block(6,14,0,AIR:0)
+Block(6,14,1,AIR:0)
+Block(6,14,2,AIR:0)
+Block(6,14,3,WOOD_STEP:5)
+Block(6,15,-1,WOOD_STEP:5)
+Block(6,15,0,VINE:1)
+Block(6,15,1,WOOD_STEP:9)
+Block(6,15,2,AIR:0)
+Block(6,15,3,WOOD_STEP:5)
+Block(6,16,0,VINE:1)
+Block(6,16,1,WOOD_DOUBLE_STEP:1)
+Block(7,10,1,WOOD:5)
+Block(7,11,-1,VINE:1)
+Block(7,11,1,WOOD:5)
+Block(7,12,-1,VINE:1)
+Block(7,12,0,WOOD:5)
+Block(7,12,1,WOOD:5)
+Block(7,12,2,WOOD:5)
+Block(7,13,-1,STAINED_CLAY:9)
+Block(7,13,0,STAINED_CLAY:9)
+Block(7,13,1,STAINED_CLAY:9)
+Block(7,13,2,STAINED_CLAY:9)
+Block(7,13,3,STAINED_CLAY:9)
+Block(7,13,4,VINE:4)
+Block(7,14,-1,WOOD_STEP:5)
+Block(7,14,0,AIR:0)
+Block(7,14,1,AIR:0)
+Block(7,14,2,AIR:0)
+Block(7,14,3,WOOD_STEP:5)
+Block(7,15,-1,WOOD_STEP:5)
+Block(7,15,0,AIR:0)
+Block(7,15,1,WOOD_DOUBLE_STEP:1)
+Block(7,15,2,AIR:0)
+Block(7,15,3,WOOD_STEP:5)
+Block(7,16,1,WOOD_STEP:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,WitchBoatC1R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

@@ -1,0 +1,292 @@
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+
+# Height Limits for the BO3. #
+
+
+MinHeight: 48
+
+MaxHeight: 48
+
+
+# Extrusion settings #
+
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: water
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+SourceBlocks: water
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+RandomBlock(-4,22,7,CHEST:3,./StructureNBT/StructureLoot/JunkChest_1.nbt,20,CHEST:3,./StructureNBT/StructureLoot/JunkChest_2.nbt,15,CHEST:3,./StructureNBT/StructureLoot/JunkChest_3.nbt,15,CHEST:3,./StructureNBT/StructureLoot/JunkChest_4.nbt,15,CHEST:3,./StructureNBT/StructureLoot/JunkChest_5.nbt,15,CHEST:3,./StructureNBT/LoreStoryline/LoreGeneric_5.nbt,2,CHEST:3,./StructureNBT/LoreStoryline/LoreGeneric_4.nbt,2,CHEST:3,./StructureNBT/LoreStoryline/LoreGeneric_3.nbt,2,CHEST:3,./StructureNBT/LoreStoryline/LoreGeneric_2.nbt,2,CHEST:3,./StructureNBT/LoreStoryline/LoreGeneric_1.nbt,2,CHEST:3,./StructureNBT/LoreStoryline/LorePirate_5.nbt,3,CHEST:3,./StructureNBT/LoreStoryline/LorePirate_4.nbt,3,CHEST:3,./StructureNBT/LoreStoryline/LorePirate_3.nbt,3,CHEST:3,./StructureNBT/LoreStoryline/LorePirate_2.nbt,3,CHEST:3,./StructureNBT/LoreStoryline/LorePirate_1.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common1.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common2.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common3.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common4.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common5.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common5.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common6.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common7.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common8.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common9.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common10.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common11.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common12.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common13.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common14.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Common15.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare1.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare2.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare3.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare4.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare5.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare6.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare7.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare8.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare9.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare10.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare11.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare12.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare13.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare14.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Rare15.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic1.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic2.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic3.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic4.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic5.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic6.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic7.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic8.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic9.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic10.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic11.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic12.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic13.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic14.nbt,3,CHEST:3,./StructureNBT/StructureLoot/Epic15.nbt,1,CHEST:3,./StructureNBT/StructureLoot/Common15.nbt,100)
+B(-8,1,6,cobblestone)
+B(-8,1,7,stonebrick:2)
+B(-8,1,8,monster_egg:3)
+B(-8,2,6,cobblestone)
+B(-8,2,7,monster_egg:2)
+B(-8,2,8,stonebrick)
+B(-8,3,6,cobblestone)
+B(-8,3,7,stonebrick)
+B(-8,3,8,stonebrick:1)
+B(-8,4,6,cobblestone)
+B(-8,4,7,stonebrick:2)
+B(-8,4,8,stonebrick)
+B(-8,5,6,cobblestone)
+B(-8,5,7,stonebrick:2)
+B(-8,5,8,stonebrick:2)
+B(-8,6,6,cobblestone)
+B(-8,6,7,monster_egg:4)
+B(-8,6,8,stonebrick)
+B(-8,7,6,cobblestone)
+B(-8,8,6,cobblestone)
+B(-8,9,6,log:3)
+B(-8,10,6,log:3)
+B(-8,11,6,log:3)
+B(-8,12,6,log:3)
+B(-8,13,6,log:3)
+B(-8,14,6,log:3)
+B(-8,15,6,log:3)
+B(-8,16,6,log:3)
+B(-8,17,6,log:3)
+B(-8,18,6,log:3)
+B(-8,19,6,log:3)
+B(-8,20,6,log:3)
+B(-8,21,6,log:3)
+B(-8,22,6,log:3)
+B(-8,23,6,log:3)
+B(-8,23,7,oak_stairs:7)
+B(-8,23,8,oak_stairs:6)
+B(-8,24,6,cobblestone_wall)
+B(-6,22,6,wooden_slab:8)
+B(-6,22,7,planks:1)
+B(-6,22,8,planks:1)
+B(-6,23,6,planks:1)
+B(-6,23,7,planks:1)
+B(-6,23,8,planks:1)
+B(-6,24,6,fence)
+B(-6,24,7,fence)
+B(-6,24,8,fence)
+B(-5,21,5,wooden_slab:8)
+B(-5,21,6,planks:1)
+B(-5,21,7,planks:1)
+B(-5,21,8,planks:1)
+B(-5,22,4,planks:1)
+B(-5,22,5,planks:1)
+B(-5,22,6,planks:1)
+B(-5,22,7,bed:10)
+B(-5,22,8,bed)
+B(-5,23,1,fence)
+B(-5,23,2,fence)
+B(-5,23,3,fence)
+B(-5,23,4,planks:1)
+B(-5,23,5,planks:1)
+B(-5,23,6,planks:1)
+B(-5,23,7,wooden_slab:8)
+B(-5,23,8,wooden_slab:8)
+B(-5,24,4,wooden_slab:5)
+B(-5,24,5,wooden_slab:5)
+B(-5,24,6,fence)
+B(-5,26,-1,wool)
+B(-5,26,0,wool)
+B(-5,26,1,wool)
+B(-5,26,2,log:9)
+B(-5,26,3,log:9)
+B(-5,26,4,log:9)
+B(-5,27,1,wool)
+B(-5,27,2,wool)
+B(-5,27,3,wool)
+B(-4,20,6,wooden_slab:8)
+B(-4,20,7,planks:1)
+B(-4,20,8,planks:1)
+B(-4,21,3,wooden_slab:8)
+B(-4,21,4,planks:1)
+B(-4,21,5,planks:1)
+B(-4,21,6,planks:1)
+B(-4,21,7,planks:1)
+B(-4,21,8,wooden_slab)
+B(-4,22,2,planks:1)
+B(-4,22,3,planks:1)
+B(-4,22,4,planks:1)
+B(-4,22,5,wooden_slab:8)
+B(-4,22,6,planks:1)
+B(-4,22,8,ladder)
+B(-4,23,1,planks:1)
+B(-4,23,2,planks:1)
+B(-4,23,3,dark_oak_stairs:2)
+B(-4,23,4,planks:1)
+B(-4,23,5,planks:1)
+B(-4,23,6,planks:1)
+B(-4,23,7,wooden_slab:8)
+B(-4,23,8,ladder)
+B(-4,24,-1,wooden_slab:13)
+B(-4,24,0,planks:1)
+B(-4,24,1,wooden_slab:5)
+B(-4,24,4,wooden_slab:5)
+B(-4,24,8,trapdoor)
+B(-4,25,-3,wooden_slab:13)
+B(-4,25,-2,planks:1)
+B(-4,25,-1,wooden_slab:5)
+B(-4,26,-4,wooden_slab:5)
+B(-4,26,-3,wooden_slab:5)
+B(-4,26,-2,fence)
+B(-4,26,-1,fence)
+B(-4,26,5,log:9)
+B(-4,26,6,log:9)
+B(-4,26,7,log:9)
+B(-4,27,-1,fence)
+B(-4,27,0,fence)
+B(-4,27,4,wool)
+B(-4,27,5,wool)
+B(-4,28,0,fence)
+B(-4,28,1,fence)
+B(-4,28,2,wool)
+B(-4,28,3,wool)
+B(-4,28,4,wool)
+B(-4,29,1,fence)
+B(-4,29,2,fence)
+B(-4,29,3,wool)
+B(-4,30,2,fence)
+B(-4,30,3,fence)
+B(-4,30,4,wool)
+B(-4,31,3,fence)
+B(-4,31,4,fence)
+B(-4,31,5,wool)
+B(-4,32,4,fence)
+B(-4,32,5,fence)
+B(-4,32,6,wool)
+B(-4,33,5,fence)
+B(-4,33,6,fence)
+B(-4,33,7,wool)
+B(-4,34,6,fence)
+B(-4,34,7,fence)
+B(-4,34,8,wool)
+B(-4,35,7,fence)
+B(-4,35,8,fence)
+B(-4,36,8,fence)
+B(-3,21,5,wooden_slab:8)
+B(-3,21,6,planks:1)
+B(-3,21,7,planks:1)
+B(-3,21,8,planks:1)
+B(-3,22,4,planks:1)
+B(-3,22,5,planks:1)
+B(-3,22,6,planks:1)
+B(-3,22,7,bed:10)
+B(-3,22,8,bed)
+B(-3,23,1,fence)
+B(-3,23,2,fence)
+B(-3,23,3,fence)
+B(-3,23,4,planks:1)
+B(-3,23,5,planks:1)
+B(-3,23,6,planks:1)
+B(-3,23,7,wooden_slab:8)
+B(-3,23,8,wooden_slab:8)
+B(-3,24,4,wooden_slab:5)
+B(-3,24,5,wooden_slab:5)
+B(-3,24,6,fence)
+B(-3,26,8,log:9)
+B(-3,27,6,wool)
+B(-3,27,7,wool)
+B(-3,28,5,wool)
+B(-3,28,6,wool)
+B(-3,29,4,wool)
+B(-3,30,4,wool)
+B(-3,31,5,wool)
+B(-3,32,6,wool)
+B(-3,33,7,wool)
+B(-3,34,8,wool)
+B(-2,22,6,wooden_slab:8)
+B(-2,22,7,planks:1)
+B(-2,22,8,planks:1)
+B(-2,23,6,planks:1)
+B(-2,23,7,planks:1)
+B(-2,23,8,planks:1)
+B(-2,24,6,fence)
+B(-2,24,7,fence)
+B(-2,24,8,fence)
+B(-2,27,8,wool)
+B(-2,28,7,wool)
+B(-2,29,5,wool)
+B(-2,29,6,wool)
+B(-2,30,5,wool)
+B(-2,30,6,wool)
+B(-2,31,6,wool)
+B(-2,31,7,wool)
+B(-2,32,7,wool)
+B(-2,32,8,wool)
+B(-2,33,8,wool)
+B(-1,28,8,wool)
+B(-1,29,7,wool)
+B(-1,29,8,wool)
+B(-1,30,7,wool)
+B(-1,30,8,wool)
+B(-1,31,8,wool)
+
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#
+

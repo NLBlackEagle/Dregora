@@ -1,0 +1,1 @@
+{Passengers:[{id:"minecraft:creeper",PersistenceRequired:1b,CustomName:"Legged Creep",CustomNameVisible:0,Attributes:[{Name:"generic.movementSpeed",Base:0.4f}],ExplosionRadius:10,Fuse:40,ActiveEffects:[{Id:10,Amplifier:0,Duration:2147483647}]}]}

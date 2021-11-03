@@ -1,0 +1,111 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 20
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(-8,-4,-8,PLANKS:0)
+B(-7,-4,-8,PLANKS:0)
+B(-6,-4,-8,PLANKS:0)
+B(-5,-4,-8,PLANKS:0)
+B(-4,-4,-8,PLANKS:0)
+B(-8,-3,-8,CONCRETE:15)
+B(-7,-3,-8,PLANKS:0)
+B(-6,-3,-8,PLANKS:0)
+B(-5,-3,-8,PLANKS:0)
+B(-4,-3,-8,PLANKS:0)
+B(-3,-3,-8,CONCRETE:15)
+B(-2,-3,-8,PLANKS:0)
+B(-8,-3,-7,DISPENSER:3)
+B(-3,-3,-7,DISPENSER:3)
+B(-7,-2,-8,PLANKS:0)
+B(-6,-2,-8,PLANKS:0)
+B(-5,-2,-8,PLANKS:0)
+B(-4,-2,-8,PLANKS:0)
+B(-2,-2,-8,PLANKS:0)
+B(-1,-2,-8,PLANKS:0)
+B(-8,-2,-7,WOODEN_SLAB:13)
+B(-3,-2,-7,WOODEN_SLAB:13)
+B(-8,-1,-8,PLANKS:0)
+B(-7,-1,-8,PLANKS:0)
+B(-6,-1,-8,PLANKS:0)
+B(-5,-1,-8,PLANKS:0)
+B(-4,-1,-8,PLANKS:0)
+B(-3,-1,-8,PLANKS:0)
+B(-2,-1,-8,PLANKS:0)
+B(-1,-1,-8,PLANKS:0)
+B(-8,0,-8,PLANKS:1)
+B(-7,0,-8,PLANKS:5)
+B(-6,0,-8,PLANKS:0)
+B(-5,0,-8,PLANKS:0)
+B(-4,0,-8,PLANKS:0)
+B(-3,0,-8,PLANKS:0)
+B(-2,0,-8,PLANKS:0)
+B(-7,0,-7,TRAPDOOR:5)
+B(-8,1,-8,PLANKS:1)
+B(-7,1,-8,PLANKS:5)
+B(-6,1,-8,PLANKS:0)
+B(-5,1,-8,PLANKS:0)
+B(-4,1,-8,PLANKS:0)
+B(-3,1,-8,PLANKS:0)
+B(-7,1,-7,TRAPDOOR:5)
+B(-8,2,-8,WOODEN_BUTTON:3)
+B(-7,2,-8,TRAPDOOR:5)
+B(-6,2,-8,PLANKS:0)
+B(-5,2,-8,PLANKS:0)
+B(-4,2,-8,PLANKS:0)
+B(-6,2,-7,FENCE:0)
+B(-5,2,-7,FENCE:0)
+B(-7,3,-8,WOODEN_SLAB:13)
+B(-6,3,-8,DARK_OAK_STAIRS:7)
+B(-5,3,-8,WOODEN_SLAB:13)
+B(-4,3,-8,DARK_OAK_STAIRS:7)
+B(-3,3,-8,WOODEN_SLAB:13)
+B(-6,3,-7,FENCE:0)
+B(-6,3,-6,FENCE:0)
+B(-6,3,-5,FENCE:0)
+B(-7,4,-8,FENCE:0)
+B(-6,4,-8,FENCE:0)
+B(-5,4,-8,FENCE:0)
+B(-4,4,-8,FENCE:0)
+B(-3,4,-8,FENCE:0)
+B(-6,4,-5,FENCE:0)
+B(-7,4,-4,FENCE:0)
+B(-6,4,-4,FENCE:0)
+B(-8,4,-3,WOOL:0)
+B(-7,4,-3,FENCE:0)
+B(-7,5,-8,FENCE:0)
+B(-6,5,-8,FENCE:0)
+B(-5,5,-8,FENCE:0)
+B(-4,5,-8,FENCE:0)
+B(-3,5,-8,FENCE:0)
+B(-7,6,-8,FENCE:0)
+B(-6,6,-8,FENCE:0)
+B(-5,6,-8,FENCE:0)
+B(-4,6,-8,FENCE:0)
+B(-3,6,-8,FENCE:0)
+B(-7,7,-8,FENCE:0)
+B(-6,7,-8,FENCE:0)
+B(-5,7,-8,FENCE:0)
+B(-4,7,-8,FENCE:0)
+B(-3,7,-8,FENCE:0)
+
+BR(-8,0,0,WestPortShipFat_6x5,NORTH,100)

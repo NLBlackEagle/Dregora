@@ -1,0 +1,94 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: false
+Frequency: 10
+Rarity: 20
+RotateRandomly: true
+SpawnHeight: highestSolidBlock
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 0
+MaxHeight: 256
+
+SourceBlocks: AIR,GRASS,STONE,DIRT
+MaxPercentageOutsideSourceBlock: 0
+OutsideSourceBlock: placeAnyway
+
+BlockCheck(9,0,8,GRASS,DIRT,DIRT:1)
+BlockCheck(14,0,10,GRASS,DIRT,DIRT:1)
+BlockCheck(7,0,11,GRASS,DIRT,DIRT:1)
+BlockCheck(10,0,14,GRASS,DIRT,DIRT:1)
+B(8,1,9,STONE:0)
+B(9,1,9,STONE:0)
+B(10,1,9,STONE:0)
+B(8,1,10,STONE:0)
+B(9,1,10,STONE:0)
+B(10,1,10,STONE:0)
+B(11,1,10,STONE:0)
+B(12,1,10,STONE:0)
+B(13,1,10,STONE:0)
+B(8,1,11,STONE:0)
+B(9,1,11,STONE:0)
+B(10,1,11,STONE:0)
+B(11,1,11,STONE:0)
+B(12,1,11,STONE:0)
+B(13,1,11,STONE:0)
+B(14,1,11,STONE:0)
+B(9,1,12,STONE:0)
+B(10,1,12,STONE:0)
+B(11,1,12,STONE:0)
+B(12,1,12,STONE:0)
+B(13,1,12,STONE:0)
+B(10,1,13,STONE:0)
+B(9,2,10,STONE:0)
+B(10,2,10,STONE:0)
+B(11,2,10,STONE:0)
+B(9,2,11,STONE:0)
+B(10,2,11,STONE:0)
+B(11,2,11,STONE:0)
+B(12,2,11,STONE:0)
+B(13,2,11,STONE:0)
+B(9,2,12,STONE:0)
+B(10,2,12,STONE:0)
+B(11,2,12,STONE:0)
+B(12,2,12,STONE:0)
+B(10,2,13,STONE:0)
+B(10,3,10,STONE:0)
+B(11,3,10,STONE:0)
+B(9,3,11,STONE:0)
+B(10,3,11,STONE:0)
+B(11,3,11,STONE:0)
+B(12,3,11,STONE:0)
+B(10,3,12,STONE:0)
+B(11,3,12,STONE:0)
+B(12,3,12,STONE:0)
+B(10,4,10,STONE:0)
+B(10,4,11,STONE:0)
+B(11,4,11,STONE:0)
+B(10,4,12,STONE:0)
+B(11,4,12,STONE:0)
+B(10,5,10,STONE:0)
+B(11,5,10,STONE:0)
+B(10,5,11,STONE:0)
+B(11,5,11,STONE:0)
+B(11,5,12,STONE:0)
+B(11,6,10,STONE:0)
+B(10,6,11,STONE:0)
+B(11,6,11,STONE:0)
+B(12,6,11,STONE:0)
+B(11,6,12,STONE:0)
+B(11,7,10,STONE:0)
+B(11,7,11,STONE:0)
+B(12,7,11,STONE:0)
+B(11,8,11,STONE:0)
+B(12,8,11,STONE:0)
+B(12,9,11,STONE:0)
+

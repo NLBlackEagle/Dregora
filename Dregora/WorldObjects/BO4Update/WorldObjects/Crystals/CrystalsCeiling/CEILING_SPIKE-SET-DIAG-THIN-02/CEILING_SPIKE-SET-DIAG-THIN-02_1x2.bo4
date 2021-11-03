@@ -1,0 +1,116 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: true
+Tree: false
+Frequency: 1
+Rarity: 100.0
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 255
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CanOverride: true
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BO3Group: CeilingCrystals:0
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+B(5,-27,0,STAINED_GLASS:15)
+B(6,-27,0,STAINED_GLASS:15)
+B(7,-27,0,STAINED_GLASS:11)
+B(8,-27,0,STAINED_GLASS:2)
+B(6,-27,1,STAINED_GLASS:15)
+B(7,-27,1,STAINED_GLASS:11)
+B(4,-26,0,STAINED_GLASS:15)
+B(5,-26,0,STAINED_GLASS:2)
+B(6,-26,0,SEA_LANTERN)
+B(7,-26,0,SEA_LANTERN)
+B(8,-26,0,SEA_LANTERN)
+B(9,-26,0,STAINED_GLASS:15)
+B(5,-26,1,STAINED_GLASS:11)
+B(6,-26,1,STAINED_GLASS:2)
+B(7,-26,1,SEA_LANTERN)
+B(8,-26,1,SEA_LANTERN)
+B(9,-26,1,STAINED_GLASS:15)
+B(6,-26,2,STAINED_GLASS:15)
+B(7,-26,2,STAINED_GLASS:15)
+B(8,-26,2,STAINED_GLASS:15)
+B(4,-25,0,STAINED_GLASS:11)
+B(5,-25,0,STAINED_GLASS:2)
+B(6,-25,0,SEA_LANTERN)
+B(7,-25,0,STAINED_GLASS:15)
+B(8,-25,0,STAINED_GLASS:2)
+B(9,-25,0,STAINED_GLASS:11)
+B(5,-25,1,STAINED_GLASS:11)
+B(6,-25,1,STAINED_GLASS:15)
+B(7,-25,1,STAINED_GLASS:15)
+B(8,-25,1,STAINED_GLASS:15)
+B(9,-25,1,STAINED_GLASS:2)
+B(6,-25,2,STAINED_GLASS:11)
+B(7,-25,2,STAINED_GLASS:2)
+B(8,-25,2,STAINED_GLASS:15)
+B(4,-24,0,STAINED_GLASS:11)
+B(5,-24,0,STAINED_GLASS:15)
+B(6,-24,0,STAINED_GLASS:15)
+B(7,-24,0,STAINED_GLASS:11)
+B(8,-24,0,STAINED_GLASS:2)
+B(5,-24,1,STAINED_GLASS:11)
+B(6,-24,1,STAINED_GLASS:2)
+B(7,-24,1,STAINED_GLASS:15)
+B(6,-24,2,STAINED_GLASS:11)
+B(4,-23,0,STAINED_GLASS:11)
+B(5,-23,0,STAINED_GLASS:2)
+B(6,-23,0,STAINED_GLASS:15)
+B(7,-23,0,STAINED_GLASS:11)
+B(8,-23,0,STAINED_GLASS:11)
+B(5,-23,1,STAINED_GLASS:11)
+B(6,-23,1,STAINED_GLASS:11)
+B(4,-22,0,STAINED_GLASS:11)
+B(5,-22,0,STAINED_GLASS:11)
+B(6,-22,0,STAINED_GLASS:11)
+

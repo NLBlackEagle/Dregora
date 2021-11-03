@@ -1,0 +1,280 @@
+#
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#
+
+# This is the config file of a custom object.
+# If you add this object correctly to your BiomeConfigs, it will spawn in the world.
+
+# This is the creator of this BO3 object
+Author: BO3 BulkEdit (by LanToaster)
+
+# A short description of this BO3 object
+Description: This Object was Created with BO3_BulkEdit
+
+# The BO3 version, don't change this! It can be used by external applications to do a version check.
+Version: 3
+
+# The settings mode, WriteAll, WriteWithoutComments or WriteDisable. See WorldConfig.
+SettingsMode: WriteDisable
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#
+
+# This needs to be set to true to spawn the object in the Tree and Sapling resources.
+Tree: false
+
+# The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
+
+Frequency: 1
+
+# The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
+
+Rarity: 100.0
+
+# If you set this to true, the BO3 will be placed with a random rotation.
+RotateRandomly: false
+
+# The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
+SpawnHeight: highestBlock
+
+# The height limits for the BO3.
+MinHeight: 0
+
+MaxHeight: 256
+
+# Objects can have other objects attacthed to it: branches. Branches can also
+# have branches attached to it, which can also have branches, etc. This is the
+# maximum branch depth for this objects.
+MaxBranchDepth: 10
+
+# When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
+# If you writer.write the BO3 name directly in the BiomeConfigs, this will be ignored.
+ExcludedBiomes: All
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#
+
+# The B(s) the BO3 should spawn in.
+SourceBlocks: AIR
+
+# The maximum percentage of the BO3 that can be outside the SourceBlock.
+# The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
+MaxPercentageOutsideSourceBlock: 100
+
+# What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
+OutsideSourceBlock: placeAnyway
+
+
+#
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#
+
+# All the blocks used in the BO3 are listed here. Possible blocks:
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
+# fails, a 100% percent chance to have the contents of anotherchest.nbt.
+RandomBlock(8,25,-7,CHEST:5,./StructureNBT/StructureLoot/JunkChest_1.nbt,20,CHEST:5,./StructureNBT/StructureLoot/JunkChest_2.nbt,15,CHEST:5,./StructureNBT/StructureLoot/JunkChest_3.nbt,15,CHEST:5,./StructureNBT/StructureLoot/JunkChest_4.nbt,15,CHEST:5,./StructureNBT/StructureLoot/JunkChest_5.nbt,15,CHEST:5,./StructureNBT/LoreStoryline/LoreGeneric_5.nbt,2,CHEST:5,./StructureNBT/LoreStoryline/LoreGeneric_4.nbt,2,CHEST:5,./StructureNBT/LoreStoryline/LoreGeneric_3.nbt,2,CHEST:5,./StructureNBT/LoreStoryline/LoreGeneric_2.nbt,2,CHEST:5,./StructureNBT/LoreStoryline/LoreGeneric_1.nbt,2,CHEST:5,./StructureNBT/LoreStoryline/LorePirate_5.nbt,3,CHEST:5,./StructureNBT/LoreStoryline/LorePirate_4.nbt,3,CHEST:5,./StructureNBT/LoreStoryline/LorePirate_3.nbt,3,CHEST:5,./StructureNBT/LoreStoryline/LorePirate_2.nbt,3,CHEST:5,./StructureNBT/LoreStoryline/LorePirate_1.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common1.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common2.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common3.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common4.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common5.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common5.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common6.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common7.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common8.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common9.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common10.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common11.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common12.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common13.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common14.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Common15.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare1.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare2.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare3.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare4.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare5.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare6.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare7.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare8.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare9.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare10.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare11.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare12.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare13.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare14.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Rare15.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic1.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic2.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic3.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic4.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic5.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic6.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic7.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic8.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic9.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic10.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic11.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic12.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic13.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic14.nbt,3,CHEST:5,./StructureNBT/StructureLoot/Epic15.nbt,1,CHEST:5,./StructureNBT/StructureLoot/Common15.nbt,100)
+B(8,27,2,wall_sign:5,StructureNBT/PirateBo3/pir29/2-Sign.nbt)
+B(8,27,3,wall_sign:5,StructureNBT/PirateBo3/pir29/3-Sign.nbt)
+B(8,1,-7,stonebrick)
+B(8,1,-6,monster_egg:2)
+B(8,1,-5,stonebrick)
+B(8,1,-4,stonebrick:1)
+B(8,1,-3,stonebrick)
+B(8,1,-2,monster_egg:3)
+B(8,1,-1,monster_egg:2)
+B(8,1,0,stonebrick)
+B(8,1,1,stonebrick)
+B(8,1,2,stonebrick:2)
+B(8,1,3,stonebrick:2)
+B(8,1,4,stonebrick:2)
+B(8,1,5,stonebrick:1)
+B(8,1,6,stonebrick)
+B(8,1,7,stonebrick:1)
+B(8,1,8,monster_egg:4)
+B(8,2,-7,air)
+B(8,2,-6,air)
+B(8,2,-5,monster_egg:4)
+B(8,2,-4,stonebrick:1)
+B(8,2,-3,monster_egg:3)
+B(8,2,-2,stonebrick:2)
+B(8,2,-1,stonebrick:2)
+B(8,2,0,stonebrick:1)
+B(8,2,1,stonebrick:2)
+B(8,2,2,stonebrick:2)
+B(8,2,3,stonebrick)
+B(8,2,4,stonebrick)
+B(8,2,5,stonebrick:2)
+B(8,2,6,stonebrick)
+B(8,2,7,stonebrick:2)
+B(8,2,8,stonebrick:1)
+B(8,3,-7,air)
+B(8,3,-6,air)
+B(8,3,-5,stonebrick:1)
+B(8,3,-4,stonebrick:2)
+B(8,3,-3,stonebrick)
+B(8,3,-2,stonebrick:2)
+B(8,3,-1,stonebrick:1)
+B(8,3,0,stonebrick:1)
+B(8,3,1,stonebrick)
+B(8,3,2,stonebrick:2)
+B(8,3,3,stonebrick:2)
+B(8,3,4,stonebrick)
+B(8,3,5,stonebrick:2)
+B(8,3,6,stonebrick)
+B(8,3,7,stonebrick:2)
+B(8,3,8,stonebrick)
+B(8,4,-7,monster_egg:2)
+B(8,4,-6,stonebrick)
+B(8,4,-5,stonebrick)
+B(8,4,-4,air)
+B(8,4,-3,air)
+B(8,4,-2,air)
+B(8,4,-1,redstone_wire:12)
+B(8,4,0,redstone_wire:11)
+B(8,4,1,redstone_wire:10)
+B(8,4,2,redstone_wire:9)
+B(8,4,3,redstone_wire:8)
+B(8,4,4,stonebrick)
+B(8,4,5,stonebrick:2)
+B(8,4,6,stonebrick)
+B(8,4,7,monster_egg:3)
+B(8,4,8,detector_rail:1)
+B(8,5,-7,redstone_wire)
+B(8,5,-6,redstone_wire)
+B(8,5,-5,stonebrick:1)
+B(8,5,-4,air)
+B(8,5,-3,air)
+B(8,5,-2,air)
+B(8,5,-1,air)
+B(8,5,0,air)
+B(8,5,1,air)
+B(8,5,2,air)
+B(8,5,3,air)
+B(8,5,4,stonebrick)
+B(8,5,5,stonebrick:1)
+B(8,5,6,stonebrick:1)
+B(8,5,7,stonebrick:2)
+B(8,5,8,air)
+B(8,6,-7,air)
+B(8,6,-6,air)
+B(8,6,-5,monster_egg:4)
+B(8,6,-4,stonebrick:1)
+B(8,6,-3,stonebrick:1)
+B(8,6,-2,monster_egg:3)
+B(8,6,-1,stonebrick:1)
+B(8,6,0,monster_egg:4)
+B(8,6,1,stonebrick:2)
+B(8,6,2,stonebrick)
+B(8,6,3,monster_egg:3)
+B(8,6,4,stonebrick:2)
+B(8,6,5,stonebrick:2)
+B(8,6,6,stonebrick:2)
+B(8,6,7,stonebrick)
+B(8,6,8,stonebrick:2)
+B(8,7,-7,air)
+B(8,7,-6,air)
+B(8,7,-5,stonebrick)
+B(8,8,-7,air)
+B(8,8,-6,air)
+B(8,8,-5,stonebrick:1)
+B(8,9,-7,stonebrick)
+B(8,9,-6,stonebrick)
+B(8,9,-5,stonebrick:1)
+B(8,24,-7,wooden_slab:13)
+B(8,24,-6,wooden_slab:13)
+B(8,24,-5,wooden_slab:13)
+B(8,24,-4,wooden_slab:13)
+B(8,24,-3,wooden_slab:8)
+B(8,24,-2,wooden_slab:13)
+B(8,24,-1,wooden_slab:13)
+B(8,24,0,wooden_slab:11)
+B(8,24,1,wooden_slab:13)
+B(8,24,2,wooden_slab:13)
+B(8,24,3,wooden_slab:8)
+B(8,24,4,wooden_slab:13)
+B(8,24,5,wooden_slab:9)
+B(8,24,6,wooden_slab:13)
+B(8,24,7,oak_stairs:5)
+B(8,24,8,wooden_slab:9)
+B(8,28,-3,dark_oak_stairs:5)
+B(8,28,-2,oak_stairs:5)
+B(8,28,-1,oak_stairs:5)
+B(8,28,0,oak_stairs:5)
+B(8,28,1,oak_stairs:5)
+B(8,28,2,dark_oak_stairs:5)
+B(8,28,3,dark_oak_stairs:5)
+B(8,28,4,oak_stairs:5)
+B(8,28,5,oak_stairs:5)
+B(8,28,6,oak_stairs:5)
+B(8,28,7,oak_stairs:5)
+B(8,28,8,dark_oak_stairs:5)
+B(8,29,-3,dark_oak_stairs:0)
+B(8,29,-2,oak_stairs:0)
+B(8,29,-1,oak_stairs:0)
+B(8,29,0,oak_stairs:0)
+B(8,29,1,oak_stairs:0)
+B(8,29,2,dark_oak_stairs:0)
+B(8,29,3,dark_oak_stairs:0)
+B(8,29,4,oak_stairs:0)
+B(8,29,5,oak_stairs:0)
+B(8,29,6,oak_stairs:0)
+B(8,29,7,oak_stairs:0)
+B(8,29,8,dark_oak_stairs:0)
+B(8,30,-3,wooden_slab:13)
+B(8,30,-2,oak_stairs:5)
+B(8,30,-1,wooden_slab:13)
+B(8,30,0,wooden_slab:13)
+B(8,30,1,oak_stairs:5)
+B(8,30,2,wooden_slab:13)
+B(8,30,3,wooden_slab:13)
+B(8,30,4,oak_stairs:5)
+B(8,30,5,wooden_slab:13)
+B(8,30,6,wooden_slab:13)
+B(8,30,7,oak_stairs:5)
+B(8,30,8,wooden_slab:13)
+B(8,31,1,cobblestone_wall)
+B(8,31,4,cobblestone_wall)
+B(8,31,7,cobblestone_wall)
+B(8,32,1,cobblestone_wall)
+B(8,32,4,cobblestone_wall)
+B(8,32,7,cobblestone_wall)
+B(8,33,0,dark_oak_stairs:2)
+B(8,33,1,dark_oak_stairs:7)
+B(8,33,4,oak_stairs:5)
+B(8,33,7,dark_oak_stairs:6)
+B(8,33,8,dark_oak_STAIRS:0)
+B(8,34,1,dark_oak_stairs:2)
+B(8,34,2,dark_oak_stairs:7)
+B(8,34,4,cobblestone_wall)
+B(8,34,6,dark_oak_stairs:6)
+B(8,34,7,dark_oak_STAIRS:0)
+B(8,35,2,dark_oak_stairs:2)
+B(8,35,3,dark_oak_stairs:7)
+B(8,35,4,cobblestone_wall)
+B(8,35,5,dark_oak_stairs:6)
+B(8,35,6,dark_oak_STAIRS:0)
+B(8,36,3,dark_oak_stairs:2)
+B(8,36,4,dark_oak_stairs:5)
+B(8,36,5,dark_oak_STAIRS:0)
+B(8,37,4,wooden_slab:5)
+B(8,39,4,dark_oak_stairs:5)
+B(8,40,4,wooden_slab:5)
+Branch(0,0,0,Pir28,NORTH,100.0)
+Branch(-16,0,0,Pir29_00-02,NORTH,100)
+Branch(0,0,-16,Pir29_01-01,NORTH,100)
+Branch(0,0,16,Pir29_01-03,NORTH,100)

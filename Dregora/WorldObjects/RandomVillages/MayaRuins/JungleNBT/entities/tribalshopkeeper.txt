@@ -1,0 +1,1 @@
+{Profession:5,CustomName:"Tribal Shopkeeper",CustomNameVisible:0}
