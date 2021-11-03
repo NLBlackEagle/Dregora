@@ -1,1 +1,0 @@
-{Health:20,Attributes:[{Name:"generic.maxHealth",Base:20},{Name:"generic.followRange",Base:30},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.attackDamage",Base:2}],HandItems:[{id:"minecraft:iron_sword",tag:{ench:[{id:18,lvl:5}]},Count:1},{id:"minecraft:golden_hoe",tag:{ench:[{id:21,lvl:3}]},Count:1}],ArmorItems:[{id:"minecraft:iron_boots",Count:1},{},{},{}]}

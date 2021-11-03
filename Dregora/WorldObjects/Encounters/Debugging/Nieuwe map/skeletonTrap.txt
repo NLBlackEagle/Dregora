@@ -1,1 +1,0 @@
-{CustomName:"SkeletonTrap",CustomNameVisible:1,skeletonTrap:1}

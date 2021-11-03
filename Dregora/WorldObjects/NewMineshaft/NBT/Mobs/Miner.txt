@@ -1,1 +1,0 @@
-{CustomName:"Shadow Walker",CustomNameVisible:0,Health:10,Attributes:[{Name:"generic.maxHealth",Base:10},{Name:"generic.followRange",Base:20},{Name:"generic.knockbackResistance",Base:1f}],HandItems:[{id:"minecraft:stone_pickaxe",Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1}],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647}]}

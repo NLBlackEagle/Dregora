@@ -1,1 +1,0 @@
-{Profession:5,CustomName:"\"Dearoc's Villager\"",CustomNameVisible:0}

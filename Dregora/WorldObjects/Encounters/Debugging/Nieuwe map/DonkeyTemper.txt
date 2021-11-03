@@ -1,1 +1,0 @@
-{CustomName:DonkeyTemper,CustomNameVisible:1,Temper:40}

@@ -1,1 +1,0 @@
-{CustomName:PillagerCaptain,CustomNameVisible:0,Health:10,Attributes:[{Name:"generic.maxHealth",Base:10}]}

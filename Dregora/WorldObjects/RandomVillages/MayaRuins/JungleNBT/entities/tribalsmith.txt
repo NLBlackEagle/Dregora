@@ -1,1 +1,0 @@
-{Profession:3,CustomName:"Tribal Smith",CustomNameVisible:0}

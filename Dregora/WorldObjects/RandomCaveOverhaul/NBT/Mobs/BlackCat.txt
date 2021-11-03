@@ -1,1 +1,0 @@
-{CatType:1,Health:15,Attributes:[{Name:"generic.maxHealth",Base:15},{Name:"generic.movementSpeed",Base:0.4f}],ActiveEffects:[{Id:10,Amplifier:0,Duration:2147483647},{Id:11,Amplifier:0,Duration:2147483647}]}

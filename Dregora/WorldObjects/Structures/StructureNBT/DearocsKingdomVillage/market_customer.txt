@@ -1,1 +1,0 @@
-{Profession:5,CustomName:"\"Dearoc's Market Customer\"",CustomNameVisible:0,Health:50}

@@ -1,1 +1,0 @@
-{CustomName:Slime,CustomNameVisible:1,Size:9}

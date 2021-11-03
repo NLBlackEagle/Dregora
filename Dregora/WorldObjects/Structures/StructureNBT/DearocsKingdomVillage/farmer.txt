@@ -1,1 +1,0 @@
-{Profession:0,CustomName:"\"Dearoc's Farmer\"",CustomNameVisible:0,Health:50}

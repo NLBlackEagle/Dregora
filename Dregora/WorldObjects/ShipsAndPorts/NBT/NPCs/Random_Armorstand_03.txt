@@ -1,1 +1,0 @@
-{ShowArms:1b,ArmorItems:[{id:"iron_boots",Count:1b},{id:"chainmail_leggings",Count:1b},{id:"chainmail_chestplate",Count:1b},{id:"skull",Count:1b}],HandItems:[{id:"iron_sword",Count:1b},{id:"iron_sword",Count:1b}],DisabledSlots:14}

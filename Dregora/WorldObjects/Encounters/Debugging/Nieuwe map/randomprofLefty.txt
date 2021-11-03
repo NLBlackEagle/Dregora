@@ -1,1 +1,0 @@
-{CustomName:"Random professionLefty",CustomNameVisible:1,LeftHanded:1}

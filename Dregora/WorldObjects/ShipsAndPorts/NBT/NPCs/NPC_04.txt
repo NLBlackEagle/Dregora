@@ -1,1 +1,0 @@
-{CustomName:Getfugu,CustomNameVisible:0,HandItems:[{id:"minecraft:bone",Count:1},{id:"minecraft:bone",Count:1}],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1},{id:"minecraft:chainmail_leggings",Count:1},{id:"minecraft:chainmail_chestplate",Count:1},{id:"minecraft:skull",Damage:3,tag:{SkullOwner:getfugu},Count:1}],ActiveEffects:[{Id:5,Amplifier:0,Duration:2147483647}]}

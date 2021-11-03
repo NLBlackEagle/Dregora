@@ -1,1 +1,0 @@
-{CatType:2,CustomName:CatType,CustomNameVisible:1}

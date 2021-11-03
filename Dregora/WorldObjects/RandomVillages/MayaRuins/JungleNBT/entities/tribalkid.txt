@@ -1,1 +1,0 @@
-{CustomName:"Tribal Kid",CustomNameVisible:0,Age:-6000}

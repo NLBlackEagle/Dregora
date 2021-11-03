@@ -1,1 +1,0 @@
-{CustomName:"Pillager Captain",CustomNameVisible:0,Health:17,Attributes:[{Name:"generic.maxHealth",Base:17},{Name:"generic.attackDamage",Base:4}],HandItems:[{id:"minecraft:iron_sword",Count:1},{id:"minecraft:iron_sword",Count:1}],ActiveEffects:[{Id:10,Amplifier:0,Duration:2147483647}]}

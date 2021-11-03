@@ -1,1 +1,0 @@
-{Color:0,CustomName:ShulkerWhite,CustomNameVisible:1}

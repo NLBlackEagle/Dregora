@@ -1,1 +1,0 @@
-{CustomName:GhastBoomPower,CustomNameVisible:1,ExplosionPower:20}

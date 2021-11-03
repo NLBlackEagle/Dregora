@@ -1,1 +1,0 @@
-{CustomName:"Red Wizard",CustomNameVisible:0,Health:15,Attributes:[{Name:"generic.maxHealth",Base:15},{Name:"generic.followRange",Base:10},{Name:"generic.attackDamage",Base:2}]}

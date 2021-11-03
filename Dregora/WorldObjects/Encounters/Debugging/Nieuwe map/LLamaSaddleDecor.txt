@@ -1,1 +1,0 @@
-{CustomName:XX,CustomNameVisible:1,DecorItem:{id:"minecraft:carpet",Damage:14,Count:1}}

@@ -1,1 +1,0 @@
-{CustomName:"Random profession Gravy",CustomNameVisible:1,FallFlying:1,ArmorItems:[{},{},{id:"minecraft:elytra",Count:1},{}]}

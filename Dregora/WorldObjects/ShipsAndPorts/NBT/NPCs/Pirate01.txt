@@ -1,1 +1,0 @@
-{CustomName:Pirate,CustomNameVisible:0,Health:17,Attributes:[{Name:"generic.maxHealth",Base:17},{Name:"generic.attackDamage",Base:4}],HandItems:[{id:"minecraft:bow",Count:1},{}],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1},{id:"minecraft:chainmail_leggings",Count:1},{id:"minecraft:chainmail_chestplate",Count:1},{id:"minecraft:iron_helmet",Count:1}]}

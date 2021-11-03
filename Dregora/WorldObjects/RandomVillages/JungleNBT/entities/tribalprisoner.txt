@@ -1,1 +1,0 @@
-{CustomName:"Tribal Prisoner",CustomNameVisible:0}

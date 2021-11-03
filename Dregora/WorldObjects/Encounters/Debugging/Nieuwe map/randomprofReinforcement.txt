@@ -1,1 +1,0 @@
-{CustomName:Randomprofession Reinforcements,CustomNameVisible:1,Attributes:[{Name:"zombie.spawnReinforcements",Base:1f}]}

@@ -1,1 +1,0 @@
-{CustomName:"Randomprofession Knockback",CustomNameVisible:1,Attributes:[{Name:"generic.knockbackResistance",Base:1f}]}
