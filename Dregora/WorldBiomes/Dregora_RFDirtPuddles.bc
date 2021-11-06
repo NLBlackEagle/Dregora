@@ -276,7 +276,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: DENSE, JUNGLE, WET, HOT
+BiomeDictId: Overworld DENSE, JUNGLE, WET, HOT
 
 InheritMobsBiomeName: minecraft:mutated_jungle
 

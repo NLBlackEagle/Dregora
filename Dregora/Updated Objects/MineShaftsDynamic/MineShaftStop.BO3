@@ -1,0 +1,406 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 10
+
+MaxHeight: 10
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,0,-1,minecraft:spruce_log)
+B(-8,1,-1,minecraft:dark_oak_planks)
+B(-8,2,-1,minecraft:spruce_fence)
+B(-8,3,-1,minecraft:spruce_fence)
+B(-8,4,-1,minecraft:spruce_planks)
+B(-8,1,0,minecraft:dark_oak_planks)
+B(-8,4,0,minecraft:spruce_planks)
+B(-8,1,1,minecraft:dark_oak_planks)
+B(-8,4,1,minecraft:spruce_planks)
+B(-8,0,2,minecraft:spruce_log)
+B(-8,1,2,minecraft:dark_oak_planks)
+B(-8,2,2,minecraft:spruce_fence)
+B(-8,3,2,minecraft:spruce_fence)
+B(-8,4,2,minecraft:spruce_planks)
+B(-7,1,-1,minecraft:dark_oak_planks)
+B(-7,1,0,minecraft:dark_oak_planks)
+B(-7,1,1,minecraft:dark_oak_planks)
+B(-7,1,2,minecraft:dark_oak_planks)
+B(-7,1,3,minecraft:dark_oak_planks)
+B(-7,2,3,minecraft:spruce_fence)
+B(-7,3,3,minecraft:spruce_fence)
+B(-7,4,3,minecraft:spruce_planks)
+B(-7,1,4,minecraft:dark_oak_planks)
+B(-7,0,5,minecraft:spruce_log)
+B(-7,1,5,minecraft:dark_oak_planks)
+B(-7,2,5,minecraft:spruce_fence)
+B(-7,3,5,minecraft:spruce_fence)
+B(-7,4,5,minecraft:spruce_planks)
+B(-6,1,-1,minecraft:dark_oak_planks)
+B(-6,2,-1,minecraft:spruce_fence)
+B(-6,3,-1,minecraft:spruce_fence)
+B(-6,4,-1,minecraft:spruce_planks)
+B(-6,1,0,minecraft:dark_oak_planks)
+B(-6,1,1,minecraft:dark_oak_planks)
+B(-6,1,2,minecraft:dark_oak_planks)
+B(-6,1,3,minecraft:dark_oak_planks)
+B(-6,4,3,minecraft:spruce_planks)
+B(-6,1,4,minecraft:dark_oak_planks)
+B(-6,1,5,minecraft:dark_oak_planks)
+B(-6,4,5,minecraft:spruce_planks)
+B(-5,1,-1,minecraft:dark_oak_planks)
+B(-5,4,-1,minecraft:spruce_planks)
+B(-5,1,0,minecraft:dark_oak_planks)
+B(-5,4,0,minecraft:wall_torch[facing=south])
+B(-5,1,1,minecraft:dark_oak_planks)
+B(-5,0,2,minecraft:spruce_log)
+B(-5,1,2,minecraft:dark_oak_planks)
+B(-5,1,3,minecraft:dark_oak_planks)
+B(-5,2,3,minecraft:spruce_fence)
+B(-5,3,3,minecraft:spruce_fence)
+B(-5,4,3,minecraft:spruce_planks)
+B(-5,1,4,minecraft:dark_oak_planks)
+B(-5,0,5,minecraft:spruce_log)
+B(-5,1,5,minecraft:dark_oak_planks)
+B(-5,2,5,minecraft:spruce_fence)
+B(-5,3,5,minecraft:spruce_fence)
+B(-5,4,5,minecraft:spruce_planks)
+B(-4,1,-1,minecraft:dark_oak_planks)
+B(-4,2,-1,minecraft:spruce_fence)
+B(-4,3,-1,minecraft:spruce_fence)
+B(-4,4,-1,minecraft:spruce_planks)
+B(-4,1,0,minecraft:dark_oak_planks)
+B(-4,1,1,minecraft:dark_oak_planks)
+B(-4,1,2,minecraft:dark_oak_planks)
+B(-3,1,-1,minecraft:dark_oak_planks)
+B(-3,3,-1,minecraft:stone_button[face=wall,facing=west,powered=false])
+B(-3,1,0,minecraft:dark_oak_planks)
+B(-3,1,1,minecraft:dark_oak_planks)
+B(-3,1,2,minecraft:dark_oak_planks)
+B(-3,3,2,minecraft:lever[face=wall,facing=west,powered=false])
+B(-2,3,-7,minecraft:stone_button)
+B(-2,0,-6,minecraft:spruce_log)
+B(-2,1,-6,minecraft:dark_oak_planks)
+B(-2,2,-6,minecraft:spruce_planks)
+B(-2,3,-6,minecraft:spruce_planks)
+B(-2,4,-6,minecraft:spruce_planks)
+B(-2,1,-5,minecraft:dark_oak_planks)
+B(-2,3,-5,minecraft:stone_button[face=wall,facing=south,powered=false])
+B(-2,1,-4,minecraft:dark_oak_planks)
+B(-2,2,-4,minecraft:spruce_fence)
+B(-2,3,-4,minecraft:spruce_fence)
+B(-2,4,-4,minecraft:spruce_planks)
+B(-2,1,-3,minecraft:dark_oak_planks)
+B(-2,1,-2,minecraft:dark_oak_planks)
+B(-2,0,-1,minecraft:spruce_log)
+B(-2,1,-1,minecraft:dark_oak_planks)
+B(-2,2,-1,minecraft:spruce_planks)
+B(-2,3,-1,minecraft:spruce_planks)
+B(-2,4,-1,minecraft:spruce_planks)
+B(-2,1,0,minecraft:dark_oak_planks)
+B(-2,2,0,minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false])
+B(-2,3,0,minecraft:iron_door[facing=north,half=upper,hinge=right,open=false,powered=false])
+B(-2,4,0,minecraft:spruce_planks)
+B(-2,1,1,minecraft:dark_oak_planks)
+B(-2,2,1,minecraft:iron_door)
+B(-2,3,1,minecraft:iron_door[facing=north,half=upper,hinge=left,open=false,powered=false])
+B(-2,4,1,minecraft:spruce_planks)
+B(-2,0,2,minecraft:spruce_log)
+B(-2,1,2,minecraft:dark_oak_planks)
+B(-2,2,2,minecraft:spruce_planks)
+B(-2,3,2,minecraft:spruce_planks)
+B(-2,4,2,minecraft:spruce_planks)
+B(-2,1,3,minecraft:dark_oak_planks)
+B(-2,1,4,minecraft:dark_oak_planks)
+B(-2,1,5,minecraft:dark_oak_planks)
+B(-2,2,5,minecraft:spruce_planks)
+B(-2,3,5,minecraft:spruce_planks)
+B(-2,4,5,minecraft:spruce_planks)
+B(-2,1,6,minecraft:dark_oak_planks)
+B(-2,3,6,minecraft:lever[face=wall,facing=south,powered=false])
+B(-2,1,7,minecraft:dark_oak_planks)
+B(-2,0,8,minecraft:spruce_log)
+B(-2,1,8,minecraft:dark_oak_planks)
+B(-2,2,8,minecraft:spruce_fence)
+B(-2,3,8,minecraft:spruce_fence)
+B(-2,4,8,minecraft:spruce_planks)
+B(-1,1,-6,minecraft:dark_oak_planks)
+B(-1,2,-6,minecraft:iron_door)
+B(-1,3,-6,minecraft:iron_door[facing=north,half=upper,hinge=left,open=false,powered=false])
+B(-1,4,-6,minecraft:spruce_planks)
+B(-1,1,-5,minecraft:dark_oak_planks)
+B(-1,1,-4,minecraft:dark_oak_planks)
+B(-1,4,-4,minecraft:spruce_planks)
+B(-1,1,-3,minecraft:dark_oak_planks)
+B(-1,1,-2,minecraft:dark_oak_planks)
+B(-1,1,-1,minecraft:dark_oak_planks)
+B(-1,3,-1,minecraft:stone_button[face=wall,facing=east,powered=false])
+B(-1,1,0,minecraft:dark_oak_planks)
+B(-1,1,1,minecraft:dark_oak_planks)
+B(-1,1,2,minecraft:dark_oak_planks)
+B(-1,3,2,minecraft:lever[face=wall,facing=east,powered=false])
+B(-1,1,3,minecraft:dark_oak_planks)
+B(-1,1,4,minecraft:dark_oak_planks)
+B(-1,1,5,minecraft:dark_oak_planks)
+B(-1,2,5,minecraft:iron_door)
+B(-1,3,5,minecraft:iron_door[facing=north,half=upper,hinge=left,open=false,powered=false])
+B(-1,4,5,minecraft:spruce_planks)
+B(-1,1,6,minecraft:dark_oak_planks)
+B(-1,1,7,minecraft:dark_oak_planks)
+B(-1,1,8,minecraft:dark_oak_planks)
+B(-1,4,8,minecraft:spruce_planks)
+B(0,1,-6,minecraft:dark_oak_planks)
+B(0,2,-6,minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false])
+B(0,3,-6,minecraft:iron_door[facing=north,half=upper,hinge=right,open=false,powered=false])
+B(0,4,-6,minecraft:spruce_planks)
+B(0,1,-5,minecraft:dark_oak_planks)
+B(0,1,-4,minecraft:dark_oak_planks)
+B(0,4,-4,minecraft:spruce_planks)
+B(0,1,-3,minecraft:dark_oak_planks)
+B(0,1,-2,minecraft:dark_oak_planks)
+B(0,1,-1,minecraft:dark_oak_planks)
+B(0,1,0,minecraft:dark_oak_planks)
+B(0,1,1,minecraft:dark_oak_planks)
+B(0,1,2,minecraft:dark_oak_planks)
+B(0,1,3,minecraft:dark_oak_planks)
+B(0,1,4,minecraft:dark_oak_planks)
+B(0,1,5,minecraft:dark_oak_planks)
+B(0,2,5,minecraft:iron_door)
+B(0,3,5,minecraft:iron_door[facing=north,half=upper,hinge=left,open=false,powered=false])
+B(0,4,5,minecraft:spruce_planks)
+B(0,1,6,minecraft:dark_oak_planks)
+B(0,1,7,minecraft:dark_oak_planks)
+B(0,1,8,minecraft:dark_oak_planks)
+B(0,4,8,minecraft:spruce_planks)
+B(1,3,-7,minecraft:lever)
+B(1,0,-6,minecraft:spruce_log)
+B(1,1,-6,minecraft:dark_oak_planks)
+B(1,2,-6,minecraft:spruce_planks)
+B(1,3,-6,minecraft:spruce_planks)
+B(1,4,-6,minecraft:spruce_planks)
+B(1,1,-5,minecraft:dark_oak_planks)
+B(1,3,-5,minecraft:lever[face=wall,facing=south,powered=false])
+B(1,0,-4,minecraft:spruce_log)
+B(1,1,-4,minecraft:dark_oak_planks)
+B(1,2,-4,minecraft:spruce_fence)
+B(1,3,-4,minecraft:spruce_fence)
+B(1,4,-4,minecraft:spruce_planks)
+B(1,1,-3,minecraft:dark_oak_planks)
+B(1,1,-2,minecraft:dark_oak_planks)
+B(1,1,-1,minecraft:dark_oak_planks)
+B(1,2,-1,minecraft:spruce_fence)
+B(1,3,-1,minecraft:spruce_fence)
+B(1,4,-1,minecraft:spruce_planks)
+B(1,1,0,minecraft:dark_oak_planks)
+B(1,4,0,minecraft:spruce_planks)
+B(1,1,1,minecraft:dark_oak_planks)
+B(1,4,1,minecraft:spruce_planks)
+B(1,1,2,minecraft:dark_oak_planks)
+B(1,2,2,minecraft:spruce_fence)
+B(1,3,2,minecraft:spruce_fence)
+B(1,4,2,minecraft:spruce_planks)
+B(1,1,3,minecraft:dark_oak_planks)
+B(1,1,4,minecraft:dark_oak_planks)
+B(1,3,4,minecraft:stone_button)
+B(1,0,5,minecraft:spruce_log)
+B(1,1,5,minecraft:dark_oak_planks)
+B(1,2,5,minecraft:spruce_planks)
+B(1,3,5,minecraft:spruce_planks)
+B(1,4,5,minecraft:spruce_planks)
+B(1,1,6,minecraft:dark_oak_planks)
+B(1,3,6,minecraft:stone_button[face=wall,facing=south,powered=false])
+B(1,1,7,minecraft:dark_oak_planks)
+B(1,0,8,minecraft:spruce_log)
+B(1,1,8,minecraft:dark_oak_planks)
+B(1,2,8,minecraft:spruce_fence)
+B(1,3,8,minecraft:spruce_fence)
+B(1,4,8,minecraft:spruce_planks)
+B(2,1,-4,minecraft:dark_oak_planks)
+B(2,4,-4,minecraft:spruce_planks)
+B(2,1,-3,minecraft:dark_oak_planks)
+B(2,1,-2,minecraft:dark_oak_planks)
+B(2,1,-1,minecraft:dark_oak_planks)
+B(2,1,0,minecraft:dark_oak_planks)
+B(2,1,1,minecraft:dark_oak_planks)
+B(2,1,2,minecraft:dark_oak_planks)
+B(2,1,3,minecraft:dark_oak_planks)
+B(2,1,4,minecraft:dark_oak_planks)
+B(2,1,5,minecraft:dark_oak_planks)
+B(2,4,5,minecraft:spruce_planks)
+B(3,1,-4,minecraft:dark_oak_planks)
+B(3,4,-4,minecraft:spruce_planks)
+B(3,1,-3,minecraft:dark_oak_planks)
+B(3,1,-2,minecraft:dark_oak_planks)
+B(3,1,-1,minecraft:dark_oak_planks)
+B(3,3,-1,minecraft:stone_button[face=wall,facing=west,powered=false])
+B(3,1,0,minecraft:dark_oak_planks)
+B(3,1,1,minecraft:dark_oak_planks)
+B(3,1,2,minecraft:dark_oak_planks)
+B(3,3,2,minecraft:lever[face=wall,facing=west,powered=false])
+B(3,1,3,minecraft:dark_oak_planks)
+B(3,1,4,minecraft:dark_oak_planks)
+B(3,1,5,minecraft:dark_oak_planks)
+B(3,4,5,minecraft:spruce_planks)
+B(4,0,-4,minecraft:spruce_log)
+B(4,1,-4,minecraft:dark_oak_planks)
+B(4,2,-4,minecraft:spruce_fence)
+B(4,3,-4,minecraft:spruce_fence)
+B(4,4,-4,minecraft:spruce_planks)
+B(4,1,-3,minecraft:dark_oak_planks)
+B(4,1,-2,minecraft:dark_oak_planks)
+B(4,0,-1,minecraft:spruce_log)
+B(4,1,-1,minecraft:dark_oak_planks)
+B(4,2,-1,minecraft:spruce_planks)
+B(4,3,-1,minecraft:spruce_planks)
+B(4,4,-1,minecraft:spruce_planks)
+B(4,1,0,minecraft:dark_oak_planks)
+B(4,2,0,minecraft:iron_door)
+B(4,3,0,minecraft:iron_door[facing=north,half=upper,hinge=left,open=false,powered=false])
+B(4,4,0,minecraft:spruce_planks)
+B(4,1,1,minecraft:dark_oak_planks)
+B(4,2,1,minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false])
+B(4,3,1,minecraft:iron_door[facing=north,half=upper,hinge=right,open=false,powered=false])
+B(4,4,1,minecraft:spruce_planks)
+B(4,1,2,minecraft:dark_oak_planks)
+B(4,2,2,minecraft:spruce_planks)
+B(4,3,2,minecraft:spruce_planks)
+B(4,4,2,minecraft:spruce_planks)
+B(4,1,3,minecraft:dark_oak_planks)
+B(4,1,4,minecraft:dark_oak_planks)
+B(4,0,5,minecraft:spruce_log)
+B(4,1,5,minecraft:dark_oak_planks)
+B(4,2,5,minecraft:spruce_fence)
+B(4,3,5,minecraft:spruce_fence)
+B(4,4,5,minecraft:spruce_planks)
+B(5,1,-1,minecraft:dark_oak_planks)
+B(5,3,-1,minecraft:stone_button[face=wall,facing=east,powered=false])
+B(5,1,0,minecraft:dark_oak_planks)
+B(5,1,1,minecraft:dark_oak_planks)
+B(5,1,2,minecraft:dark_oak_planks)
+B(5,3,2,minecraft:lever[face=wall,facing=east,powered=false])
+B(6,1,-1,minecraft:dark_oak_planks)
+B(6,1,0,minecraft:dark_oak_planks)
+B(6,1,1,minecraft:dark_oak_planks)
+B(6,1,2,minecraft:dark_oak_planks)
+B(7,0,-1,minecraft:spruce_log)
+B(7,1,-1,minecraft:dark_oak_planks)
+B(7,2,-1,minecraft:spruce_fence)
+B(7,3,-1,minecraft:spruce_fence)
+B(7,4,-1,minecraft:spruce_planks)
+B(7,1,0,minecraft:dark_oak_planks)
+B(7,4,0,minecraft:spruce_planks)
+B(7,1,1,minecraft:dark_oak_planks)
+B(7,4,1,minecraft:spruce_planks)
+B(7,0,2,minecraft:spruce_log)
+B(7,1,2,minecraft:dark_oak_planks)
+B(7,2,2,minecraft:spruce_fence)
+B(7,3,2,minecraft:spruce_fence)
+B(7,4,2,minecraft:spruce_planks)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,MineShaftAirShaft,NORTH,100.0)
+Branch(-8,-1,-1,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-8,-1,2,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-7,-1,5,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-5,-1,2,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-5,-1,5,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-2,-1,-6,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-2,-1,-1,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-2,-1,2,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-2,-1,8,MineShaftFoundationBlock,NORTH,100.0)
+Branch(1,-1,-6,MineShaftFoundationBlock,NORTH,100.0)
+Branch(1,-1,-4,MineShaftFoundationBlock,NORTH,100.0)
+Branch(1,-1,5,MineShaftFoundationBlock,NORTH,100.0)
+Branch(1,-1,8,MineShaftFoundationBlock,NORTH,100.0)
+Branch(4,-1,-4,MineShaftFoundationBlock,NORTH,100.0)
+Branch(4,-1,-1,MineShaftFoundationBlock,NORTH,100.0)
+Branch(4,-1,5,MineShaftFoundationBlock,NORTH,100.0)
+Branch(7,-1,-1,MineShaftFoundationBlock,NORTH,100.0)
+Branch(7,-1,2,MineShaftFoundationBlock,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

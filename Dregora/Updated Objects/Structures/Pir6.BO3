@@ -1,0 +1,117 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 48
+
+MaxHeight: 48
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:water
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: minecraft:water
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-5,29,-7,minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-5,30,-7,minecraft:spruce_planks)
+B(-5,31,-7,minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,28,-7,minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-4,32,-7,minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-3,28,-7,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-3,30,-7,minecraft:spruce_planks)
+B(-3,32,-7,minecraft:dark_oak_slab)
+B(-3,33,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(-3,30,-6,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-3,31,-6,minecraft:oak_fence)
+B(-3,32,-6,minecraft:oak_fence)
+B(-3,33,-6,minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-2,28,-7,minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-2,32,-7,minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-1,29,-7,minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-1,30,-7,minecraft:spruce_planks)
+B(-1,31,-7,minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

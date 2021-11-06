@@ -272,7 +272,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: MOUNTAIN, JUNGLE, WET, HOT, RIVER
+BiomeDictId: Overworld MOUNTAIN, JUNGLE, WET, HOT, RIVER
 
 InheritMobsBiomeName:minecraft:jungle
 

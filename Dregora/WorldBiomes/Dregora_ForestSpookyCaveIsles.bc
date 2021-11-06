@@ -281,7 +281,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: SPOOKY, FOREST 
+BiomeDictId: Overworld SPOOKY, FOREST 
 
 InheritMobsBiomeName: minecraft:mutated_redwood_taiga
 

@@ -1,0 +1,132 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 20
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,-2,-8,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-8,0,-8,minecraft:dispenser[facing=south,triggered=false])
+B(-8,10,-8,minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(-8,11,-8,minecraft:spruce_log[axis=z])
+B(-8,24,-8,minecraft:spruce_fence)
+B(-8,25,-8,minecraft:spruce_log[axis=z])
+B(-8,26,-8,minecraft:black_wool)
+B(-8,10,-7,minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-8,11,-7,minecraft:spruce_log[axis=z])
+B(-8,1,-6,minecraft:black_wool)
+B(-8,0,-5,minecraft:black_wool)
+B(-8,11,-5,minecraft:black_wool)
+B(-8,12,-5,minecraft:black_wool)
+B(-8,24,-5,minecraft:black_wool)
+B(-8,23,-4,minecraft:black_wool)
+B(-7,-3,-8,minecraft:oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false])
+B(-7,-2,-8,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-7,0,-5,minecraft:black_wool)
+B(-7,-1,-4,minecraft:black_wool)
+B(-7,0,-4,minecraft:black_wool)
+B(-7,12,-4,minecraft:black_wool)
+B(-7,13,-4,minecraft:black_wool)
+B(-7,24,-4,minecraft:black_wool)
+B(-7,25,-4,minecraft:black_wool)
+B(-7,13,-3,minecraft:black_wool)
+B(-7,25,-3,minecraft:black_wool)
+B(-6,-2,-8,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-6,13,-3,minecraft:black_wool)
+B(-6,25,-3,minecraft:black_wool)
+B(-5,-2,-8,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-5,35,-8,minecraft:black_wool)
+B(-4,35,-8,minecraft:black_wool)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-8,0,0,WestPortShipPillager_5x5,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

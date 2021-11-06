@@ -1,0 +1,340 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-1,0,8,minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-1,1,8,minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(0,0,7,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(0,-10,8,minecraft:jungle_planks)
+B(0,-9,8,minecraft:jungle_planks)
+B(0,-8,8,minecraft:jungle_planks)
+B(0,-7,8,minecraft:jungle_planks)
+B(0,-6,8,minecraft:jungle_planks)
+B(0,-5,8,minecraft:jungle_planks)
+B(0,-4,8,minecraft:jungle_planks)
+B(0,-3,8,minecraft:jungle_planks)
+B(0,-2,8,minecraft:jungle_planks)
+B(0,-1,8,minecraft:jungle_planks)
+B(0,0,8,minecraft:jungle_planks)
+B(0,1,8,minecraft:jungle_planks)
+B(0,2,8,minecraft:jungle_planks)
+B(0,3,8,minecraft:jungle_planks)
+B(1,0,6,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(1,-10,7,minecraft:jungle_planks)
+B(1,-9,7,minecraft:jungle_planks)
+B(1,-8,7,minecraft:jungle_planks)
+B(1,-7,7,minecraft:jungle_planks)
+B(1,-6,7,minecraft:jungle_planks)
+B(1,-5,7,minecraft:jungle_planks)
+B(1,-4,7,minecraft:jungle_planks)
+B(1,-3,7,minecraft:jungle_planks)
+B(1,-2,7,minecraft:jungle_planks)
+B(1,-1,7,minecraft:jungle_planks)
+B(1,0,7,minecraft:jungle_planks)
+B(1,1,7,minecraft:jungle_planks)
+B(1,2,7,minecraft:jungle_planks)
+B(1,3,7,minecraft:jungle_planks)
+B(1,2,8,minecraft:jungle_slab)
+B(2,0,5,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(2,-10,6,minecraft:jungle_log)
+B(2,-9,6,minecraft:jungle_log)
+B(2,-8,6,minecraft:jungle_log)
+B(2,-7,6,minecraft:jungle_log)
+B(2,-6,6,minecraft:jungle_log)
+B(2,-5,6,minecraft:jungle_log)
+B(2,-4,6,minecraft:jungle_log)
+B(2,-3,6,minecraft:jungle_log)
+B(2,-2,6,minecraft:jungle_log)
+B(2,-1,6,minecraft:jungle_log)
+B(2,0,6,minecraft:jungle_log)
+B(2,1,6,minecraft:jungle_log)
+B(2,2,6,minecraft:jungle_log)
+B(2,3,6,minecraft:jungle_log)
+B(2,4,6,minecraft:jungle_log)
+B(2,2,7,minecraft:jungle_slab)
+B(2,2,8,minecraft:jungle_slab)
+B(3,0,3,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(3,-10,4,minecraft:jungle_planks)
+B(3,-9,4,minecraft:jungle_planks)
+B(3,-8,4,minecraft:jungle_planks)
+B(3,-7,4,minecraft:jungle_planks)
+B(3,-6,4,minecraft:jungle_planks)
+B(3,-5,4,minecraft:jungle_planks)
+B(3,-4,4,minecraft:jungle_planks)
+B(3,-3,4,minecraft:jungle_planks)
+B(3,-2,4,minecraft:jungle_planks)
+B(3,-1,4,minecraft:jungle_planks)
+B(3,0,4,minecraft:jungle_planks)
+B(3,1,4,minecraft:jungle_planks)
+B(3,2,4,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(3,3,4,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(3,-10,5,minecraft:jungle_planks)
+B(3,-9,5,minecraft:jungle_planks)
+B(3,-8,5,minecraft:jungle_planks)
+B(3,-7,5,minecraft:jungle_planks)
+B(3,-6,5,minecraft:jungle_planks)
+B(3,-5,5,minecraft:jungle_planks)
+B(3,-4,5,minecraft:jungle_planks)
+B(3,-3,5,minecraft:jungle_planks)
+B(3,-2,5,minecraft:jungle_planks)
+B(3,-1,5,minecraft:jungle_planks)
+B(3,0,5,minecraft:jungle_planks)
+B(3,1,5,minecraft:jungle_planks)
+B(3,2,5,minecraft:jungle_planks)
+B(3,3,5,minecraft:jungle_planks)
+B(3,1,6,minecraft:jungle_log[axis=x])
+B(3,2,6,minecraft:jungle_slab)
+B(3,2,7,minecraft:jungle_slab)
+B(3,2,8,minecraft:jungle_slab)
+B(4,0,3,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=true])
+B(4,-10,4,minecraft:jungle_planks)
+B(4,-9,4,minecraft:jungle_planks)
+B(4,-8,4,minecraft:jungle_planks)
+B(4,-7,4,minecraft:jungle_planks)
+B(4,-6,4,minecraft:jungle_planks)
+B(4,-5,4,minecraft:jungle_planks)
+B(4,-4,4,minecraft:jungle_planks)
+B(4,-3,4,minecraft:jungle_planks)
+B(4,-2,4,minecraft:jungle_planks)
+B(4,-1,4,minecraft:jungle_planks)
+B(4,0,4,minecraft:jungle_planks)
+B(4,1,4,minecraft:jungle_planks)
+B(4,2,4,minecraft:jungle_planks)
+B(4,3,4,minecraft:jungle_planks)
+B(4,2,5,minecraft:jungle_slab)
+B(4,1,6,minecraft:jungle_log[axis=x])
+B(4,2,6,minecraft:jungle_slab)
+B(4,2,7,minecraft:jungle_slab)
+B(5,0,1,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(5,-10,2,minecraft:jungle_planks)
+B(5,-9,2,minecraft:jungle_planks)
+B(5,-8,2,minecraft:jungle_planks)
+B(5,-7,2,minecraft:jungle_planks)
+B(5,-6,2,minecraft:jungle_planks)
+B(5,-5,2,minecraft:jungle_planks)
+B(5,-4,2,minecraft:jungle_planks)
+B(5,-3,2,minecraft:jungle_planks)
+B(5,-2,2,minecraft:jungle_planks)
+B(5,-1,2,minecraft:jungle_planks)
+B(5,0,2,minecraft:jungle_planks)
+B(5,1,2,minecraft:jungle_planks)
+B(5,2,2,minecraft:jungle_planks)
+B(5,3,2,minecraft:jungle_planks)
+B(5,-10,3,minecraft:jungle_log)
+B(5,-9,3,minecraft:jungle_log)
+B(5,-8,3,minecraft:jungle_log)
+B(5,-7,3,minecraft:jungle_log)
+B(5,-6,3,minecraft:jungle_log)
+B(5,-5,3,minecraft:jungle_log)
+B(5,-4,3,minecraft:jungle_log)
+B(5,-3,3,minecraft:jungle_log)
+B(5,-2,3,minecraft:jungle_log)
+B(5,-1,3,minecraft:jungle_log)
+B(5,0,3,minecraft:jungle_log)
+B(5,1,3,minecraft:jungle_log)
+B(5,2,3,minecraft:jungle_log)
+B(5,3,3,minecraft:jungle_log)
+B(5,4,3,minecraft:jungle_log)
+B(5,2,4,minecraft:jungle_slab)
+B(5,2,5,minecraft:jungle_slab)
+B(5,1,6,minecraft:jungle_log[axis=x])
+B(5,2,6,minecraft:jungle_slab)
+B(6,0,0,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(6,0,1,minecraft:spruce_fence[east=true,north=true,south=true,waterlogged=false,west=true])
+B(6,-10,2,minecraft:jungle_planks)
+B(6,-9,2,minecraft:jungle_planks)
+B(6,-8,2,minecraft:jungle_planks)
+B(6,-7,2,minecraft:jungle_planks)
+B(6,-6,2,minecraft:jungle_planks)
+B(6,-5,2,minecraft:jungle_planks)
+B(6,-4,2,minecraft:jungle_planks)
+B(6,-3,2,minecraft:jungle_planks)
+B(6,-2,2,minecraft:jungle_planks)
+B(6,-1,2,minecraft:jungle_planks)
+B(6,0,2,minecraft:jungle_planks)
+B(6,1,2,minecraft:jungle_planks)
+B(6,2,2,minecraft:jungle_planks)
+B(6,3,2,minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(6,1,3,minecraft:jungle_log[axis=x])
+B(6,2,3,minecraft:jungle_slab)
+B(6,2,4,minecraft:jungle_slab)
+B(6,2,5,minecraft:jungle_slab)
+B(6,-10,6,minecraft:jungle_log)
+B(6,-9,6,minecraft:jungle_log)
+B(6,-8,6,minecraft:jungle_log)
+B(6,-7,6,minecraft:jungle_log)
+B(6,-6,6,minecraft:jungle_log)
+B(6,-5,6,minecraft:jungle_log)
+B(6,-4,6,minecraft:jungle_log)
+B(6,-3,6,minecraft:jungle_log)
+B(6,-2,6,minecraft:jungle_log)
+B(6,-1,6,minecraft:jungle_log)
+B(6,0,6,minecraft:jungle_log)
+B(6,1,6,minecraft:jungle_log[axis=x])
+B(7,0,-1,minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(7,-10,0,minecraft:jungle_planks)
+B(7,-9,0,minecraft:jungle_planks)
+B(7,-8,0,minecraft:jungle_planks)
+B(7,-7,0,minecraft:jungle_planks)
+B(7,-6,0,minecraft:jungle_planks)
+B(7,-5,0,minecraft:jungle_planks)
+B(7,-4,0,minecraft:jungle_planks)
+B(7,-3,0,minecraft:jungle_planks)
+B(7,-2,0,minecraft:jungle_planks)
+B(7,-1,0,minecraft:jungle_planks)
+B(7,0,0,minecraft:jungle_planks)
+B(7,1,0,minecraft:jungle_planks)
+B(7,2,0,minecraft:jungle_planks)
+B(7,3,0,minecraft:jungle_planks)
+B(7,-10,1,minecraft:jungle_planks)
+B(7,-9,1,minecraft:jungle_planks)
+B(7,-8,1,minecraft:jungle_planks)
+B(7,-7,1,minecraft:jungle_planks)
+B(7,-6,1,minecraft:jungle_planks)
+B(7,-5,1,minecraft:jungle_planks)
+B(7,-4,1,minecraft:jungle_planks)
+B(7,-3,1,minecraft:jungle_planks)
+B(7,-2,1,minecraft:jungle_planks)
+B(7,-1,1,minecraft:jungle_planks)
+B(7,0,1,minecraft:jungle_planks)
+B(7,1,1,minecraft:jungle_planks)
+B(7,2,1,minecraft:jungle_planks)
+B(7,3,1,minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(7,2,2,minecraft:jungle_slab)
+B(7,1,3,minecraft:jungle_log[axis=x])
+B(7,2,3,minecraft:jungle_slab)
+B(7,2,4,minecraft:jungle_slab)
+B(8,0,-2,minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(8,-10,-1,minecraft:jungle_log)
+B(8,-9,-1,minecraft:jungle_log)
+B(8,-8,-1,minecraft:jungle_log)
+B(8,-7,-1,minecraft:jungle_log)
+B(8,-6,-1,minecraft:jungle_log)
+B(8,-5,-1,minecraft:jungle_log)
+B(8,-4,-1,minecraft:jungle_log)
+B(8,-3,-1,minecraft:jungle_log)
+B(8,-2,-1,minecraft:jungle_log)
+B(8,-1,-1,minecraft:jungle_log)
+B(8,0,-1,minecraft:jungle_log)
+B(8,1,-1,minecraft:jungle_log)
+B(8,2,-1,minecraft:jungle_log)
+B(8,3,-1,minecraft:jungle_log)
+B(8,4,-1,minecraft:jungle_log)
+B(8,2,0,minecraft:jungle_slab)
+B(8,2,1,minecraft:jungle_slab)
+B(8,2,2,minecraft:jungle_slab)
+B(8,-10,3,minecraft:jungle_log)
+B(8,-9,3,minecraft:jungle_log)
+B(8,-8,3,minecraft:jungle_log)
+B(8,-7,3,minecraft:jungle_log)
+B(8,-6,3,minecraft:jungle_log)
+B(8,-5,3,minecraft:jungle_log)
+B(8,-4,3,minecraft:jungle_log)
+B(8,-3,3,minecraft:jungle_log)
+B(8,-2,3,minecraft:jungle_log)
+B(8,-1,3,minecraft:jungle_log)
+B(8,0,3,minecraft:jungle_log)
+B(8,1,3,minecraft:jungle_log[axis=x])
+B(8,2,3,minecraft:jungle_slab)
+RB(8,4,-2,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner01.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner02.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner03.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner04.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner05.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner06.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner07.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner08.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner09.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner10.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner11.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner12.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner13.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner14.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner15.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner16.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner17.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner18.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner19.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner20.nbt,100)
+RB(7,4,-1,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner01.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner02.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner03.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner04.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner05.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner06.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner07.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner08.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner09.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner10.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner11.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner12.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner13.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner14.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner15.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner16.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner17.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner18.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner19.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner20.nbt,100)
+RB(4,4,3,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner01.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner02.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner03.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner04.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner05.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner06.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner07.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner08.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner09.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner10.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner11.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner12.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner13.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner14.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner15.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner16.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner17.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner18.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner19.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner20.nbt,100)
+RB(2,4,5,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner01.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner02.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner03.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner04.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner05.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner06.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner07.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner08.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner09.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner10.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner11.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner12.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner13.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner14.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner15.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner16.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner17.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner18.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner19.nbt,8,minecraft:white_wall_banner,../JungleNBT/banners/JungleBanner20.nbt,100)
+RB(1,4,6,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner01.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner02.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner03.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner04.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner05.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner06.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner07.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner08.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner09.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner10.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner11.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner12.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner13.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner14.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner15.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner16.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner17.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner18.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner19.nbt,8,minecraft:white_wall_banner[facing=west],../JungleNBT/banners/JungleBanner20.nbt,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(8,0,8,House01,NORTH,10.0,House02,NORTH,20.0,House03,NORTH,30.0,House04,NORTH,40.0,House05,NORTH,50.0,House06,NORTH,60.0,House07,NORTH,70.0,House08,NORTH,80.0,House09,NORTH,90.0,House10,NORTH,100.0,House01,EAST,110.0,House02,EAST,120.0,House03,EAST,130.0,House04,EAST,140.0,House05,EAST,150.0,House06,EAST,160.0,House07,EAST,170.0,House08,EAST,180.0,House09,EAST,190.0,House10,EAST,200.0,House01,WEST,210.0,House02,WEST,220.0,House03,WEST,230.0,House04,WEST,240.0,House05,WEST,250.0,House06,WEST,260.0,House07,WEST,270.0,House08,WEST,280.0,House09,WEST,290.0,House10,WEST,300.0,House01,SOUTH,310.0,House02,SOUTH,320.0,House03,SOUTH,330.0,House04,SOUTH,340.0,House05,SOUTH,350.0,House06,SOUTH,360.0,House07,SOUTH,370.0,House08,SOUTH,380.0,House09,SOUTH,390.0,House10,SOUTH,400.0,400.0)
+Branch(0,0,-16,JungleVillagePath01_01-01,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

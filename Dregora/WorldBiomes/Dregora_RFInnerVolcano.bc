@@ -264,7 +264,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: HOT, DEAD
+BiomeDictId: Overworld HOT, DEAD
 
 InheritMobsBiomeName: minecraft:jungle_edge
 

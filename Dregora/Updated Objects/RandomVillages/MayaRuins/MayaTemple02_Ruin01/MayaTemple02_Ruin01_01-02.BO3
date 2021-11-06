@@ -1,0 +1,212 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-7,2,-7,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-7,0,-6,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-7,1,-6,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-7,2,-6,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-7,-1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-7,0,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-7,1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-7,2,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-6,2,-7,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-6,0,-6,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-6,1,-6,minecraft:stone_brick_slab[type=double,waterlogged=false])
+B(-6,2,-6,minecraft:vine[east=false,north=true,south=false,up=false,west=true])
+B(-6,-1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-6,0,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-6,1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-5,2,-7,minecraft:stone_brick_slab)
+B(-5,0,-6,minecraft:jungle_leaves[distance=7,persistent=true])
+B(-5,1,-6,minecraft:stone_brick_slab)
+B(-3,2,-7,minecraft:stone_brick_slab)
+B(-3,1,-6,minecraft:stone_brick_slab)
+B(-1,1,-7,minecraft:jungle_leaves[distance=7,persistent=true])
+B(0,1,-7,minecraft:stone_brick_stairs)
+B(1,-1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(1,0,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(2,2,-7,minecraft:stone_brick_slab)
+B(2,1,-6,minecraft:stone_brick_slab)
+B(4,1,-6,minecraft:stone_brick_slab)
+B(5,2,-7,minecraft:jungle_leaves[distance=7,persistent=true])
+B(5,1,-6,minecraft:jungle_leaves[distance=7,persistent=true])
+B(6,2,-7,minecraft:jungle_leaves[distance=7,persistent=true])
+B(6,1,-6,minecraft:stone_brick_slab)
+B(8,2,-7,minecraft:stone_brick_slab)
+B(8,1,-6,minecraft:stone_brick_slab)
+RB(-7,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-6,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-5,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-4,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-3,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-1,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(0,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(2,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(3,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(4,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-7,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-6,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-5,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-4,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-3,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-1,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(0,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(2,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(3,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(4,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-7,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-6,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-5,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-4,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-3,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-1,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(0,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(2,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(3,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(4,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-4,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-3,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-1,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(0,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(2,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(3,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(4,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-7,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-6,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-5,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-4,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-3,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(2,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(3,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(4,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(-2,2,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(1,2,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(0,2,-7,minecraft:villager,1,../JungleNBT/entities/tribalruinsguard.txt)

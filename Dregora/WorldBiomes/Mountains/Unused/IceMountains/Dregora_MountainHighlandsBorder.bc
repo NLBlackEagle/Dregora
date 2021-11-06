@@ -267,6 +267,6 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId:
+BiomeDictId: Overworld
 
 InheritMobsBiomeName: minecraft:taiga_hills

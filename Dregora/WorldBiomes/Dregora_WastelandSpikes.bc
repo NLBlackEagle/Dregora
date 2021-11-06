@@ -1,4 +1,3 @@
-/tp 3534 100 9471
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -270,6 +269,6 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId:
+BiomeDictId: Overworld
 
 InheritMobsBiomeName: minecraft:desert

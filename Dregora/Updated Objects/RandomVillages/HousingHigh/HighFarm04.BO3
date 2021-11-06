@@ -1,0 +1,374 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 87
+
+MaxHeight: 87
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 50
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-6,-1,-6,minecraft:spruce_fence)
+B(-6,0,-6,minecraft:spruce_fence)
+B(-6,1,-6,minecraft:spruce_fence)
+B(-6,2,-6,minecraft:oak_slab)
+B(-6,2,-5,minecraft:oak_slab)
+B(-6,2,-4,minecraft:oak_slab)
+B(-6,0,-3,minecraft:spruce_fence)
+B(-6,1,-3,minecraft:spruce_fence)
+B(-6,2,-3,minecraft:oak_slab)
+B(-6,2,-2,minecraft:oak_slab)
+B(-6,2,-1,minecraft:oak_slab)
+B(-6,2,0,minecraft:oak_slab)
+B(-6,0,1,minecraft:spruce_fence)
+B(-6,1,1,minecraft:spruce_fence)
+B(-6,2,1,minecraft:oak_slab)
+B(-6,2,2,minecraft:oak_slab)
+B(-6,2,3,minecraft:oak_slab)
+B(-6,2,4,minecraft:oak_slab)
+B(-6,0,5,minecraft:spruce_fence)
+B(-6,1,5,minecraft:spruce_fence)
+B(-6,2,5,minecraft:oak_slab)
+B(-5,2,-6,minecraft:oak_slab)
+B(-5,-1,-2,minecraft:sand)
+B(-5,0,-2,minecraft:sugar_cane)
+B(-5,-1,-1,minecraft:water)
+B(-5,-1,0,minecraft:sand)
+B(-5,0,0,minecraft:sugar_cane)
+B(-5,1,0,minecraft:sugar_cane)
+B(-5,-1,1,minecraft:farmland[moisture=7])
+B(-5,0,1,minecraft:wheat[age=2])
+B(-5,2,1,minecraft:oak_slab)
+B(-5,-1,2,minecraft:sand)
+B(-5,0,2,minecraft:sugar_cane)
+B(-5,1,2,minecraft:sugar_cane)
+B(-5,-1,3,minecraft:water)
+B(-5,-1,4,minecraft:sand)
+B(-5,0,4,minecraft:sugar_cane)
+B(-5,2,5,minecraft:oak_slab)
+B(-4,2,-6,minecraft:oak_slab)
+B(-4,-1,-2,minecraft:sand)
+B(-4,0,-2,minecraft:sugar_cane)
+B(-4,-1,-1,minecraft:water)
+B(-4,-1,0,minecraft:sand)
+B(-4,0,0,minecraft:sugar_cane)
+B(-4,1,0,minecraft:sugar_cane)
+B(-4,-1,1,minecraft:farmland[moisture=7])
+B(-4,0,1,minecraft:wheat[age=4])
+B(-4,2,1,minecraft:oak_slab)
+B(-4,-1,2,minecraft:sand)
+B(-4,0,2,minecraft:sugar_cane)
+B(-4,-1,3,minecraft:water)
+B(-4,-1,4,minecraft:sand)
+B(-4,0,4,minecraft:sugar_cane)
+B(-4,1,4,minecraft:sugar_cane)
+B(-4,2,4,minecraft:sugar_cane)
+B(-4,2,5,minecraft:oak_slab)
+B(-3,-1,-6,minecraft:chiseled_stone_bricks)
+B(-3,0,-6,minecraft:cobblestone_wall)
+B(-3,1,-6,minecraft:torch)
+B(-3,2,-6,minecraft:oak_slab)
+B(-3,-1,-5,minecraft:jungle_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-3,-1,-4,minecraft:chiseled_stone_bricks)
+B(-3,0,-4,minecraft:cobblestone_wall)
+B(-3,1,-4,minecraft:torch)
+B(-3,-1,-2,minecraft:sand)
+B(-3,0,-2,minecraft:sugar_cane)
+B(-3,-1,-1,minecraft:water)
+B(-3,-1,0,minecraft:sand)
+B(-3,0,0,minecraft:sugar_cane)
+B(-3,1,0,minecraft:sugar_cane)
+B(-3,2,0,minecraft:sugar_cane)
+B(-3,-1,1,minecraft:farmland[moisture=7])
+B(-3,0,1,minecraft:wheat[age=2])
+B(-3,2,1,minecraft:oak_slab)
+B(-3,-1,2,minecraft:sand)
+B(-3,0,2,minecraft:sugar_cane)
+B(-3,1,2,minecraft:sugar_cane)
+B(-3,-1,3,minecraft:water)
+B(-3,-1,4,minecraft:sand)
+B(-3,0,4,minecraft:sugar_cane)
+B(-3,2,5,minecraft:oak_slab)
+B(-2,0,-6,minecraft:spruce_fence)
+B(-2,1,-6,minecraft:spruce_fence)
+B(-2,2,-6,minecraft:oak_slab)
+B(-2,-1,-2,minecraft:sand)
+B(-2,0,-2,minecraft:sugar_cane)
+B(-2,1,-2,minecraft:sugar_cane)
+B(-2,2,-2,minecraft:sugar_cane)
+B(-2,-1,-1,minecraft:water)
+B(-2,-1,0,minecraft:sand)
+B(-2,0,0,minecraft:sugar_cane)
+B(-2,1,0,minecraft:sugar_cane)
+B(-2,-1,1,minecraft:farmland[moisture=7])
+B(-2,0,1,minecraft:wheat[age=3])
+B(-2,2,1,minecraft:oak_slab)
+B(-2,-1,2,minecraft:sand)
+B(-2,0,2,minecraft:sugar_cane)
+B(-2,-1,3,minecraft:water)
+B(-2,-1,4,minecraft:sand)
+B(-2,0,4,minecraft:sugar_cane)
+B(-2,1,4,minecraft:sugar_cane)
+B(-2,2,5,minecraft:oak_slab)
+B(-1,2,-6,minecraft:oak_slab)
+B(-1,-1,-5,minecraft:farmland[moisture=7])
+B(-1,0,-5,minecraft:wheat[age=2])
+B(-1,-1,-4,minecraft:farmland[moisture=7])
+B(-1,0,-4,minecraft:wheat[age=1])
+B(-1,-1,-3,minecraft:farmland[moisture=7])
+B(-1,0,-3,minecraft:wheat[age=1])
+B(-1,-1,-2,minecraft:sand)
+B(-1,0,-2,minecraft:sugar_cane)
+B(-1,1,-2,minecraft:sugar_cane)
+B(-1,-1,-1,minecraft:water)
+B(-1,-1,0,minecraft:sand)
+B(-1,0,0,minecraft:sugar_cane)
+B(-1,-1,1,minecraft:farmland[moisture=7])
+B(-1,0,1,minecraft:wheat[age=3])
+B(-1,2,1,minecraft:oak_slab)
+B(-1,-1,2,minecraft:sand)
+B(-1,0,2,minecraft:sugar_cane)
+B(-1,1,2,minecraft:sugar_cane)
+B(-1,-1,3,minecraft:water)
+B(-1,-1,4,minecraft:sand)
+B(-1,0,4,minecraft:sugar_cane)
+B(-1,1,4,minecraft:sugar_cane)
+B(-1,2,5,minecraft:oak_slab)
+B(0,2,-6,minecraft:oak_slab)
+B(0,-1,-5,minecraft:sand)
+B(0,0,-5,minecraft:sugar_cane)
+B(0,1,-5,minecraft:sugar_cane)
+B(0,-1,-4,minecraft:sand)
+B(0,0,-4,minecraft:sugar_cane)
+B(0,-1,-3,minecraft:sand)
+B(0,0,-3,minecraft:sugar_cane)
+B(0,-1,-2,minecraft:sand)
+B(0,0,-2,minecraft:sugar_cane)
+B(0,1,-2,minecraft:sugar_cane)
+B(0,2,-2,minecraft:sugar_cane)
+B(0,-1,-1,minecraft:water)
+B(0,-1,0,minecraft:sand)
+B(0,0,0,minecraft:sugar_cane)
+B(0,1,0,minecraft:sugar_cane)
+B(0,2,0,minecraft:sugar_cane)
+B(0,-1,1,minecraft:farmland[moisture=7])
+B(0,0,1,minecraft:wheat[age=1])
+B(0,2,1,minecraft:oak_slab)
+B(0,-1,2,minecraft:sand)
+B(0,0,2,minecraft:sugar_cane)
+B(0,1,2,minecraft:sugar_cane)
+B(0,2,2,minecraft:sugar_cane)
+B(0,-1,3,minecraft:water)
+B(0,-1,4,minecraft:sand)
+B(0,0,4,minecraft:sugar_cane)
+B(0,1,4,minecraft:sugar_cane)
+B(0,2,4,minecraft:sugar_cane)
+B(0,2,5,minecraft:oak_slab)
+B(1,0,-6,minecraft:spruce_fence)
+B(1,1,-6,minecraft:spruce_fence)
+B(1,2,-6,minecraft:oak_slab)
+B(1,-1,-5,minecraft:water)
+B(1,2,-5,minecraft:oak_slab)
+B(1,-1,-4,minecraft:water)
+B(1,2,-4,minecraft:oak_slab)
+B(1,-1,-3,minecraft:water)
+B(1,2,-3,minecraft:oak_slab)
+B(1,-1,-2,minecraft:water)
+B(1,2,-2,minecraft:oak_slab)
+B(1,-1,-1,minecraft:water)
+B(1,2,-1,minecraft:oak_slab)
+B(1,-1,0,minecraft:water)
+B(1,2,0,minecraft:oak_slab)
+B(1,0,1,minecraft:spruce_fence)
+B(1,1,1,minecraft:spruce_fence)
+B(1,2,1,minecraft:oak_slab)
+B(1,-1,2,minecraft:water)
+B(1,2,2,minecraft:oak_slab)
+B(1,-1,3,minecraft:water)
+B(1,2,3,minecraft:oak_slab)
+B(1,-1,4,minecraft:water)
+B(1,2,4,minecraft:oak_slab)
+B(1,0,5,minecraft:spruce_fence)
+B(1,1,5,minecraft:spruce_fence)
+B(1,2,5,minecraft:oak_slab)
+B(2,2,-6,minecraft:oak_slab)
+B(2,-1,-5,minecraft:farmland[moisture=7])
+B(2,0,-5,minecraft:wheat[age=3])
+B(2,-1,-4,minecraft:farmland[moisture=7])
+B(2,0,-4,minecraft:wheat[age=2])
+B(2,-1,-3,minecraft:farmland[moisture=7])
+B(2,0,-3,minecraft:wheat[age=2])
+B(2,-1,-2,minecraft:farmland[moisture=7])
+B(2,0,-2,minecraft:wheat[age=1])
+B(2,-1,-1,minecraft:farmland[moisture=7])
+B(2,0,-1,minecraft:wheat[age=2])
+B(2,-1,0,minecraft:farmland[moisture=7])
+B(2,0,0,minecraft:wheat[age=2])
+B(2,-1,1,minecraft:water)
+B(2,2,1,minecraft:oak_slab)
+B(2,-1,2,minecraft:farmland[moisture=7])
+B(2,0,2,minecraft:wheat[age=1])
+B(2,-1,3,minecraft:farmland[moisture=7])
+B(2,0,3,minecraft:wheat[age=2])
+B(2,-1,4,minecraft:farmland[moisture=7])
+B(2,0,4,minecraft:wheat[age=2])
+B(2,2,5,minecraft:oak_slab)
+B(3,2,-6,minecraft:oak_slab)
+B(3,-1,-5,minecraft:farmland[moisture=7])
+B(3,0,-5,minecraft:wheat[age=1])
+B(3,-1,-4,minecraft:farmland[moisture=7])
+B(3,0,-4,minecraft:wheat[age=5])
+B(3,-1,-3,minecraft:farmland[moisture=7])
+B(3,0,-3,minecraft:wheat[age=2])
+B(3,-1,-2,minecraft:farmland[moisture=7])
+B(3,0,-2,minecraft:wheat)
+B(3,-1,-1,minecraft:farmland[moisture=7])
+B(3,0,-1,minecraft:wheat)
+B(3,-1,0,minecraft:farmland[moisture=7])
+B(3,0,0,minecraft:wheat[age=1])
+B(3,-1,1,minecraft:water)
+B(3,2,1,minecraft:oak_slab)
+B(3,-1,2,minecraft:farmland[moisture=7])
+B(3,0,2,minecraft:wheat[age=3])
+B(3,-1,3,minecraft:farmland[moisture=7])
+B(3,0,3,minecraft:wheat[age=2])
+B(3,-1,4,minecraft:farmland[moisture=7])
+B(3,0,4,minecraft:wheat[age=4])
+B(3,2,5,minecraft:oak_slab)
+B(4,2,-6,minecraft:oak_slab)
+B(4,-1,-5,minecraft:farmland[moisture=7])
+B(4,0,-5,minecraft:wheat[age=2])
+B(4,-1,-4,minecraft:farmland[moisture=7])
+B(4,0,-4,minecraft:wheat[age=1])
+B(4,-1,-3,minecraft:farmland[moisture=7])
+B(4,0,-3,minecraft:wheat[age=6])
+B(4,-1,-2,minecraft:farmland[moisture=7])
+B(4,0,-2,minecraft:wheat[age=3])
+B(4,-1,-1,minecraft:farmland[moisture=7])
+B(4,0,-1,minecraft:wheat[age=3])
+B(4,-1,0,minecraft:farmland[moisture=7])
+B(4,0,0,minecraft:wheat[age=2])
+B(4,-1,1,minecraft:water)
+B(4,2,1,minecraft:oak_slab)
+B(4,-1,2,minecraft:farmland[moisture=7])
+B(4,0,2,minecraft:wheat[age=1])
+B(4,-1,3,minecraft:farmland[moisture=7])
+B(4,0,3,minecraft:wheat[age=2])
+B(4,-1,4,minecraft:farmland[moisture=7])
+B(4,0,4,minecraft:wheat[age=1])
+B(4,2,5,minecraft:oak_slab)
+B(5,0,-6,minecraft:spruce_fence)
+B(5,1,-6,minecraft:spruce_fence)
+B(5,2,-6,minecraft:oak_slab)
+B(5,2,-5,minecraft:oak_slab)
+B(5,2,-4,minecraft:oak_slab)
+B(5,2,-3,minecraft:oak_slab)
+B(5,2,-2,minecraft:oak_slab)
+B(5,2,-1,minecraft:oak_slab)
+B(5,2,0,minecraft:oak_slab)
+B(5,0,1,minecraft:spruce_fence)
+B(5,1,1,minecraft:spruce_fence)
+B(5,2,1,minecraft:oak_slab)
+B(5,2,2,minecraft:oak_slab)
+B(5,2,3,minecraft:oak_slab)
+B(5,2,4,minecraft:oak_slab)
+B(5,0,5,minecraft:spruce_fence)
+B(5,1,5,minecraft:spruce_fence)
+B(5,2,5,minecraft:oak_slab)
+B(6,-1,2,minecraft:chiseled_stone_bricks)
+B(6,0,2,minecraft:cobblestone_wall)
+B(6,1,2,minecraft:torch)
+B(6,-1,3,minecraft:jungle_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(6,-1,4,minecraft:chiseled_stone_bricks)
+B(6,0,4,minecraft:cobblestone_wall)
+B(6,1,4,minecraft:torch)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(-2,0,-4,minecraft:villager,1,../JungleNBT/entities/tribalfarmer.txt)

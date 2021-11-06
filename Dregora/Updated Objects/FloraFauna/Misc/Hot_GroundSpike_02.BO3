@@ -1,0 +1,261 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 80
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air,otg:dirt,otg:stone,minecraft:grass_block
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(0,0,0,minecraft:spruce_wood)
+B(7,1,7,minecraft:black_concrete)
+B(7,1,8,minecraft:black_concrete)
+B(8,1,7,minecraft:black_concrete)
+B(8,1,8,minecraft:black_concrete)
+B(8,2,8,minecraft:black_concrete)
+B(8,1,9,minecraft:black_concrete)
+B(8,2,9,minecraft:black_concrete)
+B(8,1,10,minecraft:black_concrete)
+B(9,1,7,minecraft:black_concrete)
+B(9,1,8,minecraft:black_concrete)
+B(9,2,8,minecraft:black_concrete)
+B(9,1,9,minecraft:black_concrete)
+B(9,2,9,minecraft:black_concrete)
+B(9,3,9,minecraft:black_concrete)
+B(9,1,10,minecraft:black_concrete)
+B(9,2,10,minecraft:black_concrete)
+B(9,3,10,minecraft:black_concrete)
+B(9,1,11,minecraft:black_concrete)
+B(9,2,11,minecraft:black_concrete)
+B(10,1,7,minecraft:black_concrete)
+B(10,1,8,minecraft:black_concrete)
+B(10,2,8,minecraft:black_concrete)
+B(10,1,9,minecraft:black_concrete)
+B(10,2,9,minecraft:black_concrete)
+B(10,3,9,minecraft:black_concrete)
+B(10,1,10,minecraft:black_concrete)
+B(10,2,10,minecraft:black_concrete)
+B(10,3,10,minecraft:black_concrete)
+B(10,4,10,minecraft:black_concrete)
+B(10,1,11,minecraft:black_concrete)
+B(10,2,11,minecraft:black_concrete)
+B(10,3,11,minecraft:black_concrete)
+B(10,4,11,minecraft:black_concrete)
+B(10,2,12,minecraft:black_concrete)
+B(10,3,12,minecraft:black_concrete)
+B(11,1,8,minecraft:black_concrete)
+B(11,2,8,minecraft:black_concrete)
+B(11,1,9,minecraft:black_concrete)
+B(11,2,9,minecraft:black_concrete)
+B(11,3,9,minecraft:black_concrete)
+B(11,1,10,minecraft:black_concrete)
+B(11,2,10,minecraft:black_concrete)
+B(11,3,10,minecraft:black_concrete)
+B(11,4,10,minecraft:black_concrete)
+B(11,1,11,minecraft:black_concrete)
+B(11,2,11,minecraft:black_concrete)
+B(11,3,11,minecraft:black_concrete)
+B(11,4,11,minecraft:black_concrete)
+B(11,5,11,minecraft:black_concrete)
+B(11,2,12,minecraft:black_concrete)
+B(11,3,12,minecraft:black_concrete)
+B(11,4,12,minecraft:black_concrete)
+B(11,5,12,minecraft:black_concrete)
+B(11,4,13,minecraft:black_concrete)
+B(12,1,9,minecraft:black_concrete)
+B(12,2,9,minecraft:black_concrete)
+B(12,3,9,minecraft:black_concrete)
+B(12,1,10,minecraft:black_concrete)
+B(12,2,10,minecraft:black_concrete)
+B(12,3,10,minecraft:black_concrete)
+B(12,4,10,minecraft:black_concrete)
+B(12,2,11,minecraft:black_concrete)
+B(12,3,11,minecraft:black_concrete)
+B(12,4,11,minecraft:black_concrete)
+B(12,5,11,minecraft:black_concrete)
+B(12,2,12,minecraft:black_concrete)
+B(12,3,12,minecraft:black_concrete)
+B(12,4,12,minecraft:black_concrete)
+B(12,5,12,minecraft:black_concrete)
+B(12,6,12,minecraft:black_concrete)
+B(12,4,13,minecraft:black_concrete)
+B(12,5,13,minecraft:black_concrete)
+B(12,6,13,minecraft:black_concrete)
+B(12,5,14,minecraft:black_concrete)
+B(12,6,14,minecraft:black_concrete)
+B(13,3,10,minecraft:black_concrete)
+B(13,3,11,minecraft:black_concrete)
+B(13,4,11,minecraft:black_concrete)
+B(13,5,11,minecraft:black_concrete)
+B(13,3,12,minecraft:black_concrete)
+B(13,4,12,minecraft:black_concrete)
+B(13,5,12,minecraft:black_concrete)
+B(13,6,12,minecraft:black_concrete)
+B(13,4,13,minecraft:black_concrete)
+B(13,5,13,minecraft:black_concrete)
+B(13,6,13,minecraft:black_concrete)
+B(13,7,13,minecraft:black_concrete)
+B(13,5,14,minecraft:black_concrete)
+B(13,6,14,minecraft:black_concrete)
+B(13,7,14,minecraft:black_concrete)
+B(13,8,14,minecraft:black_concrete)
+B(13,6,15,minecraft:black_concrete)
+B(13,7,15,minecraft:black_concrete)
+B(14,4,12,minecraft:black_concrete)
+B(14,5,12,minecraft:black_concrete)
+B(14,6,12,minecraft:black_concrete)
+B(14,4,13,minecraft:black_concrete)
+B(14,5,13,minecraft:black_concrete)
+B(14,6,13,minecraft:black_concrete)
+B(14,7,13,minecraft:black_concrete)
+B(14,5,14,minecraft:black_concrete)
+B(14,6,14,minecraft:black_concrete)
+B(14,7,14,minecraft:black_concrete)
+B(14,8,14,minecraft:black_concrete)
+B(14,6,15,minecraft:black_concrete)
+B(14,7,15,minecraft:black_concrete)
+B(14,8,15,minecraft:black_concrete)
+B(14,9,15,minecraft:black_concrete)
+B(14,8,16,minecraft:black_concrete)
+B(15,6,13,minecraft:black_concrete)
+B(15,6,14,minecraft:black_concrete)
+B(15,7,14,minecraft:black_concrete)
+B(15,8,14,minecraft:black_concrete)
+B(15,7,15,minecraft:black_concrete)
+B(15,8,15,minecraft:black_concrete)
+B(15,9,15,minecraft:black_concrete)
+B(15,8,16,minecraft:black_concrete)
+B(15,9,16,minecraft:black_concrete)
+B(15,10,16,minecraft:black_concrete)
+B(15,9,17,minecraft:black_concrete)
+B(15,10,17,minecraft:black_concrete)
+B(16,8,15,minecraft:black_concrete)
+B(16,9,15,minecraft:black_concrete)
+B(16,8,16,minecraft:black_concrete)
+B(16,9,16,minecraft:black_concrete)
+B(16,10,16,minecraft:black_concrete)
+B(16,9,17,minecraft:black_concrete)
+B(16,10,17,minecraft:black_concrete)
+B(16,11,17,minecraft:black_concrete)
+B(16,11,18,minecraft:black_concrete)
+B(17,10,16,minecraft:black_concrete)
+B(17,10,17,minecraft:black_concrete)
+B(17,11,17,minecraft:black_concrete)
+B(17,11,18,minecraft:black_concrete)
+B(17,12,18,minecraft:black_concrete)
+B(17,12,19,minecraft:black_concrete)
+B(18,11,18,minecraft:black_concrete)
+B(18,12,18,minecraft:black_concrete)
+B(18,12,19,minecraft:black_concrete)
+B(18,13,19,minecraft:black_concrete)
+B(18,13,20,minecraft:black_concrete)
+B(19,13,19,minecraft:black_concrete)
+B(19,13,20,minecraft:black_concrete)
+B(19,14,20,minecraft:black_concrete)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,10,0,otg:air)
+BlockCheck(8,0,6,Solid)
+BlockCheck(9,0,6,Solid)
+BlockCheck(7,0,7,Solid)
+BlockCheck(8,0,7,Solid)
+BlockCheck(9,0,7,Solid)
+BlockCheck(10,0,7,Solid)
+BlockCheck(8,0,8,Solid)
+BlockCheck(9,0,8,Solid)
+BlockCheck(10,0,8,Solid)
+BlockCheck(11,0,8,Solid)
+BlockCheck(8,0,9,Solid)
+BlockCheck(9,0,9,Solid)
+BlockCheck(10,0,9,Solid)
+BlockCheck(11,0,9,Solid)
+BlockCheck(9,0,10,Solid)
+BlockCheck(10,0,10,Solid)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

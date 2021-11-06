@@ -1,0 +1,141 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,11,-7,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-8,12,-7,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-8,16,-7,minecraft:black_wool)
+B(-8,17,-7,minecraft:black_wool)
+B(-8,18,-7,minecraft:black_wool)
+B(-8,19,-7,minecraft:black_wool)
+B(-7,14,-7,minecraft:dispenser[facing=south,triggered=false])
+B(-7,19,-7,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(-5,11,-7,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(-4,14,-7,minecraft:dispenser[facing=south,triggered=false])
+B(-3,12,-7,minecraft:vine[east=false,north=false,south=false,up=false,west=true])
+B(-3,13,-7,minecraft:vine[east=false,north=false,south=false,up=false,west=true])
+B(-3,14,-7,minecraft:vine[east=false,north=false,south=false,up=false,west=true])
+B(-3,20,-7,minecraft:vine[east=true,north=false,south=false,up=false,west=false])
+B(-3,21,-7,minecraft:vine[east=true,north=false,south=false,up=false,west=false])
+B(-2,21,-7,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(-1,18,-7,minecraft:dark_oak_slab[type=double,waterlogged=false])
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,WitchBoatC1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

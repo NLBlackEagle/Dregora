@@ -272,7 +272,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: HOT, MOUNTAIN, WET
+BiomeDictId: Overworld HOT, MOUNTAIN, WET
 
 InheritMobsBiomeName: minecraft:jungle_hills
 

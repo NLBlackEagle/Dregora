@@ -267,7 +267,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: HOT, DEAD
+BiomeDictId: Overworld HOT, DEAD
 
 InheritMobsBiomeName: minecraft:mutated_jungle
 

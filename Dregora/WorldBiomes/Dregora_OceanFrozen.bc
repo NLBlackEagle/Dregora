@@ -253,7 +253,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId:
+BiomeDictId: Overworld
 
 InheritMobsBiomeName: minecraft:frozen_ocean
 

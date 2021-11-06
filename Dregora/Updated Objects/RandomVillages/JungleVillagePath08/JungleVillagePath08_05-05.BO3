@@ -1,0 +1,141 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-4,-1,-7,minecraft:grass_path)
+B(-3,-1,-7,minecraft:grass_path)
+B(-3,-1,-6,minecraft:grass_path)
+B(-3,-1,-5,minecraft:grass_path)
+B(-3,-1,-4,minecraft:grass_path)
+B(-2,-1,-7,minecraft:grass_path)
+B(-2,-1,-6,minecraft:grass_path)
+B(-2,-1,-5,minecraft:grass_path)
+B(-2,-1,-4,minecraft:grass_path)
+B(-2,-1,-3,minecraft:grass_path)
+B(-2,-1,-2,minecraft:jungle_planks)
+B(-1,-1,-5,minecraft:grass_path)
+B(-1,-1,-4,minecraft:grass_path)
+B(-1,-1,-3,minecraft:grass_path)
+B(-1,-1,-2,minecraft:jungle_planks)
+B(-1,-1,-1,minecraft:grass_path)
+B(0,-1,-1,minecraft:grass_path)
+B(0,-1,0,minecraft:grass_path)
+B(1,-1,-1,minecraft:grass_path)
+B(1,-1,0,minecraft:grass_path)
+B(1,-1,1,minecraft:grass_path)
+B(2,-1,1,minecraft:grass_path)
+B(2,-1,2,minecraft:jungle_planks)
+B(2,-1,3,minecraft:jungle_planks)
+B(3,-1,2,minecraft:jungle_planks)
+B(3,-1,3,minecraft:grass_path)
+B(3,-1,4,minecraft:grass_path)
+B(4,-1,4,minecraft:grass_path)
+B(4,-1,5,minecraft:grass_path)
+B(5,-1,5,minecraft:grass_path)
+B(5,-1,6,minecraft:grass_path)
+B(5,-1,7,minecraft:grass_path)
+B(6,-1,6,minecraft:grass_path)
+B(6,-1,7,minecraft:grass_path)
+B(6,-1,8,minecraft:grass_path)
+B(7,-1,6,minecraft:grass_path)
+B(7,-1,7,minecraft:grass_path)
+B(7,-1,8,minecraft:grass_path)
+B(8,-1,5,minecraft:jungle_planks)
+B(8,-1,6,minecraft:jungle_planks)
+B(8,-1,7,minecraft:grass_path)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,JungleVillagePath08_05-06,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

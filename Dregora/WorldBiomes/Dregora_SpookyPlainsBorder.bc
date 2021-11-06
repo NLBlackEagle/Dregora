@@ -281,7 +281,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: PLAINS, LUSH, SPOOKY
+BiomeDictId: Overworld PLAINS, LUSH, SPOOKY
 
 InheritMobsBiomeName: minecraft:plains
 

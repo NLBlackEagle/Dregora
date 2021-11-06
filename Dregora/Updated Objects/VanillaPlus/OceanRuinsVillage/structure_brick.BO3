@@ -1,0 +1,116 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit - Bo3 Created by NLBlackEagle for Dregora
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 200
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(0,0,0,structure_big_brick_1,NORTH,10.0,structure_big_brick_2,NORTH,20.0,structure_big_brick_3,NORTH,30.0,structure_big_brick_8,NORTH,40.0,40.0)
+WeightedBranch(0,0,-16,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,90.0,90.0)
+WeightedBranch(16,0,0,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,90.0,90.0)
+WeightedBranch(-16,0,0,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,90.0,90.0)
+WeightedBranch(0,0,16,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,90.0,90.0)
+WeightedBranch(16,0,-16,structure_big_brick_1,NORTH,25.0,structure_brick_1,NORTH,35.0,structure_brick_2,NORTH,45.0,structure_brick_3,NORTH,55.0,structure_brick_4,NORTH,65.0,structure_brick_5,NORTH,75.0,structure_brick_6,NORTH,85.0,structure_brick_7,NORTH,95.0,structure_brick_8,NORTH,105.0,structure_stop,NORTH,115.0,115.0)
+WeightedBranch(-16,0,-16,structure_big_brick_2,NORTH,25.0,structure_brick_1,NORTH,35.0,structure_brick_2,NORTH,45.0,structure_brick_3,NORTH,55.0,structure_brick_4,NORTH,65.0,structure_brick_5,NORTH,75.0,structure_brick_6,NORTH,85.0,structure_brick_7,NORTH,95.0,structure_brick_8,NORTH,105.0,structure_stop,NORTH,115.0,115.0)
+WeightedBranch(16,0,16,structure_big_brick_3,NORTH,25.0,structure_brick_1,NORTH,35.0,structure_brick_2,NORTH,45.0,structure_brick_3,NORTH,55.0,structure_brick_4,NORTH,65.0,structure_brick_5,NORTH,75.0,structure_brick_6,NORTH,85.0,structure_brick_7,NORTH,95.0,structure_brick_8,NORTH,105.0,structure_stop,NORTH,115.0,115.0)
+WeightedBranch(-16,0,16,structure_big_brick_8,NORTH,25.0,structure_brick_1,NORTH,35.0,structure_brick_2,NORTH,45.0,structure_brick_3,NORTH,55.0,structure_brick_4,NORTH,65.0,structure_brick_5,NORTH,75.0,structure_brick_6,NORTH,85.0,structure_brick_7,NORTH,95.0,structure_brick_8,NORTH,105.0,structure_stop,NORTH,115.0,115.0)
+WeightedBranch(0,0,-25,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(25,0,0,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(-25,0,0,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(0,0,25,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(25,0,-25,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(-25,0,-25,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(25,0,25,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+WeightedBranch(-25,0,25,structure_brick_1,NORTH,10.0,structure_brick_2,NORTH,20.0,structure_brick_3,NORTH,30.0,structure_brick_4,NORTH,40.0,structure_brick_5,NORTH,50.0,structure_brick_6,NORTH,60.0,structure_brick_7,NORTH,70.0,structure_brick_8,NORTH,80.0,structure_stop,NORTH,100.0,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

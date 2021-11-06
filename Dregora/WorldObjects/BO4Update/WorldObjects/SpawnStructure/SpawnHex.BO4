@@ -18,6 +18,8 @@ SettingsMode: WriteDisable
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+FixedRotation: North
+
 Frequency: 9999
 
 SpawnHeight: randomY
@@ -34,7 +36,7 @@ MaxHeight: 70
 
 InheritBO3: SpawnHexC0R0
 
-InheritBO3Rotation: WEST
+InheritBO3Rotation: NORTH
 
 OverrideChildSettings: true
 

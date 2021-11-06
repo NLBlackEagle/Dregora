@@ -1,0 +1,256 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 10
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 30
+
+MaxHeight: 40
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-9,19,0,minecraft:black_concrete)
+B(-8,17,0,minecraft:black_concrete)
+B(-8,18,0,minecraft:black_concrete)
+B(-7,17,-1,minecraft:black_concrete)
+B(-7,15,0,minecraft:black_concrete)
+B(-7,16,0,minecraft:black_concrete)
+B(-7,17,0,minecraft:black_concrete)
+B(-7,18,0,minecraft:black_concrete)
+B(-7,17,1,minecraft:black_concrete)
+B(-6,15,-1,minecraft:black_concrete)
+B(-6,16,-1,minecraft:black_concrete)
+B(-6,14,0,minecraft:black_concrete)
+B(-6,17,0,minecraft:black_concrete)
+B(-6,15,1,minecraft:black_concrete)
+B(-6,16,1,minecraft:black_concrete)
+B(-5,14,-1,minecraft:black_concrete)
+B(-5,16,-1,minecraft:black_concrete)
+B(-5,13,0,minecraft:black_concrete)
+B(-5,15,0,minecraft:magma_block)
+B(-5,17,0,minecraft:black_concrete)
+B(-5,14,1,minecraft:black_concrete)
+B(-5,16,1,minecraft:black_concrete)
+B(-4,13,-1,minecraft:black_concrete)
+B(-4,15,-1,minecraft:black_concrete)
+B(-4,12,0,minecraft:black_concrete)
+B(-4,14,0,minecraft:magma_block)
+B(-4,16,0,minecraft:black_concrete)
+B(-4,13,1,minecraft:black_concrete)
+B(-4,15,1,minecraft:black_concrete)
+B(-3,12,-1,minecraft:black_concrete)
+B(-3,14,-1,minecraft:black_concrete)
+B(-3,11,0,minecraft:black_concrete)
+B(-3,13,0,minecraft:magma_block)
+B(-3,15,0,minecraft:black_concrete)
+B(-3,12,1,minecraft:black_concrete)
+B(-3,14,1,minecraft:black_concrete)
+B(-2,11,-1,minecraft:black_concrete)
+B(-2,13,-1,minecraft:black_concrete)
+B(-2,10,0,minecraft:black_concrete)
+B(-2,12,0,minecraft:magma_block)
+B(-2,14,0,minecraft:black_concrete)
+B(-2,11,1,minecraft:black_concrete)
+B(-2,13,1,minecraft:black_concrete)
+B(-1,10,-1,minecraft:black_concrete)
+B(-1,12,-1,minecraft:black_concrete)
+B(-1,9,0,minecraft:black_concrete)
+B(-1,11,0,minecraft:magma_block)
+B(-1,13,0,minecraft:black_concrete)
+B(-1,10,1,minecraft:black_concrete)
+B(-1,12,1,minecraft:black_concrete)
+B(0,9,-1,minecraft:black_concrete)
+B(0,11,-1,minecraft:black_concrete)
+B(0,8,0,minecraft:black_concrete)
+B(0,10,0,minecraft:magma_block)
+B(0,12,0,minecraft:black_concrete)
+B(0,9,1,minecraft:black_concrete)
+B(0,11,1,minecraft:black_concrete)
+B(1,8,-1,minecraft:black_concrete)
+B(1,10,-1,minecraft:black_concrete)
+B(1,7,0,minecraft:black_concrete)
+B(1,9,0,minecraft:magma_block)
+B(1,11,0,minecraft:black_concrete)
+B(1,8,1,minecraft:black_concrete)
+B(1,10,1,minecraft:black_concrete)
+B(2,7,-1,minecraft:black_concrete)
+B(2,9,-1,minecraft:black_concrete)
+B(2,6,0,minecraft:black_concrete)
+B(2,8,0,minecraft:magma_block)
+B(2,10,0,minecraft:black_concrete)
+B(2,7,1,minecraft:black_concrete)
+B(2,9,1,minecraft:black_concrete)
+B(3,6,-1,minecraft:black_concrete)
+B(3,8,-1,minecraft:black_concrete)
+B(3,5,0,minecraft:black_concrete)
+B(3,7,0,minecraft:magma_block)
+B(3,9,0,minecraft:black_concrete)
+B(3,6,1,minecraft:black_concrete)
+B(3,8,1,minecraft:black_concrete)
+B(4,5,-1,minecraft:black_concrete)
+B(4,7,-1,minecraft:black_concrete)
+B(4,4,0,minecraft:black_concrete)
+B(4,6,0,minecraft:magma_block)
+B(4,8,0,minecraft:black_concrete)
+B(4,5,1,minecraft:black_concrete)
+B(4,7,1,minecraft:black_concrete)
+B(5,4,-1,minecraft:black_concrete)
+B(5,6,-1,minecraft:black_concrete)
+B(5,3,0,minecraft:black_concrete)
+B(5,5,0,minecraft:magma_block)
+B(5,7,0,minecraft:black_concrete)
+B(5,4,1,minecraft:black_concrete)
+B(5,6,1,minecraft:black_concrete)
+B(6,4,-1,minecraft:black_concrete)
+B(6,5,-1,minecraft:black_concrete)
+B(6,3,0,minecraft:black_concrete)
+B(6,6,0,minecraft:black_concrete)
+B(6,4,1,minecraft:black_concrete)
+B(6,5,1,minecraft:black_concrete)
+B(7,3,-1,minecraft:black_concrete)
+B(7,2,0,minecraft:black_concrete)
+B(7,3,0,minecraft:black_concrete)
+B(7,4,0,minecraft:black_concrete)
+B(7,5,0,minecraft:black_concrete)
+B(7,3,1,minecraft:black_concrete)
+B(8,2,0,minecraft:black_concrete)
+B(8,3,0,minecraft:black_concrete)
+B(9,1,0,minecraft:black_concrete)
+RB(-6,15,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-6,16,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-5,14,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-5,15,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-5,15,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-5,16,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-4,13,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-4,14,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-4,14,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-4,15,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-3,12,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-3,13,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-3,13,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-3,14,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-2,11,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-2,12,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-2,12,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-2,13,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-1,10,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-1,11,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-1,11,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(-1,12,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(0,9,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(0,10,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(0,10,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(0,11,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(1,8,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(1,9,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(1,9,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(1,10,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(2,7,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(2,8,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(2,8,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(2,9,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(3,6,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(3,7,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(3,7,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(3,8,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(4,5,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(4,6,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(4,6,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(4,7,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(5,4,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(5,5,-1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(5,5,1,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(5,6,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(6,4,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+RB(6,5,0,minecraft:black_stained_glass,70,minecraft:jungle_leaves,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(-10,19,0,Solid)
+BlockCheck(7,4,1,otg:air)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

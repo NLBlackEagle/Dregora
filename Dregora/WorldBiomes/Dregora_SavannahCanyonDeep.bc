@@ -266,7 +266,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId:
+BiomeDictId: Overworld
 
 InheritMobsBiomeName: minecraft:savanna
 

@@ -1,0 +1,117 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(2,-1,8,minecraft:grass_path)
+B(3,-1,8,minecraft:grass_path)
+B(4,-1,7,minecraft:grass_path)
+B(4,-1,8,minecraft:grass_path)
+B(5,-1,7,minecraft:grass_path)
+B(5,-1,8,minecraft:grass_path)
+B(6,-1,6,minecraft:jungle_planks)
+B(6,-1,7,minecraft:jungle_planks)
+B(7,-1,5,minecraft:grass_path)
+B(7,-1,6,minecraft:grass_path)
+B(7,-1,7,minecraft:grass_path)
+B(8,-1,4,minecraft:grass_path)
+B(8,-1,5,minecraft:grass_path)
+B(8,-1,6,minecraft:grass_path)
+B(8,-1,7,minecraft:grass_path)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(-2,0,-4,AnimalFarm01,NORTH,10.0,Farm01,NORTH,20.0,AnimalFarm02,NORTH,30.0,Farm02,NORTH,40.0,AnimalFarm03,NORTH,50.0,Farm03,NORTH,60.0,AnimalFarm04,NORTH,70.0,Farm04,NORTH,80.0,AnimalFarm05,NORTH,90.0,Farm05,NORTH,100.0,AnimalFarm06,NORTH,110.0,AnimalFarm07,NORTH,120.0,AnimalFarm01,EAST,130.0,Farm01,EAST,140.0,AnimalFarm02,EAST,150.0,Farm02,EAST,160.0,AnimalFarm03,EAST,170.0,Farm03,EAST,180.0,AnimalFarm04,EAST,190.0,Farm04,EAST,200.0,AnimalFarm05,EAST,210.0,Farm05,EAST,220.0,AnimalFarm06,EAST,230.0,AnimalFarm07,EAST,240.0,AnimalFarm01,WEST,250.0,Farm01,WEST,260.0,AnimalFarm02,WEST,270.0,Farm02,WEST,280.0,AnimalFarm03,WEST,290.0,Farm03,WEST,300.0,AnimalFarm04,WEST,310.0,Farm04,WEST,320.0,AnimalFarm05,WEST,330.0,Farm05,WEST,340.0,AnimalFarm06,WEST,350.0,AnimalFarm07,WEST,360.0,AnimalFarm01,SOUTH,370.0,Farm01,SOUTH,380.0,AnimalFarm02,SOUTH,390.0,Farm02,SOUTH,400.0,AnimalFarm03,SOUTH,410.0,Farm03,SOUTH,420.0,AnimalFarm04,SOUTH,430.0,Farm04,SOUTH,440.0,AnimalFarm05,SOUTH,450.0,Farm05,SOUTH,460.0,AnimalFarm06,SOUTH,470.0,AnimalFarm07,SOUTH,480.0,480.0)
+WeightedBranch(-7,0,8,Totem01,NORTH,10.0,Totem02,NORTH,20.0,Totem03,NORTH,30.0,Totem04,NORTH,40.0,Totem01,SOUTH,50.0,Totem02,SOUTH,60.0,Totem03,SOUTH,70.0,Totem04,SOUTH,80.0,Totem01,EAST,90.0,Totem02,EAST,100.0,Totem03,EAST,110.0,Totem04,EAST,120.0,Totem01,WEST,130.0,Totem02,WEST,140.0,Totem03,WEST,150.0,Totem04,WEST,160.0,160.0)
+Branch(0,0,-16,JungleVillagePath03_04-02,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

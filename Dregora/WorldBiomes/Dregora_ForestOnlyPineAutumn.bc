@@ -274,7 +274,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId:
+BiomeDictId: Overworld
 
 InheritMobsBiomeName: minecraft:mutated_redwood_taiga
 

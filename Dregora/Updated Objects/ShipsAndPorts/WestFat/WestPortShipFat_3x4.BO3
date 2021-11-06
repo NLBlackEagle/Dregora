@@ -1,0 +1,206 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 20
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,6,-7,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-8,7,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-8,16,-7,minecraft:oak_fence)
+B(-8,17,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-8,6,-5,minecraft:oak_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(-8,7,-5,minecraft:spruce_slab)
+B(-8,6,-4,minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false])
+B(-8,7,-4,minecraft:spruce_slab)
+B(-8,6,-3,minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false])
+B(-8,7,-3,minecraft:spruce_slab)
+B(-8,6,-2,minecraft:white_wool)
+B(-8,7,-2,minecraft:black_wool)
+B(-8,1,-1,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-8,7,-1,minecraft:white_wool)
+B(-7,7,-8,minecraft:spruce_slab)
+B(-7,6,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-7,7,-7,minecraft:spruce_slab)
+B(-7,17,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-7,18,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-7,7,-6,minecraft:spruce_slab)
+B(-7,1,-1,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-7,7,-1,minecraft:black_wool)
+B(-6,5,-7,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-6,6,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-6,7,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-6,18,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-6,19,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-6,1,-2,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-6,7,-2,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-6,1,-1,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=true])
+B(-6,7,-1,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=true])
+B(-5,5,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-5,6,-7,minecraft:spruce_slab)
+B(-5,7,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-5,8,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-5,19,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-5,20,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-5,6,-3,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-5,1,-2,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-5,6,-2,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-5,7,-2,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-4,4,-7,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-4,5,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-4,8,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-4,9,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-4,20,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-4,21,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-4,5,-4,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-4,0,-3,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-4,5,-3,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-4,6,-3,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-4,0,-2,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-4,1,-2,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-3,4,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-3,5,-7,minecraft:spruce_slab)
+B(-3,9,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-3,10,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-3,21,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-3,22,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-3,3,-5,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-3,4,-5,minecraft:oak_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(-3,4,-4,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-3,5,-4,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-3,0,-3,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-2,3,-8,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-2,3,-7,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-2,4,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-2,10,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-2,11,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-2,22,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-2,23,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-2,3,-6,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-2,3,-5,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=true])
+B(-2,0,-4,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-2,0,-3,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=true])
+B(-1,2,-8,minecraft:oak_planks)
+B(-1,3,-8,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(-1,2,-7,minecraft:oak_planks)
+B(-1,3,-7,minecraft:spruce_slab[type=double,waterlogged=false])
+B(-1,4,-7,minecraft:spruce_slab)
+B(-1,11,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-1,12,-7,minecraft:oak_fence)
+B(-1,23,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-1,24,-7,minecraft:oak_fence)
+B(-1,2,-6,minecraft:oak_planks)
+B(-1,3,-6,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(-1,3,-5,minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false])
+B(-1,0,-4,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-1,21,-4,minecraft:white_wool)
+B(-1,20,-3,minecraft:white_wool)
+B(-1,21,-3,minecraft:white_wool)
+B(-1,22,-3,minecraft:white_wool)
+B(-1,11,-2,minecraft:white_wool)
+B(-1,19,-2,minecraft:white_wool)
+B(-1,20,-2,minecraft:white_wool)
+B(-1,21,-2,minecraft:black_wool)
+B(-1,22,-2,minecraft:white_wool)
+B(-1,23,-2,minecraft:white_wool)
+B(-1,10,-1,minecraft:white_wool)
+B(-1,11,-1,minecraft:white_wool)
+B(-1,12,-1,minecraft:white_wool)
+B(-1,19,-1,minecraft:white_wool)
+B(-1,20,-1,minecraft:white_wool)
+B(-1,22,-1,minecraft:white_wool)
+B(-1,23,-1,minecraft:white_wool)
+B(-2,2,-7,minecraft:white_wall_banner[facing=west],../NBT/Banners/dearoc_banner.nbt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-8,0,0,WestPortShipFat_2x4,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

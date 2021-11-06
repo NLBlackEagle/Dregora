@@ -509,7 +509,7 @@ SpawnAmbientCreatures: []
 # a mob list from a vanilla biome.
 # NOTE: Only works for biomes with id's under < 255 (non-virtual biomes).
 # For virtual biomes the BiomeDictId is inherited via ReplaceToBiomeName.
-BiomeDictId: HOT, SAVANNA, PLAINS, SPARSE
+BiomeDictId: Overworld HOT, SAVANNA, PLAINS, SPARSE
 
 # Inherit the internal mobs list of another biome. Inherited mobs can be 
 # overridden using the SpawnMonsters, SpawnCreatures, SpawnWaterCreatures

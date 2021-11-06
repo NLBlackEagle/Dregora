@@ -1,0 +1,118 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: Converted version of the BO2 shrub06
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 30.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 2
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-1,0,0,minecraft:oak_leaves)
+B(-1,1,0,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,0,-1,minecraft:oak_leaves)
+B(0,0,0,minecraft:oak_log)
+B(0,1,0,minecraft:oak_leaves)
+B(0,2,0,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,3,0,minecraft:oak_leaves[distance=3,persistent=false])
+B(0,0,1,minecraft:oak_leaves)
+B(1,0,0,minecraft:oak_leaves)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(-3,-2,-3,otg:dirt,minecraft:grass_block,minecraft:clay)
+BlockCheck(-3,-2,3,otg:dirt,minecraft:grass_block,minecraft:clay)
+BlockCheck(3,-2,-5,otg:dirt,minecraft:grass_block,minecraft:clay)
+BlockCheck(3,-2,2,otg:dirt,minecraft:grass_block,minecraft:clay)
+BlockCheck(2,-2,3,otg:dirt,minecraft:grass_block,minecraft:clay)
+BlockCheckNot(-3,-2,-3,otg:air,minecraft:water)
+BlockCheckNot(-3,-2,3,otg:air,minecraft:water)
+BlockCheckNot(3,-2,-5,otg:air,minecraft:water)
+BlockCheckNot(3,-2,2,otg:air,minecraft:water)
+BlockCheckNot(2,-2,3,otg:air,minecraft:water)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

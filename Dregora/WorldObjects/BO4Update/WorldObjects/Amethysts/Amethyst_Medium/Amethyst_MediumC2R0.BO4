@@ -18,6 +18,8 @@ SettingsMode: WriteWithoutComments
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+FixedRotation: 
+
 Frequency: 0
 
 SpawnHeight: highestBlock
@@ -105,93 +107,93 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-8,53,7,STONE:5)
-Block(-8,53,8,STONE:5)
-Block(-8,54,6,STONE:5)
-Block(-8,54,7,STONE:5)
-Block(-8,54,8,STONE:5)
-Block(-8,55,5,STONE:5)
-Block(-8,55,6,STONE:5)
-Block(-8,55,7,STONE:5)
-Block(-8,55,8,STONE:5)
-Block(-8,56,5,STONE:5)
-Block(-8,56,6,STONE:5)
-Block(-8,56,7,STONE:5)
-Block(-8,56,8,STONE:5)
-Block(-8,57,6,STONE:5)
-Block(-8,57,7,STONE:5)
-Block(-8,57,8,STONE:5)
-Block(-8,58,7,STONE:5)
-Block(-8,58,8,STONE:5)
-Block(-8,59,8,STONE:5)
-Block(-7,53,8,STONE:5)
-Block(-7,54,7,STONE:5)
-Block(-7,54,8,STONE:5)
-Block(-7,55,6,STONE:5)
-Block(-7,55,7,STONE:5)
-Block(-7,55,8,STONE:5)
-Block(-7,56,6,STONE:5)
-Block(-7,56,7,STONE:5)
-Block(-7,56,8,STONE:5)
-Block(-7,57,6,STONE:5)
-Block(-7,57,7,STONE:5)
-Block(-7,57,8,STONE:5)
-Block(-7,58,7,STONE:5)
-Block(-7,58,8,STONE:5)
-Block(-7,59,8,STONE:5)
-Block(-6,53,8,STONE:5)
-Block(-6,54,7,STONE:5)
-Block(-6,54,8,STONE:5)
-Block(-6,55,6,STONE:5)
-Block(-6,55,7,STONE:5)
-Block(-6,55,8,STONE:5)
-Block(-6,56,6,STONE:5)
-Block(-6,56,7,STONE:5)
-Block(-6,56,8,STONE:5)
-Block(-6,57,6,STONE:5)
-Block(-6,57,7,STONE:5)
-Block(-6,57,8,STONE:5)
-Block(-6,58,7,STONE:5)
-Block(-6,58,8,STONE:5)
-Block(-5,53,8,STONE:5)
-Block(-5,54,7,STONE:5)
-Block(-5,54,8,STONE:5)
-Block(-5,55,6,STONE:5)
-Block(-5,55,7,STONE:5)
-Block(-5,55,8,STONE:5)
-Block(-5,56,6,STONE:5)
-Block(-5,56,7,STONE:5)
-Block(-5,56,8,STONE:5)
-Block(-5,57,6,STONE:5)
-Block(-5,57,7,STONE:5)
-Block(-5,57,8,STONE:5)
-Block(-5,58,7,STONE:5)
-Block(-5,58,8,STONE:5)
-Block(-4,53,8,STONE:5)
-Block(-4,54,7,STONE:5)
-Block(-4,54,8,STONE:5)
-Block(-4,55,7,STONE:5)
-Block(-4,55,8,STONE:5)
-Block(-4,56,6,STONE:5)
-Block(-4,56,7,STONE:5)
-Block(-4,56,8,STONE:5)
-Block(-4,57,6,STONE:5)
-Block(-4,57,7,STONE:5)
-Block(-4,57,8,STONE:5)
-Block(-4,58,7,STONE:5)
-Block(-4,58,8,STONE:5)
-Block(-4,59,8,STONE:5)
-Block(-3,54,8,STONE:5)
-Block(-3,55,7,STONE:5)
-Block(-3,55,8,STONE:5)
-Block(-3,56,7,STONE:5)
-Block(-3,56,8,STONE:5)
-Block(-3,57,7,STONE:5)
-Block(-3,57,8,STONE:5)
-Block(-3,58,8,STONE:5)
-Block(-2,55,8,STONE:5)
-Block(-2,56,8,STONE:5)
-Block(-2,57,8,STONE:5)
+B(-8,53,7,minecraft:andesite)
+B(-8,53,8,minecraft:andesite)
+B(-8,54,6,minecraft:andesite)
+B(-8,54,7,minecraft:andesite)
+B(-8,54,8,minecraft:andesite)
+B(-8,55,5,minecraft:andesite)
+B(-8,55,6,minecraft:andesite)
+B(-8,55,7,minecraft:andesite)
+B(-8,55,8,minecraft:andesite)
+B(-8,56,5,minecraft:andesite)
+B(-8,56,6,minecraft:andesite)
+B(-8,56,7,minecraft:andesite)
+B(-8,56,8,minecraft:andesite)
+B(-8,57,6,minecraft:andesite)
+B(-8,57,7,minecraft:andesite)
+B(-8,57,8,minecraft:andesite)
+B(-8,58,7,minecraft:andesite)
+B(-8,58,8,minecraft:andesite)
+B(-8,59,8,minecraft:andesite)
+B(-7,53,8,minecraft:andesite)
+B(-7,54,7,minecraft:andesite)
+B(-7,54,8,minecraft:andesite)
+B(-7,55,6,minecraft:andesite)
+B(-7,55,7,minecraft:andesite)
+B(-7,55,8,minecraft:andesite)
+B(-7,56,6,minecraft:andesite)
+B(-7,56,7,minecraft:andesite)
+B(-7,56,8,minecraft:andesite)
+B(-7,57,6,minecraft:andesite)
+B(-7,57,7,minecraft:andesite)
+B(-7,57,8,minecraft:andesite)
+B(-7,58,7,minecraft:andesite)
+B(-7,58,8,minecraft:andesite)
+B(-7,59,8,minecraft:andesite)
+B(-6,53,8,minecraft:andesite)
+B(-6,54,7,minecraft:andesite)
+B(-6,54,8,minecraft:andesite)
+B(-6,55,6,minecraft:andesite)
+B(-6,55,7,minecraft:andesite)
+B(-6,55,8,minecraft:andesite)
+B(-6,56,6,minecraft:andesite)
+B(-6,56,7,minecraft:andesite)
+B(-6,56,8,minecraft:andesite)
+B(-6,57,6,minecraft:andesite)
+B(-6,57,7,minecraft:andesite)
+B(-6,57,8,minecraft:andesite)
+B(-6,58,7,minecraft:andesite)
+B(-6,58,8,minecraft:andesite)
+B(-5,53,8,minecraft:andesite)
+B(-5,54,7,minecraft:andesite)
+B(-5,54,8,minecraft:andesite)
+B(-5,55,6,minecraft:andesite)
+B(-5,55,7,minecraft:andesite)
+B(-5,55,8,minecraft:andesite)
+B(-5,56,6,minecraft:andesite)
+B(-5,56,7,minecraft:andesite)
+B(-5,56,8,minecraft:andesite)
+B(-5,57,6,minecraft:andesite)
+B(-5,57,7,minecraft:andesite)
+B(-5,57,8,minecraft:andesite)
+B(-5,58,7,minecraft:andesite)
+B(-5,58,8,minecraft:andesite)
+B(-4,53,8,minecraft:andesite)
+B(-4,54,7,minecraft:andesite)
+B(-4,54,8,minecraft:andesite)
+B(-4,55,7,minecraft:andesite)
+B(-4,55,8,minecraft:andesite)
+B(-4,56,6,minecraft:andesite)
+B(-4,56,7,minecraft:andesite)
+B(-4,56,8,minecraft:andesite)
+B(-4,57,6,minecraft:andesite)
+B(-4,57,7,minecraft:andesite)
+B(-4,57,8,minecraft:andesite)
+B(-4,58,7,minecraft:andesite)
+B(-4,58,8,minecraft:andesite)
+B(-4,59,8,minecraft:andesite)
+B(-3,54,8,minecraft:andesite)
+B(-3,55,7,minecraft:andesite)
+B(-3,55,8,minecraft:andesite)
+B(-3,56,7,minecraft:andesite)
+B(-3,56,8,minecraft:andesite)
+B(-3,57,7,minecraft:andesite)
+B(-3,57,8,minecraft:andesite)
+B(-3,58,8,minecraft:andesite)
+B(-2,55,8,minecraft:andesite)
+B(-2,56,8,minecraft:andesite)
+B(-2,57,8,minecraft:andesite)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -203,27 +205,6 @@ Block(-2,57,8,STONE:5)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Entities                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                            Particles                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                             Spawners                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                             ModData                             | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 

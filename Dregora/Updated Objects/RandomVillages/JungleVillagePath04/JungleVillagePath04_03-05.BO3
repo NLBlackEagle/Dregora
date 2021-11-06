@@ -1,0 +1,101 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(-1,0,-1,MayaTemple01_Ruin01,NORTH,10.0,MayaTemple01_Ruin02,NORTH,20.0,MayaTemple01_Ruin03,NORTH,30.0,MayaTemple02_Ruin01,NORTH,40.0,MayaTemple02_Ruin02,NORTH,50.0,MayaTemple02_Ruin03,NORTH,60.0,MayaTemple03_Ruin01,NORTH,70.0,MayaTemple03_Ruin02,NORTH,80.0,MayaTemple03_Ruin03,NORTH,90.0,MayaTemple04_Ruin01,NORTH,100.0,MayaTemple04_Ruin02,NORTH,110.0,MayaTemple04_Ruin03,NORTH,120.0,MayaTemple05_Ruin01,NORTH,130.0,MayaTemple05_Ruin02,NORTH,140.0,MayaTemple05_Ruin03,NORTH,150.0,MayaTemple01_Ruin01,WEST,160.0,MayaTemple01_Ruin02,WEST,170.0,MayaTemple01_Ruin03,WEST,180.0,MayaTemple02_Ruin01,WEST,190.0,MayaTemple02_Ruin02,WEST,200.0,MayaTemple02_Ruin03,WEST,210.0,MayaTemple03_Ruin01,WEST,220.0,MayaTemple03_Ruin02,WEST,230.0,MayaTemple03_Ruin03,WEST,240.0,MayaTemple04_Ruin01,WEST,250.0,MayaTemple04_Ruin02,WEST,260.0,MayaTemple04_Ruin03,WEST,270.0,MayaTemple05_Ruin01,WEST,280.0,MayaTemple05_Ruin02,WEST,290.0,MayaTemple05_Ruin03,WEST,300.0,MayaTemple01_Ruin01,SOUTH,310.0,MayaTemple01_Ruin02,SOUTH,320.0,MayaTemple01_Ruin03,SOUTH,330.0,MayaTemple02_Ruin01,SOUTH,340.0,MayaTemple02_Ruin02,SOUTH,350.0,MayaTemple02_Ruin03,SOUTH,360.0,MayaTemple03_Ruin01,SOUTH,370.0,MayaTemple03_Ruin02,SOUTH,380.0,MayaTemple03_Ruin03,SOUTH,390.0,MayaTemple04_Ruin01,SOUTH,400.0,MayaTemple04_Ruin02,SOUTH,410.0,MayaTemple04_Ruin03,SOUTH,420.0,MayaTemple05_Ruin01,SOUTH,430.0,MayaTemple05_Ruin02,SOUTH,440.0,MayaTemple05_Ruin03,SOUTH,450.0,MayaTemple01_Ruin01,EAST,460.0,MayaTemple01_Ruin02,EAST,470.0,MayaTemple01_Ruin03,EAST,480.0,MayaTemple02_Ruin01,EAST,490.0,MayaTemple02_Ruin02,EAST,500.0,MayaTemple02_Ruin03,EAST,510.0,MayaTemple03_Ruin01,EAST,520.0,MayaTemple03_Ruin02,EAST,530.0,MayaTemple03_Ruin03,EAST,540.0,MayaTemple04_Ruin01,EAST,550.0,MayaTemple04_Ruin02,EAST,560.0,MayaTemple04_Ruin03,EAST,570.0,MayaTemple05_Ruin01,EAST,580.0,MayaTemple05_Ruin02,EAST,590.0,MayaTemple05_Ruin03,EAST,600.0,MayaTemple01,NORTH,610.0,MayaTemple02,NORTH,620.0,MayaTemple03,NORTH,630.0,MayaTemple04,NORTH,640.0,MayaTemple05,NORTH,650.0,MayaTemple01,WEST,660.0,MayaTemple02,WEST,670.0,MayaTemple03,WEST,680.0,MayaTemple04,WEST,690.0,MayaTemple05,WEST,700.0,MayaTemple01,EAST,710.0,MayaTemple02,EAST,720.0,MayaTemple03,EAST,730.0,MayaTemple04,EAST,740.0,MayaTemple05,EAST,750.0,MayaTemple01,SOUTH,760.0,MayaTemple02,SOUTH,770.0,MayaTemple03,SOUTH,780.0,MayaTemple04,SOUTH,790.0,MayaTemple05,SOUTH,800.0,800.0)
+Branch(0,0,16,JungleVillagePath04_03-06,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

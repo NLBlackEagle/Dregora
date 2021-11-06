@@ -272,7 +272,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: JUNGLE, HOT, DEAD, BEACH
+BiomeDictId: Overworld JUNGLE, HOT, DEAD, BEACH
 
 InheritMobsBiomeName: minecraft:jungle_hills
 

@@ -1,0 +1,137 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 10
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-1,0,1,minecraft:birch_leaves)
+B(0,0,0,minecraft:spruce_leaves)
+B(0,0,1,minecraft:oak_log)
+B(0,1,1,minecraft:oak_leaves)
+B(0,0,2,minecraft:spruce_leaves)
+B(1,0,-1,minecraft:spruce_leaves)
+B(1,0,0,minecraft:oak_log)
+B(1,1,0,minecraft:spruce_leaves)
+B(1,0,1,minecraft:oak_log)
+B(1,1,1,minecraft:birch_leaves)
+B(1,0,2,minecraft:birch_leaves)
+B(2,0,0,minecraft:oak_leaves)
+B(2,0,1,minecraft:spruce_leaves)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,0,otg:dirt,minecraft:grass_block)
+BlockCheckNot(-1,-1,-1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(-1,-1,0,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(-1,-1,1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(-1,-1,2,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(0,-1,-1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(0,-1,1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(0,-1,2,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(0,-1,1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(1,-1,-1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(1,-1,0,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(1,-1,1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(1,-1,2,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(1,-1,0,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(1,-1,1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(2,-1,-1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(2,-1,0,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(2,-1,1,otg:air,minecraft:water,minecraft:lava)
+BlockCheckNot(2,-1,2,otg:air,minecraft:water,minecraft:lava)
+BlockCheck(-1,-1,-1,otg:dirt,minecraft:grass_block)
+BlockCheck(-1,-1,0,otg:dirt,minecraft:grass_block)
+BlockCheck(-1,-1,2,otg:dirt,minecraft:grass_block)
+BlockCheck(0,-1,-1,otg:dirt,minecraft:grass_block)
+BlockCheck(2,-1,-1,otg:dirt,minecraft:grass_block)
+BlockCheck(2,-1,2,otg:dirt,minecraft:grass_block)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

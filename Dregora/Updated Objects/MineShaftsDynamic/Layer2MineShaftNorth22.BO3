@@ -1,0 +1,238 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 15
+
+MaxHeight: 15
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-2,0,-7,minecraft:spruce_log)
+B(-2,1,-7,minecraft:dark_oak_planks)
+B(-2,2,-7,minecraft:spruce_fence)
+B(-2,3,-7,minecraft:spruce_fence)
+B(-2,4,-7,minecraft:spruce_planks)
+B(-2,1,-6,minecraft:dark_oak_planks)
+B(-2,1,-5,minecraft:dark_oak_planks)
+B(-2,1,-4,minecraft:dark_oak_planks)
+B(-2,2,-4,minecraft:spruce_fence)
+B(-2,3,-4,minecraft:spruce_fence)
+B(-2,4,-4,minecraft:spruce_planks)
+B(-2,1,-3,minecraft:dark_oak_planks)
+B(-2,1,-2,minecraft:dark_oak_planks)
+B(-2,1,-1,minecraft:dark_oak_planks)
+B(-2,2,-1,minecraft:spruce_fence)
+B(-2,3,-1,minecraft:spruce_fence)
+B(-2,4,-1,minecraft:spruce_planks)
+B(-2,1,0,minecraft:dark_oak_planks)
+B(-2,1,1,minecraft:dark_oak_planks)
+B(-2,1,2,minecraft:dark_oak_planks)
+B(-2,2,2,minecraft:spruce_fence)
+B(-2,3,2,minecraft:spruce_fence)
+B(-2,4,2,minecraft:spruce_planks)
+B(-2,1,3,minecraft:dark_oak_planks)
+B(-2,1,4,minecraft:dark_oak_planks)
+B(-2,1,5,minecraft:dark_oak_planks)
+B(-2,2,5,minecraft:spruce_fence)
+B(-2,3,5,minecraft:spruce_fence)
+B(-2,4,5,minecraft:spruce_planks)
+B(-2,1,6,minecraft:dark_oak_planks)
+B(-2,1,7,minecraft:dark_oak_planks)
+B(-2,0,8,minecraft:spruce_log)
+B(-2,1,8,minecraft:dark_oak_planks)
+B(-2,2,8,minecraft:spruce_fence)
+B(-2,3,8,minecraft:spruce_fence)
+B(-2,4,8,minecraft:spruce_planks)
+B(-1,1,-7,minecraft:dark_oak_planks)
+B(-1,2,-7,minecraft:rail)
+B(-1,4,-7,minecraft:spruce_planks)
+B(-1,1,-6,minecraft:dark_oak_planks)
+B(-1,2,-6,minecraft:rail)
+B(-1,1,-5,minecraft:dark_oak_planks)
+B(-1,2,-5,minecraft:rail)
+B(-1,1,-4,minecraft:dark_oak_planks)
+B(-1,2,-4,minecraft:rail)
+B(-1,4,-4,minecraft:spruce_planks)
+B(-1,1,-3,minecraft:dark_oak_planks)
+B(-1,2,-3,minecraft:rail)
+B(-1,1,-2,minecraft:dark_oak_planks)
+B(-1,2,-2,minecraft:rail)
+B(-1,1,-1,minecraft:dark_oak_planks)
+B(-1,2,-1,minecraft:rail)
+B(-1,4,-1,minecraft:spruce_planks)
+B(-1,1,0,minecraft:dark_oak_planks)
+B(-1,2,0,minecraft:rail)
+B(-1,1,1,minecraft:dark_oak_planks)
+B(-1,2,1,minecraft:rail)
+B(-1,1,2,minecraft:dark_oak_planks)
+B(-1,2,2,minecraft:rail)
+B(-1,4,2,minecraft:spruce_planks)
+B(-1,1,3,minecraft:dark_oak_planks)
+B(-1,2,3,minecraft:rail)
+B(-1,1,4,minecraft:dark_oak_planks)
+B(-1,2,4,minecraft:rail)
+B(-1,1,5,minecraft:dark_oak_planks)
+B(-1,2,5,minecraft:rail)
+B(-1,4,5,minecraft:spruce_planks)
+B(-1,1,6,minecraft:dark_oak_planks)
+B(-1,2,6,minecraft:rail)
+B(-1,1,7,minecraft:dark_oak_planks)
+B(-1,2,7,minecraft:rail)
+B(-1,1,8,minecraft:dark_oak_planks)
+B(-1,2,8,minecraft:rail)
+B(-1,4,8,minecraft:spruce_planks)
+B(0,1,-7,minecraft:dark_oak_planks)
+B(0,4,-7,minecraft:spruce_planks)
+B(0,1,-6,minecraft:dark_oak_planks)
+B(0,1,-5,minecraft:dark_oak_planks)
+B(0,1,-4,minecraft:dark_oak_planks)
+B(0,4,-4,minecraft:spruce_planks)
+B(0,1,-3,minecraft:dark_oak_planks)
+B(0,1,-2,minecraft:dark_oak_planks)
+B(0,1,-1,minecraft:dark_oak_planks)
+B(0,4,-1,minecraft:spruce_planks)
+B(0,1,0,minecraft:dark_oak_planks)
+B(0,4,0,minecraft:wall_torch[facing=south])
+B(0,1,1,minecraft:dark_oak_planks)
+B(0,1,2,minecraft:dark_oak_planks)
+B(0,4,2,minecraft:spruce_planks)
+B(0,1,3,minecraft:dark_oak_planks)
+B(0,1,4,minecraft:dark_oak_planks)
+B(0,1,5,minecraft:dark_oak_planks)
+B(0,4,5,minecraft:spruce_planks)
+B(0,1,6,minecraft:dark_oak_planks)
+B(0,1,7,minecraft:dark_oak_planks)
+B(0,1,8,minecraft:dark_oak_planks)
+B(0,4,8,minecraft:spruce_planks)
+B(1,0,-7,minecraft:spruce_log)
+B(1,1,-7,minecraft:dark_oak_planks)
+B(1,2,-7,minecraft:spruce_fence)
+B(1,3,-7,minecraft:spruce_fence)
+B(1,4,-7,minecraft:spruce_planks)
+B(1,1,-6,minecraft:dark_oak_planks)
+B(1,1,-5,minecraft:dark_oak_planks)
+B(1,1,-4,minecraft:dark_oak_planks)
+B(1,2,-4,minecraft:spruce_fence)
+B(1,3,-4,minecraft:spruce_fence)
+B(1,4,-4,minecraft:spruce_planks)
+B(1,1,-3,minecraft:dark_oak_planks)
+B(1,1,-2,minecraft:dark_oak_planks)
+B(1,1,-1,minecraft:dark_oak_planks)
+B(1,2,-1,minecraft:spruce_fence)
+B(1,3,-1,minecraft:spruce_fence)
+B(1,4,-1,minecraft:spruce_planks)
+B(1,1,0,minecraft:dark_oak_planks)
+B(1,1,1,minecraft:dark_oak_planks)
+B(1,1,2,minecraft:dark_oak_planks)
+B(1,2,2,minecraft:spruce_fence)
+B(1,3,2,minecraft:spruce_fence)
+B(1,4,2,minecraft:spruce_planks)
+B(1,1,3,minecraft:dark_oak_planks)
+B(1,1,4,minecraft:dark_oak_planks)
+B(1,1,5,minecraft:dark_oak_planks)
+B(1,2,5,minecraft:spruce_fence)
+B(1,3,5,minecraft:spruce_fence)
+B(1,4,5,minecraft:spruce_planks)
+B(1,1,6,minecraft:dark_oak_planks)
+B(1,1,7,minecraft:dark_oak_planks)
+B(1,0,8,minecraft:spruce_log)
+B(1,1,8,minecraft:dark_oak_planks)
+B(1,2,8,minecraft:spruce_fence)
+B(1,3,8,minecraft:spruce_fence)
+B(1,4,8,minecraft:spruce_planks)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,-3,1,MineShaftSuspensionNorth,NORTH,100.0)
+Branch(0,0,-16,Layer2MineShaftNorth23,NORTH,100.0)
+Branch(-2,-1,-7,MineShaftFoundationBlock,NORTH,100.0)
+Branch(-2,-1,8,MineShaftFoundationBlock,NORTH,100.0)
+Branch(1,-1,-7,MineShaftFoundationBlock,NORTH,100.0)
+Branch(1,-1,8,MineShaftFoundationBlock,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

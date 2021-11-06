@@ -271,7 +271,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: DRY, DEAD, HOT, SANDY, WASTELAND 
+BiomeDictId: Overworld DRY, DEAD, HOT, SANDY, WASTELAND 
 
 InheritMobsBiomeName: minecraft:desert
 

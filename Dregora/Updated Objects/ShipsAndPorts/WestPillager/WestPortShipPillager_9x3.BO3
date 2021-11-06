@@ -1,0 +1,136 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 20
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,2,-5,minecraft:stone_button)
+B(-8,3,-5,minecraft:stone_button)
+B(-8,1,-4,minecraft:dark_oak_stairs[facing=south,half=top,shape=outer_right,waterlogged=false])
+B(-8,2,-4,minecraft:cyan_terracotta)
+B(-8,3,-4,minecraft:cyan_terracotta)
+B(-8,4,-4,minecraft:dark_oak_stairs[facing=south,half=bottom,shape=outer_right,waterlogged=false])
+B(-8,1,-3,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-8,2,-3,minecraft:black_stained_glass)
+B(-8,3,-3,minecraft:black_stained_glass)
+B(-8,4,-3,minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-8,8,-3,minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false])
+B(-8,1,-2,minecraft:dark_oak_stairs[facing=south,half=top,shape=inner_right,waterlogged=false])
+B(-8,4,-2,minecraft:dark_oak_stairs[facing=west,half=bottom,shape=inner_left,waterlogged=false])
+B(-8,7,-2,minecraft:cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none])
+B(-8,9,-2,minecraft:dark_oak_slab)
+B(-8,0,-1,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-8,1,-1,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(-8,2,-1,minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(-8,4,-1,minecraft:cyan_terracotta)
+B(-8,5,-1,minecraft:cyan_terracotta)
+B(-8,6,-1,minecraft:cyan_terracotta)
+B(-8,7,-1,minecraft:cyan_terracotta)
+B(-8,8,-1,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(-7,2,-4,minecraft:stone_button[face=wall,facing=east,powered=false])
+B(-7,3,-4,minecraft:stone_button[face=wall,facing=east,powered=false])
+B(-7,1,-2,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-7,2,-2,minecraft:black_stained_glass)
+B(-7,3,-2,minecraft:black_stained_glass)
+B(-7,4,-2,minecraft:dark_oak_stairs[facing=south,half=bottom,shape=outer_right,waterlogged=false])
+B(-7,8,-2,minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false])
+B(-7,1,-1,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-7,2,-1,minecraft:black_stained_glass)
+B(-7,3,-1,minecraft:black_stained_glass)
+B(-7,4,-1,minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-7,9,-1,minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false])
+RB(-8,2,-2,minecraft:air,../NBT/Flowers/flower_pot_01.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_02.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_03.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_04.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_05.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_06.nbt,5,minecraft:potted_cactus,../NBT/Flowers/flower_pot_07.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_08.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_09.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_10.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_11.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_12.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_13.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_14.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_15.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_16.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_17.nbt,5,minecraft:potted_brown_mushroom,../NBT/Flowers/flower_pot_18.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_19.nbt,5,minecraft:air,../NBT/Flowers/flower_pot_20.nbt,100)
+B(-8,7,-3,minecraft:white_wall_banner[facing=east],../NBT/Banners/skull_banner.nbt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

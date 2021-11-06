@@ -271,7 +271,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: OCEAN
+BiomeDictId: Overworld OCEAN
 
 InheritMobsBiomeName: minecraft:ocean
 

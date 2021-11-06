@@ -273,7 +273,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: MOUNTAIN, HILLS
+BiomeDictId: Overworld MOUNTAIN, HILLS
 
 InheritMobsBiomeName: minecraft:mutated_extreme_hills_with_trees
 

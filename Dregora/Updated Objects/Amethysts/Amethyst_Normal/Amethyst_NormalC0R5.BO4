@@ -1,0 +1,225 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(6,28,-7,minecraft:obsidian)
+B(6,29,-7,minecraft:obsidian)
+B(6,30,-7,minecraft:obsidian)
+B(6,29,-6,minecraft:obsidian)
+B(6,30,-6,minecraft:obsidian)
+B(6,31,-6,minecraft:obsidian)
+B(6,28,-5,minecraft:diorite)
+B(6,29,-5,minecraft:obsidian)
+B(6,30,-5,minecraft:obsidian)
+B(6,31,-5,minecraft:obsidian)
+B(6,32,-5,minecraft:obsidian)
+B(6,28,-4,minecraft:andesite)
+B(6,29,-4,minecraft:diorite)
+B(6,30,-4,minecraft:obsidian)
+B(6,31,-4,minecraft:obsidian)
+B(6,32,-4,minecraft:obsidian)
+B(6,28,-3,minecraft:andesite)
+B(6,29,-3,minecraft:andesite)
+B(6,30,-3,minecraft:andesite)
+B(6,31,-3,minecraft:obsidian)
+B(6,32,-3,minecraft:obsidian)
+B(6,29,-2,minecraft:andesite)
+B(6,30,-2,minecraft:andesite)
+B(6,31,-2,minecraft:andesite)
+B(7,26,-7,minecraft:obsidian)
+B(7,27,-7,minecraft:obsidian)
+B(7,28,-7,minecraft:obsidian)
+B(7,29,-7,minecraft:obsidian)
+B(7,30,-7,minecraft:obsidian)
+B(7,31,-7,minecraft:obsidian)
+B(7,32,-7,minecraft:obsidian)
+B(7,33,-7,minecraft:obsidian)
+B(7,27,-6,minecraft:obsidian)
+B(7,28,-6,minecraft:obsidian)
+B(7,29,-6,minecraft:obsidian)
+B(7,30,-6,minecraft:obsidian)
+B(7,31,-6,minecraft:obsidian)
+B(7,32,-6,minecraft:obsidian)
+B(7,33,-6,minecraft:obsidian)
+B(7,34,-6,minecraft:obsidian)
+B(7,27,-5,minecraft:andesite)
+B(7,28,-5,minecraft:diorite)
+B(7,29,-5,minecraft:obsidian)
+B(7,30,-5,minecraft:obsidian)
+B(7,31,-5,minecraft:obsidian)
+B(7,32,-5,minecraft:obsidian)
+B(7,33,-5,minecraft:obsidian)
+B(7,34,-5,minecraft:obsidian)
+B(7,35,-5,minecraft:obsidian)
+B(7,27,-4,minecraft:andesite)
+B(7,28,-4,minecraft:andesite)
+B(7,29,-4,minecraft:diorite)
+B(7,30,-4,minecraft:obsidian)
+B(7,31,-4,minecraft:obsidian)
+B(7,32,-4,minecraft:obsidian)
+B(7,33,-4,minecraft:obsidian)
+B(7,34,-4,minecraft:obsidian)
+B(7,35,-4,minecraft:obsidian)
+B(7,27,-3,minecraft:andesite)
+B(7,28,-3,minecraft:andesite)
+B(7,29,-3,minecraft:andesite)
+B(7,30,-3,minecraft:andesite)
+B(7,31,-3,minecraft:obsidian)
+B(7,32,-3,minecraft:obsidian)
+B(7,33,-3,minecraft:obsidian)
+B(7,34,-3,minecraft:obsidian)
+B(7,35,-3,minecraft:obsidian)
+B(7,27,-2,minecraft:andesite)
+B(7,28,-2,minecraft:andesite)
+B(7,29,-2,minecraft:andesite)
+B(7,30,-2,minecraft:andesite)
+B(7,31,-2,minecraft:andesite)
+B(7,32,-2,minecraft:obsidian)
+B(7,33,-2,minecraft:obsidian)
+B(7,34,-2,minecraft:obsidian)
+B(7,35,-2,minecraft:obsidian)
+B(7,28,-1,minecraft:andesite)
+B(7,29,-1,minecraft:andesite)
+B(7,30,-1,minecraft:andesite)
+B(7,31,-1,minecraft:andesite)
+B(7,32,-1,minecraft:andesite)
+B(7,33,-1,minecraft:obsidian)
+B(7,34,-1,minecraft:obsidian)
+B(7,28,0,minecraft:andesite)
+B(7,29,0,minecraft:andesite)
+B(7,30,0,minecraft:andesite)
+B(7,31,0,minecraft:andesite)
+B(7,32,0,minecraft:andesite)
+B(7,28,1,minecraft:andesite)
+B(7,29,1,minecraft:andesite)
+B(7,30,1,minecraft:andesite)
+B(7,31,1,minecraft:andesite)
+B(7,32,1,minecraft:andesite)
+B(7,28,2,minecraft:andesite)
+B(7,29,2,minecraft:andesite)
+B(7,30,2,minecraft:andesite)
+B(7,31,2,minecraft:andesite)
+B(7,32,2,minecraft:andesite)
+B(7,29,3,minecraft:andesite)
+B(7,30,3,minecraft:andesite)
+B(7,31,3,minecraft:andesite)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,true,Amethyst_NormalC0R4,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

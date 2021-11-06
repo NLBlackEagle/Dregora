@@ -275,7 +275,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: FOREST, DENSE, COLD, SPOOKY
+BiomeDictId: Overworld FOREST, DENSE, COLD, SPOOKY
 
 InheritMobsBiomeName: minecraft:mutated_roofed_forest
 

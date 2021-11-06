@@ -271,6 +271,6 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: RIVER, JUNGLE, WET, HOT, WATER
+BiomeDictId: Overworld RIVER, JUNGLE, WET, HOT, WATER
 
 InheritMobsBiomeName: minecraft:river

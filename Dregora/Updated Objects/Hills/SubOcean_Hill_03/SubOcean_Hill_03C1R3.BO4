@@ -1,0 +1,184 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-6,0,-7,minecraft:stone)
+B(-5,0,-7,minecraft:stone)
+B(-4,0,-7,minecraft:grass_block)
+B(-4,1,-7,minecraft:grass_block)
+B(-4,2,-7,minecraft:grass_block)
+B(-4,0,-6,minecraft:grass_block)
+B(-4,1,-6,minecraft:grass_block)
+B(-4,0,-5,minecraft:grass_block)
+B(-3,0,-7,minecraft:grass_block)
+B(-3,1,-7,minecraft:stone)
+B(-3,0,-6,minecraft:grass_block)
+B(-2,0,-7,minecraft:grass_block)
+B(-2,1,-7,minecraft:grass_block)
+B(-2,0,-6,minecraft:grass_block)
+B(-1,0,-7,minecraft:grass_block)
+B(-1,1,-7,minecraft:stone)
+B(-1,2,-7,minecraft:grass_block)
+B(-1,0,-6,minecraft:grass_block)
+B(0,0,-7,minecraft:stone)
+B(0,1,-7,minecraft:stone)
+B(0,2,-7,minecraft:grass_block)
+B(0,0,-6,minecraft:stone)
+B(0,1,-6,minecraft:stone)
+B(0,0,-5,minecraft:grass_block)
+B(1,0,-7,minecraft:stone)
+B(1,1,-7,minecraft:stone)
+B(1,2,-7,minecraft:grass_block)
+B(1,0,-6,minecraft:stone)
+B(2,0,-7,minecraft:stone)
+B(2,1,-7,minecraft:stone)
+B(2,2,-7,minecraft:stone)
+B(2,0,-6,minecraft:stone)
+B(2,1,-6,minecraft:stone)
+B(3,0,-7,minecraft:stone)
+B(3,1,-7,minecraft:stone)
+B(3,2,-7,minecraft:stone)
+B(3,0,-6,minecraft:stone)
+B(3,1,-6,minecraft:stone)
+B(4,0,-7,minecraft:stone)
+B(4,1,-7,minecraft:stone)
+B(4,2,-7,minecraft:stone)
+B(4,3,-7,minecraft:stone)
+B(4,0,-6,minecraft:stone)
+B(4,1,-6,minecraft:stone)
+B(4,2,-6,minecraft:stone)
+B(4,0,-5,minecraft:stone)
+B(5,0,-7,minecraft:stone)
+B(5,1,-7,minecraft:stone)
+B(5,2,-7,minecraft:stone)
+B(5,3,-7,minecraft:stone)
+B(5,0,-6,minecraft:stone)
+B(5,1,-6,minecraft:stone)
+B(5,0,-5,minecraft:grass_block)
+B(6,0,-7,minecraft:stone)
+B(6,1,-7,minecraft:stone)
+B(6,2,-7,minecraft:stone)
+B(6,0,-6,minecraft:stone)
+B(7,0,-7,minecraft:stone)
+B(7,1,-7,minecraft:stone)
+B(7,0,-6,minecraft:stone)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,true,SubOcean_Hill_03C1R2,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

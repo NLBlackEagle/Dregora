@@ -1,0 +1,145 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-4,-1,1,minecraft:grass_path)
+B(-3,-1,0,minecraft:grass_path)
+B(-3,-1,1,minecraft:grass_path)
+B(-3,-1,2,minecraft:grass_path)
+B(-2,-1,0,minecraft:grass_path)
+B(-2,-1,1,minecraft:grass_path)
+B(-2,-1,2,minecraft:grass_path)
+B(-1,-1,0,minecraft:grass_path)
+B(-1,-1,1,minecraft:grass_path)
+B(0,-1,-1,minecraft:grass_path)
+B(0,-1,0,minecraft:grass_path)
+B(0,-1,1,minecraft:grass_path)
+B(1,-1,-1,minecraft:grass_path)
+B(1,-1,0,minecraft:grass_path)
+B(1,-1,1,minecraft:grass_path)
+B(2,-1,0,minecraft:grass_path)
+B(2,-1,1,minecraft:grass_path)
+B(2,-1,2,minecraft:grass_path)
+B(3,-1,0,minecraft:jungle_planks)
+B(3,-1,1,minecraft:jungle_planks)
+B(4,-1,-1,minecraft:grass_path)
+B(4,-1,0,minecraft:grass_path)
+B(4,-1,1,minecraft:grass_path)
+B(4,-1,2,minecraft:grass_path)
+B(5,-1,-2,minecraft:grass_path)
+B(5,-1,-1,minecraft:grass_path)
+B(5,-1,0,minecraft:grass_path)
+B(5,-1,1,minecraft:grass_path)
+B(6,-1,-7,minecraft:grass_path)
+B(6,-1,-5,minecraft:jungle_planks)
+B(6,-1,-4,minecraft:grass_path)
+B(6,-1,-3,minecraft:grass_path)
+B(6,-1,-2,minecraft:grass_path)
+B(6,-1,-1,minecraft:grass_path)
+B(7,-1,-7,minecraft:grass_path)
+B(7,-1,-6,minecraft:grass_path)
+B(7,-1,-5,minecraft:jungle_planks)
+B(7,-1,-4,minecraft:grass_path)
+B(7,-1,-3,minecraft:grass_path)
+B(7,-1,-2,minecraft:grass_path)
+B(8,-1,-7,minecraft:grass_path)
+B(8,-1,-5,minecraft:grass_path)
+B(8,-1,-4,minecraft:grass_path)
+B(8,-1,-3,minecraft:grass_path)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(-7,0,5,Carpenter01,NORTH,10.0,Smithy01,NORTH,20.0,Carpenter02,NORTH,30.0,Smithy02,NORTH,40.0,ShipBuilding01,NORTH,50.0,Smithy03,NORTH,60.0,ShipBuilding02,NORTH,70.0,Smithy04,NORTH,80.0,Carpenter01,EAST,90.0,Smithy01,EAST,100.0,Carpenter02,EAST,110.0,Smithy02,EAST,120.0,ShipBuilding01,EAST,130.0,Smithy03,EAST,140.0,ShipBuilding02,EAST,150.0,Smithy04,EAST,160.0,Carpenter01,WEST,170.0,Smithy01,WEST,180.0,Carpenter02,WEST,190.0,Smithy02,WEST,200.0,ShipBuilding01,WEST,210.0,Smithy03,WEST,220.0,ShipBuilding02,WEST,230.0,Smithy04,WEST,240.0,Carpenter01,SOUTH,250.0,Smithy01,SOUTH,260.0,Carpenter02,SOUTH,270.0,Smithy02,SOUTH,280.0,ShipBuilding01,SOUTH,290.0,Smithy03,SOUTH,300.0,ShipBuilding02,SOUTH,310.0,Smithy04,SOUTH,320.0,280.0)
+Branch(0,0,16,JungleVillagePath03_03-06,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

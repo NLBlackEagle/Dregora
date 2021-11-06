@@ -1,0 +1,210 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,55,5,minecraft:andesite)
+B(-8,56,5,minecraft:andesite)
+B(-8,54,6,minecraft:andesite)
+B(-8,55,6,minecraft:andesite)
+B(-8,56,6,minecraft:andesite)
+B(-8,57,6,minecraft:andesite)
+B(-8,53,7,minecraft:andesite)
+B(-8,54,7,minecraft:andesite)
+B(-8,55,7,minecraft:andesite)
+B(-8,56,7,minecraft:andesite)
+B(-8,57,7,minecraft:andesite)
+B(-8,58,7,minecraft:andesite)
+B(-8,53,8,minecraft:andesite)
+B(-8,54,8,minecraft:andesite)
+B(-8,55,8,minecraft:andesite)
+B(-8,56,8,minecraft:andesite)
+B(-8,57,8,minecraft:andesite)
+B(-8,58,8,minecraft:andesite)
+B(-8,59,8,minecraft:andesite)
+B(-7,55,6,minecraft:andesite)
+B(-7,56,6,minecraft:andesite)
+B(-7,57,6,minecraft:andesite)
+B(-7,54,7,minecraft:andesite)
+B(-7,55,7,minecraft:andesite)
+B(-7,56,7,minecraft:andesite)
+B(-7,57,7,minecraft:andesite)
+B(-7,58,7,minecraft:andesite)
+B(-7,53,8,minecraft:andesite)
+B(-7,54,8,minecraft:andesite)
+B(-7,55,8,minecraft:andesite)
+B(-7,56,8,minecraft:andesite)
+B(-7,57,8,minecraft:andesite)
+B(-7,58,8,minecraft:andesite)
+B(-7,59,8,minecraft:andesite)
+B(-6,55,6,minecraft:andesite)
+B(-6,56,6,minecraft:andesite)
+B(-6,57,6,minecraft:andesite)
+B(-6,54,7,minecraft:andesite)
+B(-6,55,7,minecraft:andesite)
+B(-6,56,7,minecraft:andesite)
+B(-6,57,7,minecraft:andesite)
+B(-6,58,7,minecraft:andesite)
+B(-6,53,8,minecraft:andesite)
+B(-6,54,8,minecraft:andesite)
+B(-6,55,8,minecraft:andesite)
+B(-6,56,8,minecraft:andesite)
+B(-6,57,8,minecraft:andesite)
+B(-6,58,8,minecraft:andesite)
+B(-5,55,6,minecraft:andesite)
+B(-5,56,6,minecraft:andesite)
+B(-5,57,6,minecraft:andesite)
+B(-5,54,7,minecraft:andesite)
+B(-5,55,7,minecraft:andesite)
+B(-5,56,7,minecraft:andesite)
+B(-5,57,7,minecraft:andesite)
+B(-5,58,7,minecraft:andesite)
+B(-5,53,8,minecraft:andesite)
+B(-5,54,8,minecraft:andesite)
+B(-5,55,8,minecraft:andesite)
+B(-5,56,8,minecraft:andesite)
+B(-5,57,8,minecraft:andesite)
+B(-5,58,8,minecraft:andesite)
+B(-4,56,6,minecraft:andesite)
+B(-4,57,6,minecraft:andesite)
+B(-4,54,7,minecraft:andesite)
+B(-4,55,7,minecraft:andesite)
+B(-4,56,7,minecraft:andesite)
+B(-4,57,7,minecraft:andesite)
+B(-4,58,7,minecraft:andesite)
+B(-4,53,8,minecraft:andesite)
+B(-4,54,8,minecraft:andesite)
+B(-4,55,8,minecraft:andesite)
+B(-4,56,8,minecraft:andesite)
+B(-4,57,8,minecraft:andesite)
+B(-4,58,8,minecraft:andesite)
+B(-4,59,8,minecraft:andesite)
+B(-3,55,7,minecraft:andesite)
+B(-3,56,7,minecraft:andesite)
+B(-3,57,7,minecraft:andesite)
+B(-3,54,8,minecraft:andesite)
+B(-3,55,8,minecraft:andesite)
+B(-3,56,8,minecraft:andesite)
+B(-3,57,8,minecraft:andesite)
+B(-3,58,8,minecraft:andesite)
+B(-2,55,8,minecraft:andesite)
+B(-2,56,8,minecraft:andesite)
+B(-2,57,8,minecraft:andesite)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

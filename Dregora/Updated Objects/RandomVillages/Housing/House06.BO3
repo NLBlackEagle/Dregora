@@ -1,0 +1,343 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 50
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-7,-1,-2,minecraft:grass_path)
+B(-7,-1,0,minecraft:grass_path)
+B(-6,-1,-5,minecraft:grass_path)
+B(-6,-1,-4,minecraft:dirt)
+B(-6,0,-4,minecraft:jungle_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-6,1,-4,minecraft:jungle_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-6,2,-4,minecraft:birch_slab)
+B(-6,-1,-3,minecraft:grass_path)
+B(-6,2,-3,minecraft:birch_slab)
+B(-6,-1,-2,minecraft:grass_path)
+B(-6,2,-2,minecraft:birch_slab)
+B(-6,-1,-1,minecraft:grass_path)
+B(-6,2,-1,minecraft:birch_slab[type=top,waterlogged=false])
+B(-6,-1,0,minecraft:grass_path)
+B(-6,2,0,minecraft:birch_slab)
+B(-6,-1,1,minecraft:grass_path)
+B(-6,2,1,minecraft:birch_slab[type=top,waterlogged=false])
+B(-6,-1,2,minecraft:dirt)
+B(-6,0,2,minecraft:jungle_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-6,1,2,minecraft:jungle_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-6,2,2,minecraft:birch_slab)
+B(-5,-1,-5,minecraft:dirt)
+B(-5,0,-5,minecraft:jungle_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(-5,1,-5,minecraft:jungle_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(-5,2,-5,minecraft:birch_slab)
+B(-5,-1,-4,minecraft:jungle_log)
+B(-5,0,-4,minecraft:jungle_log)
+B(-5,1,-4,minecraft:jungle_log)
+B(-5,2,-4,minecraft:yellow_terracotta)
+B(-5,-1,-3,minecraft:light_gray_terracotta)
+B(-5,0,-3,minecraft:yellow_terracotta)
+B(-5,1,-3,minecraft:yellow_terracotta)
+B(-5,2,-3,minecraft:light_gray_terracotta)
+B(-5,-1,-2,minecraft:light_gray_terracotta)
+B(-5,0,-2,minecraft:light_gray_terracotta)
+B(-5,1,-2,minecraft:light_gray_terracotta)
+B(-5,2,-2,minecraft:jungle_log[axis=z])
+B(-5,-1,-1,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-5,0,-1,minecraft:jungle_door[facing=west,half=lower,hinge=left,open=false,powered=false])
+B(-5,1,-1,minecraft:jungle_door[facing=west,half=upper,hinge=left,open=false,powered=false])
+B(-5,2,-1,minecraft:jungle_log[axis=z])
+B(-5,-1,0,minecraft:light_gray_terracotta)
+B(-5,0,0,minecraft:light_gray_terracotta)
+B(-5,1,0,minecraft:light_gray_terracotta)
+B(-5,2,0,minecraft:jungle_log[axis=z])
+B(-5,-1,1,minecraft:light_gray_terracotta)
+B(-5,0,1,minecraft:light_gray_terracotta)
+B(-5,1,1,minecraft:light_gray_terracotta)
+B(-5,2,1,minecraft:yellow_terracotta)
+B(-5,-1,2,minecraft:jungle_log)
+B(-5,0,2,minecraft:jungle_log)
+B(-5,1,2,minecraft:jungle_log)
+B(-5,2,2,minecraft:light_gray_terracotta)
+B(-5,-1,3,minecraft:dirt)
+B(-5,0,3,minecraft:jungle_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-5,1,3,minecraft:jungle_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-5,2,3,minecraft:birch_slab)
+B(-4,-1,-5,minecraft:grass_path)
+B(-4,2,-5,minecraft:birch_slab[type=top,waterlogged=false])
+B(-4,-1,-4,minecraft:light_gray_terracotta)
+B(-4,0,-4,minecraft:light_gray_terracotta)
+B(-4,1,-4,minecraft:light_gray_terracotta)
+B(-4,2,-4,minecraft:yellow_terracotta)
+B(-4,-1,-3,minecraft:grass_path)
+B(-4,2,-3,minecraft:light_gray_terracotta)
+B(-4,3,-3,minecraft:birch_slab)
+B(-4,-1,-2,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-4,2,-2,minecraft:light_gray_terracotta)
+B(-4,3,-2,minecraft:birch_slab)
+B(-4,-1,-1,minecraft:grass_path)
+B(-4,2,-1,minecraft:light_gray_terracotta)
+B(-4,3,-1,minecraft:birch_slab)
+B(-4,-1,0,minecraft:grass_path)
+B(-4,2,0,minecraft:light_gray_terracotta)
+B(-4,3,0,minecraft:birch_slab)
+B(-4,-1,1,minecraft:dirt)
+B(-4,2,1,minecraft:yellow_terracotta)
+B(-4,3,1,minecraft:birch_slab)
+B(-4,-1,2,minecraft:light_gray_terracotta)
+B(-4,0,2,minecraft:light_gray_terracotta)
+B(-4,1,2,minecraft:yellow_terracotta)
+B(-4,2,2,minecraft:yellow_terracotta)
+B(-4,2,3,minecraft:birch_slab)
+B(-3,2,-5,minecraft:birch_slab[type=top,waterlogged=false])
+B(-3,-1,-4,minecraft:jungle_log)
+B(-3,0,-4,minecraft:jungle_log)
+B(-3,1,-4,minecraft:light_gray_terracotta)
+B(-3,2,-4,minecraft:jungle_log[axis=z])
+B(-3,-1,-3,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-3,0,-3,minecraft:red_bed[facing=east,occupied=false,part=foot])
+B(-3,2,-3,minecraft:jungle_log[axis=z])
+B(-3,3,-3,minecraft:birch_slab)
+B(-3,-1,-2,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-3,2,-2,minecraft:jungle_log[axis=z])
+B(-3,3,-2,minecraft:birch_slab[type=double,waterlogged=false])
+B(-3,-1,-1,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-3,2,-1,minecraft:jungle_log[axis=z])
+B(-3,3,-1,minecraft:birch_slab[type=double,waterlogged=false])
+B(-3,-1,0,minecraft:jungle_slab[type=double,waterlogged=false])
+B(-3,2,0,minecraft:jungle_log[axis=z])
+B(-3,3,0,minecraft:birch_slab[type=double,waterlogged=false])
+B(-3,-1,1,minecraft:grass_path)
+B(-3,2,1,minecraft:jungle_log[axis=z])
+B(-3,3,1,minecraft:birch_slab)
+B(-3,-1,2,minecraft:jungle_log)
+B(-3,0,2,minecraft:jungle_log)
+B(-3,1,2,minecraft:light_gray_terracotta)
+B(-3,2,2,minecraft:jungle_log[axis=z])
+B(-3,2,3,minecraft:birch_slab)
+B(-2,2,-5,minecraft:birch_slab[type=top,waterlogged=false])
+B(-2,-1,-4,minecraft:light_gray_terracotta)
+B(-2,0,-4,minecraft:light_gray_terracotta)
+B(-2,1,-4,minecraft:yellow_terracotta)
+B(-2,2,-4,minecraft:yellow_terracotta)
+B(-2,-1,-3,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-2,0,-3,minecraft:red_bed[facing=east,occupied=false,part=head])
+B(-2,2,-3,minecraft:yellow_terracotta)
+B(-2,-1,-2,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-2,2,-2,minecraft:light_gray_terracotta)
+B(-2,3,-2,minecraft:birch_slab[type=double,waterlogged=false])
+B(-2,-1,-1,minecraft:grass_path)
+B(-2,2,-1,minecraft:light_gray_terracotta)
+B(-2,3,-1,minecraft:birch_slab[type=double,waterlogged=false])
+B(-2,-1,0,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-2,0,0,minecraft:red_bed[facing=south,occupied=false,part=foot])
+B(-2,2,0,minecraft:light_gray_terracotta)
+B(-2,3,0,minecraft:birch_slab[type=double,waterlogged=false])
+B(-2,-1,1,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-2,0,1,minecraft:red_bed[facing=south,occupied=false,part=head])
+B(-2,2,1,minecraft:light_gray_terracotta)
+B(-2,3,1,minecraft:birch_slab)
+B(-2,-1,2,minecraft:yellow_terracotta)
+B(-2,0,2,minecraft:yellow_terracotta)
+B(-2,1,2,minecraft:light_gray_terracotta)
+B(-2,2,2,minecraft:light_gray_terracotta)
+B(-2,2,3,minecraft:birch_slab[type=top,waterlogged=false])
+B(-1,2,-5,minecraft:birch_slab)
+B(-1,-1,-4,minecraft:jungle_log)
+B(-1,0,-4,minecraft:jungle_log)
+B(-1,1,-4,minecraft:yellow_terracotta)
+B(-1,2,-4,minecraft:jungle_log[axis=z])
+B(-1,-1,-3,minecraft:grass_path)
+B(-1,2,-3,minecraft:jungle_log[axis=z])
+B(-1,3,-3,minecraft:birch_slab)
+B(-1,-1,-2,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-1,2,-2,minecraft:jungle_log[axis=z])
+B(-1,3,-2,minecraft:birch_slab)
+B(-1,-1,-1,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-1,2,-1,minecraft:jungle_log[axis=z])
+B(-1,3,-1,minecraft:birch_slab)
+B(-1,-1,0,minecraft:grass_path)
+B(-1,2,0,minecraft:jungle_log[axis=z])
+B(-1,3,0,minecraft:birch_slab[type=double,waterlogged=false])
+B(-1,-1,1,minecraft:jungle_slab[type=top,waterlogged=false])
+B(-1,0,1,minecraft:hay_block)
+B(-1,2,1,minecraft:jungle_log[axis=z])
+B(-1,3,1,minecraft:birch_slab)
+B(-1,-1,2,minecraft:jungle_log)
+B(-1,0,2,minecraft:jungle_log)
+B(-1,1,2,minecraft:light_gray_terracotta)
+B(-1,2,2,minecraft:jungle_log[axis=z])
+B(-1,2,3,minecraft:birch_slab[type=top,waterlogged=false])
+B(0,2,-5,minecraft:birch_slab)
+B(0,-1,-4,minecraft:yellow_terracotta)
+B(0,0,-4,minecraft:yellow_terracotta)
+B(0,1,-4,minecraft:yellow_terracotta)
+B(0,2,-4,minecraft:light_gray_terracotta)
+B(0,-1,-3,minecraft:grass_path)
+B(0,2,-3,minecraft:light_gray_terracotta)
+B(0,3,-3,minecraft:birch_slab)
+B(0,-1,-2,minecraft:jungle_slab[type=top,waterlogged=false])
+B(0,0,-2,minecraft:crafting_table)
+B(0,2,-2,minecraft:light_gray_terracotta)
+B(0,3,-2,minecraft:birch_slab)
+B(0,-1,-1,minecraft:jungle_slab[type=top,waterlogged=false])
+B(0,0,-1,minecraft:cauldron)
+B(0,2,-1,minecraft:light_gray_terracotta)
+B(0,3,-1,minecraft:birch_slab[type=double,waterlogged=false])
+B(0,-1,0,minecraft:hay_block[axis=z])
+B(0,2,0,minecraft:light_gray_terracotta)
+B(0,3,0,minecraft:birch_slab)
+B(0,-1,1,minecraft:hay_block)
+B(0,0,1,minecraft:hay_block[axis=x])
+B(0,1,1,minecraft:hay_block[axis=z])
+B(0,2,1,minecraft:yellow_terracotta)
+B(0,3,1,minecraft:birch_slab)
+B(0,-1,2,minecraft:light_gray_terracotta)
+B(0,0,2,minecraft:light_gray_terracotta)
+B(0,1,2,minecraft:light_gray_terracotta)
+B(0,2,2,minecraft:yellow_terracotta)
+B(0,2,3,minecraft:birch_slab)
+B(1,-1,-5,minecraft:dirt)
+B(1,0,-5,minecraft:jungle_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(1,1,-5,minecraft:jungle_fence[east=false,north=false,south=true,waterlogged=false,west=false])
+B(1,2,-5,minecraft:birch_slab)
+B(1,-1,-4,minecraft:jungle_log)
+B(1,0,-4,minecraft:jungle_log)
+B(1,1,-4,minecraft:jungle_log)
+B(1,2,-4,minecraft:yellow_terracotta)
+B(1,-1,-3,minecraft:light_gray_terracotta)
+B(1,0,-3,minecraft:light_gray_terracotta)
+B(1,1,-3,minecraft:yellow_terracotta)
+B(1,2,-3,minecraft:yellow_terracotta)
+B(1,-1,-2,minecraft:yellow_terracotta)
+B(1,0,-2,minecraft:yellow_terracotta)
+B(1,1,-2,minecraft:yellow_terracotta)
+B(1,2,-2,minecraft:yellow_terracotta)
+B(1,-1,-1,minecraft:yellow_terracotta)
+B(1,0,-1,minecraft:yellow_terracotta)
+B(1,1,-1,minecraft:yellow_terracotta)
+B(1,2,-1,minecraft:light_gray_terracotta)
+B(1,-1,0,minecraft:yellow_terracotta)
+B(1,0,0,minecraft:light_gray_terracotta)
+B(1,1,0,minecraft:light_gray_terracotta)
+B(1,2,0,minecraft:light_gray_terracotta)
+B(1,-1,1,minecraft:light_gray_terracotta)
+B(1,0,1,minecraft:light_gray_terracotta)
+B(1,1,1,minecraft:light_gray_terracotta)
+B(1,2,1,minecraft:yellow_terracotta)
+B(1,-1,2,minecraft:jungle_log)
+B(1,0,2,minecraft:jungle_log)
+B(1,1,2,minecraft:jungle_log)
+B(1,2,2,minecraft:yellow_terracotta)
+B(1,-1,3,minecraft:dirt)
+B(1,0,3,minecraft:jungle_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(1,1,3,minecraft:jungle_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(1,2,3,minecraft:birch_slab)
+B(2,-1,-4,minecraft:dirt)
+B(2,0,-4,minecraft:jungle_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(2,1,-4,minecraft:jungle_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(2,2,-4,minecraft:birch_slab)
+B(2,2,-3,minecraft:birch_slab)
+B(2,2,-2,minecraft:birch_slab[type=top,waterlogged=false])
+B(2,2,-1,minecraft:birch_slab[type=top,waterlogged=false])
+B(2,2,0,minecraft:birch_slab[type=top,waterlogged=false])
+B(2,2,1,minecraft:birch_slab)
+B(2,-1,2,minecraft:dirt)
+B(2,0,2,minecraft:jungle_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(2,1,2,minecraft:jungle_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(2,2,2,minecraft:birch_slab)
+RB(-4,0,1,minecraft:chest,../JungleNBT/StructureLoot/JunkChest_1.nbt,25,minecraft:chest,../JungleNBT/StructureLoot/JunkChest_2.nbt,25,minecraft:chest,../JungleNBT/StructureLoot/JunkChest_3.nbt,25,minecraft:chest,../JungleNBT/StructureLoot/JunkChest_4.nbt,25,minecraft:chest,../JungleNBT/StructureLoot/JunkChest_5.nbt,25,minecraft:chest,../JungleNBT/LoreStoryline/JungleLore05.nbt,2,minecraft:chest,../JungleNBT/LoreStoryline/JungleLore04.nbt,2,minecraft:chest,../JungleNBT/LoreStoryline/JungleLore03.nbt,2,minecraft:chest,../JungleNBT/LoreStoryline/JungleLore02.nbt,2,minecraft:chest,../JungleNBT/LoreStoryline/JungleLore01.nbt,2,minecraft:chest,../JungleNBT/StructureLoot/Common1.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common2.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common3.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common4.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common5.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common5.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common6.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common7.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common8.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common9.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common10.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common11.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common12.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common13.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common14.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Common15.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare1.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare2.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare3.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare4.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare5.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare6.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare7.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare8.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare9.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare10.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare11.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare12.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare13.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare14.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Rare15.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic1.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic2.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic3.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic4.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic5.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic6.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic7.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic8.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic9.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic10.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic11.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic12.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic13.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic14.nbt,3,minecraft:chest,../JungleNBT/StructureLoot/Epic15.nbt,3,minecraft:chest,../JungleNBT/LoreStoryline/JungleLore05.nbt,100)
+RB(0,1,-2,minecraft:air,../JungleNBT/pots/JunglePot01.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot02.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot03.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot04.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot05.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot06.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot07.nbt,10,minecraft:air,../JungleNBT/pots/JunglePot08.nbt,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(-1,0,-2,minecraft:villager,1,../JungleNBT/entities/tribalnative.txt)
+Entity(-3,0,0,minecraft:villager,1,../JungleNBT/entities/tribalkid.txt)

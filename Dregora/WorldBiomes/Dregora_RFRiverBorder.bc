@@ -266,7 +266,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: BEACH, JUNGLE, WET, HOT
+BiomeDictId: Overworld BEACH, JUNGLE, WET, HOT
 
 InheritMobsBiomeName: minecraft:beaches
 

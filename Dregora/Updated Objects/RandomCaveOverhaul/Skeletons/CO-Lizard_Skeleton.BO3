@@ -1,0 +1,199 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 2.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: -2
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 50
+
+MaxHeight: 100
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-1,1,-14,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(-1,1,-13,minecraft:bone_block[axis=x])
+B(-1,1,-12,minecraft:bone_block[axis=x])
+B(-1,1,2,minecraft:bone_block)
+B(-1,2,2,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-1,1,4,minecraft:bone_block[axis=x])
+B(-1,2,4,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(0,1,-11,minecraft:bone_block[axis=x])
+B(0,1,0,minecraft:bone_block[axis=x])
+B(0,2,0,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(0,2,2,minecraft:bone_block)
+B(0,3,2,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(0,2,4,minecraft:bone_block)
+B(0,3,4,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(0,1,6,minecraft:bone_block[axis=x])
+B(0,2,6,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(0,1,9,minecraft:quartz_stairs[facing=south,half=top,shape=outer_left,waterlogged=false])
+B(0,2,9,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(0,1,10,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(0,2,10,minecraft:bone_block[axis=x])
+B(0,3,10,minecraft:quartz_slab)
+B(0,1,11,minecraft:quartz_stairs)
+B(0,2,11,minecraft:quartz_slab)
+B(0,1,12,minecraft:quartz_stairs)
+B(0,2,12,minecraft:quartz_slab[type=double,waterlogged=false])
+B(1,1,-10,minecraft:bone_block[axis=x])
+B(1,1,-4,minecraft:bone_block[axis=x])
+B(1,1,-3,minecraft:bone_block)
+B(1,1,-2,minecraft:bone_block[axis=x])
+B(1,2,-2,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(1,2,-1,minecraft:bone_block)
+B(1,2,0,minecraft:bone_block)
+B(1,3,0,minecraft:bone_block[axis=x])
+B(1,4,0,minecraft:bone_block[axis=x])
+B(1,5,0,minecraft:quartz_stairs)
+B(1,2,1,minecraft:bone_block)
+B(1,2,2,minecraft:bone_block)
+B(1,3,2,minecraft:bone_block[axis=x])
+B(1,4,2,minecraft:bone_block[axis=x])
+B(1,5,2,minecraft:bone_block[axis=x])
+B(1,6,2,minecraft:quartz_stairs)
+B(1,2,3,minecraft:bone_block)
+B(1,2,4,minecraft:bone_block)
+B(1,3,4,minecraft:bone_block[axis=x])
+B(1,4,4,minecraft:bone_block[axis=x])
+B(1,5,4,minecraft:bone_block[axis=x])
+B(1,6,4,minecraft:quartz_stairs)
+B(1,2,5,minecraft:bone_block[axis=x])
+B(1,1,6,minecraft:bone_block[axis=x])
+B(1,2,6,minecraft:bone_block[axis=x])
+B(1,3,6,minecraft:bone_block[axis=x])
+B(1,4,6,minecraft:bone_block[axis=x])
+B(1,5,6,minecraft:quartz_stairs)
+B(1,1,7,minecraft:bone_block)
+B(1,2,7,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(1,2,8,minecraft:bone_block[axis=x])
+B(1,3,8,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(1,2,9,minecraft:bone_block)
+B(1,3,10,minecraft:quartz_slab[type=top,waterlogged=false])
+B(1,3,11,minecraft:quartz_slab[type=top,waterlogged=false])
+B(1,3,12,minecraft:quartz_slab[type=top,waterlogged=false])
+B(1,1,13,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(1,2,13,minecraft:quartz_slab[type=double,waterlogged=false])
+B(1,3,13,minecraft:quartz_slab)
+B(1,1,14,minecraft:quartz_stairs)
+B(1,2,14,minecraft:quartz_slab[type=double,waterlogged=false])
+B(2,1,-9,minecraft:bone_block[axis=x])
+B(2,1,-6,minecraft:bone_block[axis=x])
+B(2,1,-5,minecraft:bone_block[axis=x])
+B(2,1,0,minecraft:bone_block[axis=x])
+B(2,2,0,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(2,2,2,minecraft:bone_block)
+B(2,3,2,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(2,2,4,minecraft:bone_block)
+B(2,3,4,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(2,1,6,minecraft:bone_block[axis=x])
+B(2,2,6,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(2,1,9,minecraft:quartz_stairs[facing=south,half=top,shape=outer_right,waterlogged=false])
+B(2,2,9,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(2,1,10,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(2,2,10,minecraft:bone_block[axis=x])
+B(2,3,10,minecraft:quartz_slab)
+B(2,1,11,minecraft:quartz_stairs)
+B(2,2,11,minecraft:quartz_slab)
+B(2,1,12,minecraft:quartz_stairs)
+B(2,2,12,minecraft:quartz_slab[type=double,waterlogged=false])
+B(3,1,-9,minecraft:bone_block[axis=x])
+B(3,1,-8,minecraft:bone_block[axis=x])
+B(3,1,-7,minecraft:bone_block[axis=x])
+B(3,1,2,minecraft:bone_block[axis=x])
+B(3,2,2,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(3,1,4,minecraft:bone_block[axis=x])
+B(3,2,4,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(-1,0,-12,Solid)
+BlockCheck(3,0,-8,Solid)
+BlockCheck(1,0,-4,Solid)
+BlockCheck(-1,0,2,Solid)
+BlockCheck(3,0,4,Solid)
+BlockCheck(1,0,10,Solid)
+BlockCheck(1,0,13,Solid)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

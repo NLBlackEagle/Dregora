@@ -1,0 +1,292 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 20
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-6,-2,-8,minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false])
+B(-6,-2,-6,minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false])
+B(-5,-3,-8,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-5,-2,-8,minecraft:oak_planks)
+B(-5,-1,-8,minecraft:dark_oak_stairs[facing=south,half=bottom,shape=outer_left,waterlogged=false])
+B(-5,-3,-7,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-5,-2,-7,minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false])
+B(-5,-1,-7,minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-5,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=outer_right,waterlogged=false])
+B(-5,-2,-6,minecraft:oak_planks)
+B(-5,-1,-6,minecraft:dark_oak_planks)
+B(-5,0,-6,minecraft:anvil)
+B(-5,-2,-5,minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false])
+B(-4,-4,-8,minecraft:spruce_planks)
+B(-4,-1,-8,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-4,0,-8,minecraft:dark_oak_stairs[facing=south,half=top,shape=straight,waterlogged=false])
+B(-4,1,-8,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-4,-3,-7,minecraft:dark_oak_planks)
+B(-4,0,-7,minecraft:dark_oak_planks)
+B(-4,1,-7,minecraft:dark_oak_stairs[facing=south,half=top,shape=straight,waterlogged=false])
+B(-4,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(-4,-2,-6,minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-4,-1,-6,minecraft:dark_oak_planks)
+B(-4,0,-6,minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,1,-6,minecraft:lever[face=wall,facing=west,powered=true])
+B(-3,-5,-8,minecraft:spruce_planks)
+B(-3,-4,-8,minecraft:spruce_planks)
+B(-3,0,-8,minecraft:oak_slab[type=double,waterlogged=false])
+B(-3,-4,-7,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-3,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(-3,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(-3,-2,-6,minecraft:oak_planks)
+B(-3,-1,-6,minecraft:dark_oak_planks)
+B(-3,0,-6,minecraft:dark_oak_planks)
+B(-3,1,-6,minecraft:dark_oak_planks)
+B(-3,-2,-5,minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-3,0,-5,minecraft:dark_oak_stairs)
+B(-3,1,-5,minecraft:lever[face=wall,facing=west,powered=true])
+B(-3,2,-4,minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false])
+B(-2,-6,-8,minecraft:spruce_planks)
+B(-2,-5,-8,minecraft:spruce_planks)
+B(-2,-4,-8,minecraft:water)
+B(-2,0,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(-2,-5,-7,minecraft:spruce_planks)
+B(-2,-4,-7,minecraft:spruce_planks)
+B(-2,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(-2,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(-2,-2,-6,minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-2,-1,-6,minecraft:dark_oak_planks)
+B(-2,0,-6,minecraft:oak_slab[type=double,waterlogged=false])
+B(-2,-1,-5,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-2,0,-5,minecraft:dark_oak_planks)
+B(-2,1,-5,minecraft:dark_oak_planks)
+B(-2,2,-5,minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false])
+B(-2,1,-4,minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none])
+B(-2,2,-4,minecraft:redstone_lamp)
+B(-2,3,-4,minecraft:dark_oak_slab)
+B(-2,2,-3,minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false])
+B(-1,-6,-8,minecraft:spruce_planks)
+B(-1,-5,-8,minecraft:water)
+B(-1,-4,-8,minecraft:water)
+B(-1,0,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(-1,-6,-7,minecraft:spruce_planks)
+B(-1,-5,-7,minecraft:spruce_planks)
+B(-1,-4,-7,minecraft:spruce_planks)
+B(-1,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(-1,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(-1,-2,-6,minecraft:oak_planks)
+B(-1,-1,-6,minecraft:dark_oak_planks)
+B(-1,0,-6,minecraft:oak_slab[type=double,waterlogged=false])
+B(-1,-2,-5,minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-1,-1,-5,minecraft:anvil[facing=west])
+B(-1,0,-5,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-1,1,-5,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-1,2,-5,minecraft:dark_oak_slab)
+B(-1,2,-4,minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false])
+B(0,-8,-8,minecraft:spruce_planks)
+B(0,-7,-8,minecraft:spruce_planks)
+B(0,-6,-8,minecraft:spruce_planks)
+B(0,-5,-8,minecraft:water)
+B(0,-4,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(0,0,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(0,-8,-7,minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false])
+B(0,-7,-7,minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false])
+B(0,-6,-7,minecraft:spruce_planks)
+B(0,-5,-7,minecraft:spruce_planks)
+B(0,-4,-7,minecraft:spruce_planks)
+B(0,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(0,-8,-6,minecraft:spruce_planks)
+B(0,-7,-6,minecraft:spruce_planks)
+B(0,-6,-6,minecraft:spruce_planks)
+B(0,-5,-6,minecraft:spruce_planks)
+B(0,-4,-6,minecraft:anvil)
+B(0,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(0,-2,-6,minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true])
+B(0,-1,-6,minecraft:dark_oak_planks)
+B(0,0,-6,minecraft:oak_slab[type=double,waterlogged=false])
+B(0,-8,-5,minecraft:spruce_planks)
+B(0,-7,-5,minecraft:spruce_planks)
+B(0,-6,-5,minecraft:spruce_planks)
+B(0,-5,-5,minecraft:spruce_stairs)
+B(0,-1,-5,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(0,0,-5,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(0,1,-5,minecraft:anvil[facing=west])
+B(0,2,-5,minecraft:dark_oak_slab)
+B(1,-6,-8,minecraft:spruce_planks)
+B(1,-5,-8,minecraft:water)
+B(1,-4,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(1,-3,-8,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(1,0,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(1,1,-8,minecraft:birch_planks)
+B(1,2,-8,minecraft:birch_planks)
+B(1,-6,-7,minecraft:spruce_planks)
+B(1,-5,-7,minecraft:spruce_planks)
+B(1,-4,-7,minecraft:spruce_planks)
+B(1,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(1,1,-7,minecraft:birch_planks)
+B(1,2,-7,minecraft:birch_planks)
+B(1,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(1,-2,-6,minecraft:oak_planks)
+B(1,-1,-6,minecraft:dark_oak_planks)
+B(1,0,-6,minecraft:oak_slab[type=double,waterlogged=false])
+B(1,-2,-5,minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(1,-1,-5,minecraft:anvil[facing=west])
+B(1,0,-5,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(1,1,-5,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(1,2,-5,minecraft:dark_oak_slab)
+B(1,2,-4,minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false])
+B(2,-6,-8,minecraft:spruce_planks)
+B(2,-5,-8,minecraft:water)
+B(2,-4,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(2,-3,-8,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(2,0,-8,minecraft:oak_slab[type=top,waterlogged=false])
+B(2,1,-8,minecraft:birch_planks)
+B(2,2,-8,minecraft:birch_planks)
+B(2,-5,-7,minecraft:spruce_planks)
+B(2,-4,-7,minecraft:spruce_planks)
+B(2,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(2,1,-7,minecraft:birch_planks)
+B(2,2,-7,minecraft:birch_planks)
+B(2,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(2,-2,-6,minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true])
+B(2,-1,-6,minecraft:dark_oak_planks)
+B(2,0,-6,minecraft:oak_slab[type=double,waterlogged=false])
+B(2,-1,-5,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(2,0,-5,minecraft:dark_oak_planks)
+B(2,1,-5,minecraft:dark_oak_planks)
+B(2,2,-5,minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false])
+B(2,1,-4,minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none])
+B(2,2,-4,minecraft:redstone_lamp)
+B(2,3,-4,minecraft:dark_oak_slab)
+B(2,2,-3,minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false])
+B(3,-5,-8,minecraft:spruce_planks)
+B(3,-4,-8,minecraft:spruce_planks)
+B(3,0,-8,minecraft:oak_slab[type=double,waterlogged=false])
+B(3,-4,-7,minecraft:spruce_slab[type=top,waterlogged=false])
+B(3,0,-7,minecraft:oak_slab[type=top,waterlogged=false])
+B(3,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(3,-2,-6,minecraft:oak_planks)
+B(3,-1,-6,minecraft:dark_oak_planks)
+B(3,0,-6,minecraft:dark_oak_planks)
+B(3,1,-6,minecraft:dark_oak_planks)
+B(3,-2,-5,minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(3,0,-5,minecraft:dark_oak_stairs)
+B(3,1,-5,minecraft:lever[face=wall,facing=east,powered=true])
+B(3,2,-4,minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false])
+B(4,-4,-8,minecraft:spruce_planks)
+B(4,-1,-8,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(4,0,-8,minecraft:dark_oak_stairs[facing=south,half=top,shape=straight,waterlogged=false])
+B(4,1,-8,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(4,-3,-7,minecraft:dark_oak_planks)
+B(4,0,-7,minecraft:dark_oak_planks)
+B(4,1,-7,minecraft:dark_oak_stairs[facing=south,half=top,shape=straight,waterlogged=false])
+B(4,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(4,-2,-6,minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true])
+B(4,-1,-6,minecraft:dark_oak_planks)
+B(4,0,-6,minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(4,1,-6,minecraft:lever[face=wall,facing=east,powered=true])
+B(5,-3,-8,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(5,-2,-8,minecraft:oak_planks)
+B(5,-1,-8,minecraft:dark_oak_stairs[facing=south,half=bottom,shape=outer_right,waterlogged=false])
+B(5,-3,-7,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(5,-2,-7,minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false])
+B(5,-1,-7,minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(5,-3,-6,minecraft:dark_oak_stairs[facing=north,half=top,shape=outer_left,waterlogged=false])
+B(5,-2,-6,minecraft:oak_planks)
+B(5,-1,-6,minecraft:dark_oak_planks)
+B(5,0,-6,minecraft:anvil)
+B(5,-2,-5,minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false])
+B(6,-2,-8,minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false])
+B(6,-2,-6,minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false])
+RB(-4,-3,-8,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/JunkChest_1.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/JunkChest_2.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/JunkChest_3.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/JunkChest_4.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/JunkChest_5.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common1.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common2.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common3.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common4.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common5.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common6.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common7.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common8.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common9.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common10.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common11.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common12.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common13.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common14.nbt,15,minecraft:chest[facing=east,type=single,waterlogged=false],../NBT/StructureLoot/Common15.nbt,100)
+RB(4,-3,-8,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreGeneric_5.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreGeneric_4.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreGeneric_3.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreGeneric_2.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreGeneric_1.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreShipSunk_5.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreShipSunk_4.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreShipSunk_3.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreShipSunk_2.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/LoreStoryline/LoreShipSunk_1.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common1.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common2.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common3.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common4.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common5.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common5.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common6.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common7.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common8.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common9.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common10.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common11.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common12.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common13.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common14.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common15.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare1.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare2.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare3.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare4.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare5.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare6.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare7.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare8.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare9.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare10.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare11.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare12.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare13.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare14.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Rare15.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic1.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic2.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic3.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic4.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic5.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic6.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic7.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic8.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic9.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic10.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic11.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic12.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic13.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic14.nbt,3,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Epic15.nbt,1,minecraft:chest[facing=west,type=single,waterlogged=false],../NBT/StructureLoot/Common15.nbt,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

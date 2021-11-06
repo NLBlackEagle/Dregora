@@ -1,0 +1,321 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-2,0,-8,minecraft:spruce_log)
+B(-2,1,-8,minecraft:dark_oak_planks)
+B(-2,2,-8,minecraft:spruce_fence)
+B(-2,3,-8,minecraft:spruce_fence)
+B(-2,4,-8,minecraft:spruce_planks)
+B(-2,1,-7,minecraft:dark_oak_planks)
+B(-2,1,-6,minecraft:dark_oak_planks)
+B(-2,2,-6,minecraft:cobweb)
+B(-2,1,-5,minecraft:dark_oak_planks)
+B(-2,2,-5,minecraft:spruce_fence)
+B(-2,3,-5,minecraft:spruce_fence)
+B(-2,4,-5,minecraft:spruce_planks)
+B(-2,1,-4,minecraft:dark_oak_planks)
+B(-2,3,-4,minecraft:cobweb)
+B(-2,4,-4,minecraft:cobweb)
+B(-2,1,-3,minecraft:dark_oak_planks)
+B(-2,2,-3,minecraft:cobweb)
+B(-2,3,-3,minecraft:cobweb)
+B(-2,4,-3,minecraft:cobweb)
+B(-2,1,-2,minecraft:dark_oak_planks)
+B(-2,2,-2,minecraft:spruce_fence)
+B(-2,3,-2,minecraft:spruce_fence)
+B(-2,4,-2,minecraft:spruce_planks)
+B(-2,1,-1,minecraft:dark_oak_planks)
+B(-2,3,-1,minecraft:cobweb)
+B(-2,4,-1,minecraft:cobweb)
+B(-2,1,0,minecraft:dark_oak_planks)
+B(-2,3,0,minecraft:cobweb)
+B(-2,4,0,minecraft:cobweb)
+B(-2,1,1,minecraft:dark_oak_planks)
+B(-2,2,1,minecraft:spruce_fence)
+B(-2,3,1,minecraft:spruce_fence)
+B(-2,4,1,minecraft:spruce_planks)
+B(-2,1,2,minecraft:dark_oak_planks)
+B(-2,2,2,minecraft:cobweb)
+B(-2,3,2,minecraft:cobweb)
+B(-2,1,3,minecraft:dark_oak_planks)
+B(-2,2,3,minecraft:cobweb)
+B(-2,3,3,minecraft:cobweb)
+B(-2,1,4,minecraft:dark_oak_planks)
+B(-2,2,4,minecraft:spruce_fence)
+B(-2,3,4,minecraft:spruce_fence)
+B(-2,4,4,minecraft:spruce_planks)
+B(-2,1,5,minecraft:dark_oak_planks)
+B(-2,2,5,minecraft:cobweb)
+B(-2,1,6,minecraft:dark_oak_planks)
+B(-2,2,6,minecraft:cobweb)
+B(-2,0,7,minecraft:spruce_log)
+B(-2,1,7,minecraft:dark_oak_planks)
+B(-2,2,7,minecraft:spruce_fence)
+B(-2,3,7,minecraft:spruce_fence)
+B(-2,4,7,minecraft:spruce_planks)
+B(-1,1,-8,minecraft:dark_oak_planks)
+B(-1,2,-8,minecraft:rail)
+B(-1,4,-8,minecraft:spruce_planks)
+B(-1,1,-7,minecraft:dark_oak_planks)
+B(-1,2,-7,minecraft:rail)
+B(-1,1,-6,minecraft:dark_oak_planks)
+B(-1,2,-6,minecraft:rail)
+B(-1,1,-5,minecraft:dark_oak_planks)
+B(-1,2,-5,minecraft:cobweb)
+B(-1,3,-5,minecraft:cobweb)
+B(-1,4,-5,minecraft:spruce_planks)
+B(-1,1,-4,minecraft:dark_oak_planks)
+B(-1,2,-4,minecraft:cobweb)
+B(-1,3,-4,minecraft:cobweb)
+B(-1,4,-4,minecraft:cobweb)
+B(-1,1,-3,minecraft:dark_oak_planks)
+B(-1,2,-3,minecraft:cobweb)
+B(-1,3,-3,minecraft:cobweb)
+B(-1,4,-3,minecraft:cobweb)
+B(-1,1,-2,minecraft:dark_oak_planks)
+B(-1,2,-2,minecraft:cobweb)
+B(-1,3,-2,minecraft:cobweb)
+B(-1,4,-2,minecraft:spruce_planks)
+B(-1,1,-1,minecraft:dark_oak_planks)
+B(-1,2,-1,minecraft:cobweb)
+B(-1,3,-1,minecraft:cobweb)
+B(-1,4,-1,minecraft:cobweb)
+B(-1,1,0,minecraft:dark_oak_planks)
+B(-1,2,0,minecraft:cobweb)
+B(-1,3,0,minecraft:cobweb)
+B(-1,4,0,minecraft:cobweb)
+B(-1,1,1,minecraft:dark_oak_planks)
+B(-1,2,1,minecraft:cobweb)
+B(-1,3,1,minecraft:cobweb)
+B(-1,4,1,minecraft:spruce_planks)
+B(-1,1,2,minecraft:dark_oak_planks)
+B(-1,2,2,minecraft:cobweb)
+B(-1,3,2,minecraft:cobweb)
+B(-1,4,2,minecraft:cobweb)
+B(-1,1,3,minecraft:dark_oak_planks)
+B(-1,2,3,minecraft:cobweb)
+B(-1,3,3,minecraft:cobweb)
+B(-1,4,3,minecraft:cobweb)
+B(-1,1,4,minecraft:dark_oak_planks)
+B(-1,2,4,minecraft:cobweb)
+B(-1,3,4,minecraft:cobweb)
+B(-1,4,4,minecraft:spruce_planks)
+B(-1,1,5,minecraft:dark_oak_planks)
+B(-1,2,5,minecraft:cobweb)
+B(-1,1,6,minecraft:dark_oak_planks)
+B(-1,2,6,minecraft:rail)
+B(-1,1,7,minecraft:dark_oak_planks)
+B(-1,2,7,minecraft:rail)
+B(-1,4,7,minecraft:spruce_planks)
+B(0,1,-8,minecraft:dark_oak_planks)
+B(0,4,-8,minecraft:spruce_planks)
+B(0,1,-7,minecraft:dark_oak_planks)
+B(0,2,-7,minecraft:cobweb)
+B(0,1,-6,minecraft:dark_oak_planks)
+B(0,2,-6,minecraft:cobweb)
+B(0,3,-6,minecraft:cobweb)
+B(0,1,-5,minecraft:dark_oak_planks)
+B(0,2,-5,minecraft:cobweb)
+B(0,3,-5,minecraft:cobweb)
+B(0,4,-5,minecraft:spruce_planks)
+B(0,1,-4,minecraft:dark_oak_planks)
+B(0,2,-4,minecraft:cobweb)
+B(0,3,-4,minecraft:cobweb)
+B(0,4,-4,minecraft:cobweb)
+B(0,1,-3,minecraft:dark_oak_planks)
+B(0,2,-3,minecraft:cobweb)
+B(0,3,-3,minecraft:cobweb)
+B(0,4,-3,minecraft:cobweb)
+B(0,1,-2,minecraft:dark_oak_planks)
+B(0,2,-2,minecraft:cobweb)
+B(0,3,-2,minecraft:cobweb)
+B(0,4,-2,minecraft:spruce_planks)
+B(0,1,-1,minecraft:dark_oak_planks)
+B(0,2,-1,minecraft:cobweb)
+B(0,3,-1,minecraft:cobweb)
+B(0,4,-1,minecraft:cobweb)
+B(0,1,0,minecraft:dark_oak_planks)
+B(0,3,0,minecraft:cobweb)
+B(0,4,0,minecraft:cobweb)
+B(0,1,1,minecraft:dark_oak_planks)
+B(0,2,1,minecraft:cobweb)
+B(0,3,1,minecraft:cobweb)
+B(0,4,1,minecraft:spruce_planks)
+B(0,1,2,minecraft:dark_oak_planks)
+B(0,2,2,minecraft:cobweb)
+B(0,3,2,minecraft:cobweb)
+B(0,4,2,minecraft:cobweb)
+B(0,1,3,minecraft:dark_oak_planks)
+B(0,2,3,minecraft:cobweb)
+B(0,3,3,minecraft:cobweb)
+B(0,4,3,minecraft:cobweb)
+B(0,1,4,minecraft:dark_oak_planks)
+B(0,2,4,minecraft:cobweb)
+B(0,3,4,minecraft:cobweb)
+B(0,4,4,minecraft:spruce_planks)
+B(0,1,5,minecraft:dark_oak_planks)
+B(0,1,6,minecraft:dark_oak_planks)
+B(0,1,7,minecraft:dark_oak_planks)
+B(0,4,7,minecraft:spruce_planks)
+B(1,0,-8,minecraft:spruce_log)
+B(1,1,-8,minecraft:dark_oak_planks)
+B(1,2,-8,minecraft:spruce_fence)
+B(1,3,-8,minecraft:spruce_fence)
+B(1,4,-8,minecraft:spruce_planks)
+B(1,1,-7,minecraft:dark_oak_planks)
+B(1,1,-6,minecraft:dark_oak_planks)
+B(1,2,-6,minecraft:cobweb)
+B(1,3,-6,minecraft:cobweb)
+B(1,1,-5,minecraft:dark_oak_planks)
+B(1,2,-5,minecraft:spruce_fence)
+B(1,3,-5,minecraft:spruce_fence)
+B(1,4,-5,minecraft:spruce_planks)
+B(1,1,-4,minecraft:dark_oak_planks)
+B(1,2,-4,minecraft:cobweb)
+B(1,3,-4,minecraft:cobweb)
+B(1,4,-4,minecraft:cobweb)
+B(1,1,-3,minecraft:dark_oak_planks)
+B(1,2,-3,minecraft:cobweb)
+B(1,3,-3,minecraft:cobweb)
+B(1,4,-3,minecraft:cobweb)
+B(1,1,-2,minecraft:dark_oak_planks)
+B(1,2,-2,minecraft:spruce_fence)
+B(1,3,-2,minecraft:spruce_fence)
+B(1,4,-2,minecraft:spruce_planks)
+B(1,1,-1,minecraft:dark_oak_planks)
+B(1,2,-1,minecraft:cobweb)
+B(1,3,-1,minecraft:cobweb)
+B(1,4,-1,minecraft:cobweb)
+B(1,1,0,minecraft:dark_oak_planks)
+B(1,2,0,minecraft:cobweb)
+B(1,3,0,minecraft:cobweb)
+B(1,4,0,minecraft:cobweb)
+B(1,1,1,minecraft:dark_oak_planks)
+B(1,2,1,minecraft:spruce_fence)
+B(1,3,1,minecraft:spruce_fence)
+B(1,4,1,minecraft:spruce_planks)
+B(1,1,2,minecraft:dark_oak_planks)
+B(1,2,2,minecraft:cobweb)
+B(1,3,2,minecraft:cobweb)
+B(1,4,2,minecraft:cobweb)
+B(1,1,3,minecraft:dark_oak_planks)
+B(1,2,3,minecraft:cobweb)
+B(1,3,3,minecraft:cobweb)
+B(1,4,3,minecraft:cobweb)
+B(1,1,4,minecraft:dark_oak_planks)
+B(1,2,4,minecraft:spruce_fence)
+B(1,3,4,minecraft:spruce_fence)
+B(1,4,4,minecraft:spruce_planks)
+B(1,1,5,minecraft:dark_oak_planks)
+B(1,1,6,minecraft:dark_oak_planks)
+B(1,0,7,minecraft:spruce_log)
+B(1,1,7,minecraft:dark_oak_planks)
+B(1,2,7,minecraft:spruce_fence)
+B(1,3,7,minecraft:spruce_fence)
+B(1,4,7,minecraft:spruce_planks)
+RB(-2,2,-7,minecraft:air,20,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_01.nbt,6,minecraft:air,9,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_02.nbt,12,minecraft:air,15,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_03.nbt,18,minecraft:air,21,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_04.nbt,24,minecraft:air,27,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_05.nbt,30,minecraft:air,33,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_06.nbt,36,minecraft:air,39,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_07.nbt,42,minecraft:air,45,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_08.nbt,48,minecraft:air,51,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_09.nbt,54,minecraft:air,57,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_10.nbt,60,minecraft:air,63,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_11.nbt,66,minecraft:air,69,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_12.nbt,72,minecraft:air,75,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_13.nbt,78,minecraft:air,81,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_14.nbt,84,minecraft:air,87,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_15.nbt,90,minecraft:air,93,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_16.nbt,96,minecraft:cobweb,100)
+RB(-2,2,-4,minecraft:cobweb,2,minecraft:cauldron,2,minecraft:furnace,2,minecraft:crafting_table,2,minecraft:dropper,2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:tnt,1,minecraft:air,60,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_5.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_4.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_3.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_2.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_1.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_5.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_4.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_3.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_2.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_1.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,100)
+RB(-2,2,-1,minecraft:cobweb,2,minecraft:cauldron,2,minecraft:furnace,2,minecraft:crafting_table,2,minecraft:dropper,2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:tnt,1,minecraft:air,60,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_5.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_4.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_3.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_2.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_1.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_5.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_4.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_3.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_2.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_1.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,100)
+RB(-2,2,0,minecraft:cobweb,2,minecraft:cauldron,2,minecraft:furnace,2,minecraft:crafting_table,2,minecraft:dropper,2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:tnt,1,minecraft:air,60,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_5.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_4.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_3.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_2.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_1.nbt,2,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_5.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_4.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_3.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_2.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_1.nbt,10,minecraft:chest[facing=east,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,100)
+B(0,2,0,minecraft:infested_stone,./NBT/Mobs/ShadowCrawler.nbt)
+RB(0,2,6,minecraft:air,20,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_01.nbt,6,minecraft:air,9,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_02.nbt,12,minecraft:air,15,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_03.nbt,18,minecraft:air,21,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_04.nbt,24,minecraft:air,27,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_05.nbt,30,minecraft:air,33,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_06.nbt,36,minecraft:air,39,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_07.nbt,42,minecraft:air,45,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_08.nbt,48,minecraft:air,51,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_09.nbt,54,minecraft:air,57,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_10.nbt,60,minecraft:air,63,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_11.nbt,66,minecraft:air,69,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_12.nbt,72,minecraft:air,75,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_13.nbt,78,minecraft:air,81,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_14.nbt,84,minecraft:air,87,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_15.nbt,90,minecraft:air,93,minecraft:skeleton_skull,./NBT/Skulls/dungeon_skull_16.nbt,96,minecraft:cobweb,100)
+RB(1,2,6,minecraft:cobweb,2,minecraft:cauldron,2,minecraft:furnace,2,minecraft:crafting_table,2,minecraft:dropper,2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:anvil[facing=west],2,minecraft:tnt,1,minecraft:air,60,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,10,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_5.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_4.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_3.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_2.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreGeneric_1.nbt,2,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_5.nbt,10,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_4.nbt,10,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_3.nbt,10,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_2.nbt,10,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/LoreStoryLine/LoreMineshaft_1.nbt,10,minecraft:chest[facing=west,type=single,waterlogged=false],./NBT/VanillaLoot/abandoned_mineshaft.nbt,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(0,0,16,MineShaftHallway-S,NORTH,100.0,MineShaftHallwayPopulated-02-S,NORTH,110.0,MineShaftHallwayPopulated-01-S,NORTH,120.0,MineShaftHallwaySpawner-S,NORTH,130.0,130.0)
+Branch(0,-11,0,MineShaftHallwaySupport,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(0,4,5,minecraft:chest_minecart,1,./NBT/Mobs/abandoned_mineshaft.txt)

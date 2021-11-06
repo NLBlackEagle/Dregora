@@ -70,7 +70,7 @@ RemoveAir: true
 
 ReplaceAbove: AIR
 
-ReplaceBelow: STONE
+ReplaceBelow: 
 
 ReplaceWithBiomeBlocks: true
 

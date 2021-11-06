@@ -18,6 +18,8 @@ SettingsMode: WriteWithoutComments
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+FixedRotation: 
+
 Frequency: 0
 
 SpawnHeight: highestBlock
@@ -105,66 +107,66 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-6,0,-7,STONE:0)
-Block(-5,0,-7,STONE:0)
-Block(-4,0,-7,GRASS:0)
-Block(-4,0,-6,GRASS:0)
-Block(-4,0,-5,GRASS:0)
-Block(-4,1,-7,GRASS:0)
-Block(-4,1,-6,GRASS:0)
-Block(-4,2,-7,GRASS:0)
-Block(-3,0,-7,GRASS:0)
-Block(-3,0,-6,GRASS:0)
-Block(-3,1,-7,STONE:0)
-Block(-2,0,-7,GRASS:0)
-Block(-2,0,-6,GRASS:0)
-Block(-2,1,-7,GRASS:0)
-Block(-1,0,-7,GRASS:0)
-Block(-1,0,-6,GRASS:0)
-Block(-1,1,-7,STONE:0)
-Block(-1,2,-7,GRASS:0)
-Block(0,0,-7,STONE:0)
-Block(0,0,-6,STONE:0)
-Block(0,0,-5,GRASS:0)
-Block(0,1,-7,STONE:0)
-Block(0,1,-6,STONE:0)
-Block(0,2,-7,GRASS:0)
-Block(1,0,-7,STONE:0)
-Block(1,0,-6,STONE:0)
-Block(1,1,-7,STONE:0)
-Block(1,2,-7,GRASS:0)
-Block(2,0,-7,STONE:0)
-Block(2,0,-6,STONE:0)
-Block(2,1,-7,STONE:0)
-Block(2,1,-6,STONE:0)
-Block(2,2,-7,STONE:0)
-Block(3,0,-7,STONE:0)
-Block(3,0,-6,STONE:0)
-Block(3,1,-7,STONE:0)
-Block(3,1,-6,STONE:0)
-Block(3,2,-7,STONE:0)
-Block(4,0,-7,STONE:0)
-Block(4,0,-6,STONE:0)
-Block(4,0,-5,STONE:0)
-Block(4,1,-7,STONE:0)
-Block(4,1,-6,STONE:0)
-Block(4,2,-7,STONE:0)
-Block(4,2,-6,STONE:0)
-Block(4,3,-7,STONE:0)
-Block(5,0,-7,STONE:0)
-Block(5,0,-6,STONE:0)
-Block(5,0,-5,GRASS:0)
-Block(5,1,-7,STONE:0)
-Block(5,1,-6,STONE:0)
-Block(5,2,-7,STONE:0)
-Block(5,3,-7,STONE:0)
-Block(6,0,-7,STONE:0)
-Block(6,0,-6,STONE:0)
-Block(6,1,-7,STONE:0)
-Block(6,2,-7,STONE:0)
-Block(7,0,-7,STONE:0)
-Block(7,0,-6,STONE:0)
-Block(7,1,-7,STONE:0)
+B(-6,0,-7,minecraft:stone)
+B(-5,0,-7,minecraft:stone)
+B(-4,0,-7,minecraft:grass_block)
+B(-4,0,-6,minecraft:grass_block)
+B(-4,0,-5,minecraft:grass_block)
+B(-4,1,-7,minecraft:grass_block)
+B(-4,1,-6,minecraft:grass_block)
+B(-4,2,-7,minecraft:grass_block)
+B(-3,0,-7,minecraft:grass_block)
+B(-3,0,-6,minecraft:grass_block)
+B(-3,1,-7,minecraft:stone)
+B(-2,0,-7,minecraft:grass_block)
+B(-2,0,-6,minecraft:grass_block)
+B(-2,1,-7,minecraft:grass_block)
+B(-1,0,-7,minecraft:grass_block)
+B(-1,0,-6,minecraft:grass_block)
+B(-1,1,-7,minecraft:stone)
+B(-1,2,-7,minecraft:grass_block)
+B(0,0,-7,minecraft:stone)
+B(0,0,-6,minecraft:stone)
+B(0,0,-5,minecraft:grass_block)
+B(0,1,-7,minecraft:stone)
+B(0,1,-6,minecraft:stone)
+B(0,2,-7,minecraft:grass_block)
+B(1,0,-7,minecraft:stone)
+B(1,0,-6,minecraft:stone)
+B(1,1,-7,minecraft:stone)
+B(1,2,-7,minecraft:grass_block)
+B(2,0,-7,minecraft:stone)
+B(2,0,-6,minecraft:stone)
+B(2,1,-7,minecraft:stone)
+B(2,1,-6,minecraft:stone)
+B(2,2,-7,minecraft:stone)
+B(3,0,-7,minecraft:stone)
+B(3,0,-6,minecraft:stone)
+B(3,1,-7,minecraft:stone)
+B(3,1,-6,minecraft:stone)
+B(3,2,-7,minecraft:stone)
+B(4,0,-7,minecraft:stone)
+B(4,0,-6,minecraft:stone)
+B(4,0,-5,minecraft:stone)
+B(4,1,-7,minecraft:stone)
+B(4,1,-6,minecraft:stone)
+B(4,2,-7,minecraft:stone)
+B(4,2,-6,minecraft:stone)
+B(4,3,-7,minecraft:stone)
+B(5,0,-7,minecraft:stone)
+B(5,0,-6,minecraft:stone)
+B(5,0,-5,minecraft:grass_block)
+B(5,1,-7,minecraft:stone)
+B(5,1,-6,minecraft:stone)
+B(5,2,-7,minecraft:stone)
+B(5,3,-7,minecraft:stone)
+B(6,0,-7,minecraft:stone)
+B(6,0,-6,minecraft:stone)
+B(6,1,-7,minecraft:stone)
+B(6,2,-7,minecraft:stone)
+B(7,0,-7,minecraft:stone)
+B(7,0,-6,minecraft:stone)
+B(7,1,-7,minecraft:stone)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -177,27 +179,6 @@ Branch(0,0,-16,true,SubOcean_Hill_03C1R2,NORTH,100.0,0)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Entities                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                            Particles                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                             Spawners                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                             ModData                             | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 

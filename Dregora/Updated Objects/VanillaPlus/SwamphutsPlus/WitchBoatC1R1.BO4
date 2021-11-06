@@ -1,0 +1,149 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(2,11,-7,minecraft:dark_oak_slab)
+B(2,11,-6,minecraft:dark_oak_slab)
+B(2,5,-5,minecraft:dark_oak_log)
+B(2,6,-5,minecraft:dark_oak_log)
+B(2,7,-5,minecraft:dark_oak_log)
+B(2,8,-5,minecraft:dark_oak_log)
+B(2,9,-5,minecraft:dark_oak_log)
+B(2,10,-5,minecraft:dark_oak_log)
+B(2,11,-5,minecraft:dark_oak_slab)
+B(2,11,-4,minecraft:dark_oak_slab)
+B(3,14,-7,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(3,15,-7,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(3,16,-7,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(4,18,-7,minecraft:dark_oak_slab[type=double,waterlogged=false])
+B(5,12,-7,minecraft:vine[east=true,north=true,south=false,up=false,west=false])
+B(5,13,-7,minecraft:vine[east=true,north=false,south=false,up=false,west=false])
+B(5,14,-7,minecraft:vine[east=true,north=false,south=false,up=false,west=false])
+B(5,18,-7,minecraft:vine[east=false,north=false,south=false,up=false,west=true])
+B(6,14,-7,minecraft:dispenser[facing=south,triggered=false])
+B(6,14,-6,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(7,13,-7,minecraft:vine[east=false,north=false,south=false,up=false,west=true])
+B(7,14,-7,minecraft:vine[east=false,north=false,south=false,up=false,west=true])
+RandomBlock(1,13,-7,minecraft:white_wall_banner[facing=south],25,minecraft:white_wall_banner[facing=south],25,minecraft:white_wall_banner[facing=south],100)
+RandomBlock(2,13,-7,minecraft:white_wall_banner[facing=south],25,minecraft:white_wall_banner[facing=south],25,minecraft:white_wall_banner[facing=south],100)
+RandomBlock(3,13,-7,minecraft:white_wall_banner[facing=south],25,minecraft:white_wall_banner[facing=south],25,minecraft:white_wall_banner[facing=south],100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,WitchBoatC0R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

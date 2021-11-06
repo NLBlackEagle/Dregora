@@ -1,0 +1,265 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: -1
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 10
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:stone,otg:dirt,minecraft:sand,otg:sandstone,otg:stained_clay,otg:air,minecraft:grass_block,minecraft:obsidian
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-5,1,-3,minecraft:lava)
+B(-5,1,-2,minecraft:lava)
+B(-5,0,3,minecraft:lava)
+B(-5,1,3,minecraft:lava)
+B(-5,1,4,minecraft:lava)
+B(-4,1,-4,minecraft:lava)
+B(-4,0,-3,minecraft:lava)
+B(-4,1,-3,minecraft:lava)
+B(-4,1,-2,minecraft:lava)
+B(-4,1,-1,minecraft:lava)
+B(-4,1,0,minecraft:lava)
+B(-4,1,1,minecraft:lava)
+B(-4,0,2,minecraft:lava)
+B(-4,1,2,minecraft:lava)
+B(-4,0,3,minecraft:lava)
+B(-4,1,3,minecraft:lava)
+B(-4,0,4,minecraft:lava)
+B(-4,1,4,minecraft:lava)
+B(-3,1,-4,minecraft:lava)
+B(-3,0,-3,minecraft:lava)
+B(-3,1,-3,minecraft:lava)
+B(-3,0,-2,minecraft:lava)
+B(-3,1,-2,minecraft:lava)
+B(-3,0,-1,minecraft:lava)
+B(-3,1,-1,minecraft:lava)
+B(-3,0,0,minecraft:lava)
+B(-3,1,0,minecraft:lava)
+B(-3,0,1,minecraft:lava)
+B(-3,1,1,minecraft:lava)
+B(-3,0,2,minecraft:lava)
+B(-3,1,2,minecraft:lava)
+B(-3,0,3,minecraft:lava)
+B(-3,1,3,minecraft:lava)
+B(-3,0,4,minecraft:lava)
+B(-3,1,4,minecraft:lava)
+B(-2,0,-4,minecraft:lava)
+B(-2,1,-4,minecraft:lava)
+B(-2,0,-3,minecraft:lava)
+B(-2,1,-3,minecraft:lava)
+B(-2,0,-2,minecraft:lava)
+B(-2,1,-2,minecraft:lava)
+B(-2,0,-1,minecraft:lava)
+B(-2,1,-1,minecraft:lava)
+B(-2,0,0,minecraft:lava)
+B(-2,1,0,minecraft:lava)
+B(-2,0,1,minecraft:lava)
+B(-2,1,1,minecraft:lava)
+B(-2,0,2,minecraft:lava)
+B(-2,1,2,minecraft:lava)
+B(-2,0,3,minecraft:lava)
+B(-2,1,3,minecraft:lava)
+B(-2,0,4,minecraft:lava)
+B(-2,1,4,minecraft:lava)
+B(-1,1,-4,minecraft:lava)
+B(-1,0,-3,minecraft:lava)
+B(-1,1,-3,minecraft:lava)
+B(-1,0,-2,minecraft:lava)
+B(-1,1,-2,minecraft:lava)
+B(-1,0,-1,minecraft:lava)
+B(-1,1,-1,minecraft:lava)
+B(-1,0,0,minecraft:lava)
+B(-1,1,0,minecraft:lava)
+B(-1,0,1,minecraft:lava)
+B(-1,1,1,minecraft:lava)
+B(-1,0,2,minecraft:lava)
+B(-1,1,2,minecraft:lava)
+B(-1,0,3,minecraft:lava)
+B(-1,1,3,minecraft:lava)
+B(-1,0,4,minecraft:lava)
+B(-1,1,4,minecraft:lava)
+B(-1,0,5,minecraft:lava)
+B(-1,1,5,minecraft:lava)
+B(-1,0,6,minecraft:lava)
+B(-1,1,6,minecraft:lava)
+B(0,1,-4,minecraft:lava)
+B(0,0,-3,minecraft:lava)
+B(0,1,-3,minecraft:lava)
+B(0,0,-2,minecraft:lava)
+B(0,1,-2,minecraft:lava)
+B(0,0,-1,minecraft:lava)
+B(0,1,-1,minecraft:lava)
+B(0,0,0,minecraft:lava)
+B(0,1,0,minecraft:lava)
+B(0,0,1,minecraft:lava)
+B(0,1,1,minecraft:lava)
+B(0,0,2,minecraft:lava)
+B(0,1,2,minecraft:lava)
+B(0,0,3,minecraft:lava)
+B(0,1,3,minecraft:lava)
+B(0,0,4,minecraft:lava)
+B(0,1,4,minecraft:lava)
+B(0,0,5,minecraft:lava)
+B(0,1,5,minecraft:lava)
+B(0,1,6,minecraft:lava)
+B(1,1,-4,minecraft:lava)
+B(1,0,-3,minecraft:lava)
+B(1,1,-3,minecraft:lava)
+B(1,0,-2,minecraft:lava)
+B(1,1,-2,minecraft:lava)
+B(1,0,-1,minecraft:lava)
+B(1,1,-1,minecraft:lava)
+B(1,0,0,minecraft:lava)
+B(1,1,0,minecraft:lava)
+B(1,0,1,minecraft:lava)
+B(1,1,1,minecraft:lava)
+B(1,0,2,minecraft:lava)
+B(1,1,2,minecraft:lava)
+B(1,0,3,minecraft:lava)
+B(1,1,3,minecraft:lava)
+B(1,0,4,minecraft:lava)
+B(1,1,4,minecraft:lava)
+B(1,0,5,minecraft:lava)
+B(1,1,5,minecraft:lava)
+B(1,1,6,minecraft:lava)
+B(2,1,-4,minecraft:lava)
+B(2,0,-3,minecraft:lava)
+B(2,1,-3,minecraft:lava)
+B(2,0,-2,minecraft:lava)
+B(2,1,-2,minecraft:lava)
+B(2,0,-1,minecraft:lava)
+B(2,1,-1,minecraft:lava)
+B(2,0,0,minecraft:lava)
+B(2,1,0,minecraft:lava)
+B(2,0,1,minecraft:lava)
+B(2,1,1,minecraft:lava)
+B(2,0,2,minecraft:lava)
+B(2,1,2,minecraft:lava)
+B(2,0,3,minecraft:lava)
+B(2,1,3,minecraft:lava)
+B(2,0,4,minecraft:lava)
+B(2,1,4,minecraft:lava)
+B(2,0,5,minecraft:lava)
+B(2,1,5,minecraft:lava)
+B(3,1,-4,minecraft:lava)
+B(3,0,-3,minecraft:lava)
+B(3,1,-3,minecraft:lava)
+B(3,0,-2,minecraft:lava)
+B(3,1,-2,minecraft:lava)
+B(3,0,-1,minecraft:lava)
+B(3,1,-1,minecraft:lava)
+B(3,0,0,minecraft:lava)
+B(3,1,0,minecraft:lava)
+B(3,0,1,minecraft:lava)
+B(3,1,1,minecraft:lava)
+B(3,0,2,minecraft:lava)
+B(3,1,2,minecraft:lava)
+B(3,0,3,minecraft:lava)
+B(3,1,3,minecraft:lava)
+B(3,1,4,minecraft:lava)
+B(3,1,5,minecraft:lava)
+B(4,1,-3,minecraft:lava)
+B(4,0,-2,minecraft:lava)
+B(4,1,-2,minecraft:lava)
+B(4,0,-1,minecraft:lava)
+B(4,1,-1,minecraft:lava)
+B(4,0,0,minecraft:lava)
+B(4,1,0,minecraft:lava)
+B(4,1,1,minecraft:lava)
+B(4,1,2,minecraft:lava)
+B(5,1,-2,minecraft:lava)
+B(5,1,-1,minecraft:lava)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,2,0,otg:air)
+BlockCheck(-6,1,-6,otg:dirt,minecraft:grass_block)
+BlockCheck(6,1,-6,otg:dirt,minecraft:grass_block)
+BlockCheck(-6,1,6,otg:dirt,minecraft:grass_block)
+BlockCheck(6,1,6,otg:dirt,minecraft:grass_block)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

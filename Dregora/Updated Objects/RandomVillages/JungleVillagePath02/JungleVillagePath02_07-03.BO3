@@ -1,0 +1,101 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(-5,0,8,MayaRuin01,NORTH,10.0,MayaRuin02,NORTH,20.0,MayaRuin03,NORTH,30.0,MayaRuin04,NORTH,40.0,MayaRuin05,NORTH,50.0,MayaRuin06,NORTH,60.0,MayaRuin07,NORTH,70.0,MayaRuin08,NORTH,80.0,MayaRuin09,NORTH,90.0,MayaRuin10,NORTH,100.0,MayaRuin11,NORTH,110.0,MayaRuin12,NORTH,120.0,MayaRuin13,NORTH,130.0,MayaRuin14,NORTH,140.0,MayaRuin01,EAST,150.0,MayaRuin02,EAST,160.0,MayaRuin03,EAST,170.0,MayaRuin04,EAST,180.0,MayaRuin05,EAST,190.0,MayaRuin06,EAST,200.0,MayaRuin07,EAST,210.0,MayaRuin08,EAST,220.0,MayaRuin09,EAST,230.0,MayaRuin10,EAST,240.0,MayaRuin11,EAST,250.0,MayaRuin12,EAST,260.0,MayaRuin13,EAST,270.0,MayaRuin14,EAST,280.0,MayaRuin01,WEST,290.0,MayaRuin02,WEST,300.0,MayaRuin03,WEST,310.0,MayaRuin04,WEST,320.0,MayaRuin05,WEST,330.0,MayaRuin06,WEST,340.0,MayaRuin07,WEST,350.0,MayaRuin08,WEST,360.0,MayaRuin09,WEST,370.0,MayaRuin10,WEST,380.0,MayaRuin11,WEST,390.0,MayaRuin12,WEST,400.0,MayaRuin13,WEST,410.0,MayaRuin14,WEST,420.0,MayaRuin01,SOUTH,430.0,MayaRuin02,SOUTH,440.0,MayaRuin03,SOUTH,450.0,MayaRuin04,SOUTH,460.0,MayaRuin05,SOUTH,470.0,MayaRuin06,SOUTH,480.0,MayaRuin07,SOUTH,490.0,MayaRuin08,SOUTH,500.0,MayaRuin09,SOUTH,510.0,MayaRuin10,SOUTH,520.0,MayaRuin11,SOUTH,530.0,MayaRuin12,SOUTH,540.0,MayaRuin13,SOUTH,550.0,MayaRuin14,SOUTH,560.0,560.0)
+Branch(0,0,-16,JungleVillagePath02_07-02,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

@@ -1,0 +1,121 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 20
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,5,-6,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-7,4,-7,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-7,4,-6,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-7,5,-6,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-6,4,-7,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-5,0,-8,minecraft:dispenser[facing=south,triggered=false])
+B(-5,1,-8,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-5,3,-8,minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false])
+B(-5,3,-7,minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false])
+B(-5,4,-7,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-4,3,-8,minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-3,-3,-8,minecraft:dispenser[facing=south,triggered=false])
+B(-3,-2,-8,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-3,0,-8,minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false])
+B(-3,1,-8,minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false])
+B(-3,2,-8,minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false])
+B(-3,3,-8,minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-2,2,-8,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-1,0,-8,minecraft:dispenser[facing=south,triggered=false])
+B(-1,1,-8,minecraft:spruce_slab[type=top,waterlogged=false])
+B(-1,2,-8,minecraft:oak_button[face=wall,facing=south,powered=false])
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-8,0,0,WestPortShipFat_4x5,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

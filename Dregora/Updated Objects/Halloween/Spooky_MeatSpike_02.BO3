@@ -1,0 +1,175 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 70
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-2,8,-2,minecraft:red_stained_glass)
+B(-2,9,-2,minecraft:pink_concrete)
+B(-2,10,-2,minecraft:black_terracotta)
+B(-2,11,-2,minecraft:black_terracotta)
+B(-2,12,-2,minecraft:red_stained_glass)
+B(-2,13,-2,minecraft:red_stained_glass)
+B(-2,7,-1,minecraft:red_stained_glass)
+B(-2,8,-1,minecraft:red_concrete)
+B(-2,9,-1,minecraft:black_terracotta)
+B(-2,10,-1,minecraft:red_glazed_terracotta[facing=south])
+B(-1,9,-2,minecraft:black_glazed_terracotta)
+B(-1,10,-2,minecraft:red_terracotta)
+B(-1,11,-2,minecraft:red_stained_glass)
+B(-1,6,-1,minecraft:red_terracotta)
+B(-1,7,-1,minecraft:black_terracotta)
+B(-1,8,-1,minecraft:red_terracotta)
+B(-1,9,-1,minecraft:black_terracotta)
+B(-1,4,0,minecraft:pink_concrete)
+B(-1,5,0,minecraft:red_glazed_terracotta[facing=west])
+B(-1,6,0,minecraft:pink_concrete)
+B(-1,7,0,minecraft:red_terracotta)
+B(-1,8,0,minecraft:red_stained_glass)
+B(0,5,-1,minecraft:red_stained_glass)
+B(0,6,-1,minecraft:pink_concrete)
+B(0,7,-1,minecraft:black_terracotta)
+B(0,4,0,minecraft:red_stained_glass)
+B(0,5,0,minecraft:red_terracotta)
+B(0,6,0,minecraft:black_terracotta)
+B(0,7,0,minecraft:black_glazed_terracotta[facing=south])
+B(0,0,1,minecraft:black_terracotta)
+B(0,1,1,minecraft:black_terracotta)
+B(0,2,1,minecraft:black_terracotta)
+B(0,3,1,minecraft:red_concrete)
+B(0,4,1,minecraft:black_terracotta)
+B(0,5,1,minecraft:black_terracotta)
+B(0,6,1,minecraft:red_stained_glass)
+B(0,0,2,minecraft:black_terracotta)
+B(0,1,2,minecraft:black_terracotta)
+B(0,2,2,minecraft:red_stained_glass)
+B(1,4,-1,minecraft:red_stained_glass)
+B(1,0,0,minecraft:black_terracotta)
+B(1,1,0,minecraft:pink_concrete)
+B(1,2,0,minecraft:red_concrete)
+B(1,3,0,minecraft:black_terracotta)
+B(1,4,0,minecraft:red_terracotta)
+B(1,5,0,minecraft:black_terracotta)
+B(1,6,0,minecraft:black_glazed_terracotta[facing=east])
+B(1,7,0,minecraft:red_stained_glass)
+B(1,1,1,minecraft:black_terracotta)
+B(1,2,1,minecraft:black_terracotta)
+B(1,3,1,minecraft:black_terracotta)
+B(1,4,1,minecraft:pink_concrete)
+B(1,5,1,minecraft:red_glazed_terracotta[facing=south])
+B(1,6,1,minecraft:red_stained_glass)
+B(1,0,2,minecraft:black_terracotta)
+B(1,1,2,minecraft:black_terracotta)
+B(1,2,2,minecraft:red_glazed_terracotta[facing=south])
+B(1,3,2,minecraft:red_stained_glass)
+B(2,0,0,minecraft:black_terracotta)
+B(2,1,0,minecraft:black_glazed_terracotta[facing=east])
+B(2,2,0,minecraft:red_stained_glass)
+B(2,0,1,minecraft:black_terracotta)
+B(2,1,1,minecraft:black_terracotta)
+B(2,2,1,minecraft:red_concrete)
+B(2,3,1,minecraft:black_glazed_terracotta[facing=east])
+B(2,4,1,minecraft:red_stained_glass)
+B(2,0,2,minecraft:black_terracotta)
+B(2,1,2,minecraft:black_terracotta)
+B(2,2,2,minecraft:black_terracotta)
+B(3,0,1,minecraft:black_terracotta)
+B(3,1,1,minecraft:black_glazed_terracotta[facing=east])
+B(3,2,1,minecraft:red_stained_glass)
+B(3,0,2,minecraft:black_terracotta)
+B(3,1,2,minecraft:red_stained_glass)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,1,0,otg:air,minecraft:water)
+BlockCheck(1,0,1,Solid)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

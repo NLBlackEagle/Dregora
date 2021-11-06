@@ -281,7 +281,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: SWAMP
+BiomeDictId: Overworld SWAMP
 
 InheritMobsBiomeName: minecraft:swampland
 

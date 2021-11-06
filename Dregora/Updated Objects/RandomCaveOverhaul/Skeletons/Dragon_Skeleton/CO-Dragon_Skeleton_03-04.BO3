@@ -1,0 +1,249 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 90
+
+MaxHeight: 90
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-7,2,-3,minecraft:quartz_slab)
+B(-7,2,-1,minecraft:quartz_slab)
+B(-5,1,6,minecraft:quartz_slab)
+B(-5,2,6,minecraft:bone_block[axis=x])
+B(-5,3,6,minecraft:bone_block[axis=x])
+B(-5,4,6,minecraft:quartz_slab)
+B(-5,1,7,minecraft:bone_block[axis=x])
+B(-5,2,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-5,3,7,minecraft:quartz_slab)
+B(-5,1,8,minecraft:quartz_slab)
+B(-5,3,8,minecraft:quartz_slab)
+B(-4,3,-7,minecraft:quartz_stairs)
+B(-4,1,-2,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-4,2,-2,minecraft:bone_block[axis=x])
+B(-4,3,-2,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,1,0,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-4,2,0,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,1,2,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-4,2,2,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,1,4,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-4,2,4,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,1,5,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-4,3,5,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-4,0,6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-4,1,6,minecraft:quartz_stairs[facing=north,half=bottom,shape=outer_right,waterlogged=false])
+B(-4,3,6,minecraft:quartz_stairs[facing=north,half=top,shape=outer_right,waterlogged=false])
+B(-4,4,6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-4,0,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-4,1,7,minecraft:netherrack)
+B(-4,4,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-4,0,8,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-4,3,8,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(-4,4,8,minecraft:bone_block[axis=x])
+B(-3,3,-7,minecraft:quartz_stairs[facing=east,half=bottom,shape=inner_left,waterlogged=false])
+B(-3,1,-5,minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-3,2,-5,minecraft:bone_block[axis=x])
+B(-3,3,-5,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-3,1,-3,minecraft:bone_block[axis=x])
+B(-3,2,-3,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-3,1,-2,minecraft:quartz_slab)
+B(-3,2,-2,minecraft:bone_block[axis=x])
+B(-3,3,-2,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,4,-2,minecraft:quartz_slab)
+B(-3,2,-1,minecraft:bone_block[axis=x])
+B(-3,0,0,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,1,0,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,2,0,minecraft:quartz_slab)
+B(-3,3,0,minecraft:quartz_slab)
+B(-3,1,1,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,2,1,minecraft:quartz_slab)
+B(-3,0,2,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,1,2,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,2,2,minecraft:quartz_slab)
+B(-3,3,2,minecraft:quartz_slab)
+B(-3,1,3,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,2,3,minecraft:quartz_slab)
+B(-3,0,4,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,1,4,minecraft:quartz_slab)
+B(-3,2,4,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,3,4,minecraft:quartz_slab)
+B(-3,0,5,minecraft:netherrack)
+B(-3,0,6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,5,6,minecraft:quartz_slab)
+B(-3,0,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,5,7,minecraft:quartz_slab)
+B(-3,0,8,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-3,5,8,minecraft:quartz_slab)
+B(-2,3,-7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,4,-7,minecraft:quartz_slab)
+B(-2,3,-6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,1,-5,minecraft:quartz_slab)
+B(-2,2,-5,minecraft:bone_block[axis=x])
+B(-2,3,-5,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,4,-5,minecraft:quartz_slab)
+B(-2,1,-4,minecraft:bone_block[axis=x])
+B(-2,2,-4,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(-2,1,-3,minecraft:bone_block[axis=x])
+B(-2,2,-3,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-2,1,-2,minecraft:quartz_slab)
+B(-2,2,-2,minecraft:bone_block[axis=x])
+B(-2,3,-2,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,4,-2,minecraft:quartz_slab)
+B(-2,1,0,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-2,2,0,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-2,1,2,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-2,2,2,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-2,1,4,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-2,2,4,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-2,1,5,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-2,3,5,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-2,0,6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,1,6,minecraft:quartz_stairs[facing=north,half=bottom,shape=outer_left,waterlogged=false])
+B(-2,3,6,minecraft:quartz_stairs[facing=north,half=top,shape=outer_left,waterlogged=false])
+B(-2,4,6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,0,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,1,7,minecraft:netherrack)
+B(-2,4,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,0,8,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-2,3,8,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(-2,4,8,minecraft:bone_block[axis=x])
+B(-1,3,-7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-1,4,-7,minecraft:quartz_slab)
+B(-1,3,-6,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-1,1,-5,minecraft:quartz_slab)
+B(-1,2,-5,minecraft:bone_block[axis=x])
+B(-1,3,-5,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-1,4,-5,minecraft:quartz_slab)
+B(-1,1,-4,minecraft:bone_block[axis=x])
+B(-1,2,-4,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-1,1,-2,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-1,2,-2,minecraft:bone_block[axis=x])
+B(-1,3,-2,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(-1,1,6,minecraft:quartz_slab)
+B(-1,2,6,minecraft:bone_block[axis=x])
+B(-1,3,6,minecraft:bone_block[axis=x])
+B(-1,4,6,minecraft:quartz_slab)
+B(-1,1,7,minecraft:bone_block[axis=x])
+B(-1,2,7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(-1,3,7,minecraft:quartz_slab)
+B(-1,1,8,minecraft:quartz_slab)
+B(-1,3,8,minecraft:quartz_slab)
+B(0,3,-7,minecraft:quartz_stairs[facing=west,half=bottom,shape=inner_right,waterlogged=false])
+B(0,1,-5,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(0,2,-5,minecraft:bone_block[axis=x])
+B(0,3,-5,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(1,2,-7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(1,3,-7,minecraft:quartz_stairs)
+B(2,2,-7,minecraft:bone_block[axis=x])
+B(3,1,-7,minecraft:quartz_slab[type=top,waterlogged=false])
+B(3,2,-7,minecraft:quartz_slab)
+B(4,1,-7,minecraft:bone_block[axis=x])
+B(4,2,0,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(4,2,2,minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(5,1,-6,minecraft:bone_block[axis=x])
+B(5,2,0,minecraft:quartz_slab[type=top,waterlogged=false])
+B(5,2,2,minecraft:quartz_slab[type=top,waterlogged=false])
+B(6,1,-7,minecraft:quartz_slab)
+B(6,1,-5,minecraft:quartz_slab)
+B(6,2,0,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(6,2,1,minecraft:quartz_slab)
+B(7,1,-4,minecraft:bone_block[axis=x])
+B(7,2,0,minecraft:quartz_slab)
+B(7,2,1,minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false])
+B(7,2,2,minecraft:quartz_slab[type=top,waterlogged=false])
+B(7,2,3,minecraft:quartz_stairs[facing=south,half=top,shape=straight,waterlogged=false])
+B(8,2,-5,minecraft:quartz_slab)
+B(8,1,-3,minecraft:quartz_slab[type=top,waterlogged=false])
+B(8,2,-3,minecraft:quartz_slab)
+B(8,2,-1,minecraft:quartz_slab)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,CO-Dragon_Skeleton_03-05,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

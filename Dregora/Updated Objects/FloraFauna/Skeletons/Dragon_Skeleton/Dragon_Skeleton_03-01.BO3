@@ -1,0 +1,125 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 90
+
+MaxHeight: 90
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(4,1,2,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(4,2,2,minecraft:quartz_slab)
+B(4,1,4,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(4,2,4,minecraft:quartz_slab)
+B(4,1,7,minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false])
+B(4,2,7,minecraft:quartz_slab)
+B(5,1,-3,minecraft:quartz_stairs)
+B(5,1,-2,minecraft:quartz_slab)
+B(5,1,-1,minecraft:quartz_slab)
+B(5,1,0,minecraft:bone_block[axis=x])
+B(5,1,1,minecraft:bone_block[axis=x])
+B(5,2,1,minecraft:quartz_slab)
+B(5,2,2,minecraft:bone_block)
+B(5,2,3,minecraft:quartz_slab)
+B(5,2,4,minecraft:bone_block)
+B(5,2,5,minecraft:quartz_slab)
+B(5,2,6,minecraft:quartz_slab)
+B(5,2,7,minecraft:bone_block)
+B(5,2,8,minecraft:quartz_slab)
+B(6,1,2,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(6,2,2,minecraft:quartz_slab)
+B(6,1,4,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(6,2,4,minecraft:quartz_slab)
+B(6,1,7,minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false])
+B(6,2,7,minecraft:quartz_slab)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,Dragon_Skeleton_03-00,NORTH,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

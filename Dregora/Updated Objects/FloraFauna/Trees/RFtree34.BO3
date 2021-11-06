@@ -1,0 +1,312 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 60
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air,otg:dirt,minecraft:sand,minecraft:grass_block
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-5,10,0,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-5,10,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-4,10,-2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-4,10,-1,minecraft:jungle_leaves)
+B(-4,10,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-4,11,0,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-4,10,1,minecraft:jungle_leaves)
+B(-4,11,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-4,10,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-3,10,-3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-3,10,-2,minecraft:jungle_leaves)
+B(-3,10,-1,minecraft:jungle_log[axis=x])
+B(-3,11,-1,minecraft:jungle_leaves)
+B(-3,9,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-3,10,0,minecraft:jungle_leaves)
+B(-3,11,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-3,12,0,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-3,9,1,minecraft:jungle_leaves)
+B(-3,10,1,minecraft:jungle_log[axis=z])
+B(-3,11,1,minecraft:jungle_leaves)
+B(-3,10,2,minecraft:jungle_leaves)
+B(-2,10,-5,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,10,-4,minecraft:jungle_leaves)
+B(-2,10,-3,minecraft:jungle_leaves)
+B(-2,11,-3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,10,-2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,11,-2,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-2,9,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,10,-1,minecraft:jungle_leaves)
+B(-2,11,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,12,-1,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-2,9,0,minecraft:jungle_leaves)
+B(-2,10,0,minecraft:jungle_log[axis=x])
+B(-2,11,0,minecraft:jungle_leaves)
+B(-2,12,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,13,0,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-2,9,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,10,1,minecraft:jungle_leaves)
+B(-2,11,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,12,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,10,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,11,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-2,12,2,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-1,10,-6,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,10,-5,minecraft:jungle_leaves)
+B(-1,11,-5,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,10,-4,minecraft:jungle_log[axis=z])
+B(-1,11,-4,minecraft:jungle_leaves)
+B(-1,9,-3,minecraft:jungle_leaves)
+B(-1,10,-3,minecraft:jungle_log[axis=x])
+B(-1,11,-3,minecraft:jungle_leaves)
+B(-1,9,-2,minecraft:jungle_leaves)
+B(-1,10,-2,minecraft:jungle_leaves)
+B(-1,11,-2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,12,-2,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-1,9,-1,minecraft:jungle_leaves)
+B(-1,10,-1,minecraft:jungle_leaves)
+B(-1,11,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,12,-1,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-1,13,-1,minecraft:jungle_leaves[distance=4,persistent=false])
+B(-1,9,0,minecraft:jungle_log[axis=x])
+B(-1,10,0,minecraft:jungle_log)
+B(-1,11,0,minecraft:jungle_leaves)
+B(-1,12,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,13,0,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-1,9,1,minecraft:jungle_leaves)
+B(-1,10,1,minecraft:jungle_leaves)
+B(-1,11,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,12,1,minecraft:jungle_leaves)
+B(-1,13,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,9,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,10,2,minecraft:jungle_leaves)
+B(-1,11,2,minecraft:jungle_leaves)
+B(-1,12,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,11,3,minecraft:jungle_leaves)
+B(-1,12,3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(-1,13,3,minecraft:jungle_leaves[distance=3,persistent=false])
+B(-1,12,4,minecraft:jungle_leaves)
+B(-1,12,5,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,10,-5,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,10,-4,minecraft:jungle_leaves)
+B(0,9,-3,minecraft:jungle_leaves)
+B(0,10,-3,minecraft:jungle_leaves)
+B(0,11,-3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,9,-2,minecraft:jungle_log[axis=z])
+B(0,10,-2,minecraft:jungle_leaves)
+B(0,11,-2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,12,-2,minecraft:jungle_leaves[distance=3,persistent=false])
+B(0,8,-1,minecraft:jungle_log[axis=z])
+B(0,9,-1,minecraft:jungle_leaves)
+B(0,10,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,11,-1,minecraft:jungle_leaves[distance=3,persistent=false])
+B(0,12,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,-5,0,minecraft:jungle_log)
+B(0,-4,0,minecraft:jungle_log)
+B(0,-3,0,minecraft:jungle_log)
+B(0,-2,0,minecraft:jungle_log)
+B(0,-1,0,minecraft:jungle_log)
+B(0,0,0,minecraft:jungle_log)
+B(0,1,0,minecraft:jungle_log)
+B(0,2,0,minecraft:jungle_log)
+B(0,3,0,minecraft:jungle_log)
+B(0,4,0,minecraft:jungle_log)
+B(0,5,0,minecraft:jungle_log)
+B(0,6,0,minecraft:jungle_log)
+B(0,7,0,minecraft:jungle_log)
+B(0,8,0,minecraft:jungle_log)
+B(0,9,0,minecraft:jungle_log)
+B(0,10,0,minecraft:jungle_leaves)
+B(0,11,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,12,0,minecraft:jungle_leaves)
+B(0,13,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,9,1,minecraft:jungle_log[axis=z])
+B(0,10,1,minecraft:jungle_leaves)
+B(0,11,1,minecraft:jungle_leaves)
+B(0,12,1,minecraft:jungle_log[axis=z])
+B(0,13,1,minecraft:jungle_leaves)
+B(0,9,2,minecraft:jungle_leaves)
+B(0,10,2,minecraft:jungle_log[axis=z])
+B(0,11,2,minecraft:jungle_log[axis=z])
+B(0,12,2,minecraft:jungle_leaves)
+B(0,13,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,10,3,minecraft:jungle_leaves)
+B(0,11,3,minecraft:jungle_log[axis=z])
+B(0,12,3,minecraft:jungle_leaves)
+B(0,13,3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,11,4,minecraft:jungle_leaves)
+B(0,12,4,minecraft:jungle_log[axis=z])
+B(0,13,4,minecraft:jungle_leaves)
+B(0,12,5,minecraft:jungle_leaves)
+B(0,13,5,minecraft:jungle_leaves[distance=2,persistent=false])
+B(0,12,6,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,10,-2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,11,-2,minecraft:jungle_leaves[distance=3,persistent=false])
+B(1,9,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,10,-1,minecraft:jungle_leaves)
+B(1,11,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,12,-1,minecraft:jungle_leaves[distance=3,persistent=false])
+B(1,8,0,minecraft:jungle_log[axis=x])
+B(1,9,0,minecraft:jungle_leaves)
+B(1,10,0,minecraft:jungle_leaves)
+B(1,11,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,12,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,9,1,minecraft:jungle_leaves)
+B(1,10,1,minecraft:jungle_leaves)
+B(1,11,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,12,1,minecraft:jungle_leaves)
+B(1,13,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,9,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,10,2,minecraft:jungle_leaves)
+B(1,12,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,13,2,minecraft:jungle_leaves[distance=3,persistent=false])
+B(1,10,3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,11,3,minecraft:jungle_leaves)
+B(1,12,3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,13,3,minecraft:jungle_leaves[distance=3,persistent=false])
+B(1,12,4,minecraft:jungle_leaves)
+B(1,13,4,minecraft:jungle_leaves[distance=2,persistent=false])
+B(1,12,5,minecraft:jungle_leaves[distance=2,persistent=false])
+B(2,10,-3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(2,10,-2,minecraft:jungle_leaves)
+B(2,9,-1,minecraft:jungle_leaves)
+B(2,10,-1,minecraft:jungle_log[axis=z])
+B(2,11,-1,minecraft:jungle_leaves)
+B(2,12,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(2,9,0,minecraft:jungle_log)
+B(2,10,0,minecraft:jungle_log)
+B(2,11,0,minecraft:jungle_leaves)
+B(2,12,0,minecraft:jungle_leaves[distance=2,persistent=false])
+B(2,9,1,minecraft:jungle_leaves)
+B(2,10,1,minecraft:jungle_log[axis=z])
+B(2,11,1,minecraft:jungle_leaves)
+B(2,12,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(2,10,2,minecraft:jungle_leaves)
+B(2,11,2,minecraft:jungle_leaves[distance=2,persistent=false])
+B(2,10,3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(3,10,-3,minecraft:jungle_leaves)
+B(3,9,-2,minecraft:jungle_leaves)
+B(3,10,-2,minecraft:jungle_log[axis=x])
+B(3,11,-2,minecraft:jungle_leaves)
+B(3,9,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(3,10,-1,minecraft:jungle_leaves)
+B(3,11,-1,minecraft:jungle_leaves)
+B(3,10,0,minecraft:jungle_leaves)
+B(3,11,0,minecraft:jungle_log[axis=x])
+B(3,12,0,minecraft:jungle_leaves)
+B(3,10,1,minecraft:jungle_leaves)
+B(3,11,1,minecraft:jungle_leaves)
+B(3,9,2,minecraft:jungle_leaves)
+B(3,10,2,minecraft:jungle_log[axis=x])
+B(3,11,2,minecraft:jungle_leaves)
+B(3,10,3,minecraft:jungle_leaves)
+B(3,11,3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(4,10,-3,minecraft:jungle_leaves[distance=2,persistent=false])
+B(4,10,-2,minecraft:jungle_leaves)
+B(4,10,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(4,11,-1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(4,11,0,minecraft:jungle_leaves)
+B(4,10,1,minecraft:jungle_leaves)
+B(4,11,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(4,9,2,minecraft:jungle_leaves)
+B(4,10,2,minecraft:jungle_log[axis=x])
+B(4,11,2,minecraft:jungle_leaves)
+B(4,10,3,minecraft:jungle_leaves)
+B(5,10,1,minecraft:jungle_leaves[distance=2,persistent=false])
+B(5,10,2,minecraft:jungle_leaves)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,0,otg:dirt,minecraft:grass_block)
+BlockCheck(7,-1,0,otg:dirt,minecraft:grass_block)
+BlockCheck(0,-1,7,otg:dirt,minecraft:grass_block)
+BlockCheck(-7,-1,0,otg:dirt,minecraft:grass_block)
+BlockCheck(0,-1,-7,otg:dirt,minecraft:grass_block)
+BlockCheck(-7,-1,-7,otg:dirt,minecraft:grass_block)
+BlockCheck(7,-1,7,otg:dirt,minecraft:grass_block)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

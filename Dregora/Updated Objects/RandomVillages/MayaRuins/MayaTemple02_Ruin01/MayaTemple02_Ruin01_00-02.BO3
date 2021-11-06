@@ -1,0 +1,127 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: BO3 BulkEdit (by LanToaster)
+
+Description: This Object was Created with BO3_BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 82
+
+MaxHeight: 82
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(5,1,-7,minecraft:stone_brick_slab[type=double,waterlogged=false])
+B(5,1,-6,minecraft:stone_brick_slab)
+B(6,1,-6,minecraft:stone_brick_slab[type=double,waterlogged=false])
+B(7,2,-7,minecraft:stone_brick_slab)
+B(7,1,-6,minecraft:stone_brick_slab)
+B(8,1,-6,minecraft:stone_brick_slab[type=double,waterlogged=false])
+B(8,-1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(8,0,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+B(8,1,-5,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
+RB(5,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,-1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,-1,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,0,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(5,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,0,-6,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(6,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(7,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+RB(8,1,-7,minecraft:mossy_stone_bricks,10,minecraft:cracked_stone_bricks,10,minecraft:cobblestone,10,minecraft:mossy_cobblestone,10,minecraft:stone_bricks,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

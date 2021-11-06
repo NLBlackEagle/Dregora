@@ -270,7 +270,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: WASTELAND, MUSHROOM
+BiomeDictId: Overworld WASTELAND, MUSHROOM
 
 InheritMobsBiomeName: minecraft:mushroom_island
 

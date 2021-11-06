@@ -1,0 +1,306 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 20
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,-1,-8,minecraft:oak_slab)
+B(-8,0,-8,minecraft:smooth_stone_slab)
+B(-8,-4,-7,minecraft:oak_button[face=wall,facing=east,powered=false])
+B(-8,-3,-7,minecraft:oak_button[face=wall,facing=east,powered=false])
+B(-8,-2,-7,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-8,-1,-7,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-8,0,-7,minecraft:smooth_stone_slab)
+B(-8,-1,-6,minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false])
+B(-8,0,-6,minecraft:spruce_log[axis=x])
+B(-8,1,-6,minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false])
+B(-8,-53,-5,minecraft:spruce_log[axis=x])
+B(-8,-49,-5,minecraft:spruce_log[axis=x])
+B(-8,-45,-5,minecraft:spruce_log[axis=x])
+B(-8,-41,-5,minecraft:spruce_log[axis=x])
+B(-8,-37,-5,minecraft:spruce_log[axis=x])
+B(-8,-33,-5,minecraft:spruce_log[axis=x])
+B(-8,-29,-5,minecraft:spruce_log[axis=x])
+B(-8,-25,-5,minecraft:spruce_log[axis=x])
+B(-8,-21,-5,minecraft:spruce_log[axis=x])
+B(-8,-17,-5,minecraft:spruce_log[axis=x])
+B(-8,-13,-5,minecraft:spruce_log[axis=x])
+B(-8,-9,-5,minecraft:spruce_log[axis=x])
+B(-8,0,-5,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-7,-1,-8,minecraft:oak_slab)
+B(-7,0,-8,minecraft:smooth_stone_slab)
+B(-7,-2,-7,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-7,-1,-7,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-7,0,-7,minecraft:smooth_stone_slab)
+B(-7,0,-6,minecraft:spruce_log[axis=x])
+B(-7,1,-6,minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=true])
+B(-7,-53,-5,minecraft:spruce_log[axis=x])
+B(-7,-49,-5,minecraft:spruce_log[axis=x])
+B(-7,-45,-5,minecraft:spruce_log[axis=x])
+B(-7,-41,-5,minecraft:spruce_log[axis=x])
+B(-7,-37,-5,minecraft:spruce_log[axis=x])
+B(-7,-33,-5,minecraft:spruce_log[axis=x])
+B(-7,-29,-5,minecraft:spruce_log[axis=x])
+B(-7,-25,-5,minecraft:spruce_log[axis=x])
+B(-7,-21,-5,minecraft:spruce_log[axis=x])
+B(-7,-17,-5,minecraft:spruce_log[axis=x])
+B(-7,-13,-5,minecraft:spruce_log[axis=x])
+B(-7,-9,-5,minecraft:spruce_log[axis=x])
+B(-7,0,-5,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-6,-1,-8,minecraft:oak_slab)
+B(-6,0,-8,minecraft:smooth_stone_slab)
+B(-6,-4,-7,minecraft:oak_button[face=wall,facing=west,powered=false])
+B(-6,-3,-7,minecraft:oak_button[face=wall,facing=west,powered=false])
+B(-6,-2,-7,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-6,-1,-7,minecraft:dark_oak_slab[type=top,waterlogged=false])
+B(-6,0,-7,minecraft:smooth_stone_slab)
+B(-6,-1,-6,minecraft:dark_oak_stairs[facing=east,half=top,shape=straight,waterlogged=false])
+B(-6,0,-6,minecraft:spruce_log[axis=x])
+B(-6,1,-6,minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true])
+B(-6,-53,-5,minecraft:spruce_log[axis=x])
+B(-6,-49,-5,minecraft:spruce_log[axis=x])
+B(-6,-45,-5,minecraft:spruce_log[axis=x])
+B(-6,-41,-5,minecraft:spruce_log[axis=x])
+B(-6,-37,-5,minecraft:spruce_log[axis=x])
+B(-6,-33,-5,minecraft:spruce_log[axis=x])
+B(-6,-29,-5,minecraft:spruce_log[axis=x])
+B(-6,-25,-5,minecraft:spruce_log[axis=x])
+B(-6,-21,-5,minecraft:spruce_log[axis=x])
+B(-6,-17,-5,minecraft:spruce_log[axis=x])
+B(-6,-13,-5,minecraft:spruce_log[axis=x])
+B(-6,-9,-5,minecraft:spruce_log[axis=x])
+B(-6,0,-5,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-5,-52,-8,minecraft:spruce_log[axis=z])
+B(-5,-48,-8,minecraft:spruce_log[axis=z])
+B(-5,-44,-8,minecraft:spruce_log[axis=z])
+B(-5,-40,-8,minecraft:spruce_log[axis=z])
+B(-5,-36,-8,minecraft:spruce_log[axis=z])
+B(-5,-32,-8,minecraft:spruce_log[axis=z])
+B(-5,-28,-8,minecraft:spruce_log[axis=z])
+B(-5,-24,-8,minecraft:spruce_log[axis=z])
+B(-5,-20,-8,minecraft:spruce_log[axis=z])
+B(-5,-16,-8,minecraft:spruce_log[axis=z])
+B(-5,-12,-8,minecraft:spruce_log[axis=z])
+B(-5,-8,-8,minecraft:spruce_log[axis=z])
+B(-5,-4,-8,minecraft:oak_button)
+B(-5,-3,-8,minecraft:oak_button)
+B(-5,-1,-8,minecraft:spruce_log[axis=z])
+B(-5,0,-8,minecraft:smooth_stone_slab)
+B(-5,-54,-7,minecraft:spruce_log)
+B(-5,-53,-7,minecraft:spruce_log)
+B(-5,-52,-7,minecraft:spruce_log)
+B(-5,-51,-7,minecraft:spruce_log)
+B(-5,-50,-7,minecraft:spruce_log)
+B(-5,-49,-7,minecraft:spruce_log)
+B(-5,-48,-7,minecraft:spruce_log)
+B(-5,-47,-7,minecraft:spruce_log)
+B(-5,-46,-7,minecraft:spruce_log)
+B(-5,-45,-7,minecraft:spruce_log)
+B(-5,-44,-7,minecraft:spruce_log)
+B(-5,-43,-7,minecraft:spruce_log)
+B(-5,-42,-7,minecraft:spruce_log)
+B(-5,-41,-7,minecraft:spruce_log)
+B(-5,-40,-7,minecraft:spruce_log)
+B(-5,-39,-7,minecraft:spruce_log)
+B(-5,-38,-7,minecraft:spruce_log)
+B(-5,-37,-7,minecraft:spruce_log)
+B(-5,-36,-7,minecraft:spruce_log)
+B(-5,-35,-7,minecraft:spruce_log)
+B(-5,-34,-7,minecraft:spruce_log)
+B(-5,-33,-7,minecraft:spruce_log)
+B(-5,-32,-7,minecraft:spruce_log)
+B(-5,-31,-7,minecraft:spruce_log)
+B(-5,-30,-7,minecraft:spruce_log)
+B(-5,-29,-7,minecraft:spruce_log)
+B(-5,-28,-7,minecraft:spruce_log)
+B(-5,-27,-7,minecraft:spruce_log)
+B(-5,-26,-7,minecraft:spruce_log)
+B(-5,-25,-7,minecraft:spruce_log)
+B(-5,-24,-7,minecraft:spruce_log)
+B(-5,-23,-7,minecraft:spruce_log)
+B(-5,-22,-7,minecraft:spruce_log)
+B(-5,-21,-7,minecraft:spruce_log)
+B(-5,-20,-7,minecraft:spruce_log)
+B(-5,-19,-7,minecraft:spruce_log)
+B(-5,-18,-7,minecraft:spruce_log)
+B(-5,-17,-7,minecraft:spruce_log)
+B(-5,-16,-7,minecraft:spruce_log)
+B(-5,-15,-7,minecraft:spruce_log)
+B(-5,-14,-7,minecraft:spruce_log)
+B(-5,-13,-7,minecraft:spruce_log)
+B(-5,-12,-7,minecraft:spruce_log)
+B(-5,-11,-7,minecraft:spruce_log)
+B(-5,-10,-7,minecraft:spruce_log)
+B(-5,-9,-7,minecraft:spruce_log)
+B(-5,-8,-7,minecraft:spruce_log)
+B(-5,-7,-7,minecraft:spruce_log)
+B(-5,-6,-7,minecraft:spruce_log)
+B(-5,-5,-7,minecraft:spruce_log)
+B(-5,-4,-7,minecraft:spruce_log)
+B(-5,-3,-7,minecraft:spruce_log)
+B(-5,-2,-7,minecraft:spruce_log)
+B(-5,-1,-7,minecraft:spruce_log)
+B(-5,0,-7,minecraft:smooth_stone_slab)
+B(-5,-53,-6,minecraft:spruce_log[axis=z])
+B(-5,-49,-6,minecraft:spruce_log[axis=z])
+B(-5,-45,-6,minecraft:spruce_log[axis=z])
+B(-5,-41,-6,minecraft:spruce_log[axis=z])
+B(-5,-37,-6,minecraft:spruce_log[axis=z])
+B(-5,-33,-6,minecraft:spruce_log[axis=z])
+B(-5,-29,-6,minecraft:spruce_log[axis=z])
+B(-5,-25,-6,minecraft:spruce_log[axis=z])
+B(-5,-21,-6,minecraft:spruce_log[axis=z])
+B(-5,-17,-6,minecraft:spruce_log[axis=z])
+B(-5,-13,-6,minecraft:spruce_log[axis=z])
+B(-5,-9,-6,minecraft:spruce_log[axis=z])
+B(-5,-4,-6,minecraft:oak_button[face=wall,facing=south,powered=false])
+B(-5,-3,-6,minecraft:spruce_log[axis=z])
+B(-5,-2,-6,minecraft:stone_brick_stairs[facing=north,half=top,shape=straight,waterlogged=false])
+B(-5,-1,-6,minecraft:polished_andesite)
+B(-5,0,-6,minecraft:stone_brick_stairs)
+B(-5,1,-6,minecraft:smooth_stone_slab)
+B(-5,-54,-5,minecraft:spruce_log)
+B(-5,-53,-5,minecraft:spruce_log)
+B(-5,-52,-5,minecraft:spruce_log)
+B(-5,-51,-5,minecraft:spruce_log)
+B(-5,-50,-5,minecraft:spruce_log)
+B(-5,-49,-5,minecraft:spruce_log)
+B(-5,-48,-5,minecraft:spruce_log)
+B(-5,-47,-5,minecraft:spruce_log)
+B(-5,-46,-5,minecraft:spruce_log)
+B(-5,-45,-5,minecraft:spruce_log)
+B(-5,-44,-5,minecraft:spruce_log)
+B(-5,-43,-5,minecraft:spruce_log)
+B(-5,-42,-5,minecraft:spruce_log)
+B(-5,-41,-5,minecraft:spruce_log)
+B(-5,-40,-5,minecraft:spruce_log)
+B(-5,-39,-5,minecraft:spruce_log)
+B(-5,-38,-5,minecraft:spruce_log)
+B(-5,-37,-5,minecraft:spruce_log)
+B(-5,-36,-5,minecraft:spruce_log)
+B(-5,-35,-5,minecraft:spruce_log)
+B(-5,-34,-5,minecraft:spruce_log)
+B(-5,-33,-5,minecraft:spruce_log)
+B(-5,-32,-5,minecraft:spruce_log)
+B(-5,-31,-5,minecraft:spruce_log)
+B(-5,-30,-5,minecraft:spruce_log)
+B(-5,-29,-5,minecraft:spruce_log)
+B(-5,-28,-5,minecraft:spruce_log)
+B(-5,-27,-5,minecraft:spruce_log)
+B(-5,-26,-5,minecraft:spruce_log)
+B(-5,-25,-5,minecraft:spruce_log)
+B(-5,-24,-5,minecraft:spruce_log)
+B(-5,-23,-5,minecraft:spruce_log)
+B(-5,-22,-5,minecraft:spruce_log)
+B(-5,-21,-5,minecraft:spruce_log)
+B(-5,-20,-5,minecraft:spruce_log)
+B(-5,-19,-5,minecraft:spruce_log)
+B(-5,-18,-5,minecraft:spruce_log)
+B(-5,-17,-5,minecraft:spruce_log)
+B(-5,-16,-5,minecraft:spruce_log)
+B(-5,-15,-5,minecraft:spruce_log)
+B(-5,-14,-5,minecraft:spruce_log)
+B(-5,-13,-5,minecraft:spruce_log)
+B(-5,-12,-5,minecraft:spruce_log)
+B(-5,-11,-5,minecraft:spruce_log)
+B(-5,-10,-5,minecraft:spruce_log)
+B(-5,-9,-5,minecraft:spruce_log)
+B(-5,-8,-5,minecraft:spruce_log)
+B(-5,-7,-5,minecraft:spruce_log)
+B(-5,-6,-5,minecraft:spruce_log)
+B(-5,-5,-5,minecraft:spruce_log)
+B(-5,-4,-5,minecraft:spruce_log)
+B(-5,-3,-5,minecraft:stone_brick_stairs)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

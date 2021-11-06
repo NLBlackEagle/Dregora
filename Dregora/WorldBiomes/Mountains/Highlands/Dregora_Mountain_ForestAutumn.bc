@@ -278,7 +278,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: MOUNTAIN, FOREST
+BiomeDictId: Overworld MOUNTAIN, FOREST
 
 InheritMobsBiomeName: minecraft:smaller_extreme_hills
 

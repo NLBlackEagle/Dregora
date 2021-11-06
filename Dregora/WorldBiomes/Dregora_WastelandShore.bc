@@ -276,7 +276,7 @@ SpawnWaterCreatures: []
 
 SpawnAmbientCreatures: []
 
-BiomeDictId: BEACH, WASTELAND, DRY, DEAD
+BiomeDictId: Overworld BEACH, WASTELAND, DRY, DEAD
 
 InheritMobsBiomeName: minecraft:beaches
 

@@ -1,0 +1,188 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 60
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: otg:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: otg:air,otg:dirt,minecraft:sand,minecraft:grass_block
+
+MaxPercentageOutsideSourceBlock: 50
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-3,7,0,minecraft:oak_leaves)
+B(-3,8,0,minecraft:oak_leaves[distance=2,persistent=false])
+B(-2,6,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(-2,7,-1,minecraft:oak_leaves)
+B(-2,8,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(-2,6,0,minecraft:oak_leaves)
+B(-2,7,0,minecraft:oak_log[axis=x])
+B(-2,8,0,minecraft:oak_leaves)
+B(-2,7,1,minecraft:oak_leaves)
+B(-2,8,1,minecraft:oak_leaves[distance=2,persistent=false])
+B(-1,5,-1,minecraft:oak_leaves)
+B(-1,6,-1,minecraft:oak_leaves)
+B(-1,7,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(-1,6,0,minecraft:oak_log[axis=x])
+B(-1,7,0,minecraft:oak_leaves)
+B(-1,8,0,minecraft:oak_leaves[distance=2,persistent=false])
+B(-1,5,1,minecraft:oak_leaves)
+B(-1,6,1,minecraft:oak_leaves)
+B(-1,7,1,minecraft:oak_leaves[distance=2,persistent=false])
+B(-1,8,1,minecraft:oak_leaves[distance=3,persistent=false])
+B(-1,6,2,minecraft:oak_leaves)
+B(-1,7,2,minecraft:oak_leaves[distance=2,persistent=false])
+B(-1,6,3,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,5,-2,minecraft:oak_leaves)
+B(0,6,-2,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,7,-2,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,5,-1,minecraft:oak_log[axis=z])
+B(0,6,-1,minecraft:oak_leaves)
+B(0,7,-1,minecraft:oak_leaves)
+B(0,8,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,-3,0,minecraft:oak_log)
+B(0,-2,0,minecraft:oak_log)
+B(0,-1,0,minecraft:oak_log)
+B(0,0,0,minecraft:oak_log)
+B(0,1,0,minecraft:oak_log)
+B(0,2,0,minecraft:oak_log)
+B(0,3,0,minecraft:oak_log)
+B(0,4,0,minecraft:oak_log)
+B(0,5,0,minecraft:oak_log)
+B(0,6,0,minecraft:oak_leaves)
+B(0,5,1,minecraft:oak_log[axis=z])
+B(0,6,1,minecraft:oak_leaves)
+B(0,7,1,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,8,1,minecraft:oak_leaves[distance=3,persistent=false])
+B(0,6,2,minecraft:oak_log[axis=z])
+B(0,7,2,minecraft:oak_leaves)
+B(0,8,2,minecraft:oak_leaves[distance=2,persistent=false])
+B(0,6,3,minecraft:oak_leaves)
+B(0,7,3,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,5,-2,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,6,-2,minecraft:oak_leaves)
+B(1,7,-2,minecraft:oak_leaves)
+B(1,8,-2,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,5,-1,minecraft:oak_leaves)
+B(1,6,-1,minecraft:oak_log[axis=x])
+B(1,7,-1,minecraft:oak_log)
+B(1,8,-1,minecraft:oak_leaves)
+B(1,9,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,4,0,minecraft:oak_log[axis=x])
+B(1,5,0,minecraft:oak_leaves)
+B(1,7,0,minecraft:oak_leaves)
+B(1,8,0,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,5,1,minecraft:oak_leaves)
+B(1,6,1,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,7,1,minecraft:oak_leaves[distance=2,persistent=false])
+B(1,8,1,minecraft:oak_leaves[distance=3,persistent=false])
+B(1,6,2,minecraft:oak_leaves)
+B(1,7,2,minecraft:oak_leaves[distance=2,persistent=false])
+B(2,6,-2,minecraft:oak_leaves[distance=2,persistent=false])
+B(2,7,-2,minecraft:oak_leaves[distance=2,persistent=false])
+B(2,5,-1,minecraft:oak_leaves)
+B(2,6,-1,minecraft:oak_leaves)
+B(2,7,-1,minecraft:oak_leaves)
+B(2,8,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(2,5,0,minecraft:oak_log)
+B(2,6,0,minecraft:oak_leaves)
+B(2,7,0,minecraft:oak_leaves[distance=2,persistent=false])
+B(2,8,0,minecraft:oak_leaves[distance=3,persistent=false])
+B(2,6,1,minecraft:oak_leaves[distance=2,persistent=false])
+B(2,7,1,minecraft:oak_leaves[distance=3,persistent=false])
+B(3,6,-1,minecraft:oak_leaves)
+B(3,6,0,minecraft:oak_log[axis=x])
+B(3,7,0,minecraft:oak_leaves)
+B(3,6,1,minecraft:oak_leaves)
+B(4,6,-1,minecraft:oak_leaves[distance=2,persistent=false])
+B(4,6,0,minecraft:oak_leaves)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheckNot(0,1,0,Solid,minecraft:water)
+BlockCheck(0,-2,0,Solid)
+BlockCheck(0,-1,0,minecraft:grass_block)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
