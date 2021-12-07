@@ -14,9 +14,11 @@ assignees: NLBlackEagle
 
 #### Dregora Version
 ▶️Please specify the Dregora version that you are running by placing "x" into []◀️
-- [ ] V1.62
-- [ ] V1.61
-- [ ] V1.60
+
+- [ ] V1.74
+- [ ] V1.66
+- [ ] V1.65
+- [ ] V1.64
 
 #### Seed and Location
 ▶️Specify the seed you are using and the location of the issue if applicable◀️
