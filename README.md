@@ -9,3 +9,11 @@
 <strong>Open Terrain Generator</strong> <br>
 OTG Plugin: https://minecraft.curseforge.com/projects/open-terrain-generator <br>
 OTG Website: https://www.openterraingenerator.com/ <br>
+
+
+For Source: 
+1. Install any branch of Dregora (RL/BOP/Default)
+2. Open mods/openterraingenerator/worlds/preset-name for 1.12.2 and config/presets/preset-name for 1.16.5 and later
+3. source files are within this folder.
+
+These source files are originally within the worldpacker (found here: https://github.com/NLBlackEagle/WorldPacker/tree/1.12.2 ) and unpacked in above folders where OTG reads the files to populate a minecraft world with.
