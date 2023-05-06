@@ -15,6 +15,7 @@ assignees: NLBlackEagle
 #### Dregora Version
 ▶️Please specify the Dregora version that you are running by placing "x" into []◀️
 
+- [ ] V1.7 RLCraft
 - [ ] V1.9
 - [ ] V1.74
 - [ ] V1.66
